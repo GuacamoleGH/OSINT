@@ -47,6 +47,11 @@ const SYNONYMS_MAP: Record<string, string[]> = {
   bcbp: ["boarding pass", "tarjeta de embarque", "orcascan", "pnr", "vuelo"],
   embarque: ["bcbp", "boarding pass", "vuelo", "pnr"],
   pnr: ["bcbp", "localizador", "reserva", "vuelo"],
+  geoguessing: ["rainbolt", "geoguessr", "geohints", "plonkit"],
+  rainbolt: ["geoguessr", "plonkit", "geohints", "geolocalizacion"],
+  montana: ["peakvisor", "heywhatsthat", "relieve", "cumbres"],
+  horizonte: ["heywhatsthat", "peakvisor", "panorama"],
+  interseccion: ["bellingcat osm search", "overpass", "proximidad"],
 };
 
 export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
