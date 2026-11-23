@@ -36,8 +36,8 @@ export function Header({ onOpenSearch, onToggleMobileMenu }: HeaderProps) {
   }, []);
 
   return (
-    <header className="sticky top-0 z-40 w-full bg-guacamole-deep/90 backdrop-blur-md border-b border-guacamole-border">
-      <div className="flex items-center justify-between h-16 px-4 sm:px-6">
+    <header className="sticky top-0 z-40 w-full h-16 bg-guacamole-deep/90 backdrop-blur-md border-b border-guacamole-border box-border">
+      <div className="flex items-center justify-between h-full px-4 sm:px-6">
         {/* Left: Mobile hamburger + Brand */}
         <div className="flex items-center gap-3">
           <button
