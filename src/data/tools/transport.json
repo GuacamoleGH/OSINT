@@ -194,5 +194,33 @@
     "instructions": "Inicia sesión con tu cuenta gratuita y busca por número IMO (ej. 9241061) o nombre del buque.",
     "lastReviewed": "2026-11-23",
     "status": "active"
+  },
+  {
+    "id": "orcascan-bcbp-decoder",
+    "name": "Orca Scan — BCBP Barcode Decoder",
+    "slug": "orcascan-bcbp-decoder",
+    "description": "Decodificador del estándar IATA BCBP para extraer datos de billetes y tarjetas de embarque a partir de códigos de barras.",
+    "longDescription": "Herramienta especializada para decodificar cadenas de texto o imágenes de códigos de barras 2D (PDF417, Aztec o QR) presentes en billetes y tarjetas de embarque de aerolíneas bajo el estándar internacional IATA Bar Coded Boarding Pass (BCBP). Permite recuperar de forma legible el nombre completo del pasajero, código localizador PNR (Passenger Name Record), número de vuelo, aeropuertos de origen y destino, asiento y número de viajero frecuente.",
+    "url": "https://orcascan.com/tools/bcbp-barcode-decoder",
+    "categories": ["transport", "imint"],
+    "investigateBy": ["location", "social-media", "people-professional"],
+    "subcategories": ["aviacion", "tarjetas-embarque", "bcbp", "pdf417", "pnr"],
+    "tags": ["bcbp", "boarding-pass", "tarjeta-embarque", "pnr", "vuelo", "orcascan", "barcode", "billetes"],
+    "synonyms": ["decodificar tarjeta embarque", "bcbp decoder", "leer billete avion", "pnr decoder", "orcascan bcbp"],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": ["global"],
+    "platforms": ["web"],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": ["Requiere que la imagen del código de barras (PDF417 o Aztec) tenga suficiente nitidez para ser leída o haber extraído previamente el payload de texto con un lector como ZXing"],
+    "useCases": ["Analizar billetes y pases de embarque compartidos en fotografías de redes sociales (Instagram, X) para obtener origen, escala, destino y localizador de vuelo PNR"],
+    "instructions": "Pega la cadena de texto cruda del código de barras o sube la imagen del billete para desglosar de inmediato todos los campos del estándar IATA.",
+    "lastReviewed": "2026-11-23",
+    "status": "active"
   }
 ]

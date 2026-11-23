@@ -42,8 +42,11 @@ const SYNONYMS_MAP: Record<string, string[]> = {
   ip: ["cyber", "red", "dns", "asn", "whois"],
   dominio: ["domain", "dns", "whois", "subdominio"],
   qr: ["zxing", "barcode", "codigo de barras", "decoder"],
-  barcode: ["qr", "zxing", "codigo de barras"],
+  barcode: ["qr", "zxing", "codigo de barras", "bcbp"],
   zxing: ["qr", "barcode", "decoder"],
+  bcbp: ["boarding pass", "tarjeta de embarque", "orcascan", "pnr", "vuelo"],
+  embarque: ["bcbp", "boarding pass", "vuelo", "pnr"],
+  pnr: ["bcbp", "localizador", "reserva", "vuelo"],
 };
 
 export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
