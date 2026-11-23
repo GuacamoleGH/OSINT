@@ -6,6 +6,7 @@ import {
   getAllInvestigateBy,
   getFeaturedTools,
   getGlobalStats,
+  getInvestigateByToolCounts,
 } from "@/lib/data";
 import { CategoryIcon } from "@/components/ui/CategoryIcon";
 import { ToolCard } from "@/components/tools/ToolCard";
@@ -16,101 +17,181 @@ import {
   Target,
   BookOpen,
   Search,
+  MapPin,
+  UserCheck,
+  Network,
+  Building,
+  AtSign,
+  Mail,
+  Layers,
 } from "lucide-react";
 
 export default function HomePage() {
-  const investigateByList = getAllInvestigateBy();
+  const categories = getAllCategories();
   const featuredTools = getFeaturedTools().slice(0, 4);
   const stats = getGlobalStats();
+  const investigateCounts = getInvestigateByToolCounts();
 
-  const topTargets = investigateByList.slice(0, 6);
+  const topSelectors = [
+    {
+      id: "location",
+      name: "Ubicación Geográfica",
+      count: investigateCounts["location"] || 45,
+      icon: MapPin,
+      desc: "Satélites, mapas, streetview",
+    },
+    {
+      id: "people-professional",
+      name: "Personas y Profesional",
+      count: investigateCounts["people-professional"] || 15,
+      icon: UserCheck,
+      desc: "Perfiles, registros y filtraciones",
+    },
+    {
+      id: "domain-ip",
+      name: "Dominio e IP",
+      count: investigateCounts["domain-ip"] || 20,
+      icon: Network,
+      desc: "DNS, WHOIS, certificados y red",
+    },
+    {
+      id: "companies",
+      name: "Sociedades y Empresas",
+      count: investigateCounts["companies"] || 18,
+      icon: Building,
+      desc: "BORME, registros mercantiles, CIF",
+    },
+    {
+      id: "username",
+      name: "Nombre de usuario",
+      count: investigateCounts["username"] || 10,
+      icon: AtSign,
+      desc: "Huella digital en +3000 plataformas",
+    },
+    {
+      id: "email",
+      name: "Correo Electrónico",
+      count: investigateCounts["email"] || 11,
+      icon: Mail,
+      desc: "Brechas, dominios y reputación",
+    },
+  ];
 
   return (
     <div className="space-y-8 pb-12 w-full">
-      {/* Hero Section (Clean, spacious, full width) */}
-      <section className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-guacamole-card to-guacamole-base border border-guacamole-border p-6 sm:p-10 text-center shadow-card w-full">
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 -mt-20 w-96 h-96 bg-guacamole-green/10 rounded-full blur-3xl pointer-events-none" />
+      {/* Hero Section (Balanced 2-column layout, no empty space) */}
+      <section className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-guacamole-card to-guacamole-base border border-guacamole-border p-6 sm:p-8 lg:p-10 shadow-card w-full">
+        <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-guacamole-green/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 left-0 -ml-20 -mb-20 w-80 h-80 bg-guacamole-turquoise/10 rounded-full blur-3xl pointer-events-none" />
 
-        <div className="relative z-10 max-w-2xl mx-auto space-y-5">
-          {/* Logo & Title */}
-          <div className="flex items-center justify-center gap-3.5">
-            <div className="relative w-12 h-12 rounded-xl overflow-hidden border border-guacamole-border bg-guacamole-deep/90 shadow-glow shrink-0">
-              <Image
-                src="/logo.png"
-                alt="OSINT Hub Logo"
-                width={48}
-                height={48}
-                className="w-full h-full object-contain p-1"
-                priority
-              />
-            </div>
-            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
-              OSINT <span className="text-transparent bg-clip-text bg-gradient-to-r from-guacamole-green to-guacamole-turquoise">Hub</span>
-            </h1>
-          </div>
-
-          <p className="text-sm sm:text-base text-gray-300 max-w-lg mx-auto leading-relaxed">
-            Directorio curado de herramientas y metodologías de inteligencia de fuentes abiertas.
-          </p>
-
-          {/* Quick Access Search Trigger Bar */}
-          <div className="max-w-lg mx-auto pt-1">
-            <Link
-              href="/tools"
-              className="flex items-center justify-between w-full px-4 py-3 text-sm text-gray-400 bg-guacamole-input/90 hover:bg-guacamole-input border border-guacamole-border hover:border-guacamole-green/50 rounded-xl transition-all shadow-sm group"
-            >
-              <div className="flex items-center gap-2.5">
-                <Search className="w-4 h-4 text-guacamole-green" />
-                <span className="text-xs sm:text-sm group-hover:text-gray-200 transition-colors">
-                  Buscar herramientas, selectores, técnicas...
-                </span>
+        <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
+          {/* Left Column: Brand, Search & Stats */}
+          <div className="lg:col-span-6 space-y-4 text-left">
+            <div className="flex items-center gap-3">
+              <div className="relative w-12 h-12 rounded-xl overflow-hidden border border-guacamole-border bg-guacamole-deep/90 shadow-glow shrink-0">
+                <Image
+                  src="/logo.png"
+                  alt="OSINT Hub Logo"
+                  width={48}
+                  height={48}
+                  className="w-full h-full object-contain p-1"
+                  priority
+                />
               </div>
-              <kbd className="px-2 py-0.5 text-[11px] bg-guacamole-card border border-guacamole-border rounded-md text-gray-400 font-mono">
-                Explorar {stats.totalTools}
-              </kbd>
-            </Link>
+              <div>
+                <h1 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-white">
+                  OSINT <span className="text-transparent bg-clip-text bg-gradient-to-r from-guacamole-green to-guacamole-turquoise">Hub</span>
+                </h1>
+                <p className="text-xs sm:text-sm text-gray-300 leading-snug">
+                  Directorio curado de herramientas y metodologías de inteligencia de fuentes abiertas.
+                </p>
+              </div>
+            </div>
+
+            {/* Quick Access Search Trigger Bar */}
+            <div className="pt-1">
+              <Link
+                href="/tools"
+                className="flex items-center justify-between w-full px-4 py-2.5 text-sm text-gray-400 bg-guacamole-input/90 hover:bg-guacamole-input border border-guacamole-border hover:border-guacamole-green/50 rounded-xl transition-all shadow-sm group"
+              >
+                <div className="flex items-center gap-2.5">
+                  <Search className="w-4 h-4 text-guacamole-green" />
+                  <span className="text-xs sm:text-sm group-hover:text-gray-200 transition-colors">
+                    Buscar herramientas, selectores, técnicas...
+                  </span>
+                </div>
+                <kbd className="px-2 py-0.5 text-[11px] bg-guacamole-card border border-guacamole-border rounded-md text-gray-400 font-mono">
+                  Ctrl K
+                </kbd>
+              </Link>
+            </div>
+
+            {/* Stats Row */}
+            <div className="grid grid-cols-4 gap-2 pt-3 border-t border-guacamole-border/40">
+              <div>
+                <span className="text-lg sm:text-xl font-bold text-guacamole-green font-mono">{stats.totalTools}</span>
+                <p className="text-[10px] text-gray-400">Herramientas</p>
+              </div>
+              <div>
+                <span className="text-lg sm:text-xl font-bold text-guacamole-turquoise font-mono">100%</span>
+                <p className="text-[10px] text-gray-400">Verificadas</p>
+              </div>
+              <div>
+                <span className="text-lg sm:text-xl font-bold text-red-400 font-mono">{stats.spainCount}</span>
+                <p className="text-[10px] text-gray-400">España</p>
+              </div>
+              <div>
+                <span className="text-lg sm:text-xl font-bold text-blue-400 font-mono">{stats.europeCount}</span>
+                <p className="text-[10px] text-gray-400">Europa</p>
+              </div>
+            </div>
           </div>
 
-          {/* Quick Navigation Pills */}
-          <div className="flex flex-wrap items-center justify-center gap-2 pt-2">
-            <Link
-              href="/tools"
-              className="px-3.5 py-1.5 rounded-lg text-xs font-medium bg-guacamole-input text-gray-300 hover:text-white hover:border-guacamole-green/50 border border-guacamole-border transition-colors"
-            >
-              Catálogo Completo ({stats.totalTools})
-            </Link>
-            <Link
-              href="/investigate-by"
-              className="px-3.5 py-1.5 rounded-lg text-xs font-medium bg-guacamole-input text-gray-300 hover:text-white hover:border-guacamole-turquoise/50 border border-guacamole-border transition-colors"
-            >
-              Por Objetivo ({stats.totalInvestigateBy})
-            </Link>
-            <Link
-              href="/challenges"
-              className="px-3.5 py-1.5 rounded-lg text-xs font-medium bg-guacamole-input text-gray-300 hover:text-white hover:border-amber-400/50 border border-guacamole-border transition-colors"
-            >
-              Práctica & CTF
-            </Link>
-          </div>
-        </div>
+          {/* Right Column: Quick Target Selectors Grid */}
+          <div className="lg:col-span-6 space-y-2.5">
+            <div className="flex items-center justify-between px-1">
+              <span className="text-xs font-bold uppercase tracking-wider text-guacamole-turquoise flex items-center gap-1.5">
+                <Compass className="w-3.5 h-3.5" />
+                <span>Comenzar por Indicador</span>
+              </span>
+              <Link
+                href="/investigate-by"
+                className="text-xs text-gray-400 hover:text-guacamole-turquoise transition-colors flex items-center gap-1"
+              >
+                <span>Ver los 12</span>
+                <ArrowRight className="w-3 h-3" />
+              </Link>
+            </div>
 
-        {/* Minimal Stats Row */}
-        <div className="relative z-10 grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8 pt-6 border-t border-guacamole-border/40 max-w-3xl mx-auto">
-          <div>
-            <span className="text-xl sm:text-2xl font-bold text-guacamole-green font-mono">{stats.totalTools}</span>
-            <p className="text-[11px] text-gray-400 mt-0.5">Herramientas</p>
-          </div>
-          <div>
-            <span className="text-xl sm:text-2xl font-bold text-guacamole-turquoise font-mono">100%</span>
-            <p className="text-[11px] text-gray-400 mt-0.5">Verificadas</p>
-          </div>
-          <div>
-            <span className="text-xl sm:text-2xl font-bold text-red-400 font-mono">{stats.spainCount}</span>
-            <p className="text-[11px] text-gray-400 mt-0.5">España</p>
-          </div>
-          <div>
-            <span className="text-xl sm:text-2xl font-bold text-blue-400 font-mono">{stats.europeCount}</span>
-            <p className="text-[11px] text-gray-400 mt-0.5">Europa</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+              {topSelectors.map((item) => {
+                const Icon = item.icon;
+                return (
+                  <Link
+                    key={item.id}
+                    href={`/investigate-by/${item.id}`}
+                    className="p-2.5 rounded-xl bg-guacamole-deep/80 hover:bg-guacamole-input border border-guacamole-border hover:border-guacamole-turquoise/50 transition-all flex flex-col justify-between group text-left"
+                  >
+                    <div className="flex items-center justify-between mb-1.5">
+                      <div className="p-1 rounded-md bg-guacamole-input text-guacamole-turquoise group-hover:bg-guacamole-turquoise group-hover:text-black transition-colors shrink-0">
+                        <Icon className="w-3.5 h-3.5" />
+                      </div>
+                      <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-guacamole-card text-gray-400 border border-guacamole-border">
+                        {item.count}
+                      </span>
+                    </div>
+                    <div>
+                      <h4 className="text-xs font-semibold text-gray-200 group-hover:text-guacamole-turquoise transition-colors truncate">
+                        {item.name}
+                      </h4>
+                      <p className="text-[10px] text-gray-400 truncate mt-0.5">
+                        {item.desc}
+                      </p>
+                    </div>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
@@ -138,33 +219,33 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Quick Access by Target (Clean chips) */}
+      {/* Categories / Technical Disciplines */}
       <section className="space-y-3">
         <div className="flex items-center justify-between">
           <h2 className="text-base sm:text-lg font-bold text-gray-100 flex items-center gap-2">
-            <Compass className="w-4 h-4 text-guacamole-turquoise" />
-            <span>Investigar por Objetivo</span>
+            <Layers className="w-4 h-4 text-guacamole-green" />
+            <span>Disciplinas Técnicas OSINT</span>
           </h2>
           <Link
-            href="/investigate-by"
-            className="text-xs text-guacamole-turquoise hover:underline flex items-center gap-1 font-medium"
+            href="/categories"
+            className="text-xs text-guacamole-green hover:underline flex items-center gap-1 font-medium"
           >
-            <span>Ver los 12</span>
+            <span>Ver las 12</span>
             <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5">
-          {topTargets.map((item) => (
+          {categories.slice(0, 6).map((cat) => (
             <Link
-              key={item.id}
-              href={`/investigate-by/${item.id}`}
-              className="flex items-center gap-2 p-2.5 rounded-xl bg-guacamole-card hover:bg-guacamole-hover border border-guacamole-border hover:border-guacamole-turquoise/50 transition-all text-xs text-gray-200 group"
+              key={cat.id}
+              href={`/categories/${cat.id}`}
+              className="flex items-center gap-2 p-2.5 rounded-xl bg-guacamole-card hover:bg-guacamole-hover border border-guacamole-border hover:border-guacamole-green/50 transition-all text-xs text-gray-200 group"
             >
-              <div className="p-1.5 rounded-lg bg-guacamole-input text-guacamole-turquoise group-hover:bg-guacamole-turquoise group-hover:text-black transition-colors shrink-0">
-                <CategoryIcon name={item.icon} className="w-3.5 h-3.5" />
+              <div className="p-1.5 rounded-lg bg-guacamole-input text-guacamole-green group-hover:bg-guacamole-green group-hover:text-black transition-colors shrink-0">
+                <CategoryIcon name={cat.icon} className="w-3.5 h-3.5" />
               </div>
-              <span className="truncate font-medium text-xs">{item.name}</span>
+              <span className="truncate font-medium text-xs">{cat.name}</span>
             </Link>
           ))}
         </div>
