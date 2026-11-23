@@ -1,0 +1,98 @@
+[
+  {
+    "id": "general",
+    "name": "General OSINT",
+    "shortDescription": "Directorios, marcos de trabajo, guías y metodologías globales.",
+    "description": "Portales integrales, repositorios y metodologías de inteligencia de fuentes abiertas para orientar y estructurar investigaciones.",
+    "icon": "Compass",
+    "order": 1
+  },
+  {
+    "id": "search",
+    "name": "Search Engines",
+    "shortDescription": "Buscadores especializados, operadores booleanos y Google Dorks.",
+    "description": "Motores de búsqueda avanzados, metabuscadores descentralizados y bases de datos de operadores avanzados para indexación profunda.",
+    "icon": "Search",
+    "order": 2
+  },
+  {
+    "id": "geoint",
+    "name": "GEOINT & Maps",
+    "shortDescription": "Geolocalización, cartografía, Street View y datos geográficos.",
+    "description": "Herramientas de análisis geoespacial, mapas colaborativos, visualización 3D y servicios cartográficos oficiales de España y Europa.",
+    "icon": "MapPin",
+    "order": 3
+  },
+  {
+    "id": "imint",
+    "name": "IMINT & Media",
+    "shortDescription": "Búsqueda inversa, metadatos EXIF y verificación multimedia.",
+    "description": "Verificación de autenticidad en imágenes y vídeos, extracción de metadatos forenses y análisis de contenido audiovisual.",
+    "icon": "Camera",
+    "order": 4
+  },
+  {
+    "id": "satellite",
+    "name": "Satellite Intelligence",
+    "shortDescription": "Imágenes satelitales, Sentinel, observación terrestre y cambios.",
+    "description": "Plataformas de teledetección orbital, datos multiespectrales de Copernicus y NASA para monitorización terrestre y temporal.",
+    "icon": "Satellite",
+    "order": 5
+  },
+  {
+    "id": "chronolocation",
+    "name": "Chronolocation",
+    "shortDescription": "Posición solar, sombras, meteorología histórica y cálculo temporal.",
+    "description": "Determinación de fecha y hora exacta mediante cálculo de sombras (sun azimuth/elevation) y registros meteorológicos históricos.",
+    "icon": "Clock",
+    "order": 6
+  },
+  {
+    "id": "socmint",
+    "name": "SOCMINT",
+    "shortDescription": "Redes sociales, comunidades y análisis de contenido público.",
+    "description": "Investigación de presencia pública, canales comunitarios y tendencias en plataformas sociales de uso masivo.",
+    "icon": "Users",
+    "order": 7
+  },
+  {
+    "id": "webint",
+    "name": "WEBINT",
+    "shortDescription": "Dominios, DNS, WHOIS/RDAP, certificados y archivos web históricos.",
+    "description": "Análisis de infraestructura de sitios web, historial de capturas, registros DNS y certificados TLS para perfilar activos web.",
+    "icon": "Globe",
+    "order": 8
+  },
+  {
+    "id": "sigint",
+    "name": "SIGINT",
+    "shortDescription": "Wi-Fi, radiofrecuencia, SDR, ADS-B y señales inalámbricas.",
+    "description": "Bases de datos de redes inalámbricas geolocalizadas, frecuencias de radioaficionados y monitorización de radio abierta.",
+    "icon": "Radio",
+    "order": 9
+  },
+  {
+    "id": "cyber",
+    "name": "Cyber Intelligence",
+    "shortDescription": "IPs, ASN, exposición de servicios y análisis de amenazas.",
+    "description": "Inteligencia de infraestructura de internet, escaneo pasivo de puertos, reputación de hosts y bases de datos de ciberseguridad.",
+    "icon": "ShieldAlert",
+    "order": 10
+  },
+  {
+    "id": "public-records",
+    "name": "Public Records",
+    "shortDescription": "Registros mercantiles, boletines oficiales, contratación y datos abiertos.",
+    "description": "Fuentes oficiales de España (BOE, Registros, Contratación del Estado) y Europa para investigación mercantil y corporativa.",
+    "icon": "Building2",
+    "order": 11
+  },
+  {
+    "id": "transport",
+    "name": "Transport Intelligence",
+    "shortDescription": "Tráfico aéreo (ADS-B), transporte marítimo (AIS) y movilidad.",
+    "description": "Monitorización en tiempo real e histórico de vuelos comerciales y privados, buques mercantes, actividad pesquera y flotas.",
+    "icon": "Plane",
+    "order": 12
+  }
+]

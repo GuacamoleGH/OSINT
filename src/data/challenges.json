@@ -1,0 +1,82 @@
+[
+  {
+    "id": "bellingcat-geolocation-challenge",
+    "title": "Bellingcat Open Geolocation Challenge",
+    "description": "Práctica de geolocalización basada en pistas sutiles de entorno urbano, vegetación, postes y señalización vial.",
+    "category": "geoint",
+    "difficulty": "intermediate",
+    "url": "https://www.bellingcat.com/category/resources/how-tos/",
+    "provider": "Bellingcat",
+    "hints": [
+      "Examina la arquitectura de las ventanas y tejados.",
+      "Busca palabras legibles en carteles comerciales o tapas de alcantarilla.",
+      "Usa Overpass Turbo para filtrar por la combinación de elementos descubiertos."
+    ]
+  },
+  {
+    "id": "thm-searchlight-imint",
+    "title": "TryHackMe — Searchlight (IMINT & Geolocation)",
+    "description": "Sala formativa práctica diseñada para entrenar técnicas de búsqueda inversa, lectura de metadatos y deducción geográfica.",
+    "category": "imint",
+    "difficulty": "beginner",
+    "url": "https://tryhackme.com/room/searchlightimint",
+    "provider": "TryHackMe",
+    "hints": [
+      "Prueba varios buscadores inversos (Google Lens, Yandex) para encontrar ángulos alternativos.",
+      "Recorta las marcas visuales características antes de subir la imagen."
+    ]
+  },
+  {
+    "id": "challenge-chronolocation-shadows",
+    "title": "Reto de Cronolocalización Solar",
+    "description": "Calcula el intervalo horario de captura de una fotografía a partir del ángulo de proyección de la sombra de una farola.",
+    "category": "chronolocation",
+    "difficulty": "advanced",
+    "url": "https://www.suncalc.org/",
+    "provider": "OSINT Hub",
+    "hints": [
+      "Alinea el mapa con el norte geográfico exacto.",
+      "Mide los grados de azimut con respecto al objeto emisor.",
+      "Compara la hora solar aparente con el huso horario oficial del lugar."
+    ]
+  },
+  {
+    "id": "challenge-maritime-ais",
+    "title": "Rastreo e Identificación de Buque por Señal AIS",
+    "description": "Localiza el historial de escalas y características de una embarcación a partir de una captura de transpondedor incompleta.",
+    "category": "transport",
+    "difficulty": "beginner",
+    "url": "https://www.marinetraffic.com/",
+    "provider": "OSINT Hub",
+    "hints": [
+      "El número IMO es permanente a lo largo de toda la vida útil del barco.",
+      "El código MMSI incluye el prefijo MID de tres dígitos del país de abanderamiento."
+    ]
+  },
+  {
+    "id": "challenge-borme-investigation",
+    "title": "Investigación Societaria en Registro Mercantil Español",
+    "description": "Mapea las sociedades compartidas y el historial de ceses y nombramientos de un administrador a través del BORME.",
+    "category": "public-records",
+    "difficulty": "intermediate",
+    "url": "https://www.boe.es/diario_borme/",
+    "provider": "OSINT Hub",
+    "hints": [
+      "Utiliza comillas dobles en el buscador del BOE para nombres y apellidos exactos.",
+      "Revisa la Sección Primera (Actos inscritos) de las provincias correspondientes."
+    ]
+  },
+  {
+    "id": "challenge-forensic-clone-detection",
+    "title": "Detección Forense de Manipulación en Fotografía",
+    "description": "Identifica zonas duplicadas mediante la herramienta de detección de clones y nivel de compresión ELA.",
+    "category": "imint",
+    "difficulty": "intermediate",
+    "url": "https://29a.ch/photo-forensics/",
+    "provider": "Forensically",
+    "hints": [
+      "Ajusta la sensibilidad del bloque de clonado para descartar texturas homogéneas naturales (cielos o asfalto).",
+      "Comprueba si los bordes de la zona sospechosa presentan un nivel de error ELA discordante con el fondo."
+    ]
+  }
+]

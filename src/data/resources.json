@@ -1,0 +1,72 @@
+[
+  {
+    "id": "bellingcat-guides",
+    "title": "Bellingcat Online Investigation Guides",
+    "description": "Guías metodológicas exhaustivas y estudios de caso paso a paso publicados por el equipo forense de Bellingcat.",
+    "category": "Metodología e Investigación",
+    "url": "https://www.bellingcat.com/category/resources/how-tos/",
+    "scope": "global",
+    "author": "Bellingcat",
+    "type": "guide"
+  },
+  {
+    "id": "osint-framework-guide",
+    "title": "Metodología OSINT Framework",
+    "description": "Estructura del flujo de trabajo deductivo partiendo de un indicador primario (selector) hacia fuentes secundarias.",
+    "category": "Metodología e Investigación",
+    "url": "https://osintframework.com/",
+    "scope": "global",
+    "author": "OSINT Framework Project",
+    "type": "toolkit"
+  },
+  {
+    "id": "guia-geoint-ign",
+    "title": "Servicios WMS y Cartografía del IGN de España",
+    "description": "Documentación técnica oficial sobre cómo integrar ortofotos PNOA y mapas de relieve LIDAR del IGN en herramientas GIS.",
+    "category": "GEOINT & Cartografía",
+    "url": "https://www.ign.es/web/ign/portal/servicios-wms",
+    "scope": "spain",
+    "author": "Instituto Geográfico Nacional (IGN)",
+    "type": "doc"
+  },
+  {
+    "id": "guia-dorks-google",
+    "title": "Manual de Google Dorking y Operadores Avanzados",
+    "description": "Referencia de operadores de búsqueda booleanos (site:, filetype:, inurl:, intitle:, cache:) para indexación técnica profunda.",
+    "category": "Búsqueda Avanzada",
+    "url": "https://www.exploit-db.com/google-hacking-database",
+    "scope": "global",
+    "author": "Exploit-DB Community",
+    "type": "tutorial"
+  },
+  {
+    "id": "guia-registros-espana",
+    "title": "Guía de Consulta de Registros Mercantiles y Contratación en España",
+    "description": "Metodología para investigar sociedades mercantiles a través del BORME, la Plataforma de Contratación y la CNMV.",
+    "category": "Registros Públicos",
+    "url": "https://www.boe.es/diario_borme/",
+    "scope": "spain",
+    "author": "GuacamoleGH OSINT Team",
+    "type": "guide"
+  },
+  {
+    "id": "guia-chronolocation-suncalc",
+    "title": "Tutorial de Cronolocalización mediante Sombras y Azimut Solar",
+    "description": "Pasos matemáticos y geométricos para correlacionar la longitud y orientación de una sombra con SunCalc y ShadowFinder.",
+    "category": "Cronolocalización",
+    "url": "https://www.suncalc.org/",
+    "scope": "global",
+    "author": "OSINT Community",
+    "type": "tutorial"
+  },
+  {
+    "id": "datos-europa-guide",
+    "title": "Manual de Datos Abiertos de la Unión Europea",
+    "description": "Cómo explotar APIs de data.europa.eu, Eurostat y el sistema de interconexión mercantil BRIS de la UE.",
+    "category": "Fuentes Europeas",
+    "url": "https://data.europa.eu/",
+    "scope": "europe",
+    "author": "Comisión Europea",
+    "type": "doc"
+  }
+]
