@@ -42,7 +42,7 @@ export function ToolsDirectory({
   const [selectedType, setSelectedType] = useState("all");
   const [sortBy, setSortBy] = useState<"name" | "featured">("featured");
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
-  const [showFiltersMobile, setShowFiltersMobile] = useState(false);
+  const [showFilters, setShowFilters] = useState(initialCategory !== "all" || initialInvestigateBy !== "all");
 
   const filteredTools = useMemo(() => {
     return initialTools
@@ -160,12 +160,16 @@ export function ToolsDirectory({
           )}
         </div>
 
-        {/* Right side controls: Filter toggle (mobile), Sort, Grid/List */}
+        {/* Right side controls: Filter toggle, Sort, Grid/List */}
         <div className="flex items-center gap-2 self-end sm:self-center">
-          {/* Mobile Filter toggle */}
+          {/* Filter toggle */}
           <button
-            onClick={() => setShowFiltersMobile((prev) => !prev)}
-            className="md:hidden flex items-center gap-1.5 px-3 py-2 text-xs bg-guacamole-input border border-guacamole-border rounded-lg text-gray-300 hover:text-white"
+            onClick={() => setShowFilters((prev) => !prev)}
+            className={`flex items-center gap-1.5 px-3 py-2 text-xs border rounded-lg transition-colors ${
+              showFilters || activeFiltersCount > 0
+                ? "bg-guacamole-card border-guacamole-green/60 text-guacamole-green"
+                : "bg-guacamole-input border-guacamole-border text-gray-300 hover:text-white"
+            }`}
           >
             <SlidersHorizontal className="w-3.5 h-3.5" />
             <span>Filtros</span>
@@ -213,12 +217,9 @@ export function ToolsDirectory({
         </div>
       </div>
 
-      {/* Filters Bar (Desktop & Collapsible Mobile) */}
-      <div
-        className={`bg-guacamole-card/60 border border-guacamole-border rounded-xl p-4 transition-all ${
-          showFiltersMobile ? "block" : "hidden md:block"
-        }`}
-      >
+      {/* Filters Bar (Collapsible) */}
+      {showFilters && (
+        <div className="bg-guacamole-card/60 border border-guacamole-border rounded-xl p-4 transition-all">
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
           {/* Categoría */}
           <div>
@@ -360,7 +361,8 @@ export function ToolsDirectory({
             </button>
           </div>
         )}
-      </div>
+        </div>
+      )}
 
       {/* Meta Bar: Result Count */}
       <div className="flex items-center justify-between px-1 text-xs text-gray-400">
