@@ -78,15 +78,15 @@ export default function ToolDetailPage({ params }: ToolDetailPageProps) {
       </div>
 
       {/* Main Header Card */}
-      <div className="bg-guacamole-card border border-guacamole-border rounded-2xl p-6 sm:p-8 shadow-card space-y-6">
+      <div className="bg-guacamole-card border border-guacamole-border rounded-2xl p-6 sm:p-8 shadow-card space-y-4 sm:space-y-5">
         <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4">
           <div>
-            <div className="flex flex-wrap items-center gap-2 mb-2">
-              <h1 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">{tool.name}</h1>
+            <div className="flex flex-wrap items-center gap-3.5 mb-2.5">
+              <h1 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight leading-none">{tool.name}</h1>
               {tool.featured && (
-                <span className="text-xs font-semibold px-2 py-0.5 rounded bg-amber-950/80 text-amber-300 border border-amber-800 flex items-center gap-1">
+                <span className="inline-flex items-center gap-1.5 text-xs font-semibold px-2.5 py-1 rounded-md bg-amber-950/80 text-amber-300 border border-amber-800 shadow-sm">
                   <Sparkles className="w-3.5 h-3.5" />
-                  Destacada
+                  <span>Destacada</span>
                 </span>
               )}
             </div>
@@ -107,7 +107,7 @@ export default function ToolDetailPage({ params }: ToolDetailPageProps) {
         <ToolDetailActions tool={tool} />
 
         {/* Badges and metadata grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 border-t border-guacamole-border/60 text-xs">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-3.5 border-t border-guacamole-border/60 text-xs">
           <div className="p-3 rounded-lg bg-guacamole-input/80 border border-guacamole-border">
             <span className="text-gray-400 block mb-1">Precio</span>
             <span className="font-semibold text-gray-100 uppercase font-mono">
