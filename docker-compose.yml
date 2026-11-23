@@ -1,0 +1,15 @@
+services:
+  osint-hub:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: osint-hub
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:3080:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+    security_opt:
+      - no-new-privileges:true
