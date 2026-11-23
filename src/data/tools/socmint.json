@@ -362,5 +362,33 @@
     "instructions": "Ejecuta 'phoneinfoga scan -n +34XXXXXXXXX' para verificar el formato y operador.",
     "lastReviewed": "2026-11-23",
     "status": "active"
+  },
+  {
+    "id": "osint-industries",
+    "name": "OSINT Industries",
+    "slug": "osint-industries",
+    "description": "Plataforma de inteligencia de selectores para pivotar y verificar cuentas asociadas a emails y números de teléfono.",
+    "longDescription": "Herramienta que analiza en tiempo real más de cientos de servicios web para correlacionar si una dirección de correo electrónico o número de teléfono dispone de perfiles activos en redes sociales, plataformas de mensajería y servicios digitales.",
+    "url": "https://osint.industries/",
+    "categories": ["socmint", "cyber"],
+    "investigateBy": ["email", "phone", "username"],
+    "subcategories": ["selectores", "email", "telefono", "correlacion"],
+    "tags": ["osint-industries", "selectores", "email", "telefono", "pivoteo"],
+    "synonyms": ["osint industries", "buscar email osint industries", "buscar telefono"],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": ["global"],
+    "platforms": ["web", "api"],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": false,
+    "limitations": ["Modalidad freemium con créditos gratuitos para investigadores y opciones de pago para volumen empresarial"],
+    "useCases": ["Pivotar desde un correo electrónico corporativo hacia plataformas y perfiles públicos vinculados"],
+    "instructions": "Crea una cuenta gratuita, introduce el selector (email o teléfono en formato internacional) y pulsa Search.",
+    "lastReviewed": "2026-11-23",
+    "status": "active"
   }
 ]

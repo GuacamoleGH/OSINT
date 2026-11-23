@@ -1,16 +1,30 @@
 [
   {
-    "id": "bellingcat-geolocation-challenge",
-    "title": "Bellingcat Open Geolocation Challenge",
-    "description": "Práctica de geolocalización basada en pistas sutiles de entorno urbano, vegetación, postes y señalización vial.",
+    "id": "bellingcat-challenges",
+    "title": "Bellingcat Challenges",
+    "description": "Retos oficiales periódicos de geolocalización, verificación forense y análisis de imágenes organizados por el equipo e investigadores de Bellingcat.",
     "category": "geoint",
     "difficulty": "intermediate",
     "url": "https://www.bellingcat.com/category/resources/how-tos/",
     "provider": "Bellingcat",
     "hints": [
-      "Examina la arquitectura de las ventanas y tejados.",
-      "Busca palabras legibles en carteles comerciales o tapas de alcantarilla.",
-      "Usa Overpass Turbo para filtrar por la combinación de elementos descubiertos."
+      "Analiza el mobiliario urbano, diseño de bolardos y postes telefónicos usando GeoHints.",
+      "Coteja la orientación y longitud de las sombras con SunCalc para deducir franjas horarias y coordenadas.",
+      "Usa Overpass Turbo para cruzar pistas cartográficas simultáneas (ej. vías de tren y torres de telecomunicaciones)."
+    ]
+  },
+  {
+    "id": "osint-industries-ctf",
+    "title": "OSINT Industries CTF",
+    "description": "Competiciones Capture The Flag (CTF) especializadas en OSINT organizadas por OSINT Industries para entrenar pivoteo entre selectores (email, teléfono, alias, dominios y redes sociales).",
+    "category": "socmint",
+    "difficulty": "advanced",
+    "url": "https://ctf.osint.industries/",
+    "provider": "OSINT Industries",
+    "hints": [
+      "Identifica perfiles y cuentas vinculadas al selector objetivo mediante Epieos y Sherlock.",
+      "Inspecciona registros históricos y certificados SSL/TLS con crt.sh y urlscan.io.",
+      "Busca publicaciones antiguas o eliminadas en Wayback Machine y Archive.today."
     ]
   },
   {
