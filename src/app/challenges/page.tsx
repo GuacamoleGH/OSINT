@@ -2,7 +2,7 @@
 
 import React, { useState, useMemo } from "react";
 import { getAllChallenges } from "@/lib/data";
-import { Target, ExternalLink, Search, Filter, ShieldCheck, DollarSign } from "lucide-react";
+import { Target, ExternalLink, Search, Filter, ShieldCheck, DollarSign, ChevronDown } from "lucide-react";
 
 export default function ChallengesPage() {
   const platforms = getAllChallenges();
@@ -109,27 +109,33 @@ export default function ChallengesPage() {
             <Filter className="w-3.5 h-3.5" />
             <span>Precio:</span>
           </div>
-          <select
-            value={selectedPricing}
-            onChange={(e) => setSelectedPricing(e.target.value)}
-            className="text-xs bg-guacamole-input text-gray-200 border border-guacamole-border rounded-lg px-2.5 py-2 outline-none cursor-pointer focus:border-guacamole-green/60"
-          >
-            <option value="all">Todos los precios</option>
-            <option value="free">100% Gratis</option>
-            <option value="freemium">Freemium</option>
-            <option value="paid">De pago</option>
-          </select>
+          <div className="relative">
+            <select
+              value={selectedPricing}
+              onChange={(e) => setSelectedPricing(e.target.value)}
+              className="appearance-none text-xs bg-guacamole-input text-gray-200 border border-guacamole-border rounded-lg pl-2.5 pr-7 py-2 outline-none cursor-pointer focus:border-guacamole-green/60"
+            >
+              <option value="all">Todos los precios</option>
+              <option value="free">100% Gratis</option>
+              <option value="freemium">Freemium</option>
+              <option value="paid">De pago</option>
+            </select>
+            <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
+          </div>
 
-          <select
-            value={selectedDifficulty}
-            onChange={(e) => setSelectedDifficulty(e.target.value)}
-            className="text-xs bg-guacamole-input text-gray-200 border border-guacamole-border rounded-lg px-2.5 py-2 outline-none cursor-pointer focus:border-guacamole-green/60"
-          >
-            <option value="all">Cualquier nivel</option>
-            <option value="beginner">Principiante</option>
-            <option value="intermediate">Intermedio</option>
-            <option value="advanced">Avanzado</option>
-          </select>
+          <div className="relative">
+            <select
+              value={selectedDifficulty}
+              onChange={(e) => setSelectedDifficulty(e.target.value)}
+              className="appearance-none text-xs bg-guacamole-input text-gray-200 border border-guacamole-border rounded-lg pl-2.5 pr-7 py-2 outline-none cursor-pointer focus:border-guacamole-green/60"
+            >
+              <option value="all">Cualquier nivel</option>
+              <option value="beginner">Principiante</option>
+              <option value="intermediate">Intermedio</option>
+              <option value="advanced">Avanzado</option>
+            </select>
+            <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
+          </div>
         </div>
       </div>
 

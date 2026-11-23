@@ -177,14 +177,17 @@ export function ToolsDirectory({
           </button>
 
           {/* Sort selector */}
-          <select
-            value={sortBy}
-            onChange={(e) => setSortBy(e.target.value as any)}
-            className="px-2.5 py-2 text-xs bg-guacamole-input border border-guacamole-border rounded-lg text-gray-300 outline-none focus:border-guacamole-green/60 cursor-pointer"
-          >
-            <option value="featured">Destacadas primero</option>
-            <option value="name">Nombre (A-Z)</option>
-          </select>
+          <div className="relative">
+            <select
+              value={sortBy}
+              onChange={(e) => setSortBy(e.target.value as any)}
+              className="appearance-none pl-3 pr-8 py-2 text-xs bg-guacamole-input border border-guacamole-border rounded-lg text-gray-300 outline-none focus:border-guacamole-green/60 cursor-pointer hover:border-guacamole-border-highlight transition-colors"
+            >
+              <option value="featured">Destacadas primero</option>
+              <option value="name">Nombre (A-Z)</option>
+            </select>
+            <ChevronDown className="w-3.5 h-3.5 text-gray-400 absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none" />
+          </div>
 
           {/* View Mode Buttons */}
           <div className="flex items-center bg-guacamole-input border border-guacamole-border rounded-lg p-0.5">
@@ -222,18 +225,21 @@ export function ToolsDirectory({
             <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
               Disciplina
             </label>
-            <select
-              value={selectedCategory}
-              onChange={(e) => setSelectedCategory(e.target.value)}
-              className="w-full text-xs bg-guacamole-input border border-guacamole-border rounded-md px-2.5 py-1.5 text-gray-200 outline-none focus:border-guacamole-green"
-            >
-              <option value="all">Todas las categorías</option>
-              {categories.map((c) => (
-                <option key={c.id} value={c.id}>
-                  {c.name}
-                </option>
-              ))}
-            </select>
+            <div className="relative">
+              <select
+                value={selectedCategory}
+                onChange={(e) => setSelectedCategory(e.target.value)}
+                className="w-full appearance-none text-xs bg-guacamole-input border border-guacamole-border rounded-md pl-2.5 pr-7 py-1.5 text-gray-200 outline-none focus:border-guacamole-green cursor-pointer"
+              >
+                <option value="all">Todas las categorías</option>
+                {categories.map((c) => (
+                  <option key={c.id} value={c.id}>
+                    {c.name}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
+            </div>
           </div>
 
           {/* Por Objetivo */}
@@ -241,18 +247,21 @@ export function ToolsDirectory({
             <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
               Por Objetivo
             </label>
-            <select
-              value={selectedInvestigateBy}
-              onChange={(e) => setSelectedInvestigateBy(e.target.value)}
-              className="w-full text-xs bg-guacamole-input border border-guacamole-border rounded-md px-2.5 py-1.5 text-gray-200 outline-none focus:border-guacamole-green"
-            >
-              <option value="all">Cualquier objetivo</option>
-              {investigateByList.map((i) => (
-                <option key={i.id} value={i.id}>
-                  {i.name}
-                </option>
-              ))}
-            </select>
+            <div className="relative">
+              <select
+                value={selectedInvestigateBy}
+                onChange={(e) => setSelectedInvestigateBy(e.target.value)}
+                className="w-full appearance-none text-xs bg-guacamole-input border border-guacamole-border rounded-md pl-2.5 pr-7 py-1.5 text-gray-200 outline-none focus:border-guacamole-green cursor-pointer"
+              >
+                <option value="all">Cualquier objetivo</option>
+                {investigateByList.map((i) => (
+                  <option key={i.id} value={i.id}>
+                    {i.name}
+                  </option>
+                ))}
+              </select>
+              <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
+            </div>
           </div>
 
           {/* Ámbito Geográfico */}
@@ -260,16 +269,19 @@ export function ToolsDirectory({
             <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
               Ámbito Geográfico
             </label>
-            <select
-              value={selectedScope}
-              onChange={(e) => setSelectedScope(e.target.value)}
-              className="w-full text-xs bg-guacamole-input border border-guacamole-border rounded-md px-2.5 py-1.5 text-gray-200 outline-none focus:border-guacamole-green"
-            >
-              <option value="all">Todos los ámbitos</option>
-              <option value="spain">España (prioritario)</option>
-              <option value="europe">Europa</option>
-              <option value="global">Global</option>
-            </select>
+            <div className="relative">
+              <select
+                value={selectedScope}
+                onChange={(e) => setSelectedScope(e.target.value)}
+                className="w-full appearance-none text-xs bg-guacamole-input border border-guacamole-border rounded-md pl-2.5 pr-7 py-1.5 text-gray-200 outline-none focus:border-guacamole-green cursor-pointer"
+              >
+                <option value="all">Todos los ámbitos</option>
+                <option value="spain">España (prioritario)</option>
+                <option value="europe">Europa</option>
+                <option value="global">Global</option>
+              </select>
+              <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
+            </div>
           </div>
 
           {/* Precio */}
@@ -277,15 +289,18 @@ export function ToolsDirectory({
             <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
               Precio
             </label>
-            <select
-              value={selectedPricing}
-              onChange={(e) => setSelectedPricing(e.target.value)}
-              className="w-full text-xs bg-guacamole-input border border-guacamole-border rounded-md px-2.5 py-1.5 text-gray-200 outline-none focus:border-guacamole-green"
-            >
-              <option value="all">Cualquier precio</option>
-              <option value="free">Gratuito (100% Free)</option>
-              <option value="freemium">Freemium</option>
-            </select>
+            <div className="relative">
+              <select
+                value={selectedPricing}
+                onChange={(e) => setSelectedPricing(e.target.value)}
+                className="w-full appearance-none text-xs bg-guacamole-input border border-guacamole-border rounded-md pl-2.5 pr-7 py-1.5 text-gray-200 outline-none focus:border-guacamole-green cursor-pointer"
+              >
+                <option value="all">Cualquier precio</option>
+                <option value="free">Gratuito (100% Free)</option>
+                <option value="freemium">Freemium</option>
+              </select>
+              <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
+            </div>
           </div>
 
           {/* Dificultad */}
@@ -293,16 +308,19 @@ export function ToolsDirectory({
             <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
               Dificultad
             </label>
-            <select
-              value={selectedDifficulty}
-              onChange={(e) => setSelectedDifficulty(e.target.value)}
-              className="w-full text-xs bg-guacamole-input border border-guacamole-border rounded-md px-2.5 py-1.5 text-gray-200 outline-none focus:border-guacamole-green"
-            >
-              <option value="all">Todas las dificultades</option>
-              <option value="beginner">Principiante (Web directa)</option>
-              <option value="intermediate">Intermedio (Filtros/API)</option>
-              <option value="advanced">Avanzado (CLI / GIS / QL)</option>
-            </select>
+            <div className="relative">
+              <select
+                value={selectedDifficulty}
+                onChange={(e) => setSelectedDifficulty(e.target.value)}
+                className="w-full appearance-none text-xs bg-guacamole-input border border-guacamole-border rounded-md pl-2.5 pr-7 py-1.5 text-gray-200 outline-none focus:border-guacamole-green cursor-pointer"
+              >
+                <option value="all">Todas las dificultades</option>
+                <option value="beginner">Principiante (Web directa)</option>
+                <option value="intermediate">Intermedio (Filtros/API)</option>
+                <option value="advanced">Avanzado (CLI / GIS / QL)</option>
+              </select>
+              <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
+            </div>
           </div>
 
           {/* Tipo de Plataforma */}
@@ -310,17 +328,20 @@ export function ToolsDirectory({
             <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
               Tipo / Plataforma
             </label>
-            <select
-              value={selectedType}
-              onChange={(e) => setSelectedType(e.target.value)}
-              className="w-full text-xs bg-guacamole-input border border-guacamole-border rounded-md px-2.5 py-1.5 text-gray-200 outline-none focus:border-guacamole-green"
-            >
-              <option value="all">Todos los tipos</option>
-              <option value="web">Web App</option>
-              <option value="cli">Línea de comandos (CLI)</option>
-              <option value="desktop">Software de escritorio</option>
-              <option value="browser-extension">Extensión de navegador</option>
-            </select>
+            <div className="relative">
+              <select
+                value={selectedType}
+                onChange={(e) => setSelectedType(e.target.value)}
+                className="w-full appearance-none text-xs bg-guacamole-input border border-guacamole-border rounded-md pl-2.5 pr-7 py-1.5 text-gray-200 outline-none focus:border-guacamole-green cursor-pointer"
+              >
+                <option value="all">Todos los tipos</option>
+                <option value="web">Web App</option>
+                <option value="cli">Línea de comandos (CLI)</option>
+                <option value="desktop">Software de escritorio</option>
+                <option value="browser-extension">Extensión de navegador</option>
+              </select>
+              <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
+            </div>
           </div>
         </div>
 
