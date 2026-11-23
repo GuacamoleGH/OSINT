@@ -270,15 +270,15 @@ export default function HomePage() {
             <Target className="w-6 h-6" />
           </div>
           <div className="flex-1">
-            <h3 className="font-bold text-base text-gray-100 mb-1">Retos & Entrenamiento Práctico</h3>
+            <h3 className="font-bold text-base text-gray-100 mb-1">Plataformas de Práctica & Retos CTF</h3>
             <p className="text-xs text-gray-400 leading-relaxed mb-4">
-              Pon a prueba tus habilidades con desafíos reales de geolocalización, análisis de sombras solares y verificación multimedia con guardado de progreso local.
+              Directorio con enlaces a las mejores plataformas de entrenamiento, retos de geolocalización, desafíos CTF y laboratorios internacionales con indicación de precios aproximados.
             </p>
             <Link
               href="/challenges"
               className="inline-flex items-center gap-1.5 text-xs font-semibold text-amber-400 hover:underline"
             >
-              <span>Ver retos disponibles</span>
+              <span>Ver plataformas y retos</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </Link>
           </div>

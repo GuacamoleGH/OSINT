@@ -55,6 +55,11 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
             <span className={`text-[10px] font-semibold uppercase px-2 py-0.5 rounded border ${pricingBadge.cls}`}>
               {pricingBadge.label}
             </span>
+            {tool.pricingDetails && (
+              <span className="text-[10px] text-amber-300 bg-amber-950/50 border border-amber-800/70 px-2 py-0.5 rounded font-mono" title={tool.pricingDetails}>
+                {tool.pricingDetails}
+              </span>
+            )}
             {tool.geographicScope.map((s) => {
               const b = getScopeBadge(s);
               return (
@@ -166,6 +171,13 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
             </span>
           )}
         </div>
+
+        {/* Approximate pricing details if applicable */}
+        {tool.pricingDetails && (
+          <div className="text-[11px] text-amber-300/90 bg-amber-950/30 border border-amber-900/60 px-2 py-1 rounded font-mono mb-2 line-clamp-2" title={tool.pricingDetails}>
+            {tool.pricingDetails}
+          </div>
+        )}
 
         {/* Description */}
         <p className="text-xs text-gray-400 line-clamp-3 mb-3 leading-relaxed">{tool.description}</p>

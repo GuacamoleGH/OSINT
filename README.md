@@ -23,7 +23,7 @@
 
 ## 🎯 Visión del Producto
 
-**OSINT Hub** centraliza herramientas de investigación, buscadores especializados, bases de datos y registros públicos oficiales (con especial prioridad en **España** y la **Unión Europea**), metodologías, ejercicios prácticos y guías técnicas.
+**OSINT Hub** centraliza herramientas de investigación, buscadores especializados, bases de datos y registros públicos oficiales (con especial prioridad en **España** y la **Unión Europea**), plataformas de retos, ejercicios de práctica y guías técnicas.
 
 A diferencia de directorios genéricos o listas no filtradas, **OSINT Hub** implementa un modelo de datos estructurado en JSON con tipado estricto en Zod, validación previa de enlaces, ausencia de duplicados y un **doble eje de navegación** que permite comenzar una investigación desde dos perspectivas complementarias:
 1. **Por Disciplina Técnica:** GEOINT, IMINT, SOCMINT, WEBINT, SIGINT, Cyber Intelligence, Chronolocation, Public Records o Transport Intelligence.
@@ -52,6 +52,22 @@ A diferencia de directorios genéricos o listas no filtradas, **OSINT Hub** impl
   - `montaña` / `horizonte` ↔ `peakvisor`, `heywhatsthat`, `relieve`
   - `geoguessing` ↔ `rainbolt`, `geoguessr`, `plonkit`, `geohints`
 
+### 💰 Transparencia en Precios y Costes Aproximados
+- Todas las herramientas y plataformas que disponen de planes de pago, modelos **Freemium** o créditos indican su **precio aproximado** (por ejemplo, cuotas mensuales, límites gratuitos o coste de suscripción) directamente en las tarjetas y fichas técnicas.
+
+### 🎯 Plataformas de Práctica & Retos CTF (`/challenges`)
+- Directorio limpio y directo con enlaces a las mejores plataformas y desafíos internacionales para entrenar habilidades OSINT:
+  - **Bellingcat Challenges** (Geolocalización y verificación periódica)
+  - **OSINT Industries CTF** (Capture The Flag enfocado en selectores digitales)
+  - **Sourcing.Games** (Retos gamificados de búsqueda booleana e investigación por Jan Tegze)
+  - **Sofia Santos OSINT Exercises (Gralhix)** (Ejercicios reales de geolocalización e IMINT con soluciones)
+  - **Quiztime** (Acertijos diarios de verificación fotográfica y deducción)
+  - **TryHackMe OSINT** (Salas y laboratorios interactivos guiados)
+  - **CyberDefenders** (Laboratorios prácticos de threat intelligence y respuesta a incidentes)
+  - **GeoGuessr** (Deducción geográfica sobre panorámicas de Street View)
+  - **Trace Labs Search Party** (CTFs humanitarios de búsqueda de personas desaparecidas)
+  - **Kase Scenarios** (Casos complejos interactivos de investigación profesional)
+
 ### 🧭 Las 12 Disciplinas OSINT Técnicas
 | Disciplina | Icono | Enfoque Principal |
 | :--- | :---: | :--- |
@@ -74,7 +90,6 @@ A diferencia de directorios genéricos o listas no filtradas, **OSINT Hub** impl
 ### 💾 Persistencia en LocalStorage (Zero Databases)
 - **Favoritos (`/favorites`):** Marca cualquier herramienta con el icono de corazón para fijarla en tu colección personal accesible desde la cabecera.
 - **Historial de Recientes (`/recent`):** Registro cronológico automático de las últimas fichas consultadas con botón de limpieza.
-- **Retos Prácticos (`/challenges`):** Seguimiento de ejercicios prácticos reales (Bellingcat Challenges, OSINT Industries CTF, TryHackMe Searchlight, retos solares y mercantiles) con selector de estado (*Pendiente*, *En curso*, *Completado*) y cálculo porcentual de avance.
 
 ### 🛡️ Principios Éticos y de Privacidad
 - El portal es estrictamente un **directorio y centro de operaciones pasivo**. No ejecuta escaneos invasivos ni ataques automatizados contra terceros desde el servidor.
@@ -103,36 +118,30 @@ OSINT/
 │   ├── app/
 │   │   ├── layout.tsx           # Layout raíz con AppShell y metadatos de favicon
 │   │   ├── page.tsx             # Dashboard principal con métricas, categorías y destacados
-│   │   ├── globals.css          # Variables CSS personalizadas y estilos globales
-│   │   ├── icon.png             # Icono de ruta automática para el navegador
-│   │   ├── tools/
-│   │   │   ├── page.tsx         # Directorio completo con filtros combinables
-│   │   │   └── [slug]/page.tsx  # Fichas técnicas individuales detalladas (111 rutas SSG)
-│   │   ├── categories/
-│   │   │   ├── page.tsx         # Índice de las 12 disciplinas técnicas
-│   │   │   └── [slug]/page.tsx  # Vista filtrada por disciplina
-│   │   ├── investigate-by/
-│   │   │   ├── page.tsx         # Índice de los 12 objetivos de investigación
-│   │   │   └── [slug]/page.tsx  # Vista filtrada con pautas metodológicas
-│   │   ├── favorites/page.tsx   # Colección personal de herramientas favoritas
-│   │   ├── recent/page.tsx      # Historial de herramientas consultadas
-│   │   ├── guides/page.tsx      # Guías metodológicas y documentación oficial
-│   │   ├── challenges/page.tsx  # Retos prácticos formativos con pistas desplegables
-│   │   └── about/page.tsx       # Acerca del proyecto, infraestructura y ética
+│   │   ├── tools/page.tsx       # Directorio general con buscador reactivo y 6 filtros
+│   │   ├── tools/[slug]/        # Ficha técnica detallada SSG con precio aproximado
+│   │   ├── categories/          # Índice de las 12 disciplinas técnicas
+│   │   ├── categories/[slug]/   # Listado filtrado por disciplina
+│   │   ├── investigate-by/      # Índice de las 12 vías por tipo de dato
+│   │   ├── investigate-by/[slug]# Herramientas organizadas por objetivo de entrada
+│   │   ├── favorites/page.tsx   # Colección guardada en localStorage
+│   │   ├── recent/page.tsx      # Historial de fichas visitadas
+│   │   ├── guides/page.tsx      # Directorio de manuales y metodologías
+│   │   ├── challenges/page.tsx  # Directorio directo de plataformas de práctica y CTF
+│   │   └── about/page.tsx       # Principios éticos, arquitectura y autoría
 │   ├── components/
-│   │   ├── layout/              # Header (reloj, logo, buscador, temas), Sidebar y AppShell
-│   │   ├── tools/               # ToolCard (cuadrícula/lista), ToolsDirectory y ToolDetailActions
-│   │   ├── search/              # SearchDialog modal (Fuse.js + sinónimos)
-│   │   └── ui/                  # CategoryIcon (resolución dinámica de Lucide Icons)
+│   │   ├── layout/              # Header, Sidebar responsive y AppShell
+│   │   ├── search/              # SearchDialog con Fuse.js y atajos Ctrl+K
+│   │   └── tools/               # ToolCard (grid/list) y ToolsDirectory reactivo
 │   ├── data/
-│   │   ├── categories.json      # Metadatos de las 12 categorías técnicas
-│   │   ├── investigate-by.json  # Metadatos de los 12 objetivos Investigate By
-│   │   ├── resources.json       # Compendio de guías y documentación
-│   │   ├── challenges.json      # Retos formativos (Bellingcat, OSINT Industries CTF, etc.)
-│   │   └── tools/               # Catálogo modular JSON por disciplina técnica (11 archivos)
-│   ├── hooks/                   # useFavorites, useRecentlyViewed, useChallengeProgress, useTheme
-│   ├── lib/                     # data.ts (loader seguro, validación Zod y deduplicación) y utils.ts
-│   └── types/                   # osint.ts (esquemas Zod y tipos de TypeScript)
+│   │   ├── categories.json      # Metadatos de las 12 disciplinas
+│   │   ├── investigate-by.json  # Metadatos de los 12 objetivos
+│   │   ├── resources.json       # Guías y documentación técnica
+│   │   ├── challenges.json      # Plataformas de retos y práctica con precios
+│   │   └── tools/*.json         # Catálogo de herramientas curadas por categoría
+│   ├── hooks/                   # useFavorites, useRecentlyViewed, useTheme
+│   ├── lib/                     # data.ts (Zod + agregación), utils.ts (Tailwind merge)
+│   └── types/                   # Esquemas estrictos de datos (osint.ts)
 ```
 
 ---
@@ -204,37 +213,24 @@ En el panel de **Cloudflare Zero Trust** (`Networks > Tunnels`):
 ## 💻 Desarrollo Local
 
 ```bash
-# 1. Clonar repositorio
-git clone https://github.com/GuacamoleGH/OSINT.git
-cd OSINT
-
-# 2. Instalar dependencias
+# 1. Instalar dependencias
 npm install
 
-# 3. Comprobar tipado estricto
+# 2. Comprobar tipos TypeScript
 npm run type-check
 
-# 4. Comprobar linter
+# 3. Comprobar linter
 npm run lint
 
-# 5. Iniciar servidor de desarrollo
+# 4. Iniciar entorno de desarrollo
 npm run dev
 
-# 6. Compilar para producción (genera 150 páginas estáticas)
+# 5. Compilar para producción (genera 150 páginas estáticas)
 npm run build
+
+# 6. Ejecutar compilación de producción en puerto 3104
+npm run start -- -p 3104
 ```
-
----
-
-## ⌨️ Atajos de Teclado
-
-| Atajo | Acción |
-| :--- | :--- |
-| `Ctrl + K` o `Cmd + K` | Abrir / Cerrar el buscador global |
-| `/` | Activar el buscador global (cuando no se escribe en un input) |
-| `Esc` | Cerrar modal de búsqueda o limpiar filtros |
-| `↑` / `↓` | Navegar por la lista de resultados de búsqueda |
-| `Enter` | Abrir la herramienta seleccionada en el buscador |
 
 ---
 

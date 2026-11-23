@@ -6,23 +6,51 @@
     "description": "Herramienta CLI de referencia para buscar la presencia de un nombre de usuario en más de 400 plataformas.",
     "longDescription": "Uno de los proyectos de código abierto más populares de la comunidad OSINT. Comprueba de forma concurrente si un alias o username está registrado en redes sociales, foros técnicos y sitios web públicos.",
     "url": "https://github.com/sherlock-project/sherlock",
-    "categories": ["socmint"],
-    "investigateBy": ["username", "social-media"],
-    "subcategories": ["alias", "cli", "python"],
-    "tags": ["sherlock", "username", "alias", "cli", "python", "redes-sociales"],
-    "synonyms": ["sherlock project", "buscar username", "buscar alias"],
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "username",
+      "social-media"
+    ],
+    "subcategories": [
+      "alias",
+      "cli",
+      "python"
+    ],
+    "tags": [
+      "sherlock",
+      "username",
+      "alias",
+      "cli",
+      "python",
+      "redes-sociales"
+    ],
+    "synonyms": [
+      "sherlock project",
+      "buscar username",
+      "buscar alias"
+    ],
     "type": "cli",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["cli"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Línea de comandos; requiere instalar dependencias Python; algunos sitios devuelven falsos positivos si implementan protección Cloudflare"],
-    "useCases": ["Comprobar rápidamente en qué redes sociales existe una cuenta con un alias determinado"],
+    "limitations": [
+      "Línea de comandos; requiere instalar dependencias Python; algunos sitios devuelven falsos positivos si implementan protección Cloudflare"
+    ],
+    "useCases": [
+      "Comprobar rápidamente en qué redes sociales existe una cuenta con un alias determinado"
+    ],
     "instructions": "Ejecuta 'sherlock <nombre_usuario>' en la terminal para obtener un listado de URLs activas.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -34,23 +62,49 @@
     "description": "Buscador avanzado de nombres de usuario que extrae datos de perfiles y genera dossiers y gráficos de relaciones.",
     "longDescription": "Bifurcación evolucionada de Sherlock con soporte para más de 3000 sitios, capacidad de extraer nombres reales, fotos de perfil, IDs y generar informes HTML o grafos interactivos de presencia digital.",
     "url": "https://github.com/soxoj/maigret",
-    "categories": ["socmint"],
-    "investigateBy": ["username", "social-media"],
-    "subcategories": ["dossier", "grafos", "extraccion-datos"],
-    "tags": ["maigret", "username", "perfilado", "grafos", "python"],
-    "synonyms": ["maigret osint", "extractor perfiles"],
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "username",
+      "social-media"
+    ],
+    "subcategories": [
+      "dossier",
+      "grafos",
+      "extraccion-datos"
+    ],
+    "tags": [
+      "maigret",
+      "username",
+      "perfilado",
+      "grafos",
+      "python"
+    ],
+    "synonyms": [
+      "maigret osint",
+      "extractor perfiles"
+    ],
     "type": "cli",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["cli"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Requiere entorno Python; un análisis profundo puede demorarse varios minutos"],
-    "useCases": ["Construir un mapa de correlación entre perfiles que comparten el mismo alias y foto de perfil"],
+    "limitations": [
+      "Requiere entorno Python; un análisis profundo puede demorarse varios minutos"
+    ],
+    "useCases": [
+      "Construir un mapa de correlación entre perfiles que comparten el mismo alias y foto de perfil"
+    ],
     "instructions": "Ejecuta 'maigret <usuario> --html --pdf' para compilar el informe visual.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -62,23 +116,49 @@
     "description": "Buscador rápido y asíncrono de cuentas por username y correo electrónico con interfaz web local opcional.",
     "longDescription": "Herramienta desarrollada en Python que comprueba más de 600 sitios en pocos segundos gracias a peticiones HTTP asíncronas, y cuenta con un servidor web local integrado para visualizar resultados en el navegador.",
     "url": "https://github.com/p1ngul1n0/blackbird",
-    "categories": ["socmint"],
-    "investigateBy": ["username", "email"],
-    "subcategories": ["asincrono", "ui-local"],
-    "tags": ["blackbird", "asincrono", "email", "username", "rapido"],
-    "synonyms": ["blackbird search", "comprobar cuenta rapido"],
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "username",
+      "email"
+    ],
+    "subcategories": [
+      "asincrono",
+      "ui-local"
+    ],
+    "tags": [
+      "blackbird",
+      "asincrono",
+      "email",
+      "username",
+      "rapido"
+    ],
+    "synonyms": [
+      "blackbird search",
+      "comprobar cuenta rapido"
+    ],
     "type": "cli",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["cli", "web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli",
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Uso mediante terminal o lanzando su UI web local"],
-    "useCases": ["Auditoría rápida de disponibilidad de alias en menos de 10 segundos"],
+    "limitations": [
+      "Uso mediante terminal o lanzando su UI web local"
+    ],
+    "useCases": [
+      "Auditoría rápida de disponibilidad de alias en menos de 10 segundos"
+    ],
     "instructions": "Ejecuta 'python blackbird.py -u <username>' o 'python blackbird.py --web' para abrir la interfaz en localhost.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -90,26 +170,54 @@
     "description": "Directorio analítico de canales y grupos públicos de Telegram con métricas de audiencia y menciones.",
     "longDescription": "El catálogo y motor de búsqueda de canales y publicaciones públicas de Telegram más completo. Permite buscar canales por temática, idioma (incluido español), país, analizar el crecimiento de suscriptores y rastrear citas y menciones entre canales.",
     "url": "https://tgstat.com/",
-    "categories": ["socmint"],
-    "investigateBy": ["social-media"],
-    "subcategories": ["telegram", "canales", "analitica"],
-    "tags": ["telegram", "canales", "tgstat", "mensajeria", "metricas"],
-    "synonyms": ["buscar canales telegram", "estadisticas telegram"],
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "social-media"
+    ],
+    "subcategories": [
+      "telegram",
+      "canales",
+      "analitica"
+    ],
+    "tags": [
+      "telegram",
+      "canales",
+      "tgstat",
+      "mensajeria",
+      "metricas"
+    ],
+    "synonyms": [
+      "buscar canales telegram",
+      "estadisticas telegram"
+    ],
     "type": "web",
     "pricing": "freemium",
     "access": "public",
-    "geographicScope": ["global", "europe", "spain"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe",
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Solo indexa canales y grupos públicos; no tiene acceso a chats privados"],
-    "useCases": ["Rastrear el origen de un mensaje viral en Telegram y qué canales lo compartieron primero en España"],
+    "limitations": [
+      "Solo indexa canales y grupos públicos; no tiene acceso a chats privados"
+    ],
+    "useCases": [
+      "Rastrear el origen de un mensaje viral en Telegram y qué canales lo compartieron primero en España"
+    ],
     "instructions": "Introduce el nombre del canal o palabras clave entrecomilladas en el buscador global y selecciona el filtro de idioma español.",
     "lastReviewed": "2026-11-23",
-    "status": "active"
+    "status": "active",
+    "pricingDetails": "Freemium (Estadísticas y canales básicos gratis; planes de analítica y monitorización avanzada desde ~15€/mes a ~70€/mes)"
   },
   {
     "id": "telemetr",
@@ -118,26 +226,51 @@
     "description": "Buscador analítico de canales y publicaciones públicas de Telegram especializado en historiales de nombres.",
     "longDescription": "Plataforma alternativa para monitorizar canales públicos de Telegram, que destaca por guardar el historial de cambios de nombre, descripción y enlaces de invitación de los canales analizados.",
     "url": "https://telemetr.io/",
-    "categories": ["socmint"],
-    "investigateBy": ["social-media"],
-    "subcategories": ["telegram", "historial-canales"],
-    "tags": ["telegram", "telemetr", "cambio-nombres", "canales"],
-    "synonyms": ["historial canales telegram", "buscar telegram telemetr"],
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "social-media"
+    ],
+    "subcategories": [
+      "telegram",
+      "historial-canales"
+    ],
+    "tags": [
+      "telegram",
+      "telemetr",
+      "cambio-nombres",
+      "canales"
+    ],
+    "synonyms": [
+      "historial canales telegram",
+      "buscar telegram telemetr"
+    ],
     "type": "web",
     "pricing": "freemium",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Límites de visualizaciones diarias sin cuenta registrada"],
-    "useCases": ["Descubrir si un canal de Telegram cambió de temática o de nombre tras una compraventa"],
+    "limitations": [
+      "Límites de visualizaciones diarias sin cuenta registrada"
+    ],
+    "useCases": [
+      "Descubrir si un canal de Telegram cambió de temática o de nombre tras una compraventa"
+    ],
     "instructions": "Pega el enlace @canal para revisar sus gráficos de suscriptores e historial de modificaciones.",
     "lastReviewed": "2026-11-23",
-    "status": "active"
+    "status": "active",
+    "pricingDetails": "Freemium (Búsqueda y métricas diarias limitadas gratis; suscripción analítica completa desde ~20$/mes)"
   },
   {
     "id": "social-blade",
@@ -146,26 +279,53 @@
     "description": "Estadísticas públicas y seguimiento de crecimiento para YouTube, Twitch, X, Instagram y TikTok.",
     "longDescription": "Portal analítico para consultar el ritmo de crecimiento diario de seguidores, visualizaciones de vídeos y estimaciones de actividad pública de cuentas en las principales plataformas sociales de vídeo y streaming.",
     "url": "https://socialblade.com/",
-    "categories": ["socmint"],
-    "investigateBy": ["social-media"],
-    "subcategories": ["estadisticas", "crecimiento", "audiencia"],
-    "tags": ["socialblade", "youtube", "twitch", "tiktok", "seguidores", "metricas"],
-    "synonyms": ["estadisticas youtube", "seguidores instagram historico"],
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "social-media"
+    ],
+    "subcategories": [
+      "estadisticas",
+      "crecimiento",
+      "audiencia"
+    ],
+    "tags": [
+      "socialblade",
+      "youtube",
+      "twitch",
+      "tiktok",
+      "seguidores",
+      "metricas"
+    ],
+    "synonyms": [
+      "estadisticas youtube",
+      "seguidores instagram historico"
+    ],
     "type": "web",
     "pricing": "freemium",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Solo cuentas públicas con un número mínimo de seguidores; datos históricos profundos requieren suscripción"],
-    "useCases": ["Detectar compras repentinas de seguidores falsos (saltos bruscos en las gráficas de crecimiento)"],
+    "limitations": [
+      "Solo cuentas públicas con un número mínimo de seguidores; datos históricos profundos requieren suscripción"
+    ],
+    "useCases": [
+      "Detectar compras repentinas de seguidores falsos (saltos bruscos en las gráficas de crecimiento)"
+    ],
     "instructions": "Elige la plataforma en el menú superior e introduce el nombre de usuario exacto.",
     "lastReviewed": "2026-11-23",
-    "status": "active"
+    "status": "active",
+    "pricingDetails": "Freemium (Estadísticas públicas básicas gratis; membresías Bronze/Silver desde ~3,99$/mes para historial extendido)"
   },
   {
     "id": "social-searcher",
@@ -174,26 +334,50 @@
     "description": "Buscador en tiempo real de menciones públicas en redes sociales, blogs y medios digitales.",
     "longDescription": "Monitor que rastrea de forma pública menciones a marcas, personas o términos en redes sociales, proporcionando análisis de sentimiento, fuentes más activas y palabras asociadas.",
     "url": "https://www.social-searcher.com/",
-    "categories": ["socmint"],
-    "investigateBy": ["social-media"],
-    "subcategories": ["menciones", "tiempo-real"],
-    "tags": ["social-searcher", "menciones", "tiempo-real", "sentimiento"],
-    "synonyms": ["buscar menciones redes", "monitor redes sociales"],
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "social-media"
+    ],
+    "subcategories": [
+      "menciones",
+      "tiempo-real"
+    ],
+    "tags": [
+      "social-searcher",
+      "menciones",
+      "tiempo-real",
+      "sentimiento"
+    ],
+    "synonyms": [
+      "buscar menciones redes",
+      "monitor redes sociales"
+    ],
     "type": "web",
     "pricing": "freemium",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Límite de búsquedas gratuitas diarias; requiere suscripción para alertas automatizadas por correo"],
-    "useCases": ["Identificar reacciones públicas inmediatas tras un comunicado o incidente"],
+    "limitations": [
+      "Límite de búsquedas gratuitas diarias; requiere suscripción para alertas automatizadas por correo"
+    ],
+    "useCases": [
+      "Identificar reacciones públicas inmediatas tras un comunicado o incidente"
+    ],
     "instructions": "Escribe el hashtag o término y pulsa buscar para ver publicaciones recientes organizadas por red social.",
     "lastReviewed": "2026-11-23",
-    "status": "active"
+    "status": "active",
+    "pricingDetails": "Freemium (Hasta 100 búsquedas en tiempo real/día gratis; planes Basic/Standard desde ~3,49€/mes)"
   },
   {
     "id": "trends24",
@@ -202,23 +386,50 @@
     "description": "Historial hora a hora de temas del momento (Trending Topics) en X / Twitter por país y ciudad.",
     "longDescription": "Guarda y visualiza cronológicamente qué hashtags y palabras fueron tendencia en Twitter cada hora en las últimas 24 horas para España, sus ciudades principales (Madrid, Barcelona, Valencia, Sevilla, Bilbao) y el resto del mundo.",
     "url": "https://trends24.in/",
-    "categories": ["socmint"],
-    "investigateBy": ["social-media"],
-    "subcategories": ["trending-topics", "espana", "historico"],
-    "tags": ["trends24", "twitter", "x", "trending-topics", "espana", "ciudades"],
-    "synonyms": ["tendencias twitter", "historico trending topics"],
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "social-media"
+    ],
+    "subcategories": [
+      "trending-topics",
+      "espana",
+      "historico"
+    ],
+    "tags": [
+      "trends24",
+      "twitter",
+      "x",
+      "trending-topics",
+      "espana",
+      "ciudades"
+    ],
+    "synonyms": [
+      "tendencias twitter",
+      "historico trending topics"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["spain", "global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "spain",
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Registra las últimas 24 horas"],
-    "useCases": ["Verificar en qué hora exacta empezó a ser tendencia un acontecimiento en España"],
+    "limitations": [
+      "Registra las últimas 24 horas"
+    ],
+    "useCases": [
+      "Verificar en qué hora exacta empezó a ser tendencia un acontecimiento en España"
+    ],
     "instructions": "Selecciona 'Spain' o una ciudad española concreta en el desplegable de ubicaciones para ver la cronología.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -230,23 +441,50 @@
     "description": "Conversor y buscador de identificadores de Steam (SteamID, SteamID64, CustomURL e historial de alias).",
     "longDescription": "Herramienta esencial para investigación en videojuegos. Permite introducir cualquier formato de perfil de Steam (URL personalizada, número de 17 dígitos o vanity URL) para obtener sus identificadores estables, fecha de creación del perfil, estado de bloqueo VAC y enlaces de comunidad.",
     "url": "https://steamid.io/",
-    "categories": ["socmint"],
-    "investigateBy": ["gaming", "username"],
-    "subcategories": ["steam", "videojuegos", "identificadores"],
-    "tags": ["steam", "steamid", "gaming", "videojuegos", "vac-ban"],
-    "synonyms": ["steam id", "buscar perfil steam", "steamid64"],
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "gaming",
+      "username"
+    ],
+    "subcategories": [
+      "steam",
+      "videojuegos",
+      "identificadores"
+    ],
+    "tags": [
+      "steam",
+      "steamid",
+      "gaming",
+      "videojuegos",
+      "vac-ban"
+    ],
+    "synonyms": [
+      "steam id",
+      "buscar perfil steam",
+      "steamid64"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Solo perfiles públicos de Steam proporcionan historial completo de nombres anteriores"],
-    "useCases": ["Obtener el identificador permanente SteamID64 para seguir la pista a un usuario aunque cambie de nombre público"],
+    "limitations": [
+      "Solo perfiles públicos de Steam proporcionan historial completo de nombres anteriores"
+    ],
+    "useCases": [
+      "Obtener el identificador permanente SteamID64 para seguir la pista a un usuario aunque cambie de nombre público"
+    ],
     "instructions": "Pega la URL del perfil de Steam o el nombre personalizado en la barra de búsqueda.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -258,23 +496,46 @@
     "description": "Analizador de perfiles públicos de Steam: amigos, horas de juego, grupos e inventario abierto.",
     "longDescription": "Utilidad de investigación que extrae la lista de amigos mutuos, grupos públicos a los que pertenece el usuario y correlaciona hábitos de horarios de juego a partir de la API pública de Steam.",
     "url": "https://osint-steam.vercel.app/",
-    "categories": ["socmint"],
-    "investigateBy": ["gaming"],
-    "subcategories": ["steam", "analisis-perfil"],
-    "tags": ["steam", "osint-steam", "gaming", "amigos-steam"],
-    "synonyms": ["analizar steam", "osint steam tool"],
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "gaming"
+    ],
+    "subcategories": [
+      "steam",
+      "analisis-perfil"
+    ],
+    "tags": [
+      "steam",
+      "osint-steam",
+      "gaming",
+      "amigos-steam"
+    ],
+    "synonyms": [
+      "analizar steam",
+      "osint steam tool"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Requiere que la configuración de privacidad del usuario de Steam tenga el perfil establecido como 'Público'"],
-    "useCases": ["Mapear el círculo de contactos habituales con los que juega en línea una cuenta"],
+    "limitations": [
+      "Requiere que la configuración de privacidad del usuario de Steam tenga el perfil establecido como 'Público'"
+    ],
+    "useCases": [
+      "Mapear el círculo de contactos habituales con los que juega en línea una cuenta"
+    ],
     "instructions": "Introduce el SteamID64 o el enlace del perfil.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -286,26 +547,55 @@
     "description": "Buscador inverso de cuentas de Google y servicios vinculados a una dirección de correo o teléfono.",
     "longDescription": "Permite descubrir de forma pasiva información pública asociada a un correo electrónico: perfil público de Google, reseñas públicas en Google Maps, canal de YouTube, calendarios públicos y cuentas vinculadas en plataformas como Skype o Duolingo sin alertar al usuario.",
     "url": "https://epieos.com/",
-    "categories": ["socmint", "cyber"],
-    "investigateBy": ["email", "phone"],
-    "subcategories": ["google-account", "correo-inverso", "resenas"],
-    "tags": ["epieos", "email", "google", "maps-reviews", "telefono"],
-    "synonyms": ["epieos search", "buscar correo en google", "resenas maps por correo"],
+    "categories": [
+      "socmint",
+      "cyber"
+    ],
+    "investigateBy": [
+      "email",
+      "phone"
+    ],
+    "subcategories": [
+      "google-account",
+      "correo-inverso",
+      "resenas"
+    ],
+    "tags": [
+      "epieos",
+      "email",
+      "google",
+      "maps-reviews",
+      "telefono"
+    ],
+    "synonyms": [
+      "epieos search",
+      "buscar correo en google",
+      "resenas maps por correo"
+    ],
     "type": "web",
     "pricing": "freemium",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Visualización básica gratuita; la extracción intensiva y automatizada requiere suscripción comercial"],
-    "useCases": ["Descubrir si un correo electrónico desconocido ha publicado reseñas públicas de locales o restaurantes en Google Maps"],
+    "limitations": [
+      "Visualización básica gratuita; la extracción intensiva y automatizada requiere suscripción comercial"
+    ],
+    "useCases": [
+      "Descubrir si un correo electrónico desconocido ha publicado reseñas públicas de locales o restaurantes en Google Maps"
+    ],
     "instructions": "Escribe la dirección de correo electrónico completa y pulsa el botón de búsqueda para ver las coincidencias en servicios de Google.",
     "lastReviewed": "2026-11-23",
-    "status": "active"
+    "status": "active",
+    "pricingDetails": "Freemium (Búsquedas inversas básicas gratis; planes Pro para consultas ilimitadas desde ~20€/mes)"
   },
   {
     "id": "holehe",
@@ -314,23 +604,48 @@
     "description": "Herramienta CLI para comprobar si un correo está registrado en más de 120 sitios web mediante flujos de login/recuperación.",
     "longDescription": "Comprueba de manera pasiva y rápida en qué plataformas online (Twitter, Instagram, Spotify, GitHub, Deliveroo, etc.) existe una cuenta vinculada a una dirección de correo electrónico, utilizando los mecanismos de validación de los formularios de registro sin enviar correos al buzón de la víctima.",
     "url": "https://github.com/megadose/holehe",
-    "categories": ["socmint"],
-    "investigateBy": ["email"],
-    "subcategories": ["correo", "cli", "python"],
-    "tags": ["holehe", "email", "correo", "plataformas", "cli"],
-    "synonyms": ["holehe osint", "donde esta registrado correo"],
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "email"
+    ],
+    "subcategories": [
+      "correo",
+      "cli",
+      "python"
+    ],
+    "tags": [
+      "holehe",
+      "email",
+      "correo",
+      "plataformas",
+      "cli"
+    ],
+    "synonyms": [
+      "holehe osint",
+      "donde esta registrado correo"
+    ],
     "type": "cli",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["cli"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Línea de comandos Python; algunas plataformas cambian sus formularios periódicamente"],
-    "useCases": ["Verificar en qué servicios está registrada una cuenta propia o autorizada en una auditoría"],
+    "limitations": [
+      "Línea de comandos Python; algunas plataformas cambian sus formularios periódicamente"
+    ],
+    "useCases": [
+      "Verificar en qué servicios está registrada una cuenta propia o autorizada en una auditoría"
+    ],
     "instructions": "Ejecuta 'holehe cuenta@ejemplo.com' en tu terminal para obtener la lista de servicios coloreados en verde.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -342,23 +657,50 @@
     "description": "Framework avanzado de reconocimiento pasivo y análisis de formato de números de teléfono internacionales.",
     "longDescription": "Herramienta que analiza números en formato internacional E.164: país, prefijo regional o provincial, operador de telecomunicaciones original, tipo de línea (móvil, fija o VoIP) y dorks automáticos en motores de búsqueda.",
     "url": "https://github.com/sundowndev/phoneinfoga",
-    "categories": ["socmint", "cyber"],
-    "investigateBy": ["phone"],
-    "subcategories": ["telefono", "e164", "cli"],
-    "tags": ["phoneinfoga", "telefono", "prefijo", "operador", "voip"],
-    "synonyms": ["phone infoga", "investigar numero telefono"],
+    "categories": [
+      "socmint",
+      "cyber"
+    ],
+    "investigateBy": [
+      "phone"
+    ],
+    "subcategories": [
+      "telefono",
+      "e164",
+      "cli"
+    ],
+    "tags": [
+      "phoneinfoga",
+      "telefono",
+      "prefijo",
+      "operador",
+      "voip"
+    ],
+    "synonyms": [
+      "phone infoga",
+      "investigar numero telefono"
+    ],
     "type": "cli",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["cli", "web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli",
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["No proporciona datos de titularidad privada ni localización GPS; se centra en metadatos técnicos y dorks públicos"],
-    "useCases": ["Detectar si un número telefónico sospechoso es una línea virtual VoIP desechable o una línea móvil"],
+    "limitations": [
+      "No proporciona datos de titularidad privada ni localización GPS; se centra en metadatos técnicos y dorks públicos"
+    ],
+    "useCases": [
+      "Detectar si un número telefónico sospechoso es una línea virtual VoIP desechable o una línea móvil"
+    ],
     "instructions": "Ejecuta 'phoneinfoga scan -n +34XXXXXXXXX' para verificar el formato y operador.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -370,25 +712,57 @@
     "description": "Plataforma de inteligencia de selectores para pivotar y verificar cuentas asociadas a emails y números de teléfono.",
     "longDescription": "Herramienta que analiza en tiempo real más de cientos de servicios web para correlacionar si una dirección de correo electrónico o número de teléfono dispone de perfiles activos en redes sociales, plataformas de mensajería y servicios digitales.",
     "url": "https://osint.industries/",
-    "categories": ["socmint", "cyber"],
-    "investigateBy": ["email", "phone", "username"],
-    "subcategories": ["selectores", "email", "telefono", "correlacion"],
-    "tags": ["osint-industries", "selectores", "email", "telefono", "pivoteo"],
-    "synonyms": ["osint industries", "buscar email osint industries", "buscar telefono"],
+    "categories": [
+      "socmint",
+      "cyber"
+    ],
+    "investigateBy": [
+      "email",
+      "phone",
+      "username"
+    ],
+    "subcategories": [
+      "selectores",
+      "email",
+      "telefono",
+      "correlacion"
+    ],
+    "tags": [
+      "osint-industries",
+      "selectores",
+      "email",
+      "telefono",
+      "pivoteo"
+    ],
+    "synonyms": [
+      "osint industries",
+      "buscar email osint industries",
+      "buscar telefono"
+    ],
     "type": "web",
     "pricing": "freemium",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": true,
     "apiKeyRequired": false,
-    "limitations": ["Modalidad freemium con créditos gratuitos para investigadores y opciones de pago para volumen empresarial"],
-    "useCases": ["Pivotar desde un correo electrónico corporativo hacia plataformas y perfiles públicos vinculados"],
+    "limitations": [
+      "Modalidad freemium con créditos gratuitos para investigadores y opciones de pago para volumen empresarial"
+    ],
+    "useCases": [
+      "Pivotar desde un correo electrónico corporativo hacia plataformas y perfiles públicos vinculados"
+    ],
     "instructions": "Crea una cuenta gratuita, introduce el selector (email o teléfono en formato internacional) y pulsa Search.",
     "lastReviewed": "2026-11-23",
-    "status": "active"
+    "status": "active",
+    "pricingDetails": "Freemium (Créditos de prueba gratuitos; modelo de créditos desde ~0,20£/búsqueda o planes mensuales desde ~29£/mes)"
   }
 ]

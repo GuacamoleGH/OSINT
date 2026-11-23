@@ -125,6 +125,7 @@
     "synonyms": ["registro mercantil mundial", "buscar empresa opencorporates", "directores empresas"],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Búsqueda manual web de empresas y administradores gratuita; API y descargas masivas comerciales desde ~50€/mes)",
     "access": "public",
     "geographicScope": ["global", "europe", "spain"],
     "platforms": ["web", "api"],

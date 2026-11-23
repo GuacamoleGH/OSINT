@@ -405,6 +405,7 @@
     "synonyms": ["peak visor", "identificar montana foto", "horizonte montanoso", "geolocalizar montana"],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Visualizador web 3D gratuito; versión móvil Pro con mapas offline por ~4,99€/mes o ~29,99€/año)",
     "access": "public",
     "geographicScope": ["global", "europe"],
     "platforms": ["web", "mobile"],

@@ -58,6 +58,7 @@ export const ToolItemSchema = z.object({
   synonyms: z.array(z.string()).default([]),
   type: PlatformTypeSchema.default("web"),
   pricing: PricingTypeSchema.default("free"),
+  pricingDetails: z.string().default(""),
   access: z.string().default("public"),
   geographicScope: z.array(GeographicScopeSchema).default(["global"]),
   platforms: z.array(PlatformTypeSchema).default(["web"]),
@@ -113,5 +114,7 @@ export interface ChallengeItem {
   difficulty: DifficultyLevel;
   url: string;
   provider: string;
-  hints?: string[];
+  pricing: PricingType;
+  pricingDetails?: string;
+  tags?: string[];
 }

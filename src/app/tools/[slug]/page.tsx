@@ -113,6 +113,11 @@ export default function ToolDetailPage({ params }: ToolDetailPageProps) {
             <span className="font-semibold text-gray-100 uppercase font-mono">
               {tool.pricing === "free" ? "Gratuito (100% Free)" : tool.pricing === "freemium" ? "Freemium" : tool.pricing}
             </span>
+            {tool.pricingDetails && (
+              <span className="block text-[11px] text-amber-300 font-sans font-medium mt-1">
+                {tool.pricingDetails}
+              </span>
+            )}
           </div>
 
           <div className="p-3 rounded-lg bg-guacamole-input/80 border border-guacamole-border">

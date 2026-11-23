@@ -6,26 +6,55 @@
     "description": "El rastreador de tráfico aéreo en tiempo real más popular del mundo basado en red global ADS-B.",
     "longDescription": "Muestra vuelos comerciales, de carga y aviación general en vivo sobre un mapa interactivo con detalles del modelo de aeronave, matrícula, altitud barométrica, velocidad respecto al suelo y ruta programada.",
     "url": "https://www.flightradar24.com/",
-    "categories": ["transport"],
-    "investigateBy": ["location"],
-    "subcategories": ["aviacion", "ads-b", "tiempo-real"],
-    "tags": ["flightradar24", "aviones", "vuelos", "ads-b", "matriculas-aviones", "aviacion"],
-    "synonyms": ["radar de vuelos", "seguir avion", "matricula avion"],
+    "categories": [
+      "transport"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "aviacion",
+      "ads-b",
+      "tiempo-real"
+    ],
+    "tags": [
+      "flightradar24",
+      "aviones",
+      "vuelos",
+      "ads-b",
+      "matriculas-aviones",
+      "aviacion"
+    ],
+    "synonyms": [
+      "radar de vuelos",
+      "seguir avion",
+      "matricula avion"
+    ],
     "type": "web",
     "pricing": "freemium",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "mobile"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Filtra ciertos vuelos militares, gubernamentales o privados a petición de sus propietarios mediante lista de bloqueo LADD"],
-    "useCases": ["Seguir un vuelo comercial y comprobar si ha sufrido desvíos o patrones de espera (holdings)"],
+    "limitations": [
+      "Filtra ciertos vuelos militares, gubernamentales o privados a petición de sus propietarios mediante lista de bloqueo LADD"
+    ],
+    "useCases": [
+      "Seguir un vuelo comercial y comprobar si ha sufrido desvíos o patrones de espera (holdings)"
+    ],
     "instructions": "Haz clic en cualquier avión en el mapa o busca por número de vuelo (ej. IB3166) o matrícula para ver la ficha.",
     "lastReviewed": "2026-11-23",
-    "status": "active"
+    "status": "active",
+    "pricingDetails": "Freemium (Rastreo en vivo básico gratis; planes Silver desde ~1,49€/mes o ~9,99€/año y Gold por ~3,99€/mes)"
   },
   {
     "id": "adsb-exchange",
@@ -34,23 +63,49 @@
     "description": "La mayor fuente comunitaria de datos de seguimiento de vuelos no censurados ni filtrados del mundo.",
     "longDescription": "A diferencia de servicios comerciales que ocultan aviones militares o de dignatarios que lo solicitan, ADS-B Exchange no aplica censura ni filtra ningún dato transmitido públicamente por transpondedores ADS-B y Mode S.",
     "url": "https://www.adsbexchange.com/",
-    "categories": ["transport", "sigint"],
-    "investigateBy": ["location"],
-    "subcategories": ["aviacion-militar", "sin-censura", "ads-b"],
-    "tags": ["adsb-exchange", "aviacion-militar", "transpondedor", "vuelos-sin-filtro"],
-    "synonyms": ["aviones militares radar", "vuelos sin censura", "adsb exchange"],
+    "categories": [
+      "transport",
+      "sigint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "aviacion-militar",
+      "sin-censura",
+      "ads-b"
+    ],
+    "tags": [
+      "adsb-exchange",
+      "aviacion-militar",
+      "transpondedor",
+      "vuelos-sin-filtro"
+    ],
+    "synonyms": [
+      "aviones militares radar",
+      "vuelos sin censura",
+      "adsb exchange"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["La interfaz gráfica es más técnica y austera que Flightradar24"],
-    "useCases": ["Seguir aviones militares, vuelos de transporte gubernamental o misiones de reabastecimiento en el espacio aéreo europeo"],
+    "limitations": [
+      "La interfaz gráfica es más técnica y austera que Flightradar24"
+    ],
+    "useCases": [
+      "Seguir aviones militares, vuelos de transporte gubernamental o misiones de reabastecimiento en el espacio aéreo europeo"
+    ],
     "instructions": "Abre el visor de mapa (Globe) y pulsa el botón 'U' (Military) en la barra superior derecha para aislar exclusivamente tráfico militar.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -62,23 +117,51 @@
     "description": "Asociación sin ánimo de lucro orientada a investigación con repositorio histórico masivo de datos ADS-B y Mode S.",
     "longDescription": "Red de receptores de sensores ADS-B mantenida por universidades e institutos de investigación (con sede en Suiza). Proporciona acceso histórico y APIs públicas abiertas para investigadores académicos y analistas.",
     "url": "https://opensky-network.org/",
-    "categories": ["transport", "sigint"],
-    "investigateBy": ["location"],
-    "subcategories": ["investigacion", "historico-vuelos", "api-abierta"],
-    "tags": ["opensky", "investigacion", "academicos", "api-vuelos", "historico"],
-    "synonyms": ["opensky network", "historico vuelos gratis"],
+    "categories": [
+      "transport",
+      "sigint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "investigacion",
+      "historico-vuelos",
+      "api-abierta"
+    ],
+    "tags": [
+      "opensky",
+      "investigacion",
+      "academicos",
+      "api-vuelos",
+      "historico"
+    ],
+    "synonyms": [
+      "opensky network",
+      "historico vuelos gratis"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Orientado principalmente a investigación y consultas mediante API o visor Explorer"],
-    "useCases": ["Descargar trazas históricas de posiciones de aeronaves para reconstruir una trayectoria de vuelo"],
+    "limitations": [
+      "Orientado principalmente a investigación y consultas mediante API o visor Explorer"
+    ],
+    "useCases": [
+      "Descargar trazas históricas de posiciones de aeronaves para reconstruir una trayectoria de vuelo"
+    ],
     "instructions": "Accede a la herramienta 'Explorer' para ver el tráfico en vivo o consulta su documentación de API REST.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -90,26 +173,55 @@
     "description": "Seguimiento en tiempo real de buques mercantes, ferris y embarcaciones mediante red AIS mundial.",
     "longDescription": "El servicio de inteligencia marítima más extendido a nivel global. Procesa señales de transpondedores AIS (Automatic Identification System) terrestres y satelitales para monitorizar posición, velocidad, calado, puerto de origen y destino estimado (ETA).",
     "url": "https://www.marinetraffic.com/",
-    "categories": ["transport"],
-    "investigateBy": ["location"],
-    "subcategories": ["maritimo", "ais", "buques"],
-    "tags": ["marinetraffic", "barcos", "buques", "ais", "maritimo", "puertos"],
-    "synonyms": ["radar de barcos", "rastrear buque", "numero imo barco"],
+    "categories": [
+      "transport"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "maritimo",
+      "ais",
+      "buques"
+    ],
+    "tags": [
+      "marinetraffic",
+      "barcos",
+      "buques",
+      "ais",
+      "maritimo",
+      "puertos"
+    ],
+    "synonyms": [
+      "radar de barcos",
+      "rastrear buque",
+      "numero imo barco"
+    ],
     "type": "web",
     "pricing": "freemium",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "mobile"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Las posiciones en alta mar obtenidas vía satélite AIS requieren suscripción de pago; la cobertura costera y portuaria terrestre es abierta y gratuita"],
-    "useCases": ["Localizar la entrada o salida de buques petroleros, cargueros o ferris en puertos españoles (Algeciras, Valencia, Barcelona)"],
+    "limitations": [
+      "Las posiciones en alta mar obtenidas vía satélite AIS requieren suscripción de pago; la cobertura costera y portuaria terrestre es abierta y gratuita"
+    ],
+    "useCases": [
+      "Localizar la entrada o salida de buques petroleros, cargueros o ferris en puertos españoles (Algeciras, Valencia, Barcelona)"
+    ],
     "instructions": "Busca por nombre de embarcación, número IMO (International Maritime Organization) o MMSI para abrir la ficha.",
     "lastReviewed": "2026-11-23",
-    "status": "active"
+    "status": "active",
+    "pricingDetails": "Freemium (Seguimiento AIS costero en tiempo real gratis; planes con datos satelitales e historial desde ~14€/mes)"
   },
   {
     "id": "vesselfinder",
@@ -118,26 +230,54 @@
     "description": "Rastreador de tráfico marítimo con base de datos de características técnicas y fotos de embarcaciones.",
     "longDescription": "Alternativa de alta fiabilidad a MarineTraffic con excelente cobertura AIS en costas europeas y un extenso catálogo fotográfico comunitario de cada buque mercante y pesquero.",
     "url": "https://www.vesselfinder.com/",
-    "categories": ["transport"],
-    "investigateBy": ["location"],
-    "subcategories": ["maritimo", "ais", "flotas"],
-    "tags": ["vesselfinder", "barcos", "maritimo", "imo", "ais"],
-    "synonyms": ["vessel finder", "rastreador barcos"],
+    "categories": [
+      "transport"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "maritimo",
+      "ais",
+      "flotas"
+    ],
+    "tags": [
+      "vesselfinder",
+      "barcos",
+      "maritimo",
+      "imo",
+      "ais"
+    ],
+    "synonyms": [
+      "vessel finder",
+      "rastreador barcos"
+    ],
     "type": "web",
     "pricing": "freemium",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web", "mobile"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Visualización costera gratuita; posiciones satelitales oceánicas sujetas a modalidad premium"],
-    "useCases": ["Verificar el historial reciente de escalas en puertos de un carguero"],
+    "limitations": [
+      "Visualización costera gratuita; posiciones satelitales oceánicas sujetas a modalidad premium"
+    ],
+    "useCases": [
+      "Verificar el historial reciente de escalas en puertos de un carguero"
+    ],
     "instructions": "Usa el buscador por nombre de barco o navega por los puertos en el mapa interactivo.",
     "lastReviewed": "2026-11-23",
-    "status": "active"
+    "status": "active",
+    "pricingDetails": "Freemium (Mapa AIS en vivo gratis; suscripción satelital Pro desde ~9,90€/mes)"
   },
   {
     "id": "global-fishing-watch",
@@ -146,23 +286,50 @@
     "description": "Mapa interactivo para monitorización de actividad pesquera comercial mundial y detección de pesca ilegal.",
     "longDescription": "Iniciativa internacional sin ánimo de lucro fundada por Google, Oceana y SkyTruth que utiliza aprendizaje automático sobre miles de millones de mensajes AIS para identificar patrones de pesca, transbordos en alta mar y presencia en áreas marinas protegidas.",
     "url": "https://globalfishingwatch.org/",
-    "categories": ["transport", "satellite"],
-    "investigateBy": ["location"],
-    "subcategories": ["pesca", "medioambiente", "transbordos"],
-    "tags": ["pesca", "conservacion", "global-fishing-watch", "transbordos", "ia-maritima"],
-    "synonyms": ["mapa pesca mundial", "pesca ilegal seguimiento"],
+    "categories": [
+      "transport",
+      "satellite"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "pesca",
+      "medioambiente",
+      "transbordos"
+    ],
+    "tags": [
+      "pesca",
+      "conservacion",
+      "global-fishing-watch",
+      "transbordos",
+      "ia-maritima"
+    ],
+    "synonyms": [
+      "mapa pesca mundial",
+      "pesca ilegal seguimiento"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Requiere registro gratuito para guardar áreas de interés o descargar capas vectoriales"],
-    "useCases": ["Investigar presuntas incursiones de flotas pesqueras en reservas marinas o apagar intencionado de transpondedores AIS"],
+    "limitations": [
+      "Requiere registro gratuito para guardar áreas de interés o descargar capas vectoriales"
+    ],
+    "useCases": [
+      "Investigar presuntas incursiones de flotas pesqueras en reservas marinas o apagar intencionado de transpondedores AIS"
+    ],
     "instructions": "Abre el 'Map' interactivo y activa las capas de 'Fishing effort' por pabellón o tipo de arte de pesca.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -174,23 +341,53 @@
     "description": "Sistema oficial de información sobre seguridad marítima promovido por la Unión Europea y administraciones marítimas.",
     "longDescription": "Base de datos oficial de libre acceso creada por la Comisión Europea y Francia que recopila información exhaustiva sobre el historial de inspecciones en puerto (Port State Control), sociedad de clasificación, abanderamiento, armador y titularidad jurídica de buques de más de 100 GT.",
     "url": "https://www.equasis.org/",
-    "categories": ["transport", "public-records"],
-    "investigateBy": ["companies"],
-    "subcategories": ["seguridad-maritima", "inspecciones", "titularidad-buques", "ue"],
-    "tags": ["equasis", "maritimo", "ue", "inspecciones", "seguridad", "armadores"],
-    "synonyms": ["equasis barcos", "inspeccion seguridad buques", "titular barco imo"],
+    "categories": [
+      "transport",
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies"
+    ],
+    "subcategories": [
+      "seguridad-maritima",
+      "inspecciones",
+      "titularidad-buques",
+      "ue"
+    ],
+    "tags": [
+      "equasis",
+      "maritimo",
+      "ue",
+      "inspecciones",
+      "seguridad",
+      "armadores"
+    ],
+    "synonyms": [
+      "equasis barcos",
+      "inspeccion seguridad buques",
+      "titular barco imo"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": true,
     "apiKeyRequired": false,
-    "limitations": ["Requiere crear una cuenta de usuario gratuita para acceder a los expedientes detallados de inspección"],
-    "useCases": ["Descubrir quién es el armador o sociedad gestora real de un buque y si tiene deficiencias de seguridad graves registradas"],
+    "limitations": [
+      "Requiere crear una cuenta de usuario gratuita para acceder a los expedientes detallados de inspección"
+    ],
+    "useCases": [
+      "Descubrir quién es el armador o sociedad gestora real de un buque y si tiene deficiencias de seguridad graves registradas"
+    ],
     "instructions": "Inicia sesión con tu cuenta gratuita y busca por número IMO (ej. 9241061) o nombre del buque.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -202,23 +399,59 @@
     "description": "Decodificador del estándar IATA BCBP para extraer datos de billetes y tarjetas de embarque a partir de códigos de barras.",
     "longDescription": "Herramienta especializada para decodificar cadenas de texto o imágenes de códigos de barras 2D (PDF417, Aztec o QR) presentes en billetes y tarjetas de embarque de aerolíneas bajo el estándar internacional IATA Bar Coded Boarding Pass (BCBP). Permite recuperar de forma legible el nombre completo del pasajero, código localizador PNR (Passenger Name Record), número de vuelo, aeropuertos de origen y destino, asiento y número de viajero frecuente.",
     "url": "https://orcascan.com/tools/bcbp-barcode-decoder",
-    "categories": ["transport", "imint"],
-    "investigateBy": ["location", "social-media", "people-professional"],
-    "subcategories": ["aviacion", "tarjetas-embarque", "bcbp", "pdf417", "pnr"],
-    "tags": ["bcbp", "boarding-pass", "tarjeta-embarque", "pnr", "vuelo", "orcascan", "barcode", "billetes"],
-    "synonyms": ["decodificar tarjeta embarque", "bcbp decoder", "leer billete avion", "pnr decoder", "orcascan bcbp"],
+    "categories": [
+      "transport",
+      "imint"
+    ],
+    "investigateBy": [
+      "location",
+      "social-media",
+      "people-professional"
+    ],
+    "subcategories": [
+      "aviacion",
+      "tarjetas-embarque",
+      "bcbp",
+      "pdf417",
+      "pnr"
+    ],
+    "tags": [
+      "bcbp",
+      "boarding-pass",
+      "tarjeta-embarque",
+      "pnr",
+      "vuelo",
+      "orcascan",
+      "barcode",
+      "billetes"
+    ],
+    "synonyms": [
+      "decodificar tarjeta embarque",
+      "bcbp decoder",
+      "leer billete avion",
+      "pnr decoder",
+      "orcascan bcbp"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Requiere que la imagen del código de barras (PDF417 o Aztec) tenga suficiente nitidez para ser leída o haber extraído previamente el payload de texto con un lector como ZXing"],
-    "useCases": ["Analizar billetes y pases de embarque compartidos en fotografías de redes sociales (Instagram, X) para obtener origen, escala, destino y localizador de vuelo PNR"],
+    "limitations": [
+      "Requiere que la imagen del código de barras (PDF417 o Aztec) tenga suficiente nitidez para ser leída o haber extraído previamente el payload de texto con un lector como ZXing"
+    ],
+    "useCases": [
+      "Analizar billetes y pases de embarque compartidos en fotografías de redes sociales (Instagram, X) para obtener origen, escala, destino y localizador de vuelo PNR"
+    ],
     "instructions": "Pega la cadena de texto cruda del código de barras o sube la imagen del billete para desglosar de inmediato todos los campos del estándar IATA.",
     "lastReviewed": "2026-11-23",
     "status": "active"

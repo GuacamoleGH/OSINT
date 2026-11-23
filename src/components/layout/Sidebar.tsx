@@ -64,7 +64,7 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
 
   const learnLinks = [
     { label: "Guides & Resources", href: "/guides", icon: BookOpen },
-    { label: "Challenges", href: "/challenges", icon: Target },
+    { label: "Practice & CTF", href: "/challenges", icon: Target },
     { label: "About", href: "/about", icon: Info },
   ];
 

@@ -41,6 +41,7 @@
     "synonyms": ["simulador sombras 3d", "sombras edificios"],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Visualizador básico gratis en tiempo real; Pro para fechas históricas desde ~10€/mes o ~99€/año)",
     "access": "public",
     "geographicScope": ["global"],
     "platforms": ["web"],

@@ -69,6 +69,7 @@
     "synonyms": ["tineye reverse", "primera aparicion foto"],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Búsqueda web inversa gratis e ilimitada para uso personal; API por paquetes desde ~0,04$/búsqueda)",
     "access": "public",
     "geographicScope": ["global"],
     "platforms": ["web", "browser-extension"],

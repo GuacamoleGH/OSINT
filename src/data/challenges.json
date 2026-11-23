@@ -7,11 +7,9 @@
     "difficulty": "intermediate",
     "url": "https://www.bellingcat.com/category/resources/how-tos/",
     "provider": "Bellingcat",
-    "hints": [
-      "Analiza el mobiliario urbano, diseño de bolardos y postes telefónicos usando GeoHints.",
-      "Coteja la orientación y longitud de las sombras con SunCalc para deducir franjas horarias y coordenadas.",
-      "Usa Overpass Turbo para cruzar pistas cartográficas simultáneas (ej. vías de tren y torres de telecomunicaciones)."
-    ]
+    "pricing": "free",
+    "pricingDetails": "100% Gratuito y de acceso público",
+    "tags": ["bellingcat", "geolocalizacion", "verificacion", "retos"]
   },
   {
     "id": "osint-industries-ctf",
@@ -21,76 +19,104 @@
     "difficulty": "advanced",
     "url": "https://ctf.osint.industries/",
     "provider": "OSINT Industries",
-    "hints": [
-      "Identifica perfiles y cuentas vinculadas al selector objetivo mediante Epieos y Sherlock.",
-      "Inspecciona registros históricos y certificados SSL/TLS con crt.sh y urlscan.io.",
-      "Busca publicaciones antiguas o eliminadas en Wayback Machine y Archive.today."
-    ]
+    "pricing": "free",
+    "pricingDetails": "100% Gratuito con registro",
+    "tags": ["ctf", "selectores", "socmint", "email"]
   },
   {
-    "id": "thm-searchlight-imint",
-    "title": "TryHackMe — Searchlight (IMINT & Geolocation)",
-    "description": "Sala formativa práctica diseñada para entrenar técnicas de búsqueda inversa, lectura de metadatos y deducción geográfica.",
-    "category": "imint",
+    "id": "sourcing-games",
+    "title": "Sourcing.Games",
+    "description": "Extensa colección de retos gamificados creados por Jan Tegze para entrenar habilidades de búsqueda booleana avanzada, verificación de identidades, imágenes y rastreo en fuentes abiertas.",
+    "category": "search",
     "difficulty": "beginner",
-    "url": "https://tryhackme.com/room/searchlightimint",
-    "provider": "TryHackMe",
-    "hints": [
-      "Prueba varios buscadores inversos (Google Lens, Yandex) para encontrar ángulos alternativos.",
-      "Recorta las marcas visuales características antes de subir la imagen."
-    ]
+    "url": "https://sourcing.games/",
+    "provider": "Jan Tegze",
+    "pricing": "free",
+    "pricingDetails": "100% Gratuito sin registro obligatorio",
+    "tags": ["dorking", "gamificado", "identidades", "busqueda"]
   },
   {
-    "id": "challenge-chronolocation-shadows",
-    "title": "Reto de Cronolocalización Solar",
-    "description": "Calcula el intervalo horario de captura de una fotografía a partir del ángulo de proyección de la sombra de una farola.",
-    "category": "chronolocation",
+    "id": "sofia-santos-exercises",
+    "title": "Sofia Santos OSINT Exercises (Gralhix)",
+    "description": "Una de las bibliotecas de ejercicios prácticos de geolocalización, IMINT y cronolocalización más reconocidas a nivel mundial, con explicaciones metodológicas y soluciones paso a paso.",
+    "category": "geoint",
+    "difficulty": "intermediate",
+    "url": "https://gralhix.com/osint-exercises/",
+    "provider": "Sofia Santos / Gralhix",
+    "pricing": "free",
+    "pricingDetails": "100% Gratuito y abierto",
+    "tags": ["geolocalizacion", "imint", "metodologia", "soluciones"]
+  },
+  {
+    "id": "quiztime",
+    "title": "Quiztime (Verificación e IMINT)",
+    "description": "Iniciativa colaborativa de periodistas y verificadores de datos internacionales con acertijos visuales diarios para entrenar geolocalización y verificación en redes sociales.",
+    "category": "imint",
+    "difficulty": "intermediate",
+    "url": "https://quiztime.blog/",
+    "provider": "Quiztime Team",
+    "pricing": "free",
+    "pricingDetails": "100% Gratuito en blog y redes sociales",
+    "tags": ["periodismo", "verificacion", "fotos", "acertijos"]
+  },
+  {
+    "id": "trace-labs-search-party",
+    "title": "Trace Labs CTF (Search Party)",
+    "description": "Eventos globales y laboratorios OSINT sin ánimo de lucro orientados a recopilar inteligencia de fuentes abiertas para ayudar en casos reales de personas desaparecidas.",
+    "category": "socmint",
     "difficulty": "advanced",
-    "url": "https://www.suncalc.org/",
-    "provider": "OSINT Hub",
-    "hints": [
-      "Alinea el mapa con el norte geográfico exacto.",
-      "Mide los grados de azimut con respecto al objeto emisor.",
-      "Compara la hora solar aparente con el huso horario oficial del lugar."
-    ]
+    "url": "https://www.tracelabs.org/",
+    "provider": "Trace Labs",
+    "pricing": "free",
+    "pricingDetails": "Gratuito para voluntarios e investigadores comunitarios",
+    "tags": ["missing-persons", "humanitario", "ctf", "comunitario"]
   },
   {
-    "id": "challenge-maritime-ais",
-    "title": "Rastreo e Identificación de Buque por Señal AIS",
-    "description": "Localiza el historial de escalas y características de una embarcación a partir de una captura de transpondedor incompleta.",
-    "category": "transport",
+    "id": "tryhackme-osint",
+    "title": "TryHackMe — Módulos & Salas OSINT",
+    "description": "Plataforma de laboratorios interactivos paso a paso con salas dedicadas como Searchlight (IMINT), WebOSINT, Google Dorking y Geolocation.",
+    "category": "cyber",
     "difficulty": "beginner",
-    "url": "https://www.marinetraffic.com/",
-    "provider": "OSINT Hub",
-    "hints": [
-      "El número IMO es permanente a lo largo de toda la vida útil del barco.",
-      "El código MMSI incluye el prefijo MID de tres dígitos del país de abanderamiento."
-    ]
+    "url": "https://tryhackme.com/module/osint",
+    "provider": "TryHackMe",
+    "pricing": "freemium",
+    "pricingDetails": "Freemium (Salas básicas gratis; suscripción Pro opcional por ~14$/mes o ~126$/año)",
+    "tags": ["laboratorio", "guiado", "cyber", "imint"]
   },
   {
-    "id": "challenge-borme-investigation",
-    "title": "Investigación Societaria en Registro Mercantil Español",
-    "description": "Mapea las sociedades compartidas y el historial de ceses y nombramientos de un administrador a través del BORME.",
+    "id": "cyberdefenders",
+    "title": "CyberDefenders — Blue Team & OSINT Labs",
+    "description": "Laboratorios prácticos basados en investigaciones y casos reales de ciberseguridad, ciberinteligencia de amenazas y análisis forense digital.",
+    "category": "cyber",
+    "difficulty": "advanced",
+    "url": "https://cyberdefenders.org/blueteam-ctf-challenges/",
+    "provider": "CyberDefenders",
+    "pricing": "freemium",
+    "pricingDetails": "Freemium (Decenas de retos comunitarios gratuitos; suscripción Pro por ~20$/mes)",
+    "tags": ["threat-intel", "forense", "ctf", "cyber"]
+  },
+  {
+    "id": "geoguessr",
+    "title": "GeoGuessr",
+    "description": "Juego y plataforma de entrenamiento de deducción geográfica donde eres situado en una panorámica de Google Street View y debes deducir el país y coordenadas exactas.",
+    "category": "geoint",
+    "difficulty": "beginner",
+    "url": "https://www.geoguessr.com/",
+    "provider": "GeoGuessr AB",
+    "pricing": "freemium",
+    "pricingDetails": "Freemium (Partidas diarias gratuitas limitadas; suscripción Pro ilimitada por ~2,99€/mes o ~23,88€/año)",
+    "tags": ["streetview", "geografia", "deduccion", "entrenamiento"]
+  },
+  {
+    "id": "kase-scenarios",
+    "title": "Kase Scenarios",
+    "description": "Escenarios interactivos inmersivos de investigación OSINT profesional simulando investigaciones reales con personas, corporaciones e infraestructura digital.",
     "category": "public-records",
-    "difficulty": "intermediate",
-    "url": "https://www.boe.es/diario_borme/",
-    "provider": "OSINT Hub",
-    "hints": [
-      "Utiliza comillas dobles en el buscador del BOE para nombres y apellidos exactos.",
-      "Revisa la Sección Primera (Actos inscritos) de las provincias correspondientes."
-    ]
-  },
-  {
-    "id": "challenge-forensic-clone-detection",
-    "title": "Detección Forense de Manipulación en Fotografía",
-    "description": "Identifica zonas duplicadas mediante la herramienta de detección de clones y nivel de compresión ELA.",
-    "category": "imint",
-    "difficulty": "intermediate",
-    "url": "https://29a.ch/photo-forensics/",
-    "provider": "Forensically",
-    "hints": [
-      "Ajusta la sensibilidad del bloque de clonado para descartar texturas homogéneas naturales (cielos o asfalto).",
-      "Comprueba si los bordes de la zona sospechosa presentan un nivel de error ELA discordante con el fondo."
-    ]
+    "difficulty": "advanced",
+    "url": "https://kasescenarios.com/",
+    "provider": "Kase Scenarios",
+    "pricing": "paid",
+    "pricingDetails": "De pago (Acceso individual a investigaciones por ~15€ - 30€ por caso interactivo)",
+    "tags": ["investigacion-profesional", "simulacion", "casos-reales"]
   }
 ]

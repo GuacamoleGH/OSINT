@@ -1,144 +1,208 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { getAllChallenges } from "@/lib/data";
-import { useChallengeProgress, ChallengeStatus } from "@/hooks/useChallengeProgress";
-import { Target, CheckCircle2, Clock, HelpCircle, ExternalLink, ChevronDown, ChevronUp } from "lucide-react";
+import { Target, ExternalLink, Search, Filter, ShieldCheck, DollarSign } from "lucide-react";
 
 export default function ChallengesPage() {
-  const challenges = getAllChallenges();
-  const { getStatus, setStatus, isLoaded } = useChallengeProgress();
-  const [openHints, setOpenHints] = useState<Record<string, boolean>>({});
+  const platforms = getAllChallenges();
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedPricing, setSelectedPricing] = useState<string>("all");
+  const [selectedDifficulty, setSelectedDifficulty] = useState<string>("all");
 
-  const toggleHint = (id: string) => {
-    setOpenHints((prev) => ({ ...prev, [id]: !prev[id] }));
+  const filteredPlatforms = useMemo(() => {
+    return platforms.filter((item) => {
+      // Search text match
+      if (searchQuery.trim()) {
+        const q = searchQuery.toLowerCase();
+        const matchesName = item.title.toLowerCase().includes(q);
+        const matchesDesc = item.description.toLowerCase().includes(q);
+        const matchesProvider = item.provider.toLowerCase().includes(q);
+        const matchesTags = item.tags?.some((t) => t.toLowerCase().includes(q));
+        if (!matchesName && !matchesDesc && !matchesProvider && !matchesTags) {
+          return false;
+        }
+      }
+
+      // Pricing filter
+      if (selectedPricing !== "all" && item.pricing !== selectedPricing) {
+        return false;
+      }
+
+      // Difficulty filter
+      if (selectedDifficulty !== "all" && item.difficulty !== selectedDifficulty) {
+        return false;
+      }
+
+      return true;
+    });
+  }, [platforms, searchQuery, selectedPricing, selectedDifficulty]);
+
+  const getPricingBadge = (pricing: string) => {
+    switch (pricing) {
+      case "free":
+        return { label: "Gratis", cls: "bg-emerald-950/70 text-emerald-400 border-emerald-800/80" };
+      case "freemium":
+        return { label: "Freemium", cls: "bg-amber-950/70 text-amber-400 border-amber-800/80" };
+      case "paid":
+        return { label: "De pago", cls: "bg-rose-950/70 text-rose-400 border-rose-800/80" };
+      default:
+        return { label: "Comprobar", cls: "bg-gray-800 text-gray-400 border-gray-700" };
+    }
   };
 
-  const completedCount = challenges.filter((c) => getStatus(c.id) === "completed").length;
+  const getDifficultyBadge = (diff: string) => {
+    switch (diff) {
+      case "beginner":
+        return { label: "Principiante", cls: "bg-emerald-950/50 text-emerald-300 border-emerald-800/60" };
+      case "intermediate":
+        return { label: "Intermedio", cls: "bg-amber-950/50 text-amber-300 border-amber-800/60" };
+      case "advanced":
+        return { label: "Avanzado", cls: "bg-purple-950/50 text-purple-300 border-purple-800/60" };
+      default:
+        return { label: diff, cls: "bg-gray-800 text-gray-400 border-gray-700" };
+    }
+  };
 
   return (
-    <div className="space-y-8 pb-16">
-      {/* Header & Progress Stats */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+    <div className="space-y-8 pb-16 max-w-7xl mx-auto">
+      {/* Header */}
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-guacamole-card border border-guacamole-border text-xs text-amber-400 font-medium mb-3">
-            <Target className="w-3.5 h-3.5 text-amber-400" />
-            <span>Entrenamiento Práctico</span>
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-guacamole-card border border-guacamole-border text-xs text-guacamole-green font-medium mb-3">
+            <Target className="w-3.5 h-3.5 text-guacamole-green" />
+            <span>Práctica & CTF Externos</span>
           </div>
-          <h1 className="text-3xl font-extrabold text-white tracking-tight">Retos & Ejercicios OSINT</h1>
-          <p className="text-sm text-gray-400 mt-1 max-w-2xl">
-            Prueba tus capacidades de investigación con ejercicios reales de geolocalización, análisis solar y verificación forense. Tu progreso se guarda localmente en el navegador.
+          <h1 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight">
+            Plataformas de Práctica & Retos OSINT
+          </h1>
+          <p className="text-sm text-gray-400 mt-1 max-w-3xl leading-relaxed">
+            Directorio directo a los mejores sitios web, laboratorios y desafíos CTF de la comunidad internacional para entrenar geolocalización, verificación de datos e investigación digital.
           </p>
         </div>
 
-        {/* Progress pill */}
-        <div className="p-4 rounded-xl bg-guacamole-card border border-guacamole-border flex items-center gap-4 self-start sm:self-center shrink-0">
-          <div>
-            <span className="text-xs text-gray-400 block">Progreso personal</span>
-            <span className="text-lg font-bold text-gray-100 font-mono">
-              {completedCount} / {challenges.length} completados
-            </span>
-          </div>
-          <div className="w-12 h-12 rounded-full border-4 border-guacamole-input border-t-guacamole-green flex items-center justify-center font-mono text-xs font-bold text-guacamole-green">
-            {Math.round((completedCount / challenges.length) * 100)}%
+        <div className="flex items-center gap-2 self-start md:self-center shrink-0">
+          <div className="px-3 py-2 rounded-xl bg-guacamole-card border border-guacamole-border text-xs font-mono text-gray-300">
+            <span className="text-guacamole-green font-bold text-sm mr-1">{platforms.length}</span>
+            <span>plataformas verificadas</span>
           </div>
         </div>
       </div>
 
-      {/* Challenges Grid */}
-      <div className="space-y-4">
-        {challenges.map((challenge) => {
-          const currentStatus = getStatus(challenge.id);
-          const isHintsOpen = openHints[challenge.id];
+      {/* Filter and Search Bar */}
+      <div className="bg-guacamole-card border border-guacamole-border rounded-xl p-4 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
+        {/* Search Input */}
+        <div className="relative flex-1">
+          <Search className="w-4 h-4 text-gray-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+          <input
+            type="text"
+            placeholder="Buscar por plataforma, habilidad, autor o disciplina..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full bg-guacamole-input text-gray-200 text-xs sm:text-sm pl-10 pr-4 py-2.5 rounded-lg border border-guacamole-border focus:outline-none focus:border-guacamole-green/60 transition-colors placeholder:text-gray-500"
+          />
+        </div>
+
+        {/* Filter dropdowns */}
+        <div className="flex items-center gap-2 shrink-0">
+          <div className="flex items-center gap-1.5 text-xs text-gray-400">
+            <Filter className="w-3.5 h-3.5" />
+            <span>Precio:</span>
+          </div>
+          <select
+            value={selectedPricing}
+            onChange={(e) => setSelectedPricing(e.target.value)}
+            className="text-xs bg-guacamole-input text-gray-200 border border-guacamole-border rounded-lg px-2.5 py-2 outline-none cursor-pointer focus:border-guacamole-green/60"
+          >
+            <option value="all">Todos los precios</option>
+            <option value="free">100% Gratis</option>
+            <option value="freemium">Freemium</option>
+            <option value="paid">De pago</option>
+          </select>
+
+          <select
+            value={selectedDifficulty}
+            onChange={(e) => setSelectedDifficulty(e.target.value)}
+            className="text-xs bg-guacamole-input text-gray-200 border border-guacamole-border rounded-lg px-2.5 py-2 outline-none cursor-pointer focus:border-guacamole-green/60"
+          >
+            <option value="all">Cualquier nivel</option>
+            <option value="beginner">Principiante</option>
+            <option value="intermediate">Intermedio</option>
+            <option value="advanced">Avanzado</option>
+          </select>
+        </div>
+      </div>
+
+      {/* Platforms Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {filteredPlatforms.map((item) => {
+          const pricingBadge = getPricingBadge(item.pricing);
+          const diffBadge = getDifficultyBadge(item.difficulty);
 
           return (
             <div
-              key={challenge.id}
-              className="p-6 rounded-xl bg-guacamole-card border border-guacamole-border space-y-4"
+              key={item.id}
+              className="bg-guacamole-card hover:bg-guacamole-hover border border-guacamole-border hover:border-guacamole-green/40 rounded-xl p-5 transition-all duration-200 flex flex-col justify-between space-y-4"
             >
-              <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
-                <div className="flex-1">
-                  <div className="flex flex-wrap items-center gap-2 mb-2">
-                    <span className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-guacamole-input text-guacamole-turquoise border border-guacamole-border font-mono">
-                      {challenge.category}
-                    </span>
-                    <span
-                      className={`text-[10px] font-semibold uppercase px-2 py-0.5 rounded border ${
-                        challenge.difficulty === "beginner"
-                          ? "bg-emerald-950/60 text-emerald-300 border-emerald-800"
-                          : challenge.difficulty === "intermediate"
-                          ? "bg-amber-950/60 text-amber-300 border-amber-800"
-                          : "bg-purple-950/60 text-purple-300 border-purple-800"
-                      }`}
-                    >
-                      {challenge.difficulty === "beginner"
-                        ? "Principiante"
-                        : challenge.difficulty === "intermediate"
-                        ? "Intermedio"
-                        : "Avanzado"}
-                    </span>
-                    <span className="text-xs text-gray-400">Proveedor: {challenge.provider}</span>
+              <div className="space-y-3">
+                {/* Header: Title + Provider */}
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <h2 className="text-base sm:text-lg font-bold text-gray-100 group-hover:text-guacamole-green transition-colors">
+                      {item.title}
+                    </h2>
+                    <span className="text-xs text-gray-400 font-medium">Por: {item.provider}</span>
                   </div>
 
-                  <h2 className="text-lg font-bold text-gray-100">{challenge.title}</h2>
-                  <p className="text-sm text-gray-300 mt-1 leading-relaxed">{challenge.description}</p>
+                  <span className={`text-[10px] font-semibold uppercase px-2 py-0.5 rounded border shrink-0 ${pricingBadge.cls}`}>
+                    {pricingBadge.label}
+                  </span>
                 </div>
 
-                {/* Status Selector */}
-                <div className="flex items-center gap-2 shrink-0 self-start sm:self-center">
-                  <select
-                    value={currentStatus}
-                    onChange={(e) => setStatus(challenge.id, e.target.value as ChallengeStatus)}
-                    className={`text-xs px-3 py-1.5 rounded-lg border font-semibold outline-none cursor-pointer ${
-                      currentStatus === "completed"
-                        ? "bg-emerald-950 text-emerald-400 border-emerald-800"
-                        : currentStatus === "in_progress"
-                        ? "bg-amber-950 text-amber-300 border-amber-800"
-                        : "bg-guacamole-input text-gray-300 border-guacamole-border"
-                    }`}
-                  >
-                    <option value="pending">Pendiente</option>
-                    <option value="in_progress">En curso</option>
-                    <option value="completed">Completado</option>
-                  </select>
+                {/* Badges line: Category & Difficulty */}
+                <div className="flex flex-wrap items-center gap-1.5">
+                  <span className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded bg-guacamole-input text-guacamole-turquoise border border-guacamole-border font-mono">
+                    {item.category}
+                  </span>
+                  <span className={`text-[10px] font-semibold uppercase px-2 py-0.5 rounded border ${diffBadge.cls}`}>
+                    {diffBadge.label}
+                  </span>
                 </div>
+
+                {/* Description */}
+                <p className="text-xs text-gray-300 leading-relaxed">
+                  {item.description}
+                </p>
+
+                {/* Price indication highlight */}
+                {item.pricingDetails && (
+                  <div className="p-2.5 rounded-lg bg-guacamole-input/80 border border-guacamole-border/80 flex items-start gap-2 text-xs">
+                    <DollarSign className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+                    <div>
+                      <span className="text-gray-400 block text-[10px] uppercase font-bold tracking-wider">Precio estimado:</span>
+                      <span className="text-amber-300 font-mono text-[11px] font-medium">{item.pricingDetails}</span>
+                    </div>
+                  </div>
+                )}
               </div>
 
-              {/* Hints collapsible */}
-              {challenge.hints && challenge.hints.length > 0 && (
-                <div className="pt-2">
-                  <button
-                    onClick={() => toggleHint(challenge.id)}
-                    className="inline-flex items-center gap-1.5 text-xs text-gray-400 hover:text-gray-200 transition-colors"
-                  >
-                    <HelpCircle className="w-3.5 h-3.5 text-amber-400" />
-                    <span>{isHintsOpen ? "Ocultar pistas metodológicas" : "Mostrar pistas metodológicas"}</span>
-                    {isHintsOpen ? <ChevronUp className="w-3.5 h-3.5" /> : <ChevronDown className="w-3.5 h-3.5" />}
-                  </button>
-
-                  {isHintsOpen && (
-                    <div className="mt-2 p-3 bg-guacamole-input/80 border border-guacamole-border rounded-lg space-y-1.5 text-xs text-gray-300 animate-in fade-in duration-150">
-                      <p className="font-semibold text-amber-300 mb-1">Pistas sin revelar la solución:</p>
-                      {challenge.hints.map((hint, idx) => (
-                        <div key={idx} className="flex items-start gap-2">
-                          <span className="text-amber-400 font-bold">•</span>
-                          <span>{hint}</span>
-                        </div>
-                      ))}
-                    </div>
-                  )}
+              {/* Bottom: Tags & Direct External Link Button */}
+              <div className="pt-3 border-t border-guacamole-border/60 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div className="flex flex-wrap gap-1">
+                  {item.tags?.map((t) => (
+                    <span key={t} className="text-[10px] text-gray-400 bg-guacamole-input px-1.5 py-0.5 rounded">
+                      #{t}
+                    </span>
+                  ))}
                 </div>
-              )}
 
-              {/* Direct Link to the Challenge */}
-              <div className="pt-3 border-t border-guacamole-border/50 flex items-center justify-end">
                 <a
-                  href={challenge.url}
+                  href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-guacamole-green text-black font-semibold text-xs hover:bg-guacamole-turquoise transition-colors"
+                  className="inline-flex items-center justify-center gap-1.5 px-4 py-2 rounded-lg text-xs font-semibold bg-guacamole-input hover:bg-guacamole-green hover:text-black text-gray-200 border border-guacamole-border hover:border-guacamole-green transition-all shrink-0"
                 >
-                  <span>Abrir ejercicio oficial</span>
+                  <span>Visitar plataforma</span>
                   <ExternalLink className="w-3.5 h-3.5" />
                 </a>
               </div>
@@ -146,6 +210,12 @@ export default function ChallengesPage() {
           );
         })}
       </div>
+
+      {filteredPlatforms.length === 0 && (
+        <div className="p-12 text-center rounded-xl bg-guacamole-card border border-guacamole-border text-gray-400">
+          <p className="text-sm">No se encontraron plataformas con los filtros seleccionados.</p>
+        </div>
+      )}
     </div>
   );
 }
