@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 const RECENT_STORAGE_KEY = "guacamolegh_osint_recent";
 const MAX_RECENT = 20;
@@ -22,7 +22,7 @@ export function useRecentlyViewed() {
     }
   }, []);
 
-  const addRecent = (slug: string) => {
+  const addRecent = useCallback((slug: string) => {
     setRecentSlugs((prev) => {
       const filtered = prev.filter((s) => s !== slug);
       const next = [slug, ...filtered].slice(0, MAX_RECENT);
@@ -33,16 +33,16 @@ export function useRecentlyViewed() {
       }
       return next;
     });
-  };
+  }, []);
 
-  const clearRecent = () => {
+  const clearRecent = useCallback(() => {
     setRecentSlugs([]);
     try {
       localStorage.removeItem(RECENT_STORAGE_KEY);
     } catch (e) {
       console.error("Failed to clear recent tools", e);
     }
-  };
+  }, []);
 
   return { recentSlugs, addRecent, clearRecent, isLoaded };
 }

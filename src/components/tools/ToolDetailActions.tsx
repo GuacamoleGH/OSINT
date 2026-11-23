@@ -14,7 +14,7 @@ export function ToolDetailActions({ tool }: { tool: ToolItem }) {
 
   useEffect(() => {
     addRecent(tool.slug);
-  }, [tool.slug]);
+  }, [tool.slug, addRecent]);
 
   const copyUrl = async () => {
     try {
