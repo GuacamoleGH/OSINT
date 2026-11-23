@@ -95,20 +95,58 @@ export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
       return tools.filter((t) => t.featured).slice(0, 8);
     }
 
-    // Expand search query with synonyms
-    const words = trimmed.split(/\s+/);
-    const expandedTerms = new Set<string>(words);
+    // 1. Direct substring matches (highest priority, 100% reliable)
+    const directMatches = tools.filter((tool) => {
+      const matchName = tool.name.toLowerCase().includes(trimmed);
+      const matchSlug = tool.slug.toLowerCase().includes(trimmed);
+      const matchTag = tool.tags.some((t) => t.toLowerCase().includes(trimmed));
+      const matchSynonym = tool.synonyms.some((s) => s.toLowerCase().includes(trimmed));
+      const matchDesc = tool.description.toLowerCase().includes(trimmed);
+      const matchCategory = tool.categories.some((c) => c.toLowerCase().includes(trimmed));
+      const matchInvestigate = tool.investigateBy.some((i) => i.toLowerCase().includes(trimmed));
+      return matchName || matchSlug || matchTag || matchSynonym || matchDesc || matchCategory || matchInvestigate;
+    });
 
+    // 2. Fuzzy search with Fuse on the exact query
+    const fuseMatches = fuse.search(trimmed).map((r) => r.item);
+
+    // 3. Synonym matches (if synonyms are registered for any of the query words)
+    const words = trimmed.split(/\s+/);
+    const relatedSynonyms: string[] = [];
     for (const w of words) {
       if (SYNONYMS_MAP[w]) {
-        SYNONYMS_MAP[w].forEach((syn) => expandedTerms.add(syn));
+        relatedSynonyms.push(...SYNONYMS_MAP[w]);
       }
     }
 
-    const searchQuery = Array.from(expandedTerms).join(" ");
-    const searchResults = fuse.search(searchQuery);
+    const synonymMatches =
+      relatedSynonyms.length > 0
+        ? tools.filter((tool) =>
+            relatedSynonyms.some((syn) => {
+              const s = syn.toLowerCase();
+              return (
+                tool.name.toLowerCase().includes(s) ||
+                tool.slug.toLowerCase().includes(s) ||
+                tool.tags.some((t) => t.toLowerCase().includes(s)) ||
+                tool.synonyms.some((sy) => sy.toLowerCase().includes(s)) ||
+                tool.description.toLowerCase().includes(s)
+              );
+            })
+          )
+        : [];
 
-    return searchResults.map((r) => r.item).slice(0, 10);
+    // Combine uniquely maintaining relevance priority
+    const seen = new Set<string>();
+    const combined: typeof tools = [];
+
+    for (const item of [...directMatches, ...fuseMatches, ...synonymMatches]) {
+      if (!seen.has(item.id)) {
+        seen.add(item.id);
+        combined.push(item);
+      }
+    }
+
+    return combined.slice(0, 10);
   }, [query, tools, fuse]);
 
   useEffect(() => {

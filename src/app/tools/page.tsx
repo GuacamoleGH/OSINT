@@ -19,7 +19,7 @@ export default function ToolsPage() {
       categories={categories}
       investigateByList={investigateByList}
       title="Catálogo General de Herramientas"
-      subtitle="Filtra y explora las 102 herramientas y fuentes OSINT seleccionadas del ecosistema."
+      subtitle={`Filtra y explora las ${allTools.length} herramientas y fuentes OSINT seleccionadas del ecosistema.`}
     />
   );
 }

@@ -26,12 +26,12 @@ export default function HomePage() {
   const topTargets = investigateByList.slice(0, 6);
 
   return (
-    <div className="space-y-12 pb-16 max-w-6xl mx-auto">
-      {/* Hero Section (Clean, spacious, uncluttered) */}
-      <section className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-guacamole-card to-guacamole-base border border-guacamole-border p-8 sm:p-12 text-center shadow-card">
+    <div className="space-y-8 pb-12 w-full">
+      {/* Hero Section (Clean, spacious, full width) */}
+      <section className="relative overflow-hidden rounded-2xl bg-gradient-to-b from-guacamole-card to-guacamole-base border border-guacamole-border p-6 sm:p-10 text-center shadow-card w-full">
         <div className="absolute top-0 left-1/2 -translate-x-1/2 -mt-20 w-96 h-96 bg-guacamole-green/10 rounded-full blur-3xl pointer-events-none" />
 
-        <div className="relative z-10 max-w-2xl mx-auto space-y-6">
+        <div className="relative z-10 max-w-2xl mx-auto space-y-5">
           {/* Logo & Title */}
           <div className="flex items-center justify-center gap-3.5">
             <div className="relative w-12 h-12 rounded-xl overflow-hidden border border-guacamole-border bg-guacamole-deep/90 shadow-glow shrink-0">
@@ -66,7 +66,7 @@ export default function HomePage() {
                 </span>
               </div>
               <kbd className="px-2 py-0.5 text-[11px] bg-guacamole-card border border-guacamole-border rounded-md text-gray-400 font-mono">
-                Explorar 113
+                Explorar {stats.totalTools}
               </kbd>
             </Link>
           </div>

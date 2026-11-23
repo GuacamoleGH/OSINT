@@ -4,13 +4,11 @@ import { notFound } from "next/navigation";
 import {
   getAllInvestigateBy,
   getInvestigateById,
-  getAllTools,
   getToolsByInvestigateBy,
   getAllCategories,
 } from "@/lib/data";
 import { ToolsDirectory } from "@/components/tools/ToolsDirectory";
 import { InvestigateById } from "@/types/osint";
-import { AlertCircle, Lightbulb } from "lucide-react";
 
 interface InvestigateByPageProps {
   params: {
@@ -45,34 +43,13 @@ export default function InvestigateByPage({ params }: InvestigateByPageProps) {
   const investigateByList = getAllInvestigateBy();
 
   return (
-    <div className="space-y-6">
-      {/* Tips / Guidelines Banner */}
-      {inv.tips && inv.tips.length > 0 && (
-        <div className="p-4 sm:p-5 rounded-xl bg-guacamole-card border border-guacamole-turquoise/30 space-y-3">
-          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-guacamole-turquoise">
-            <Lightbulb className="w-4 h-4 text-guacamole-turquoise" />
-            <span>Pautas Metodológicas y Consejos Clave</span>
-          </div>
-          <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 pt-1 text-xs text-gray-300">
-            {inv.tips.map((tip, idx) => (
-              <li key={idx} className="flex items-center justify-center text-center gap-2.5 bg-guacamole-input/60 p-3 rounded-lg border border-guacamole-border">
-                <span className="w-1.5 h-1.5 rounded-full bg-guacamole-turquoise shrink-0" />
-                <span className="leading-snug">{tip}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {/* Directory of tools related to this target */}
-      <ToolsDirectory
-        initialTools={tools}
-        categories={categories}
-        investigateByList={investigateByList}
-        initialInvestigateBy={inv.id}
-        title={`Investigar por: ${inv.name}`}
-        subtitle={inv.description}
-      />
-    </div>
+    <ToolsDirectory
+      initialTools={tools}
+      categories={categories}
+      investigateByList={investigateByList}
+      initialInvestigateBy={inv.id}
+      title={`Investigar por: ${inv.name}`}
+      subtitle={inv.description}
+    />
   );
 }

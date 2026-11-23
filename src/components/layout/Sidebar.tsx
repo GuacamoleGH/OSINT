@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -25,7 +25,6 @@ import {
   Network,
   Building,
   MapPin,
-  ChevronDown,
 } from "lucide-react";
 import { useFavorites } from "@/hooks/useFavorites";
 
@@ -39,14 +38,6 @@ interface SidebarProps {
 export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 0 }: SidebarProps) {
   const pathname = usePathname();
   const { favorites } = useFavorites();
-  const isInvestigateActive = pathname.startsWith("/investigate-by");
-  const [isInvestigateOpen, setIsInvestigateOpen] = useState(isInvestigateActive);
-
-  useEffect(() => {
-    if (isInvestigateActive) {
-      setIsInvestigateOpen(true);
-    }
-  }, [isInvestigateActive]);
 
   const discoverLinks = [
     { label: "Panel Principal", href: "/", icon: LayoutDashboard },
@@ -90,23 +81,23 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
 
       {/* Sidebar Container */}
       <aside
-        className={`fixed md:sticky top-0 left-0 z-50 md:z-30 h-screen w-64 bg-guacamole-deep border-r border-guacamole-border flex flex-col transition-transform duration-200 ease-in-out ${
+        className={`fixed md:sticky top-0 md:top-16 left-0 z-50 md:z-30 h-screen md:h-[calc(100vh-4rem)] w-60 bg-guacamole-deep border-r border-guacamole-border flex flex-col transition-transform duration-200 ease-in-out shrink-0 ${
           isOpen ? "translate-x-0" : "-translate-x-full md:translate-x-0"
         }`}
       >
         {/* Mobile Header in Drawer */}
-        <div className="flex md:hidden items-center justify-between p-3.5 border-b border-guacamole-border">
-          <span className="font-bold text-gray-100 text-sm">Menú de Navegación</span>
+        <div className="flex md:hidden items-center justify-between p-3 border-b border-guacamole-border">
+          <span className="font-bold text-gray-100 text-xs">Menú de Navegación</span>
           <button onClick={onClose} className="p-1 text-gray-400 hover:text-white rounded">
-            <X className="w-5 h-5" />
+            <X className="w-4 h-4" />
           </button>
         </div>
 
-        {/* Navigation Items (clean, compact, no horizontal scroll, hidden scrollbar) */}
-        <nav className="flex-1 overflow-y-auto px-2.5 py-3 space-y-4 text-xs [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+        {/* Navigation Items (permanently expanded, compact, fits without scrollbar) */}
+        <nav className="flex-1 overflow-y-auto overflow-x-hidden px-2 py-2 space-y-2 text-xs [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {/* Section: Descubrir */}
           <div>
-            <div className="px-2.5 mb-1.5 text-[10px] font-bold uppercase tracking-wider text-guacamole-green">
+            <div className="px-2 mb-1 text-[10px] font-bold uppercase tracking-wider text-guacamole-green">
               Descubrir
             </div>
             <ul className="space-y-0.5">
@@ -118,7 +109,7 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
                     <Link
                       href={item.href}
                       onClick={onClose}
-                      className={`flex items-center justify-between px-2.5 py-1.5 rounded-md transition-colors ${
+                      className={`flex items-center justify-between px-2 py-1 rounded-md transition-colors text-[11px] ${
                         isActive
                           ? "bg-guacamole-card text-guacamole-green font-semibold border-l-2 border-guacamole-green"
                           : "text-gray-300 hover:bg-guacamole-card/60 hover:text-gray-100"
@@ -129,7 +120,7 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
                         <span className="truncate">{item.label}</span>
                       </div>
                       {typeof item.count === "number" && (
-                        <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-guacamole-input text-gray-400 font-mono shrink-0">
+                        <span className="text-[9px] px-1.5 py-0.2 rounded-full bg-guacamole-input text-gray-400 font-mono shrink-0">
                           {item.count}
                         </span>
                       )}
@@ -140,22 +131,13 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
             </ul>
           </div>
 
-          {/* Section: Investigar por Objetivo (Collapsible Accordion) */}
+          {/* Section: Investigar por Objetivo (Always expanded) */}
           <div>
-            <div className="flex items-center justify-between px-2.5 mb-1">
-              <button
-                type="button"
-                onClick={() => setIsInvestigateOpen((prev) => !prev)}
-                className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-guacamole-turquoise hover:text-white transition-colors"
-              >
+            <div className="flex items-center justify-between px-2 mb-1">
+              <div className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-guacamole-turquoise">
                 <span>Por Objetivo</span>
                 <span className="text-[9px] px-1 py-0.2 rounded bg-guacamole-input text-guacamole-turquoise font-mono">12</span>
-                <ChevronDown
-                  className={`w-3 h-3 text-guacamole-turquoise transition-transform duration-200 ${
-                    isInvestigateOpen ? "rotate-180" : ""
-                  }`}
-                />
-              </button>
+              </div>
               <Link
                 href="/investigate-by"
                 onClick={onClose}
@@ -165,43 +147,41 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
               </Link>
             </div>
 
-            {isInvestigateOpen && (
-              <ul className="space-y-0.5 mt-1 pl-1 border-l border-guacamole-border/50">
-                {investigateLinks.map((item) => {
-                  const Icon = item.icon;
-                  const isActive = pathname === item.href;
-                  const count = investigateCounts[item.id] || 0;
-                  return (
-                    <li key={item.href}>
-                      <Link
-                        href={item.href}
-                        onClick={onClose}
-                        className={`flex items-center justify-between px-2.5 py-1 rounded-md text-[11px] transition-colors ${
-                          isActive
-                            ? "bg-guacamole-card text-guacamole-turquoise font-semibold border-l-2 border-guacamole-turquoise"
-                            : "text-gray-300 hover:bg-guacamole-card/60 hover:text-gray-100"
-                        }`}
-                      >
-                        <div className="flex items-center gap-2 truncate">
-                          <Icon className={`w-3 h-3 shrink-0 ${isActive ? "text-guacamole-turquoise" : "text-gray-400"}`} />
-                          <span className="truncate">{item.label}</span>
-                        </div>
-                        {count > 0 && (
-                          <span className="text-[9px] px-1 py-0.2 rounded bg-guacamole-input text-gray-400 font-mono shrink-0">
-                            {count}
-                          </span>
-                        )}
-                      </Link>
-                    </li>
-                  );
-                })}
-              </ul>
-            )}
+            <ul className="space-y-0.5 pl-1 border-l border-guacamole-border/40">
+              {investigateLinks.map((item) => {
+                const Icon = item.icon;
+                const isActive = pathname === item.href;
+                const count = investigateCounts[item.id] || 0;
+                return (
+                  <li key={item.href}>
+                    <Link
+                      href={item.href}
+                      onClick={onClose}
+                      className={`flex items-center justify-between px-2 py-0.5 rounded-md text-[11px] transition-colors ${
+                        isActive
+                          ? "bg-guacamole-card text-guacamole-turquoise font-semibold border-l-2 border-guacamole-turquoise"
+                          : "text-gray-300 hover:bg-guacamole-card/60 hover:text-gray-100"
+                      }`}
+                    >
+                      <div className="flex items-center gap-2 truncate">
+                        <Icon className={`w-3 h-3 shrink-0 ${isActive ? "text-guacamole-turquoise" : "text-gray-400"}`} />
+                        <span className="truncate">{item.label}</span>
+                      </div>
+                      {count > 0 && (
+                        <span className="text-[9px] px-1 py-0.2 rounded bg-guacamole-input text-gray-400 font-mono shrink-0">
+                          {count}
+                        </span>
+                      )}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
           </div>
 
           {/* Section: Formación y Práctica */}
           <div>
-            <div className="px-2.5 mb-1.5 text-[10px] font-bold uppercase tracking-wider text-gray-400">
+            <div className="px-2 mb-1 text-[10px] font-bold uppercase tracking-wider text-gray-400">
               Formación
             </div>
             <ul className="space-y-0.5">
@@ -213,7 +193,7 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
                     <Link
                       href={item.href}
                       onClick={onClose}
-                      className={`flex items-center gap-2 px-2.5 py-1.5 rounded-md transition-colors ${
+                      className={`flex items-center gap-2 px-2 py-1 rounded-md transition-colors text-[11px] ${
                         isActive
                           ? "bg-guacamole-card text-guacamole-green font-semibold border-l-2 border-guacamole-green"
                           : "text-gray-300 hover:bg-guacamole-card/60 hover:text-gray-100"
@@ -230,11 +210,11 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
         </nav>
 
         {/* Sidebar Footer Info */}
-        <div className="p-2.5 border-t border-guacamole-border text-[10px] text-gray-400 flex items-center justify-between bg-guacamole-base/50">
+        <div className="p-2 border-t border-guacamole-border text-[10px] text-gray-400 flex items-center justify-between bg-guacamole-base/40">
           <span>v1.0.0 • GuacamoleGH</span>
-          <div className="flex items-center gap-1.5 text-guacamole-green">
+          <div className="flex items-center gap-1 text-guacamole-green">
             <span className="w-1.5 h-1.5 rounded-full bg-guacamole-green animate-pulse" />
-            <span className="text-[10px] font-mono">Activo</span>
+            <span className="text-[9px] font-mono">Activo</span>
           </div>
         </div>
       </aside>
