@@ -222,5 +222,33 @@
     "instructions": "Pega la URL o el ID del vídeo de YouTube y pulsa Submit.",
     "lastReviewed": "2026-11-23",
     "status": "active"
+  },
+  {
+    "id": "zxing-decoder-online",
+    "name": "ZXing Decoder Online",
+    "slug": "zxing-decoder-online",
+    "description": "Decodificador y lector online de códigos QR y códigos de barras a partir de imágenes o URLs.",
+    "longDescription": "Aplicación web oficial basada en la biblioteca de código abierto ZXing ('Zebra Crossing'). En investigaciones OSINT es la herramienta de referencia para extraer de forma segura y sin escanear con el teléfono móvil el contenido en texto plano, enlaces URL o identificadores codificados en códigos QR y de barras que aparecen en fotografías, credenciales o documentos.",
+    "url": "https://zxing.org/w/decode.jspx",
+    "categories": ["imint"],
+    "investigateBy": ["social-media"],
+    "subcategories": ["qr", "codigos-de-barras", "decodificador"],
+    "tags": ["zxing", "qr", "codigo-de-barras", "imint", "decodificador", "forense"],
+    "synonyms": ["leer qr online", "decodificar qr foto", "zebra crossing", "zxing decoder", "barcode decoder"],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": ["global"],
+    "platforms": ["web"],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": ["Imágenes con resolución muy baja o con perspectiva muy acusada pueden requerir preprocesado o enderezado previo"],
+    "useCases": ["Inspeccionar con seguridad el contenido de un código QR en una fotografía sin escanearlo con el smartphone personal", "Leer códigos de barras de billetes, envíos o equipajes publicados en redes sociales"],
+    "instructions": "Sube el archivo de imagen o introduce la URL directa de la foto y pulsa 'Submit' para ver el contenido decodificado, tipo de codificación y raw bytes.",
+    "lastReviewed": "2026-11-23",
+    "status": "active"
   }
 ]

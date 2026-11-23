@@ -41,6 +41,9 @@ const SYNONYMS_MAP: Record<string, string[]> = {
   imagen: ["foto", "imint", "forense"],
   ip: ["cyber", "red", "dns", "asn", "whois"],
   dominio: ["domain", "dns", "whois", "subdominio"],
+  qr: ["zxing", "barcode", "codigo de barras", "decoder"],
+  barcode: ["qr", "zxing", "codigo de barras"],
+  zxing: ["qr", "barcode", "decoder"],
 };
 
 export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
