@@ -54,6 +54,9 @@ const SYNONYMS_MAP: Record<string, string[]> = {
   interseccion: ["bellingcat osm search", "overpass", "proximidad"],
   metar: ["taf", "metar-taf", "viento", "tiempo aeropuerto", "pistas", "aeronautica"],
   taf: ["metar", "metar-taf", "pronostico aeropuerto", "viento"],
+  gralhix: ["sofia santos", "ejercicios", "geolocalizacion", "retos", "imint"],
+  sofia: ["gralhix", "sofia santos", "ejercicios", "geolocalizacion"],
+  santos: ["gralhix", "sofia santos", "ejercicios"],
 };
 
 export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {

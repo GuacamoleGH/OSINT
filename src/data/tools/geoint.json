@@ -531,5 +531,72 @@
     "instructions": "Arrastra el muñeco de Street View para mover la vista panorámica mientras el mapa satelital sigue la orientación automáticamente.",
     "lastReviewed": "2026-11-23",
     "status": "active"
+  },
+  {
+    "id": "gralhix",
+    "name": "Gralhix (Sofia Santos)",
+    "slug": "gralhix",
+    "description": "Portal de ejercicios prácticos, tutoriales metodológicos y retos de geolocalización, IMINT y verificación OSINT.",
+    "longDescription": "Sitio web oficial de Sofia Santos (Gralhix), analista e instructora OSINT de referencia internacional. Publica ejercicios prácticos reales de geolocalización de fotografías y vídeos, cronolocalización, análisis de sombras, verificación de fuentes y guías de investigación paso a paso con soluciones detalladas y técnicas reproducibles.",
+    "url": "https://gralhix.com/",
+    "categories": [
+      "geoint",
+      "imint",
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "ejercicios-osint",
+      "tutoriales",
+      "geolocalizacion-practica",
+      "imint"
+    ],
+    "tags": [
+      "gralhix",
+      "sofia-santos",
+      "geolocalizacion",
+      "imint",
+      "cronolocalizacion",
+      "ejercicios",
+      "tutoriales",
+      "retos",
+      "metodologia"
+    ],
+    "synonyms": [
+      "gralhix",
+      "sofia santos",
+      "gralhix osint",
+      "retos gralhix",
+      "ejercicios sofia santos",
+      "gralhix exercises"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Gratuito (Acceso libre a todos los ejercicios prácticos, artículos metodológicos y soluciones paso a paso)",
+    "access": "public",
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los ejercicios están planteados para el entrenamiento y estudio analítico individual"
+    ],
+    "useCases": [
+      "Entrenar la localización de fotografías y vídeos sin metadatos a partir de pistas visuales, señales y orografía",
+      "Aprender metodologías paso a paso de verificación y triangulación visual de escenas"
+    ],
+    "instructions": "Accede a la sección 'OSINT Exercises' para resolver los retos prácticos de geolocalización o revisa los artículos y soluciones para estudiar las técnicas de investigación aplicadas.",
+    "lastReviewed": "2026-11-23",
+    "status": "active"
   }
 ]
