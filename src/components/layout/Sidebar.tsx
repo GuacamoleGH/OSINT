@@ -93,14 +93,14 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
           </button>
         </div>
 
-        {/* Navigation Items (permanently expanded, ultra compact, zero scroll) */}
-        <nav className="flex-1 overflow-y-auto overflow-x-hidden overscroll-contain px-2 py-1 space-y-1 text-xs [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+        {/* Navigation Items (generous sizing, clear typography, crisp icons) */}
+        <nav className="flex-1 overflow-y-auto overflow-x-hidden overscroll-contain px-3 py-3 space-y-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
           {/* Section: Descubrir */}
           <div>
-            <div className="px-2 mb-0.5 text-[9px] font-bold uppercase tracking-wider text-guacamole-green">
+            <div className="px-2 mb-1.5 text-xs font-bold uppercase tracking-wider text-guacamole-green">
               Descubrir
             </div>
-            <ul className="space-y-0.5">
+            <ul className="space-y-1">
               {discoverLinks.map((item) => {
                 const Icon = item.icon;
                 const isActive = pathname === item.href;
@@ -109,18 +109,18 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
                     <Link
                       href={item.href}
                       onClick={onClose}
-                      className={`flex items-center justify-between px-2 py-0.5 rounded-md transition-colors text-[11px] leading-tight ${
+                      className={`flex items-center justify-between px-2.5 py-1.5 rounded-lg transition-colors text-xs sm:text-[13px] ${
                         isActive
                           ? "bg-guacamole-card text-guacamole-green font-semibold border-l-2 border-guacamole-green"
                           : "text-gray-300 hover:bg-guacamole-card/60 hover:text-gray-100"
                       }`}
                     >
-                      <div className="flex items-center gap-1.5 truncate">
-                        <Icon className={`w-3 h-3 shrink-0 ${isActive ? "text-guacamole-green" : "text-gray-400"}`} />
+                      <div className="flex items-center gap-2.5 truncate">
+                        <Icon className={`w-4 h-4 shrink-0 ${isActive ? "text-guacamole-green" : "text-gray-400"}`} />
                         <span className="truncate">{item.label}</span>
                       </div>
                       {typeof item.count === "number" && (
-                        <span className="text-[9px] px-1 py-0.1 rounded-full bg-guacamole-input text-gray-400 font-mono shrink-0">
+                        <span className="text-[11px] px-2 py-0.5 rounded-full bg-guacamole-input text-gray-400 font-mono shrink-0">
                           {item.count}
                         </span>
                       )}
@@ -131,23 +131,23 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
             </ul>
           </div>
 
-          {/* Section: Investigar por Objetivo (Always expanded) */}
+          {/* Section: Investigar por Objetivo */}
           <div>
-            <div className="flex items-center justify-between px-2 mb-0.5">
-              <div className="flex items-center gap-1 text-[9px] font-bold uppercase tracking-wider text-guacamole-turquoise">
+            <div className="flex items-center justify-between px-2 mb-1.5">
+              <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-guacamole-turquoise">
                 <span>Por Objetivo</span>
-                <span className="text-[9px] px-1 py-0.1 rounded bg-guacamole-input text-guacamole-turquoise font-mono">12</span>
+                <span className="text-[10px] px-1.5 py-0.2 rounded bg-guacamole-input text-guacamole-turquoise font-mono">12</span>
               </div>
               <Link
                 href="/investigate-by"
                 onClick={onClose}
-                className="text-[9px] text-gray-400 hover:text-guacamole-turquoise transition-colors"
+                className="text-[11px] text-gray-400 hover:text-guacamole-turquoise transition-colors"
               >
                 Ver todos
               </Link>
             </div>
 
-            <ul className="space-y-0.5 pl-1 border-l border-guacamole-border/40">
+            <ul className="space-y-1 pl-1 border-l border-guacamole-border/50">
               {investigateLinks.map((item) => {
                 const Icon = item.icon;
                 const isActive = pathname === item.href;
@@ -157,18 +157,18 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
                     <Link
                       href={item.href}
                       onClick={onClose}
-                      className={`flex items-center justify-between px-2 py-0.5 rounded-md text-[11px] leading-tight transition-colors ${
+                      className={`flex items-center justify-between px-2.5 py-1 rounded-lg text-xs sm:text-[13px] transition-colors ${
                         isActive
                           ? "bg-guacamole-card text-guacamole-turquoise font-semibold border-l-2 border-guacamole-turquoise"
                           : "text-gray-300 hover:bg-guacamole-card/60 hover:text-gray-100"
                       }`}
                     >
-                      <div className="flex items-center gap-1.5 truncate">
-                        <Icon className={`w-3 h-3 shrink-0 ${isActive ? "text-guacamole-turquoise" : "text-gray-400"}`} />
+                      <div className="flex items-center gap-2.5 truncate">
+                        <Icon className={`w-4 h-4 shrink-0 ${isActive ? "text-guacamole-turquoise" : "text-gray-400"}`} />
                         <span className="truncate">{item.label}</span>
                       </div>
                       {count > 0 && (
-                        <span className="text-[9px] px-1 py-0.1 rounded bg-guacamole-input text-gray-400 font-mono shrink-0">
+                        <span className="text-[11px] px-1.5 py-0.2 rounded bg-guacamole-input text-gray-400 font-mono shrink-0">
                           {count}
                         </span>
                       )}
@@ -181,10 +181,10 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
 
           {/* Section: Formación y Práctica */}
           <div>
-            <div className="px-2 mb-0.5 text-[9px] font-bold uppercase tracking-wider text-gray-400">
+            <div className="px-2 mb-1.5 text-xs font-bold uppercase tracking-wider text-gray-400">
               Formación
             </div>
-            <ul className="space-y-0.5">
+            <ul className="space-y-1">
               {learnLinks.map((item) => {
                 const Icon = item.icon;
                 const isActive = pathname === item.href;
@@ -193,13 +193,13 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
                     <Link
                       href={item.href}
                       onClick={onClose}
-                      className={`flex items-center gap-1.5 px-2 py-0.5 rounded-md transition-colors text-[11px] leading-tight ${
+                      className={`flex items-center gap-2.5 px-2.5 py-1.5 rounded-lg transition-colors text-xs sm:text-[13px] ${
                         isActive
                           ? "bg-guacamole-card text-guacamole-green font-semibold border-l-2 border-guacamole-green"
                           : "text-gray-300 hover:bg-guacamole-card/60 hover:text-gray-100"
                       }`}
                     >
-                      <Icon className={`w-3 h-3 shrink-0 ${isActive ? "text-guacamole-green" : "text-gray-400"}`} />
+                      <Icon className={`w-4 h-4 shrink-0 ${isActive ? "text-guacamole-green" : "text-gray-400"}`} />
                       <span className="truncate">{item.label}</span>
                     </Link>
                   </li>
@@ -210,10 +210,10 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
         </nav>
 
         {/* Sidebar Footer Info */}
-        <div className="px-2.5 py-1.5 border-t border-guacamole-border text-[10px] text-gray-400 flex items-center justify-between bg-guacamole-base/40 shrink-0">
-          <span className="text-[10px] text-gray-500 font-mono">v1.0.0</span>
-          <div className="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-guacamole-green/10 border border-guacamole-green/20 text-guacamole-green text-[10px] font-medium leading-none">
-            <span className="w-1.5 h-1.5 rounded-full bg-guacamole-green shrink-0 animate-pulse" />
+        <div className="px-3.5 py-2.5 border-t border-guacamole-border text-xs text-gray-400 flex items-center justify-between bg-guacamole-base/40 shrink-0">
+          <span className="text-[11px] text-gray-400 font-mono">v1.0.0</span>
+          <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-guacamole-green/10 border border-guacamole-green/20 text-guacamole-green text-[11px] font-medium leading-none">
+            <span className="w-2 h-2 rounded-full bg-guacamole-green shrink-0 animate-pulse" />
             <span className="font-sans">Activo</span>
           </div>
         </div>
