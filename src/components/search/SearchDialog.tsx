@@ -52,6 +52,8 @@ const SYNONYMS_MAP: Record<string, string[]> = {
   montana: ["peakvisor", "heywhatsthat", "relieve", "cumbres"],
   horizonte: ["heywhatsthat", "peakvisor", "panorama"],
   interseccion: ["bellingcat osm search", "overpass", "proximidad"],
+  metar: ["taf", "metar-taf", "viento", "tiempo aeropuerto", "pistas", "aeronautica"],
+  taf: ["metar", "metar-taf", "pronostico aeropuerto", "viento"],
 };
 
 export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {

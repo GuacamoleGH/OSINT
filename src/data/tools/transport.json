@@ -455,5 +455,73 @@
     "instructions": "Pega la cadena de texto cruda del código de barras o sube la imagen del billete para desglosar de inmediato todos los campos del estándar IATA.",
     "lastReviewed": "2026-11-23",
     "status": "active"
+  },
+  {
+    "id": "metar-taf",
+    "name": "METAR-TAF",
+    "slug": "metar-taf",
+    "description": "Informes meteorológicos de aviación METAR y previsiones TAF mundiales decodificados en tiempo real para aeropuertos y aeródromos.",
+    "longDescription": "Plataforma aeronáutica especializada que recopila y decodifica reportes meteorológicos oficiales METAR (Meteorological Aerodrome Report), previsiones TAF (Terminal Aerodrome Forecast) y avisos NOTAM de miles de aeropuertos civiles y militares de todo el mundo. Permite consultar dirección y racha de viento en pista, visibilidad horizontal, techo de nubes, temperatura, presión barométrica (QNH) e historial reciente para verificar condiciones climáticas reales durante investigaciones.",
+    "url": "https://metar-taf.com/es",
+    "categories": [
+      "transport",
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "meteorologia-aeronautica",
+      "metar",
+      "taf",
+      "aeropuertos",
+      "pistas"
+    ],
+    "tags": [
+      "metar-taf",
+      "metar",
+      "taf",
+      "meteorologia",
+      "aviacion",
+      "aeropuertos",
+      "viento",
+      "tiempo"
+    ],
+    "synonyms": [
+      "metar taf",
+      "meteorologia aeropuertos",
+      "tiempo aviacion",
+      "informes metar",
+      "pronostico taf",
+      "viento pista"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Gratuito (Acceso web completo y decodificación METAR/TAF libre sin registro obligatorio)",
+    "access": "public",
+    "geographicScope": [
+      "global",
+      "spain",
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los reportes METAR se actualizan cada 30 o 60 minutos según el aeródromo"
+    ],
+    "useCases": [
+      "Verificar si en un aeropuerto o zona circundante había niebla, lluvia intensa o viento cruzado en el momento de un incidente aéreo o fotográfico",
+      "Comprobar la orientación de las pistas en uso según la dirección del viento reportada"
+    ],
+    "instructions": "Introduce el código ICAO o IATA del aeropuerto (ej. LEMD para Madrid-Barajas o LEBL para Barcelona-El Prat) o busca por nombre de ciudad en el mapa para ver el informe meteorológico decodificado.",
+    "lastReviewed": "2026-11-23",
+    "status": "active"
   }
 ]
