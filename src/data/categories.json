@@ -1,7 +1,7 @@
 [
   {
     "id": "general",
-    "name": "General OSINT",
+    "name": "OSINT General",
     "shortDescription": "Directorios, marcos de trabajo, guías y metodologías globales.",
     "description": "Portales integrales, repositorios y metodologías de inteligencia de fuentes abiertas para orientar y estructurar investigaciones.",
     "icon": "Compass",
@@ -9,7 +9,7 @@
   },
   {
     "id": "search",
-    "name": "Search Engines",
+    "name": "Motores de Búsqueda",
     "shortDescription": "Buscadores especializados, operadores booleanos y Google Dorks.",
     "description": "Motores de búsqueda avanzados, metabuscadores descentralizados y bases de datos de operadores avanzados para indexación profunda.",
     "icon": "Search",
@@ -17,7 +17,7 @@
   },
   {
     "id": "geoint",
-    "name": "GEOINT & Maps",
+    "name": "GEOINT y Mapas",
     "shortDescription": "Geolocalización, cartografía, Street View y datos geográficos.",
     "description": "Herramientas de análisis geoespacial, mapas colaborativos, visualización 3D y servicios cartográficos oficiales de España y Europa.",
     "icon": "MapPin",
@@ -25,7 +25,7 @@
   },
   {
     "id": "imint",
-    "name": "IMINT & Media",
+    "name": "IMINT y Multimedia",
     "shortDescription": "Búsqueda inversa, metadatos EXIF y verificación multimedia.",
     "description": "Verificación de autenticidad en imágenes y vídeos, extracción de metadatos forenses y análisis de contenido audiovisual.",
     "icon": "Camera",
@@ -33,7 +33,7 @@
   },
   {
     "id": "satellite",
-    "name": "Satellite Intelligence",
+    "name": "Inteligencia Satelital",
     "shortDescription": "Imágenes satelitales, Sentinel, observación terrestre y cambios.",
     "description": "Plataformas de teledetección orbital, datos multiespectrales de Copernicus y NASA para monitorización terrestre y temporal.",
     "icon": "Satellite",
@@ -41,7 +41,7 @@
   },
   {
     "id": "chronolocation",
-    "name": "Chronolocation",
+    "name": "Cronolocalización",
     "shortDescription": "Posición solar, sombras, meteorología histórica y cálculo temporal.",
     "description": "Determinación de fecha y hora exacta mediante cálculo de sombras (sun azimuth/elevation) y registros meteorológicos históricos.",
     "icon": "Clock",
@@ -49,7 +49,7 @@
   },
   {
     "id": "socmint",
-    "name": "SOCMINT",
+    "name": "SOCMINT (Redes)",
     "shortDescription": "Redes sociales, comunidades y análisis de contenido público.",
     "description": "Investigación de presencia pública, canales comunitarios y tendencias en plataformas sociales de uso masivo.",
     "icon": "Users",
@@ -57,7 +57,7 @@
   },
   {
     "id": "webint",
-    "name": "WEBINT",
+    "name": "WEBINT (Web)",
     "shortDescription": "Dominios, DNS, WHOIS/RDAP, certificados y archivos web históricos.",
     "description": "Análisis de infraestructura de sitios web, historial de capturas, registros DNS y certificados TLS para perfilar activos web.",
     "icon": "Globe",
@@ -65,7 +65,7 @@
   },
   {
     "id": "sigint",
-    "name": "SIGINT",
+    "name": "SIGINT (Señales)",
     "shortDescription": "Wi-Fi, radiofrecuencia, SDR, ADS-B y señales inalámbricas.",
     "description": "Bases de datos de redes inalámbricas geolocalizadas, frecuencias de radioaficionados y monitorización de radio abierta.",
     "icon": "Radio",
@@ -73,7 +73,7 @@
   },
   {
     "id": "cyber",
-    "name": "Cyber Intelligence",
+    "name": "Ciberinteligencia",
     "shortDescription": "IPs, ASN, exposición de servicios y análisis de amenazas.",
     "description": "Inteligencia de infraestructura de internet, escaneo pasivo de puertos, reputación de hosts y bases de datos de ciberseguridad.",
     "icon": "ShieldAlert",
@@ -81,7 +81,7 @@
   },
   {
     "id": "public-records",
-    "name": "Public Records",
+    "name": "Registros Públicos",
     "shortDescription": "Registros mercantiles, boletines oficiales, contratación y datos abiertos.",
     "description": "Fuentes oficiales de España (BOE, Registros, Contratación del Estado) y Europa para investigación mercantil y corporativa.",
     "icon": "Building2",
@@ -89,7 +89,7 @@
   },
   {
     "id": "transport",
-    "name": "Transport Intelligence",
+    "name": "Inteligencia de Transporte",
     "shortDescription": "Tráfico aéreo (ADS-B), transporte marítimo (AIS) y movilidad.",
     "description": "Monitorización en tiempo real e histórico de vuelos comerciales y privados, buques mercantes, actividad pesquera y flotas.",
     "icon": "Plane",

@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -25,6 +25,7 @@ import {
   Network,
   Building,
   MapPin,
+  ChevronDown,
 } from "lucide-react";
 import { useFavorites } from "@/hooks/useFavorites";
 
@@ -38,34 +39,42 @@ interface SidebarProps {
 export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 0 }: SidebarProps) {
   const pathname = usePathname();
   const { favorites } = useFavorites();
+  const isInvestigateActive = pathname.startsWith("/investigate-by");
+  const [isInvestigateOpen, setIsInvestigateOpen] = useState(isInvestigateActive);
+
+  useEffect(() => {
+    if (isInvestigateActive) {
+      setIsInvestigateOpen(true);
+    }
+  }, [isInvestigateActive]);
 
   const discoverLinks = [
-    { label: "Dashboard", href: "/", icon: LayoutDashboard },
-    { label: "All Tools", href: "/tools", icon: Wrench, count: totalTools },
-    { label: "Categories", href: "/categories", icon: Layers, count: 12 },
-    { label: "Favorites", href: "/favorites", icon: Heart, count: favorites.length },
-    { label: "Recently Used", href: "/recent", icon: History },
+    { label: "Panel Principal", href: "/", icon: LayoutDashboard },
+    { label: "Todas las herramientas", href: "/tools", icon: Wrench, count: totalTools },
+    { label: "Categorías", href: "/categories", icon: Layers, count: 12 },
+    { label: "Favoritos", href: "/favorites", icon: Heart, count: favorites.length },
+    { label: "Historial reciente", href: "/recent", icon: History },
   ];
 
   const investigateLinks = [
-    { label: "Social Media", href: "/investigate-by/social-media", icon: Share2, id: "social-media" },
-    { label: "Gaming", href: "/investigate-by/gaming", icon: Gamepad2, id: "gaming" },
-    { label: "GitHub & Developer", href: "/investigate-by/github-dev", icon: GitBranch, id: "github-dev" },
-    { label: "Username", href: "/investigate-by/username", icon: AtSign, id: "username" },
-    { label: "People & Professional", href: "/investigate-by/people-professional", icon: UserCheck, id: "people-professional" },
-    { label: "Email", href: "/investigate-by/email", icon: Mail, id: "email" },
-    { label: "Phone", href: "/investigate-by/phone", icon: Phone, id: "phone" },
-    { label: "Vehicle", href: "/investigate-by/vehicle", icon: Car, id: "vehicle" },
-    { label: "Jobs & Careers", href: "/investigate-by/jobs-careers", icon: Briefcase, id: "jobs-careers" },
-    { label: "Domain & IP", href: "/investigate-by/domain-ip", icon: Network, id: "domain-ip" },
-    { label: "Companies", href: "/investigate-by/companies", icon: Building, id: "companies" },
-    { label: "Location", href: "/investigate-by/location", icon: MapPin, id: "location" },
+    { label: "Redes Sociales", href: "/investigate-by/social-media", icon: Share2, id: "social-media" },
+    { label: "Videojuegos", href: "/investigate-by/gaming", icon: Gamepad2, id: "gaming" },
+    { label: "GitHub y Desarrollo", href: "/investigate-by/github-dev", icon: GitBranch, id: "github-dev" },
+    { label: "Nombre de usuario", href: "/investigate-by/username", icon: AtSign, id: "username" },
+    { label: "Personas y Profesional", href: "/investigate-by/people-professional", icon: UserCheck, id: "people-professional" },
+    { label: "Correo Electrónico", href: "/investigate-by/email", icon: Mail, id: "email" },
+    { label: "Teléfono", href: "/investigate-by/phone", icon: Phone, id: "phone" },
+    { label: "Vehículos y Matrículas", href: "/investigate-by/vehicle", icon: Car, id: "vehicle" },
+    { label: "Empleo y Empresas", href: "/investigate-by/jobs-careers", icon: Briefcase, id: "jobs-careers" },
+    { label: "Dominio e IP", href: "/investigate-by/domain-ip", icon: Network, id: "domain-ip" },
+    { label: "Sociedades y Empresas", href: "/investigate-by/companies", icon: Building, id: "companies" },
+    { label: "Ubicación Geográfica", href: "/investigate-by/location", icon: MapPin, id: "location" },
   ];
 
   const learnLinks = [
-    { label: "Guides & Resources", href: "/guides", icon: BookOpen },
-    { label: "Practice & CTF", href: "/challenges", icon: Target },
-    { label: "About", href: "/about", icon: Info },
+    { label: "Guías y Metodología", href: "/guides", icon: BookOpen },
+    { label: "Práctica y Retos CTF", href: "/challenges", icon: Target },
+    { label: "Acerca de", href: "/about", icon: Info },
   ];
 
   return (
@@ -86,19 +95,19 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
         }`}
       >
         {/* Mobile Header in Drawer */}
-        <div className="flex md:hidden items-center justify-between p-4 border-b border-guacamole-border">
-          <span className="font-bold text-gray-100 text-sm">Navegación</span>
+        <div className="flex md:hidden items-center justify-between p-3.5 border-b border-guacamole-border">
+          <span className="font-bold text-gray-100 text-sm">Menú de Navegación</span>
           <button onClick={onClose} className="p-1 text-gray-400 hover:text-white rounded">
             <X className="w-5 h-5" />
           </button>
         </div>
 
-        {/* Scrollable Nav Items */}
-        <nav className="flex-1 overflow-y-auto px-3 py-4 space-y-6 text-sm">
-          {/* Section: Discover */}
+        {/* Navigation Items (clean, compact, no horizontal scroll, hidden scrollbar) */}
+        <nav className="flex-1 overflow-y-auto px-2.5 py-3 space-y-4 text-xs [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+          {/* Section: Descubrir */}
           <div>
-            <div className="px-3 mb-2 text-[11px] font-bold uppercase tracking-wider text-guacamole-green">
-              Discover
+            <div className="px-2.5 mb-1.5 text-[10px] font-bold uppercase tracking-wider text-guacamole-green">
+              Descubrir
             </div>
             <ul className="space-y-0.5">
               {discoverLinks.map((item) => {
@@ -109,18 +118,18 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
                     <Link
                       href={item.href}
                       onClick={onClose}
-                      className={`flex items-center justify-between px-3 py-2 rounded-md transition-colors ${
+                      className={`flex items-center justify-between px-2.5 py-1.5 rounded-md transition-colors ${
                         isActive
                           ? "bg-guacamole-card text-guacamole-green font-semibold border-l-2 border-guacamole-green"
                           : "text-gray-300 hover:bg-guacamole-card/60 hover:text-gray-100"
                       }`}
                     >
-                      <div className="flex items-center gap-2.5">
-                        <Icon className={`w-4 h-4 ${isActive ? "text-guacamole-green" : "text-gray-400"}`} />
-                        <span>{item.label}</span>
+                      <div className="flex items-center gap-2 truncate">
+                        <Icon className={`w-3.5 h-3.5 shrink-0 ${isActive ? "text-guacamole-green" : "text-gray-400"}`} />
+                        <span className="truncate">{item.label}</span>
                       </div>
                       {typeof item.count === "number" && (
-                        <span className="text-[11px] px-1.5 py-0.2 rounded-full bg-guacamole-input text-gray-400 font-mono">
+                        <span className="text-[10px] px-1.5 py-0.2 rounded-full bg-guacamole-input text-gray-400 font-mono shrink-0">
                           {item.count}
                         </span>
                       )}
@@ -131,56 +140,69 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
             </ul>
           </div>
 
-          {/* Section: Investigate By */}
+          {/* Section: Investigar por Objetivo (Collapsible Accordion) */}
           <div>
-            <div className="flex items-center justify-between px-3 mb-2">
-              <span className="text-[11px] font-bold uppercase tracking-wider text-guacamole-turquoise">
-                Investigate By
-              </span>
+            <div className="flex items-center justify-between px-2.5 mb-1">
+              <button
+                type="button"
+                onClick={() => setIsInvestigateOpen((prev) => !prev)}
+                className="flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-wider text-guacamole-turquoise hover:text-white transition-colors"
+              >
+                <span>Por Objetivo</span>
+                <span className="text-[9px] px-1 py-0.2 rounded bg-guacamole-input text-guacamole-turquoise font-mono">12</span>
+                <ChevronDown
+                  className={`w-3 h-3 text-guacamole-turquoise transition-transform duration-200 ${
+                    isInvestigateOpen ? "rotate-180" : ""
+                  }`}
+                />
+              </button>
               <Link
                 href="/investigate-by"
                 onClick={onClose}
-                className="text-[10px] text-gray-400 hover:text-guacamole-turquoise"
+                className="text-[10px] text-gray-400 hover:text-guacamole-turquoise transition-colors"
               >
                 Ver todos
               </Link>
             </div>
-            <ul className="space-y-0.5">
-              {investigateLinks.map((item) => {
-                const Icon = item.icon;
-                const isActive = pathname === item.href;
-                const count = investigateCounts[item.id] || 0;
-                return (
-                  <li key={item.href}>
-                    <Link
-                      href={item.href}
-                      onClick={onClose}
-                      className={`flex items-center justify-between px-3 py-1.5 rounded-md text-xs transition-colors ${
-                        isActive
-                          ? "bg-guacamole-card text-guacamole-turquoise font-semibold border-l-2 border-guacamole-turquoise"
-                          : "text-gray-300 hover:bg-guacamole-card/60 hover:text-gray-100"
-                      }`}
-                    >
-                      <div className="flex items-center gap-2.5 truncate">
-                        <Icon className={`w-3.5 h-3.5 shrink-0 ${isActive ? "text-guacamole-turquoise" : "text-gray-400"}`} />
-                        <span className="truncate">{item.label}</span>
-                      </div>
-                      {count > 0 && (
-                        <span className="text-[10px] px-1.5 py-0.2 rounded bg-guacamole-input text-gray-400 font-mono shrink-0">
-                          {count}
-                        </span>
-                      )}
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
+
+            {isInvestigateOpen && (
+              <ul className="space-y-0.5 mt-1 pl-1 border-l border-guacamole-border/50">
+                {investigateLinks.map((item) => {
+                  const Icon = item.icon;
+                  const isActive = pathname === item.href;
+                  const count = investigateCounts[item.id] || 0;
+                  return (
+                    <li key={item.href}>
+                      <Link
+                        href={item.href}
+                        onClick={onClose}
+                        className={`flex items-center justify-between px-2.5 py-1 rounded-md text-[11px] transition-colors ${
+                          isActive
+                            ? "bg-guacamole-card text-guacamole-turquoise font-semibold border-l-2 border-guacamole-turquoise"
+                            : "text-gray-300 hover:bg-guacamole-card/60 hover:text-gray-100"
+                        }`}
+                      >
+                        <div className="flex items-center gap-2 truncate">
+                          <Icon className={`w-3 h-3 shrink-0 ${isActive ? "text-guacamole-turquoise" : "text-gray-400"}`} />
+                          <span className="truncate">{item.label}</span>
+                        </div>
+                        {count > 0 && (
+                          <span className="text-[9px] px-1 py-0.2 rounded bg-guacamole-input text-gray-400 font-mono shrink-0">
+                            {count}
+                          </span>
+                        )}
+                      </Link>
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
           </div>
 
-          {/* Section: Learn */}
+          {/* Section: Formación y Práctica */}
           <div>
-            <div className="px-3 mb-2 text-[11px] font-bold uppercase tracking-wider text-gray-400">
-              Learn
+            <div className="px-2.5 mb-1.5 text-[10px] font-bold uppercase tracking-wider text-gray-400">
+              Formación
             </div>
             <ul className="space-y-0.5">
               {learnLinks.map((item) => {
@@ -191,14 +213,14 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
                     <Link
                       href={item.href}
                       onClick={onClose}
-                      className={`flex items-center gap-2.5 px-3 py-2 rounded-md transition-colors ${
+                      className={`flex items-center gap-2 px-2.5 py-1.5 rounded-md transition-colors ${
                         isActive
                           ? "bg-guacamole-card text-guacamole-green font-semibold border-l-2 border-guacamole-green"
                           : "text-gray-300 hover:bg-guacamole-card/60 hover:text-gray-100"
                       }`}
                     >
-                      <Icon className={`w-4 h-4 ${isActive ? "text-guacamole-green" : "text-gray-400"}`} />
-                      <span>{item.label}</span>
+                      <Icon className={`w-3.5 h-3.5 shrink-0 ${isActive ? "text-guacamole-green" : "text-gray-400"}`} />
+                      <span className="truncate">{item.label}</span>
                     </Link>
                   </li>
                 );
@@ -208,9 +230,12 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
         </nav>
 
         {/* Sidebar Footer Info */}
-        <div className="p-3 border-t border-guacamole-border text-[11px] text-gray-400 flex items-center justify-between bg-guacamole-base/50">
-          <span>v1.0.0 • Ecosistema GH</span>
-          <span className="w-2 h-2 rounded-full bg-guacamole-green" title="Operacional" />
+        <div className="p-2.5 border-t border-guacamole-border text-[10px] text-gray-400 flex items-center justify-between bg-guacamole-base/50">
+          <span>v1.0.0 • GuacamoleGH</span>
+          <div className="flex items-center gap-1.5 text-guacamole-green">
+            <span className="w-1.5 h-1.5 rounded-full bg-guacamole-green animate-pulse" />
+            <span className="text-[10px] font-mono">Activo</span>
+          </div>
         </div>
       </aside>
     </>

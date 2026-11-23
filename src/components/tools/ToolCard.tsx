@@ -2,8 +2,9 @@
 
 import React from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { ToolItem } from "@/types/osint";
-import { Heart, ExternalLink, Globe, Shield, Terminal, ArrowUpRight } from "lucide-react";
+import { Heart, ExternalLink, Terminal } from "lucide-react";
 import { useFavorites } from "@/hooks/useFavorites";
 
 interface ToolCardProps {
@@ -12,6 +13,7 @@ interface ToolCardProps {
 }
 
 export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
+  const router = useRouter();
   const { isFavorite, toggleFavorite } = useFavorites();
   const favorited = isFavorite(tool.id);
 
@@ -41,13 +43,21 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
 
   const pricingBadge = getPricingBadge(tool.pricing);
 
+  const handleCardClick = () => {
+    router.push(`/tools/${tool.slug}`);
+  };
+
   if (viewMode === "list") {
     return (
-      <div className="group relative bg-guacamole-card hover:bg-guacamole-hover border border-guacamole-border hover:border-guacamole-border-highlight rounded-lg p-4 transition-all duration-150 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+      <div
+        onClick={handleCardClick}
+        className="group relative bg-guacamole-card hover:bg-guacamole-hover border border-guacamole-border hover:border-guacamole-border-highlight rounded-lg p-4 transition-all duration-150 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 cursor-pointer"
+      >
         <div className="flex-1 min-w-0">
           <div className="flex flex-wrap items-center gap-2 mb-1">
             <Link
               href={`/tools/${tool.slug}`}
+              onClick={(e) => e.stopPropagation()}
               className="text-base font-semibold text-gray-100 group-hover:text-guacamole-green transition-colors hover:underline"
             >
               {tool.name}
@@ -55,11 +65,6 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
             <span className={`text-[10px] font-semibold uppercase px-2 py-0.5 rounded border ${pricingBadge.cls}`}>
               {pricingBadge.label}
             </span>
-            {tool.pricingDetails && (
-              <span className="text-[10px] text-amber-300 bg-amber-950/50 border border-amber-800/70 px-2 py-0.5 rounded font-mono" title={tool.pricingDetails}>
-                {tool.pricingDetails}
-              </span>
-            )}
             {tool.geographicScope.map((s) => {
               const b = getScopeBadge(s);
               return (
@@ -92,9 +97,12 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
           </div>
         </div>
 
-        <div className="flex items-center gap-2 shrink-0 self-end sm:self-center">
+        <div className="flex items-center gap-2 shrink-0 self-end sm:self-center" onClick={(e) => e.stopPropagation()}>
           <button
-            onClick={() => toggleFavorite(tool.id)}
+            onClick={(e) => {
+              e.stopPropagation();
+              toggleFavorite(tool.id);
+            }}
             className={`p-2 rounded-md border transition-colors ${
               favorited
                 ? "bg-rose-950/60 border-rose-800 text-rose-400"
@@ -107,15 +115,17 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
 
           <Link
             href={`/tools/${tool.slug}`}
+            onClick={(e) => e.stopPropagation()}
             className="px-3 py-1.5 text-xs font-medium text-gray-200 bg-guacamole-input hover:bg-guacamole-base border border-guacamole-border rounded-md hover:border-guacamole-green/60 transition-colors"
           >
-            Ficha
+            Detalles
           </Link>
 
           <a
             href={tool.url}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
             className="p-2 text-gray-400 hover:text-guacamole-green bg-guacamole-input border border-guacamole-border rounded-md hover:border-guacamole-green/60 transition-colors"
             title="Abrir sitio oficial en pestaña nueva"
           >
@@ -128,19 +138,26 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
 
   // Grid Mode (default)
   return (
-    <div className="group relative bg-guacamole-card hover:bg-guacamole-hover border border-guacamole-border hover:border-guacamole-green/40 hover:shadow-hover rounded-lg p-4 transition-all duration-200 flex flex-col justify-between">
+    <div
+      onClick={handleCardClick}
+      className="group relative bg-guacamole-card hover:bg-guacamole-hover border border-guacamole-border hover:border-guacamole-green/40 hover:shadow-hover rounded-lg p-4 transition-all duration-200 flex flex-col justify-between cursor-pointer"
+    >
       <div>
         {/* Top bar: Name + Favorite */}
         <div className="flex items-start justify-between gap-2 mb-2">
           <Link
             href={`/tools/${tool.slug}`}
+            onClick={(e) => e.stopPropagation()}
             className="font-semibold text-sm sm:text-base text-gray-100 group-hover:text-guacamole-green transition-colors line-clamp-1"
           >
             {tool.name}
           </Link>
 
           <button
-            onClick={() => toggleFavorite(tool.id)}
+            onClick={(e) => {
+              e.stopPropagation();
+              toggleFavorite(tool.id);
+            }}
             className={`p-1.5 rounded-md border transition-colors shrink-0 ${
               favorited
                 ? "bg-rose-950/60 border-rose-800 text-rose-400"
@@ -172,13 +189,6 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
           )}
         </div>
 
-        {/* Approximate pricing details if applicable */}
-        {tool.pricingDetails && (
-          <div className="text-[11px] text-amber-300/90 bg-amber-950/30 border border-amber-900/60 px-2 py-1 rounded font-mono mb-2 line-clamp-2" title={tool.pricingDetails}>
-            {tool.pricingDetails}
-          </div>
-        )}
-
         {/* Description */}
         <p className="text-xs text-gray-400 line-clamp-3 mb-3 leading-relaxed">{tool.description}</p>
       </div>
@@ -194,17 +204,22 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
         </div>
 
         {/* Action Buttons */}
-        <div className="flex items-center gap-2 pt-2 border-t border-guacamole-border/50">
-          <Link
-            href={`/tools/${tool.slug}`}
+        <div className="flex items-center gap-2 pt-2 border-t border-guacamole-border/50" onClick={(e) => e.stopPropagation()}>
+          <button
+            type="button"
+            onClick={(e) => {
+              e.stopPropagation();
+              router.push(`/tools/${tool.slug}`);
+            }}
             className="flex-1 text-center py-1.5 px-3 text-xs font-medium text-gray-200 bg-guacamole-input hover:bg-guacamole-base border border-guacamole-border rounded hover:border-guacamole-green/60 transition-colors"
           >
             Detalles
-          </Link>
+          </button>
           <a
             href={tool.url}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
             className="p-1.5 text-gray-400 hover:text-guacamole-green bg-guacamole-input border border-guacamole-border rounded hover:border-guacamole-green/60 transition-colors"
             title="Abrir web oficial"
           >

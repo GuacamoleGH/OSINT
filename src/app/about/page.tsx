@@ -63,18 +63,6 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
-
-      {/* Network & Infrastructure box */}
-      <div className="p-6 rounded-xl bg-guacamole-card border border-guacamole-border space-y-4">
-        <h2 className="text-base font-bold text-gray-100">Infraestructura y Despliegue</h2>
-        <div className="font-mono text-xs text-gray-300 bg-guacamole-input p-4 rounded-lg border border-guacamole-border space-y-1">
-          <div>Entorno: Producción homelab GuacamoleGH</div>
-          <div>Stack path: /opt/stacks/osint-hub/</div>
-          <div>Acceso local: http://192.168.0.18:3104</div>
-          <div>Contenedor: osint-hub (puerto host :3104 &rarr; contenedor :3000)</div>
-          <div>Enrutamiento seguro: Cloudflare Tunnel &rarr; osint.guacamolegh.es</div>
-        </div>
-      </div>
     </div>
   );
 }

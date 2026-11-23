@@ -1,11 +1,20 @@
 [
   {
     "id": "social-media",
-    "name": "Social Media",
+    "name": "Redes Sociales",
     "shortDescription": "Redes sociales, plataformas de vídeo y comunidades públicas.",
     "description": "Herramientas de búsqueda y análisis de perfiles, publicaciones y contenidos públicos en Instagram, TikTok, Facebook, X, Telegram, Reddit o YouTube.",
     "icon": "Share2",
-    "platforms": ["Instagram", "TikTok", "X / Twitter", "Telegram", "Reddit", "YouTube", "Bluesky", "Threads"],
+    "platforms": [
+      "Instagram",
+      "TikTok",
+      "X / Twitter",
+      "Telegram",
+      "Reddit",
+      "YouTube",
+      "Bluesky",
+      "Threads"
+    ],
     "tips": [
       "No asumas que cuentas con igual alias pertenecen a la misma persona.",
       "Utiliza buscadores y APIs oficiales respetando la privacidad.",
@@ -15,11 +24,17 @@
   },
   {
     "id": "gaming",
-    "name": "Gaming",
+    "name": "Videojuegos",
     "shortDescription": "Steam, Discord y comunidades de videojuegos públicas.",
     "description": "Identificadores SteamID, inventarios públicos, servidores de juego y estadísticas abiertas de plataformas de videojuegos.",
     "icon": "Gamepad2",
-    "platforms": ["Steam", "Discord", "Twitch", "Xbox Live", "PlayStation Network"],
+    "platforms": [
+      "Steam",
+      "Discord",
+      "Twitch",
+      "Xbox Live",
+      "PlayStation Network"
+    ],
     "tips": [
       "SteamID permite convertir entre formatos SteamID64, CustomURL y enlaces permanentes.",
       "Revisa insignias, amigos públicos y horas de juego para correlaciones temporales."
@@ -28,11 +43,16 @@
   },
   {
     "id": "github-dev",
-    "name": "GitHub & Developer",
+    "name": "GitHub y Desarrolladores",
     "shortDescription": "Repositorios, autores de commits, código público y relaciones.",
     "description": "Búsqueda en repositorios públicos, historial de commits (autores y emails públicos), relaciones entre forks y análisis de código abierto.",
     "icon": "GitBranch",
-    "platforms": ["GitHub", "GitLab", "grep.app", "Sourcegraph"],
+    "platforms": [
+      "GitHub",
+      "GitLab",
+      "grep.app",
+      "Sourcegraph"
+    ],
     "tips": [
       "Los commits públicos contienen información legítima de autoría y marcas temporales.",
       "Usa grep.app para buscar patrones en millones de repositorios abiertos."
@@ -41,11 +61,16 @@
   },
   {
     "id": "username",
-    "name": "Username",
+    "name": "Nombre de usuario",
     "shortDescription": "Rastreo de alias y presencia en plataformas públicas.",
     "description": "Detección pasiva de nombres de usuario en cientos de servicios web para generar pistas iniciales de investigación.",
     "icon": "AtSign",
-    "platforms": ["Sherlock", "Maigret", "Blackbird", "WhatsMyName"],
+    "platforms": [
+      "Sherlock",
+      "Maigret",
+      "Blackbird",
+      "WhatsMyName"
+    ],
     "tips": [
       "Los resultados son indicios, no pruebas definitivas de coincidencia de identidad.",
       "Filtra falsos positivos revisando manualmente los perfiles encontrados."
@@ -54,11 +79,16 @@
   },
   {
     "id": "people-professional",
-    "name": "People & Professional",
+    "name": "Personas y Ámbito Profesional",
     "shortDescription": "Perfiles profesionales, genealogía y directorios públicos legítimos.",
     "description": "Búsqueda de trayectorias profesionales públicas, publicaciones académicas, registros corporativos y datos genealógicos históricos.",
     "icon": "UserCheck",
-    "platforms": ["LinkedIn", "OpenCorporates", "FamilySearch", "Dialnet"],
+    "platforms": [
+      "LinkedIn",
+      "OpenCorporates",
+      "FamilySearch",
+      "Dialnet"
+    ],
     "tips": [
       "Enfocado exclusivamente a perfiles públicos legítimos y fuentes oficiales.",
       "Prohibido el doxxing y la búsqueda invasiva de datos particulares no públicos."
@@ -67,11 +97,17 @@
   },
   {
     "id": "email",
-    "name": "Email",
+    "name": "Correo Electrónico",
     "shortDescription": "Validación técnica, reputación, MX y exposición autorizada.",
     "description": "Verificación de existencia de buzón, registros SPF/DKIM/DMARC del dominio, reputación antispam y brechas de seguridad autorizadas.",
     "icon": "Mail",
-    "platforms": ["Have I Been Pwned", "EmailRep", "Epieos", "MXToolbox", "Holehe"],
+    "platforms": [
+      "Have I Been Pwned",
+      "EmailRep",
+      "Epieos",
+      "MXToolbox",
+      "Holehe"
+    ],
     "tips": [
       "Prioriza la comprobación de cuentas propias o con autorización expresa.",
       "Revisa la configuración del servidor de correo receptor para descartar respuestas 'catch-all'."
@@ -80,11 +116,15 @@
   },
   {
     "id": "phone",
-    "name": "Phone",
+    "name": "Teléfono",
     "shortDescription": "Validación de prefijos, operador, tipo de línea y spam.",
     "description": "Normalización de formato E.164, identificación de prefijos nacionales e internacionales, tipo de numeración y reputación contra spam telefónico.",
     "icon": "Phone",
-    "platforms": ["PhoneInfoga", "CNMC Numeración", "ListaSpam"],
+    "platforms": [
+      "PhoneInfoga",
+      "CNMC Numeración",
+      "ListaSpam"
+    ],
     "tips": [
       "No existe acceso a ubicación GPS ni a identidad privada de titulares en fuentes abiertas legítimas.",
       "La CNMC en España proporciona información sobre asignación de rangos y operadores."
@@ -93,11 +133,15 @@
   },
   {
     "id": "vehicle",
-    "name": "Vehicle",
+    "name": "Vehículos y Matrículas",
     "shortDescription": "Información técnica, distintivos ambientales y fuentes oficiales DGT.",
     "description": "Recursos técnicos sobre homologaciones, distintivos de emisiones DGT, campañas de seguridad oficiales (recalls) e historial técnico de modelos.",
     "icon": "Car",
-    "platforms": ["Sede Electrónica DGT", "BOE", "UNECE"],
+    "platforms": [
+      "Sede Electrónica DGT",
+      "BOE",
+      "UNECE"
+    ],
     "tips": [
       "Prioridad a sedes oficiales de España y Europa (DGT).",
       "No se permite ni facilita la identificación de propietarios particulares por matrícula."
@@ -106,11 +150,16 @@
   },
   {
     "id": "jobs-careers",
-    "name": "Jobs & Careers",
+    "name": "Empleo y Empresas",
     "shortDescription": "Ofertas de empleo, portales laborales y datos de contratación pública.",
     "description": "Investigación de tecnologías requeridas por empresas, evolución de plantillas, vacantes públicas en España (SEPE/EURES) y licitaciones.",
     "icon": "Briefcase",
-    "platforms": ["InfoJobs", "EURES", "LinkedIn Jobs", "Portal de Empleo Público"],
+    "platforms": [
+      "InfoJobs",
+      "EURES",
+      "LinkedIn Jobs",
+      "Portal de Empleo Público"
+    ],
     "tips": [
       "Las ofertas de empleo revelan el stack tecnológico interno y planes de expansión de una empresa.",
       "Revisa portales oficiales como EURES para empleo transnacional en Europa."
@@ -119,11 +168,17 @@
   },
   {
     "id": "domain-ip",
-    "name": "Domain & IP",
+    "name": "Dominio e IP",
     "shortDescription": "DNS, WHOIS/RDAP, subdominios, ASN y certificados SSL/TLS.",
     "description": "Cartografía técnica de activos en internet: transparecia de certificados (CT logs), registros DNS históricos y topología de red.",
     "icon": "Network",
-    "platforms": ["crt.sh", "DNSDumpster", "urlscan.io", "BGPView", "VirusTotal"],
+    "platforms": [
+      "crt.sh",
+      "DNSDumpster",
+      "urlscan.io",
+      "BGPView",
+      "VirusTotal"
+    ],
     "tips": [
       "crt.sh permite descubrir subdominios a través de registros de certificados emitidos.",
       "Verifica la política RDAP para dominios .es a través de Red.es / Dominios.es."
@@ -132,11 +187,17 @@
   },
   {
     "id": "companies",
-    "name": "Companies",
+    "name": "Sociedades y Empresas",
     "shortDescription": "Registros mercantiles, sanciones, contratación del Estado y finanzas.",
     "description": "Fuentes públicas y oficiales para investigar sociedades mercantiles en España (BORME, CNMV, Plataforma de Contratación) y a nivel europeo.",
     "icon": "Building",
-    "platforms": ["OpenCorporates", "BOE / BORME", "Contratación del Sector Público", "OpenSanctions", "GLEIF"],
+    "platforms": [
+      "OpenCorporates",
+      "BOE / BORME",
+      "Contratación del Sector Público",
+      "OpenSanctions",
+      "GLEIF"
+    ],
     "tips": [
       "La Plataforma de Contratación del Sector Público de España es una fuente pública clave de adjudicaciones.",
       "OpenSanctions y GLEIF unifican listas internacionales y códigos LEI de entidades jurídicas."
@@ -145,11 +206,18 @@
   },
   {
     "id": "location",
-    "name": "Location",
+    "name": "Ubicación Geográfica",
     "shortDescription": "Geolocalización, cartografía oficial, catastro y sol.",
     "description": "Localización precisa mediante herramientas satelitales, Street View, Catastro de España (IGN/Iberpix), mapas topográficos y azimut solar.",
     "icon": "Map",
-    "platforms": ["Google Earth", "Iberpix (IGN)", "Sede Catastro", "SunCalc", "Overpass Turbo", "Mapillary"],
+    "platforms": [
+      "Google Earth",
+      "Iberpix (IGN)",
+      "Sede Catastro",
+      "SunCalc",
+      "Overpass Turbo",
+      "Mapillary"
+    ],
     "tips": [
       "Iberpix y la Sede Electrónica del Catastro ofrecen la máxima precisión cartográfica para España.",
       "Combina la dirección de las sombras con SunCalc para deducir orientación o franja horaria."

@@ -6,7 +6,7 @@ import { CategoryIcon } from "@/components/ui/CategoryIcon";
 import { ArrowRight, Compass, ShieldAlert } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Investigate By — OSINT Hub",
+  title: "Investigar por Objetivo — OSINT Hub",
   description: "Navegación por objetivo: investiga a partir del dato o indicador que posees.",
 };
 
@@ -21,7 +21,7 @@ export default function InvestigateByIndexPage() {
           <Compass className="w-3.5 h-3.5" />
           <span>Navegación por Objetivo</span>
         </div>
-        <h1 className="text-3xl font-extrabold text-white tracking-tight">Investigate By</h1>
+        <h1 className="text-3xl font-extrabold text-white tracking-tight">Investigar por Objetivo</h1>
         <p className="text-sm text-gray-400 mt-1 max-w-2xl">
           Selecciona el tipo de indicador o información de partida que deseas investigar (nombre de usuario, correo, matrícula, empresa o ubicación) para descubrir las herramientas más eficaces sin duplicados.
         </p>

@@ -236,10 +236,10 @@ export function ToolsDirectory({
             </select>
           </div>
 
-          {/* Investigate By */}
+          {/* Por Objetivo */}
           <div>
             <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
-              Investigate By
+              Por Objetivo
             </label>
             <select
               value={selectedInvestigateBy}
