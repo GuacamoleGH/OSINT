@@ -137,7 +137,7 @@ docker compose up -d --build
 
 ### Configuración del servicio (`docker-compose.yml`):
 - **Nombre del contenedor:** `osint-hub`
-- **Puerto expuesto:** `127.0.0.1:3080:3000`
+- **Puerto expuesto:** `3104:3000` (accesible en LAN vía `http://192.168.0.18:3104`)
 - **Reinicio:** `unless-stopped`
 - **Healthcheck:** Consulta HTTP interna cada 30 segundos
 
@@ -154,14 +154,14 @@ osint.guacamolegh.es
 Cloudflare Tunnel (cloudflared)
         │
         ▼ (Red local interna del servidor)
-http://127.0.0.1:3080
+http://192.168.0.18:3104 (o http://127.0.0.1:3104)
 ```
 
 En el panel de **Zero Trust > Networks > Tunnels** (o en el archivo local `config.yml` del túnel):
 1. Añadir regla de entrada (*Ingress Rule*):
    - **Hostname:** `osint.guacamolegh.es`
    - **Service Type:** `HTTP`
-   - **URL:** `127.0.0.1:3080`
+   - **URL:** `192.168.0.18:3104` (o `127.0.0.1:3104`)
 2. Guardar cambios. El portal quedará inmediatamente accesible con certificado TLS válido.
 
 ---

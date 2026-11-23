@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import {
   getAllCategories,
   getAllInvestigateBy,
@@ -43,9 +44,21 @@ export default function HomePage() {
             <span>Ecosistema GuacamoleGH • Hub Autohospedado</span>
           </div>
 
-          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white mb-4">
-            OSINT <span className="text-transparent bg-clip-text bg-gradient-to-r from-guacamole-green to-guacamole-turquoise">Hub</span>
-          </h1>
+          <div className="flex items-center gap-4 mb-4">
+            <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-xl overflow-hidden border border-guacamole-border bg-guacamole-deep/80 shadow-glow shrink-0">
+              <Image
+                src="/logo.png"
+                alt="OSINT Hub Logo"
+                width={64}
+                height={64}
+                className="w-full h-full object-contain p-1"
+                priority
+              />
+            </div>
+            <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">
+              OSINT <span className="text-transparent bg-clip-text bg-gradient-to-r from-guacamole-green to-guacamole-turquoise">Hub</span>
+            </h1>
+          </div>
 
           <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-6">
             Portal curado de inteligencia de fuentes abiertas. Investiga desde una disciplina técnica (GEOINT, SOCMINT, WEBINT) o parte directamente de un indicador objetivo (alias, correo, matrícula, empresa o ubicación).

@@ -7,6 +7,10 @@ export const metadata: Metadata = {
   title: "OSINT Hub — Ecosistema GuacamoleGH",
   description:
     "Portal personal curado y autohospedado de inteligencia de fuentes abiertas (OSINT) del ecosistema GuacamoleGH.",
+  icons: {
+    icon: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

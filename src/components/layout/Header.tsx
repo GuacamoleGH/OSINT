@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Search, Heart, Sun, Moon, Menu, Shield, Compass } from "lucide-react";
 import { useFavorites } from "@/hooks/useFavorites";
 import { useTheme } from "@/hooks/useTheme";
@@ -47,11 +48,16 @@ export function Header({ onOpenSearch, onToggleMobileMenu }: HeaderProps) {
             <Menu className="w-5 h-5" />
           </button>
 
-          <Link href="/" className="flex items-center gap-2.5 group">
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-guacamole-green to-guacamole-turquoise p-0.5 shadow-glow flex items-center justify-center">
-              <div className="w-full h-full bg-guacamole-deep rounded-[7px] flex items-center justify-center group-hover:bg-transparent transition-colors">
-                <Compass className="w-5 h-5 text-guacamole-green group-hover:text-black transition-colors" />
-              </div>
+          <Link href="/" className="flex items-center gap-3 group">
+            <div className="relative w-9 h-9 rounded-lg overflow-hidden border border-guacamole-border group-hover:border-guacamole-green/60 transition-colors bg-guacamole-card flex items-center justify-center shrink-0">
+              <Image
+                src="/logo.png"
+                alt="GuacamoleGH OSINT Hub Logo"
+                width={36}
+                height={36}
+                className="w-full h-full object-contain"
+                priority
+              />
             </div>
             <div>
               <div className="flex items-center gap-2">
