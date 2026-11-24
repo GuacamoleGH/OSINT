@@ -78,6 +78,22 @@ export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
     }
   }, [isOpen]);
 
+  // Global listener for Escape key to close dialog reliably from anywhere
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const handleGlobalKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        e.preventDefault();
+        e.stopPropagation();
+        onClose();
+      }
+    };
+
+    window.addEventListener("keydown", handleGlobalKeyDown, true);
+    return () => window.removeEventListener("keydown", handleGlobalKeyDown, true);
+  }, [isOpen, onClose]);
+
   const fuse = useMemo(() => {
     return new Fuse(tools, {
       keys: [
@@ -179,9 +195,12 @@ export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-start justify-center pt-16 sm:pt-24 px-4 bg-black/75 backdrop-blur-sm animate-in fade-in duration-150">
+    <div
+      className="fixed inset-0 z-50 flex items-start justify-center pt-16 sm:pt-24 px-4 bg-black/75 backdrop-blur-sm animate-in fade-in duration-150 cursor-pointer"
+      onClick={onClose}
+    >
       <div
-        className="w-full max-w-2xl bg-guacamole-base border border-guacamole-border rounded-lg shadow-2xl overflow-hidden flex flex-col max-h-[80vh]"
+        className="w-full max-w-2xl bg-guacamole-base border border-guacamole-border rounded-lg shadow-2xl overflow-hidden flex flex-col max-h-[80vh] cursor-default"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Search Input Bar */}
@@ -205,9 +224,15 @@ export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
               <X className="w-4 h-4" />
             </button>
           )}
-          <kbd className="hidden sm:inline-block px-1.5 py-0.5 text-xs text-gray-400 bg-guacamole-input border border-guacamole-border rounded">
-            ESC
-          </kbd>
+          <button
+            type="button"
+            onClick={onClose}
+            className="flex items-center gap-1.5 px-2 py-1 text-xs text-gray-400 hover:text-white bg-guacamole-input hover:bg-guacamole-hover border border-guacamole-border hover:border-gray-500 rounded transition-colors cursor-pointer shrink-0 ml-1"
+            title="Cerrar ventana (ESC)"
+          >
+            <span className="font-mono text-[11px] font-semibold leading-none">ESC</span>
+            <X className="w-3.5 h-3.5" />
+          </button>
         </div>
 
         {/* Results List */}

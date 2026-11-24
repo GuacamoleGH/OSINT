@@ -10,6 +10,7 @@ import {
 } from "@/lib/data";
 import { CategoryIcon } from "@/components/ui/CategoryIcon";
 import { ToolCard } from "@/components/tools/ToolCard";
+import { HomeSearchTrigger } from "@/components/search/HomeSearchTrigger";
 import {
   ArrowRight,
   Sparkles,
@@ -110,20 +111,7 @@ export default function HomePage() {
 
             {/* Quick Access Search Trigger Bar */}
             <div className="pt-1">
-              <Link
-                href="/tools"
-                className="flex items-center justify-between w-full px-4 py-2.5 text-sm text-gray-400 bg-guacamole-input/90 hover:bg-guacamole-input border border-guacamole-border hover:border-guacamole-green/50 rounded-xl transition-all shadow-sm group"
-              >
-                <div className="flex items-center gap-2.5">
-                  <Search className="w-4 h-4 text-guacamole-green" />
-                  <span className="text-xs sm:text-sm group-hover:text-gray-200 transition-colors">
-                    Buscar herramientas, selectores, técnicas...
-                  </span>
-                </div>
-                <kbd className="px-2 py-0.5 text-[11px] bg-guacamole-card border border-guacamole-border rounded-md text-gray-400 font-mono">
-                  Ctrl K
-                </kbd>
-              </Link>
+              <HomeSearchTrigger />
             </div>
 
             {/* Stats Row */}
