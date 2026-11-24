@@ -4,46 +4,6 @@
 
 ---
 
-## 🚀 Puesta en Marcha Rápida y Entorno de Desarrollo
-
-### Con Docker Compose (Recomendado)
-
-El contenedor corre securizado como usuario no-root (`nextjs:nodejs`), con sistema de archivos de solo lectura (`read_only: true`) y almacenamiento temporal en `tmpfs`:
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/GuacamoleGH/OSINT.git
-cd OSINT
-
-# 2. Levantar el servicio
-docker compose up -d --build
-```
-Accede desde tu navegador en: **`http://localhost:3104`**
-
-> Para guías de integración con Cloudflare Tunnel, variables de entorno y despliegue avanzado en Homelab, consulta [docs/DEPLOY.md](docs/DEPLOY.md).
-
-### Desarrollo Local
-
-```bash
-# Instalar dependencias
-npm install
-
-# Iniciar servidor de desarrollo (http://localhost:3000)
-npm run dev
-
-# Validar tipos y linter
-npm run type-check
-npm run lint
-
-# Validar disponibilidad de enlaces
-npm run check-links
-
-# Compilar para producción
-npm run build
-```
-
----
-
 ## 📋 Criterios de Inclusión
 
 Antes de proponer una nueva herramienta o fuente, asegúrate de que cumple con los siguientes criterios éticos y técnicos:
