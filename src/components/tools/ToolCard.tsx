@@ -64,6 +64,12 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
                 CLI
               </span>
             )}
+
+            {tool.lastReviewed && (
+              <span className="text-[10px] text-gray-400 font-mono hidden md:inline ml-auto">
+                Verificado: {tool.lastReviewed}
+              </span>
+            )}
           </div>
 
           <p className="text-xs text-gray-400 line-clamp-1">{tool.description}</p>
@@ -164,11 +170,17 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
         <p className="text-xs text-gray-400 line-clamp-2 leading-relaxed">{tool.description}</p>
       </div>
 
-      {/* Bottom: Clean subtle footer with category and external link */}
+      {/* Bottom: Clean subtle footer with category, last reviewed and external link */}
       <div className="flex items-center justify-between pt-2 border-t border-guacamole-border/40 text-[11px] text-gray-500">
-        <span className="font-mono text-gray-400 truncate max-w-[150px]">
+        <span className="font-mono text-gray-400 truncate max-w-[120px]">
           {tool.categories[0]}
         </span>
+
+        {tool.lastReviewed && (
+          <span className="text-[10px] text-gray-500 font-mono" title={`Última verificación: ${tool.lastReviewed}`}>
+            {tool.lastReviewed}
+          </span>
+        )}
 
         <a
           href={tool.url}

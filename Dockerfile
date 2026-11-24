@@ -28,14 +28,17 @@ ENV PORT=3000
 ENV HOSTNAME="0.0.0.0"
 ENV NEXT_TELEMETRY_DISABLED=1
 
-# Usuario no privilegiado para seguridad
+# Crear usuario y grupo no privilegiado (UID/GID 1001)
 RUN addgroup --system --gid 1001 nodejs && \
     adduser --system --uid 1001 nextjs
 
-# Copiar archivos estáticos y bundle standalone optimizado
-COPY --from=builder /app/public ./public
+# Copiar archivos estáticos y bundle standalone optimizado asignando propiedad al usuario nextjs
+COPY --from=builder --chown=nextjs:nodejs /app/public ./public
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+
+# Preparar directorio de caché con permisos para nextjs
+RUN mkdir -p /app/.next/cache && chown -R nextjs:nodejs /app/.next/cache
 
 USER nextjs
 

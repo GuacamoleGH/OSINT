@@ -214,16 +214,16 @@ const BING_OPERATORS: OperatorItem[] = [
 
 const PRESET_DORKS: DorkPreset[] = [
   {
-    title: "Documentos Ofimáticos y PDFs",
-    description: "Encuentra informes, balances, actas y memorias expuestas públicamente.",
+    title: "Auditoría de Documentos y PDFs",
+    description: "Detecta informes, actas, balances y documentación indexada de acceso restringido.",
     category: "Documentos",
     platform: "google",
-    template: (d) => `site:${d} (filetype:pdf OR filetype:xlsx OR filetype:docx OR filetype:pptx) "confidencial" OR "interno"`,
+    template: (d) => `site:${d} (filetype:pdf OR filetype:xlsx OR filetype:docx OR filetype:pptx) ("confidencial" OR "uso interno")`,
     getTestUrl: (q) => `https://www.google.com/search?q=${encodeURIComponent(q)}`,
   },
   {
-    title: "Ficheros de Configuración y Respaldos",
-    description: "Archivos .env, volcados SQL, ficheros de registro .log o backups olvidados.",
+    title: "Auditoría de Configuración y Backups",
+    description: "Localiza exposición accidental de ficheros .env, volcados SQL, backups o logs.",
     category: "Ciberseguridad",
     platform: "google",
     template: (d) => `site:${d} (ext:env OR ext:sql OR ext:bak OR ext:log OR ext:key OR ext:ini)`,
@@ -231,7 +231,7 @@ const PRESET_DORKS: DorkPreset[] = [
   },
   {
     title: "Paneles de Administración y Accesos",
-    description: "Localiza portales de login, consolas de administración o pasarelas de acceso.",
+    description: "Identifica interfaces de autenticación, consolas o paneles expuestos a indexación.",
     category: "Infraestructura",
     platform: "google",
     template: (d) => `site:${d} (inurl:admin OR inurl:login OR inurl:cpanel OR inurl:dashboard OR inurl:portal)`,
@@ -239,23 +239,23 @@ const PRESET_DORKS: DorkPreset[] = [
   },
   {
     title: "Directorios Abiertos (Index of /)",
-    description: "Carpetas de servidor web sin página de inicio con listado de archivos navegable.",
+    description: "Carpetas de servidor web con listado de directorios público (directory listing activo).",
     category: "Directorios",
     platform: "google",
     template: (d) => `site:${d} intitle:"index of /" ("parent directory" OR "size" OR "last modified")`,
     getTestUrl: (q) => `https://www.google.com/search?q=${encodeURIComponent(q)}`,
   },
   {
-    title: "Descubrimiento de Subdominios",
-    description: "Muestra subdominios indexados excluyendo la página principal 'www'.",
+    title: "Mapeo Pasivo de Subdominios",
+    description: "Identifica subdominios indexados en el buscador excluyendo la raíz 'www'.",
     category: "Reconocimiento",
     platform: "google",
     template: (d) => `site:*.${d} -www.${d}`,
     getTestUrl: (q) => `https://www.google.com/search?q=${encodeURIComponent(q)}`,
   },
   {
-    title: "Secretos y Credenciales en GitHub",
-    description: "Rastrea claves API, tokens o variables de entorno asociadas a la empresa en código público.",
+    title: "Auditoría de Secretos en GitHub",
+    description: "Verifica si existen claves API, tokens o variables de entorno corporativas en repositorios públicos.",
     category: "Código",
     platform: "github",
     template: (d) => `"${d}" (filename:.env OR filename:config.json) ("api_key" OR "secret" OR "password")`,
@@ -293,6 +293,16 @@ export function DorkingCheatsheet() {
 
   return (
     <div className="space-y-6">
+      {/* Defensive Usage Notice */}
+      <div className="flex items-start gap-2.5 p-3.5 rounded-xl bg-amber-950/20 border border-amber-800/50 text-xs text-amber-200/90">
+        <Shield className="w-4 h-4 text-amber-400 mt-0.5 shrink-0" />
+        <div>
+          <span className="font-semibold text-amber-300">Aviso de uso ético y defensivo: </span>
+          <span>
+            Utiliza estas consultas de dorking exclusivamente sobre dominios y activos propios o bajo expresa autorización. Su propósito es la auditoría de seguridad y la detección temprana de fugas de información o configuraciones expuestas.
+          </span>
+        </div>
+      </div>
       {/* Interactive Domain Replacer Header */}
       <div className="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-guacamole-card to-guacamole-base border border-guacamole-border shadow-card flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
@@ -301,7 +311,7 @@ export function DorkingCheatsheet() {
             <span>Generador de Dorks en Vivo</span>
           </div>
           <p className="text-xs sm:text-sm text-gray-300">
-            Escribe el dominio objetivo para personalizar al instante todas las consultas de investigación:
+            Escribe el dominio objetivo para personalizar al instante todas las consultas de auditoría:
           </p>
         </div>
 
