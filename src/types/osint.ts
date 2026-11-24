@@ -29,6 +29,8 @@ export const InvestigateByIdSchema = z.enum([
   "domain-ip",
   "companies",
   "location",
+  "fraud-scams",
+  "classifieds",
 ]);
 export type InvestigateById = z.infer<typeof InvestigateByIdSchema>;
 

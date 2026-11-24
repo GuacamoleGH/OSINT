@@ -6,23 +6,52 @@
     "description": "Búsqueda visual inversa líder basada en visión artificial, OCR y detección de patrones y objetos.",
     "longDescription": "Herramienta de búsqueda por imágenes de Google que permite aislar regiones específicas de una fotografía, traducir textos integrados en carteles y encontrar productos, edificios o ubicaciones idénticas.",
     "url": "https://lens.google.com/",
-    "categories": ["imint"],
-    "investigateBy": ["location", "social-media"],
-    "subcategories": ["busqueda-inversa", "ocr", "reconocimiento"],
-    "tags": ["lens", "google", "busqueda-inversa", "vision-artificial", "ocr"],
-    "synonyms": ["google imagenes", "reverse image search", "buscar foto en google"],
+    "categories": [
+      "imint"
+    ],
+    "investigateBy": [
+      "location",
+      "social-media"
+    ],
+    "subcategories": [
+      "busqueda-inversa",
+      "ocr",
+      "reconocimiento"
+    ],
+    "tags": [
+      "lens",
+      "google",
+      "busqueda-inversa",
+      "vision-artificial",
+      "ocr"
+    ],
+    "synonyms": [
+      "google imagenes",
+      "reverse image search",
+      "buscar foto en google"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "mobile"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Prioriza resultados comerciales y productos sobre coincidencias exactas en foros pequeños"],
-    "useCases": ["Identificar el modelo exacto de una prenda o monumento histórico", "Buscar la procedencia de una foto de perfil"],
+    "limitations": [
+      "Prioriza resultados comerciales y productos sobre coincidencias exactas en foros pequeños"
+    ],
+    "useCases": [
+      "Identificar el modelo exacto de una prenda o monumento histórico",
+      "Buscar la procedencia de una foto de perfil"
+    ],
     "instructions": "Arrastra la imagen o pega una URL; ajusta el marco de recorte para enfocar un elemento clave.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -34,23 +63,50 @@
     "description": "El motor de búsqueda inversa de imágenes más potente para reconocimiento facial y paisajes.",
     "longDescription": "Reconocido por la comunidad OSINT internacional como el buscador inverso más eficaz para hallar rostros humanos similares, paisajes naturales y elementos en redes sociales de Europa y Eurasia.",
     "url": "https://yandex.com/images/",
-    "categories": ["imint"],
-    "investigateBy": ["username", "people-professional"],
-    "subcategories": ["busqueda-inversa", "rostros", "paisajes"],
-    "tags": ["yandex", "busqueda-inversa", "rostros", "fotografias"],
-    "synonyms": ["yandex reverse image", "buscar cara yandex"],
+    "categories": [
+      "imint"
+    ],
+    "investigateBy": [
+      "username",
+      "people-professional"
+    ],
+    "subcategories": [
+      "busqueda-inversa",
+      "rostros",
+      "paisajes"
+    ],
+    "tags": [
+      "yandex",
+      "busqueda-inversa",
+      "rostros",
+      "fotografias"
+    ],
+    "synonyms": [
+      "yandex reverse image",
+      "buscar cara yandex"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Menor cobertura de redes occidentales cerradas como perfiles privados"],
-    "useCases": ["Identificar cuentas alternativas que utilizan la misma foto de perfil", "Geolocalizar una colina o edificio singular"],
+    "limitations": [
+      "Menor cobertura de redes occidentales cerradas como perfiles privados"
+    ],
+    "useCases": [
+      "Identificar cuentas alternativas que utilizan la misma foto de perfil",
+      "Geolocalizar una colina o edificio singular"
+    ],
     "instructions": "Haz clic en el icono de cámara en la barra de búsqueda y sube la imagen recortando las partes superfluas.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -62,24 +118,46 @@
     "description": "Buscador inverso especializado en coincidencias exactas, modificaciones y rastreo de fecha de aparición.",
     "longDescription": "A diferencia de motores basados en IA que buscan similitudes semánticas, TinEye busca coincidencias idénticas de píxeles, permitiendo ordenar por fecha más antigua (Oldest) para encontrar la primera publicación de una imagen en la red.",
     "url": "https://tineye.com/",
-    "categories": ["imint"],
+    "categories": [
+      "imint"
+    ],
     "investigateBy": [],
-    "subcategories": ["busqueda-inversa", "cronologia"],
-    "tags": ["tineye", "busqueda-inversa", "antiguedad", "derechos-de-autor"],
-    "synonyms": ["tineye reverse", "primera aparicion foto"],
+    "subcategories": [
+      "busqueda-inversa",
+      "cronologia"
+    ],
+    "tags": [
+      "tineye",
+      "busqueda-inversa",
+      "antiguedad",
+      "derechos-de-autor"
+    ],
+    "synonyms": [
+      "tineye reverse",
+      "primera aparicion foto"
+    ],
     "type": "web",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Búsqueda web inversa gratis e ilimitada para uso personal; API por paquetes desde ~0,04$/búsqueda)",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "browser-extension"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "browser-extension"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Búsqueda web gratuita con límites de consultas periódicas; API comercial de pago"],
-    "useCases": ["Determinar si una fotografía compartida en un suceso reciente ya circulaba en internet años antes"],
+    "limitations": [
+      "Búsqueda web gratuita con límites de consultas periódicas; API comercial de pago"
+    ],
+    "useCases": [
+      "Determinar si una fotografía compartida en un suceso reciente ya circulaba en internet años antes"
+    ],
     "instructions": "Sube el archivo y cambia el desplegable de ordenación a 'Oldest' para identificar la fuente original.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -91,23 +169,47 @@
     "description": "Suite gratuita de análisis forense digital de imágenes directamente en el navegador.",
     "longDescription": "Conjunto de herramientas forenses web creadas por Jonas Wagner que incluye Análisis de Nivel de Error (ELA), lupa de ruido, detección de clones (copiar-pegar píxeles) y visor de metadatos EXIF sin subir el archivo a servidores ajenos.",
     "url": "https://29a.ch/photo-forensics/",
-    "categories": ["imint"],
+    "categories": [
+      "imint"
+    ],
     "investigateBy": [],
-    "subcategories": ["forense", "ela", "deteccion-manipulacion"],
-    "tags": ["forense", "ela", "manipulacion", "exif", "analisis-imagen"],
-    "synonyms": ["analisis forense fotos", "error level analysis", "detector photoshop"],
+    "subcategories": [
+      "forense",
+      "ela",
+      "deteccion-manipulacion"
+    ],
+    "tags": [
+      "forense",
+      "ela",
+      "manipulacion",
+      "exif",
+      "analisis-imagen"
+    ],
+    "synonyms": [
+      "analisis forense fotos",
+      "error level analysis",
+      "detector photoshop"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["El análisis ELA requiere conocimientos previos para evitar falsos positivos debidos a la compresión JPEG normal"],
-    "useCases": ["Comprobar si un cartel o rostro ha sido insertado digitalmente mediante edición gráfica"],
+    "limitations": [
+      "El análisis ELA requiere conocimientos previos para evitar falsos positivos debidos a la compresión JPEG normal"
+    ],
+    "useCases": [
+      "Comprobar si un cartel o rostro ha sido insertado digitalmente mediante edición gráfica"
+    ],
     "instructions": "Abre la imagen localmente y activa la herramienta 'Clone Detection' o 'Error Level Analysis'.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -119,23 +221,50 @@
     "description": "La biblioteca de línea de comandos de referencia para lectura y extracción de metadatos EXIF, IPTC y XMP.",
     "longDescription": "Herramienta multiplataforma definitiva para extraer metadatos completos de fotografías, vídeos y audios: modelo de cámara/sensor, números de serie, coordenadas GPS, fecha y hora de captura original e historial de perfiles ICC.",
     "url": "https://exiftool.org/",
-    "categories": ["imint"],
-    "investigateBy": ["location"],
-    "subcategories": ["metadatos", "cli", "forense"],
-    "tags": ["exif", "metadatos", "cli", "gps", "camara"],
-    "synonyms": ["ver exif", "metadatos foto", "coordenadas foto"],
+    "categories": [
+      "imint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "metadatos",
+      "cli",
+      "forense"
+    ],
+    "tags": [
+      "exif",
+      "metadatos",
+      "cli",
+      "gps",
+      "camara"
+    ],
+    "synonyms": [
+      "ver exif",
+      "metadatos foto",
+      "coordenadas foto"
+    ],
     "type": "cli",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["cli", "desktop"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli",
+      "desktop"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Línea de comandos; las redes sociales eliminan los metadatos EXIF al comprimir las imágenes subidas"],
-    "useCases": ["Extraer coordenadas GPS y número de serie del sensor en archivos originales no comprimidos"],
+    "limitations": [
+      "Línea de comandos; las redes sociales eliminan los metadatos EXIF al comprimir las imágenes subidas"
+    ],
+    "useCases": [
+      "Extraer coordenadas GPS y número de serie del sensor en archivos originales no comprimidos"
+    ],
     "instructions": "Ejecuta 'exiftool imagen.jpg' en tu terminal o 'exiftool -gps* imagen.jpg' para ver información de geoposición.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -147,23 +276,42 @@
     "description": "Servicio de análisis ELA (Error Level Analysis) y metadatos con tutoriales metodológicos incluidos.",
     "longDescription": "Portal fundado por Neal Krawetz que procesa imágenes mediante ELA para resaltar discrepancias en las tasas de compresión de bloques JPEG, facilitando la detección de fotomontajes.",
     "url": "https://fotoforensics.com/",
-    "categories": ["imint"],
+    "categories": [
+      "imint"
+    ],
     "investigateBy": [],
-    "subcategories": ["ela", "forense"],
-    "tags": ["fotoforensics", "ela", "analisis-forense"],
-    "synonyms": ["analizar manipulacion foto"],
+    "subcategories": [
+      "ela",
+      "forense"
+    ],
+    "tags": [
+      "fotoforensics",
+      "ela",
+      "analisis-forense"
+    ],
+    "synonyms": [
+      "analizar manipulacion foto"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Las imágenes subidas se indexan públicamente en su galería"],
-    "useCases": ["Validar firmas y sellos en documentos escaneados sospechosos de haber sido editados"],
+    "limitations": [
+      "Las imágenes subidas se indexan públicamente en su galería"
+    ],
+    "useCases": [
+      "Validar firmas y sellos en documentos escaneados sospechosos de haber sido editados"
+    ],
     "instructions": "Pega la URL pública o sube el archivo y examina las diferencias de brillo en la vista ELA.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -175,23 +323,52 @@
     "description": "Extensión forense oficial de la Unión Europea para verificación de vídeos e imágenes contra la desinformación.",
     "longDescription": "Desarrollada con financiación del programa Horizon de la UE y coordinada por AFP, proporciona fragmentación de vídeo en keyframes para búsqueda inversa simultánea en múltiples motores, análisis de metadatos de Twitter/YouTube y lentes forenses.",
     "url": "https://www.invid-project.eu/",
-    "categories": ["imint"],
-    "investigateBy": ["social-media"],
-    "subcategories": ["video-forense", "desinformacion", "ue"],
-    "tags": ["invid", "weverify", "verificacion", "fact-checking", "ue", "video"],
-    "synonyms": ["extension invid", "verificar video", "keyframes video"],
+    "categories": [
+      "imint"
+    ],
+    "investigateBy": [
+      "social-media"
+    ],
+    "subcategories": [
+      "video-forense",
+      "desinformacion",
+      "ue"
+    ],
+    "tags": [
+      "invid",
+      "weverify",
+      "verificacion",
+      "fact-checking",
+      "ue",
+      "video"
+    ],
+    "synonyms": [
+      "extension invid",
+      "verificar video",
+      "keyframes video"
+    ],
     "type": "browser-extension",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["europe", "global"],
-    "platforms": ["browser-extension", "web"],
+    "geographicScope": [
+      "europe",
+      "global"
+    ],
+    "platforms": [
+      "browser-extension",
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["La mayoría de funciones avanzadas operan como extensión de navegador Chrome o Firefox"],
-    "useCases": ["Descomponer un vídeo viral en fotogramas clave y buscar si el suceso original ocurrió en otro país o año"],
+    "limitations": [
+      "La mayoría de funciones avanzadas operan como extensión de navegador Chrome o Firefox"
+    ],
+    "useCases": [
+      "Descomponer un vídeo viral en fotogramas clave y buscar si el suceso original ocurrió en otro país o año"
+    ],
     "instructions": "Instala la extensión en tu navegador, pega el enlace del vídeo y abre la pestaña 'Keyframes'.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -203,23 +380,48 @@
     "description": "Extracción exhaustiva de metadatos ocultos, horas exactas UTC, miniaturas y geoetiquetas de vídeos de YouTube.",
     "longDescription": "Utilidad web que consulta la API de YouTube para mostrar la fecha y hora exacta de subida (en UTC con milisegundos), enlaces directos a las miniaturas en máxima resolución, etiquetas completas (tags) y coordenadas de ubicación si el autor las asoció.",
     "url": "https://mattw.io/youtube-metadata/",
-    "categories": ["imint", "socmint"],
-    "investigateBy": ["social-media", "location"],
-    "subcategories": ["youtube", "metadatos-video"],
-    "tags": ["youtube", "metadata", "hora-subida", "geotags"],
-    "synonyms": ["metadatos youtube", "hora exacta video youtube"],
+    "categories": [
+      "imint",
+      "socmint"
+    ],
+    "investigateBy": [
+      "social-media",
+      "location"
+    ],
+    "subcategories": [
+      "youtube",
+      "metadatos-video"
+    ],
+    "tags": [
+      "youtube",
+      "metadata",
+      "hora-subida",
+      "geotags"
+    ],
+    "synonyms": [
+      "metadatos youtube",
+      "hora exacta video youtube"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Dependiente de la disponibilidad de la API pública de YouTube"],
-    "useCases": ["Determinar la hora precisa en que se hizo público un comunicado o vídeo de un incidente"],
+    "limitations": [
+      "Dependiente de la disponibilidad de la API pública de YouTube"
+    ],
+    "useCases": [
+      "Determinar la hora precisa en que se hizo público un comunicado o vídeo de un incidente"
+    ],
     "instructions": "Pega la URL o el ID del vídeo de YouTube y pulsa Submit.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -231,25 +433,279 @@
     "description": "Decodificador y lector online de códigos QR y códigos de barras a partir de imágenes o URLs.",
     "longDescription": "Aplicación web oficial basada en la biblioteca de código abierto ZXing ('Zebra Crossing'). En investigaciones OSINT es la herramienta de referencia para extraer de forma segura y sin escanear con el teléfono móvil el contenido en texto plano, enlaces URL o identificadores codificados en códigos QR y de barras que aparecen en fotografías, credenciales o documentos.",
     "url": "https://zxing.org/w/decode.jspx",
-    "categories": ["imint"],
-    "investigateBy": ["social-media"],
-    "subcategories": ["qr", "codigos-de-barras", "decodificador"],
-    "tags": ["zxing", "qr", "codigo-de-barras", "imint", "decodificador", "forense"],
-    "synonyms": ["leer qr online", "decodificar qr foto", "zebra crossing", "zxing decoder", "barcode decoder"],
+    "categories": [
+      "imint"
+    ],
+    "investigateBy": [
+      "social-media"
+    ],
+    "subcategories": [
+      "qr",
+      "codigos-de-barras",
+      "decodificador"
+    ],
+    "tags": [
+      "zxing",
+      "qr",
+      "codigo-de-barras",
+      "imint",
+      "decodificador",
+      "forense"
+    ],
+    "synonyms": [
+      "leer qr online",
+      "decodificar qr foto",
+      "zebra crossing",
+      "zxing decoder",
+      "barcode decoder"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Imágenes con resolución muy baja o con perspectiva muy acusada pueden requerir preprocesado o enderezado previo"],
-    "useCases": ["Inspeccionar con seguridad el contenido de un código QR en una fotografía sin escanearlo con el smartphone personal", "Leer códigos de barras de billetes, envíos o equipajes publicados en redes sociales"],
+    "limitations": [
+      "Imágenes con resolución muy baja o con perspectiva muy acusada pueden requerir preprocesado o enderezado previo"
+    ],
+    "useCases": [
+      "Inspeccionar con seguridad el contenido de un código QR en una fotografía sin escanearlo con el smartphone personal",
+      "Leer códigos de barras de billetes, envíos o equipajes publicados en redes sociales"
+    ],
     "instructions": "Sube el archivo de imagen o introduce la URL directa de la foto y pulsa 'Submit' para ver el contenido decodificado, tipo de codificación y raw bytes.",
     "lastReviewed": "2026-11-23",
+    "status": "active"
+  },
+  {
+    "id": "content-credentials",
+    "name": "Content Credentials Verify (C2PA)",
+    "slug": "content-credentials",
+    "description": "Verificador oficial del estándar C2PA para auditar la procedencia, historial de edición y uso de IA en imágenes.",
+    "longDescription": "Herramienta de referencia desarrollada por la Coalition for Content Provenance and Authenticity (C2PA) e impulsada por Adobe, Microsoft y Leica. Inspecciona los metadatos criptográficos de procedencia vinculados a una imagen para revelar si fue capturada por una cámara física certificada, modificada en software de edición o generada por modelos de inteligencia artificial generativa.",
+    "url": "https://contentcredentials.org/verify",
+    "categories": [
+      "imint"
+    ],
+    "investigateBy": [
+      "social-media"
+    ],
+    "subcategories": [
+      "c2pa",
+      "deepfakes",
+      "ia",
+      "autenticidad"
+    ],
+    "tags": [
+      "c2pa",
+      "content-credentials",
+      "verificacion",
+      "ia",
+      "procedencia",
+      "metadatos"
+    ],
+    "synonyms": [
+      "verificador c2pa",
+      "c2pa verify",
+      "content authenticity initiative"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Solo aplicable a archivos que conserven el manifiesto criptográfico C2PA original (muchas redes sociales comprimen y eliminan estos datos al subir fotos)"
+    ],
+    "useCases": [
+      "Verificar si una imagen de prensa contiene firma criptográfica del fotógrafo y fecha",
+      "Comprobar si una imagen fue creada o retocada con herramientas como Photoshop Firefly o DALL-E"
+    ],
+    "instructions": "Arrastra la imagen directamente sobre la ventana de verificación para examinar los datos de procedencia y cadena de custodia del archivo.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "hive-moderation-ai",
+    "name": "Hive AI Content & Deepfake Detector",
+    "slug": "hive-moderation-ai",
+    "description": "Detector forense de imágenes, ilustraciones y vídeos generados sintéticamente por modelos de inteligencia artificial.",
+    "longDescription": "Suite especializada en clasificar la probabilidad de que una imagen haya sido generada artificialmente por motores como Midjourney, Stable Diffusion, DALL-E 3, Flux o Adobe Firefly, analizando patrones microscópicos de píxeles, artefactos de difusión y estructuras no euclidianas.",
+    "url": "https://hivemoderation.com/ai-generated-content-detection",
+    "categories": [
+      "imint"
+    ],
+    "investigateBy": [
+      "social-media"
+    ],
+    "subcategories": [
+      "detector-ia",
+      "deepfakes",
+      "sintetico"
+    ],
+    "tags": [
+      "hive",
+      "detector-ia",
+      "deepfake",
+      "midjourney",
+      "stable-diffusion",
+      "flux"
+    ],
+    "synonyms": [
+      "hive ai detector",
+      "detectar imagen ia",
+      "detector deepfake"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Versión demo web gratuita con límite de análisis por sesión; los detectores estadísticos pueden arrojar falsos positivos o negativos"
+    ],
+    "useCases": [
+      "Analizar una fotografía viral de un político o conflicto armado para verificar si es una creación sintética de IA",
+      "Detectar avatares generados por StyleGAN en redes sociales"
+    ],
+    "instructions": "Sube el archivo en la demo interactiva para obtener el porcentaje de probabilidad de generación por IA desglosado por modelo.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "bing-visual-search",
+    "name": "Bing Visual Search",
+    "slug": "bing-visual-search",
+    "description": "Buscador visual inverso de Microsoft con excelente precisión en productos, personas, texto y arquitectura.",
+    "longDescription": "Motor de búsqueda inversa por imágenes que complementa a Google Lens y Yandex. Destaca especialmente en la segmentación de objetos específicos dentro de una escena amplia y en la localización de fuentes originales alojadas en sitios web anglosajones y europeos.",
+    "url": "https://www.bing.com/visualsearch",
+    "categories": [
+      "imint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "busqueda-inversa",
+      "vision-artificial"
+    ],
+    "tags": [
+      "bing",
+      "visual-search",
+      "busqueda-inversa",
+      "microsoft",
+      "imint"
+    ],
+    "synonyms": [
+      "bing imagenes inverso",
+      "bing reverse image"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Menor cobertura que Yandex para perfiles de Europa del Este o redes sociales rusas"
+    ],
+    "useCases": [
+      "Encontrar la tienda o catálogo original donde se comercializa un objeto observado en una foto",
+      "Localizar réplicas de una fotografía en medios digitales"
+    ],
+    "instructions": "Pulsa el icono de la cámara en el cajón de búsqueda de Bing, sube la imagen o pega una URL y ajusta el cuadro selector sobre la zona a buscar.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "jeffreys-exif",
+    "name": "Jeffrey's Image Metadata Viewer",
+    "slug": "jeffreys-exif",
+    "description": "Visor forense exhaustivo de metadatos EXIF, IPTC, XMP y geolocalización GPS incrustada en fotografías.",
+    "longDescription": "Herramienta online clásica y respetada en el ámbito forense digital creada por Jeffrey Friedl. Realiza una extracción profunda de todas las etiquetas EXIF, parámetros del sensor de cámara (número de serie, firmware, velocidad de obturación, lente) y datos de geolocalización, mostrando el punto exacto en Google Maps si la foto conserva coordenadas.",
+    "url": "http://exif.regex.info/exif.cgi",
+    "categories": [
+      "imint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "exif",
+      "metadatos",
+      "gps"
+    ],
+    "tags": [
+      "exif",
+      "metadatos",
+      "jeffrey",
+      "gps",
+      "camara",
+      "forense"
+    ],
+    "synonyms": [
+      "jeffrey exif viewer",
+      "exif regex info",
+      "analizador exif online"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Utiliza conexión HTTP estándar; incluye captcha para evitar abusos automatizados"
+    ],
+    "useCases": [
+      "Extraer coordenadas GPS exactas ocultas en un archivo JPEG compartido directamente por mensajería o correo",
+      "Identificar el modelo y número de serie de la cámara fotográfica"
+    ],
+    "instructions": "Sube el archivo de imagen o introduce una URL pública directa a la foto y haz clic en 'View Image at URL' o 'View Image from File'.",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   }
 ]

@@ -6,23 +6,48 @@
     "description": "Formulario oficial de Google para filtrar por tipo de archivo, sitio o dominio, idioma y fecha exacta.",
     "longDescription": "Interfaz gráfica que facilita la formulación de consultas complejas sin tener que memorizar todos los operadores de búsqueda de Google (filetype, site, inurl, intitle).",
     "url": "https://www.google.com/advanced_search",
-    "categories": ["search"],
-    "investigateBy": ["domain-ip", "people-professional"],
-    "subcategories": ["dorking", "buscadores"],
-    "tags": ["google", "dorks", "busqueda-avanzada", "operadores"],
-    "synonyms": ["google dorks", "google dorking", "busqueda google"],
+    "categories": [
+      "search"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "people-professional"
+    ],
+    "subcategories": [
+      "dorking",
+      "buscadores"
+    ],
+    "tags": [
+      "google",
+      "dorks",
+      "busqueda-avanzada",
+      "operadores"
+    ],
+    "synonyms": [
+      "google dorks",
+      "google dorking",
+      "busqueda google"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Sujeto a captchas si se ejecutan consultas repetidas de forma muy rápida"],
-    "useCases": ["Localizar documentos PDF o Excel filtrando por 'filetype:pdf site:gob.es'"],
+    "limitations": [
+      "Sujeto a captchas si se ejecutan consultas repetidas de forma muy rápida"
+    ],
+    "useCases": [
+      "Localizar documentos PDF o Excel filtrando por 'filetype:pdf site:gob.es'"
+    ],
     "instructions": "Rellena los campos de palabras exactas, sitios o extensiones de archivo deseados.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -34,23 +59,48 @@
     "description": "Repositorio mantenido por Exploit-DB con miles de Google Dorks categorizados para auditoría y búsqueda pasiva.",
     "longDescription": "La base de datos GHDB recopila consultas predefinidas para identificar servidores mal configurados, documentos con información confidencial indexados por error, pasarelas de pago y portales de acceso.",
     "url": "https://www.exploit-db.com/google-hacking-database",
-    "categories": ["search", "cyber"],
-    "investigateBy": ["domain-ip"],
-    "subcategories": ["dorking", "ciberseguridad"],
-    "tags": ["ghdb", "dorks", "exploit-db", "pentesting"],
-    "synonyms": ["ghdb", "dorks list", "dorking db"],
+    "categories": [
+      "search",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "dorking",
+      "ciberseguridad"
+    ],
+    "tags": [
+      "ghdb",
+      "dorks",
+      "exploit-db",
+      "pentesting"
+    ],
+    "synonyms": [
+      "ghdb",
+      "dorks list",
+      "dorking db"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Orientado a descubrimiento pasivo; no utilizar dorks para explotación activa sin autorización"],
-    "useCases": ["Comprobar si una organización ha expuesto archivos de configuración .env o respaldos .sql"],
+    "limitations": [
+      "Orientado a descubrimiento pasivo; no utilizar dorks para explotación activa sin autorización"
+    ],
+    "useCases": [
+      "Comprobar si una organización ha expuesto archivos de configuración .env o respaldos .sql"
+    ],
     "instructions": "Filtra por categoría (ej. Advisories and Vulnerabilities, Files Containing Passwords) y copia el dork deseado.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -62,23 +112,45 @@
     "description": "Metabuscador libre y respetuoso con la privacidad que agrega resultados de más de 70 motores sin rastreo.",
     "longDescription": "SearXNG es una bifurcación comunitaria de Searx que recopila y combina resultados de Google, Bing, DuckDuckGo, Wikipedia y motores especializados eliminando cualquier perfilado del usuario.",
     "url": "https://searxng.org/",
-    "categories": ["search"],
+    "categories": [
+      "search"
+    ],
     "investigateBy": [],
-    "subcategories": ["metabuscadores", "privacidad"],
-    "tags": ["metabuscador", "privacidad", "open-source", "agregador"],
-    "synonyms": ["searx", "metabuscador libre", "busqueda privada"],
+    "subcategories": [
+      "metabuscadores",
+      "privacidad"
+    ],
+    "tags": [
+      "metabuscador",
+      "privacidad",
+      "open-source",
+      "agregador"
+    ],
+    "synonyms": [
+      "searx",
+      "metabuscador libre",
+      "busqueda privada"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Instancias públicas pueden experimentar bloqueos temporales por parte de motores como Google"],
-    "useCases": ["Consultas neutrales sin que los resultados dependan del historial o geolocalización previa"],
+    "limitations": [
+      "Instancias públicas pueden experimentar bloqueos temporales por parte de motores como Google"
+    ],
+    "useCases": [
+      "Consultas neutrales sin que los resultados dependan del historial o geolocalización previa"
+    ],
     "instructions": "Utiliza una instancia pública oficial o despliega tu propia instancia en contenedor Docker.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -90,23 +162,47 @@
     "description": "Motor de agrupamiento y clustering semántico de resultados de búsqueda en temas visuales y árboles.",
     "longDescription": "Organiza automáticamente los resultados de búsqueda web o de publicaciones académicas en grupos temáticos interactivos (clusters y mapas de árbol treemap), permitiendo detectar subtemas imprevistos.",
     "url": "https://search.carrot2.org/",
-    "categories": ["search"],
-    "investigateBy": ["companies", "people-professional"],
-    "subcategories": ["clustering", "semantica"],
-    "tags": ["clustering", "semantica", "agrupamiento", "treemap"],
-    "synonyms": ["clustering search", "arbol semantico"],
+    "categories": [
+      "search"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "clustering",
+      "semantica"
+    ],
+    "tags": [
+      "clustering",
+      "semantica",
+      "agrupamiento",
+      "treemap"
+    ],
+    "synonyms": [
+      "clustering search",
+      "arbol semantico"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Límite de documentos procesados por consulta en la versión web"],
-    "useCases": ["Mapear el ecosistema de noticias y entidades asociadas a una empresa o suceso"],
+    "limitations": [
+      "Límite de documentos procesados por consulta en la versión web"
+    ],
+    "useCases": [
+      "Mapear el ecosistema de noticias y entidades asociadas a una empresa o suceso"
+    ],
     "instructions": "Escribe un término amplio (ej. 'Navantia') y cambia a la vista 'Treemap' o 'Pie chart'.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -118,23 +214,43 @@
     "description": "Motor de búsqueda con índice independiente propio, sin censura comercial ni sesgo de rastreo.",
     "longDescription": "A diferencia de la mayoría de motores que reempaquetan resultados de Google o Bing, Brave Search opera su propio índice web independiente con miles de millones de páginas y filtros de discusión comunitaria.",
     "url": "https://search.brave.com/",
-    "categories": ["search"],
+    "categories": [
+      "search"
+    ],
     "investigateBy": [],
-    "subcategories": ["indice-independiente", "privacidad"],
-    "tags": ["brave", "indice-propio", "privacidad", "busqueda"],
-    "synonyms": ["brave buscador"],
+    "subcategories": [
+      "indice-independiente",
+      "privacidad"
+    ],
+    "tags": [
+      "brave",
+      "indice-propio",
+      "privacidad",
+      "busqueda"
+    ],
+    "synonyms": [
+      "brave buscador"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Menor cobertura que Google para registros gubernamentales hiperlocales muy antiguos"],
-    "useCases": ["Contrasta resultados cuando Google o Bing omiten páginas o aplican deslistados"],
+    "limitations": [
+      "Menor cobertura que Google para registros gubernamentales hiperlocales muy antiguos"
+    ],
+    "useCases": [
+      "Contrasta resultados cuando Google o Bing omiten páginas o aplican deslistados"
+    ],
     "instructions": "Realiza búsquedas regulares y activa la pestaña de 'Discussions' para foros comunitarios.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -146,23 +262,48 @@
     "description": "Buscador líder en Europa del Este, con una indexación extremadamente potente para Europa y Eurasia.",
     "longDescription": "Conocido por su alta exhaustividad en la indexación de foros, documentos abiertos y su motor de visión por computador, Yandex a menudo revela enlaces y páginas ignorados por buscadores occidentales.",
     "url": "https://yandex.com/",
-    "categories": ["search", "imint"],
-    "investigateBy": ["username", "people-professional"],
-    "subcategories": ["eurasia", "buscadores"],
-    "tags": ["yandex", "eurasia", "europa", "busqueda"],
-    "synonyms": ["buscador yandex"],
+    "categories": [
+      "search",
+      "imint"
+    ],
+    "investigateBy": [
+      "username",
+      "people-professional"
+    ],
+    "subcategories": [
+      "eurasia",
+      "buscadores"
+    ],
+    "tags": [
+      "yandex",
+      "eurasia",
+      "europa",
+      "busqueda"
+    ],
+    "synonyms": [
+      "buscador yandex"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["europe", "global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "europe",
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Interfaz en inglés o ruso; puede solicitar resolución de captchas"],
-    "useCases": ["Búsqueda de alias en foros internacionales y redes transfronterizas"],
+    "limitations": [
+      "Interfaz en inglés o ruso; puede solicitar resolución de captchas"
+    ],
+    "useCases": [
+      "Búsqueda de alias en foros internacionales y redes transfronterizas"
+    ],
     "instructions": "Introduce el término entrecomillado para búsquedas literales estrictas.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -280,66 +421,6 @@
       "Filtrar por múltiples extensiones de archivo y rangos de fecha de manera gráfica"
     ],
     "instructions": "Añade bloques de términos, selecciona los operadores deseados (sitio, tipo de archivo, título) y pulsa en el botón de Google o Bing para ejecutar la consulta.",
-    "lastReviewed": "2026-11-24",
-    "status": "active"
-  },
-  {
-    "id": "grep-app",
-    "name": "Grep.app",
-    "slug": "grep-app",
-    "description": "Buscador de código ultrarrápido con expresiones regulares y operadores en más de medio millón de repositorios públicos de GitHub.",
-    "longDescription": "Motor de búsqueda de código que indexa más de 500.000 repositorios de código abierto. Permite aplicar dorks de desarrollo (path:, repo:, lang:) y expresiones regulares para localizar tokens de API, credenciales filtradas, endpoints internos o funciones específicas en segundos.",
-    "url": "https://grep.app/",
-    "categories": [
-      "cyber",
-      "search"
-    ],
-    "investigateBy": [
-      "github-dev",
-      "domain-ip"
-    ],
-    "subcategories": [
-      "github-dorks",
-      "codigo-fuente",
-      "filtraciones"
-    ],
-    "tags": [
-      "grep-app",
-      "github-dorks",
-      "regex",
-      "codigo",
-      "credenciales",
-      "repositorios"
-    ],
-    "synonyms": [
-      "grep app",
-      "github code search",
-      "dorking github",
-      "regex github"
-    ],
-    "type": "web",
-    "pricing": "free",
-    "pricingDetails": "Gratuito (Búsquedas de código libres sin registro)",
-    "access": "public",
-    "geographicScope": [
-      "global"
-    ],
-    "platforms": [
-      "web"
-    ],
-    "difficulty": "intermediate",
-    "featured": true,
-    "verified": true,
-    "registrationRequired": false,
-    "apiKeyRequired": false,
-    "limitations": [
-      "Indexa repositorios públicos populares de GitHub; no cubre repositorios privados ni redes internas"
-    ],
-    "useCases": [
-      "Buscar si el nombre de dominio o IP de un objetivo aparece referenciado en código o scripts de terceros",
-      "Localizar patrones de claves de API, certificados o contraseñas expuestas en commits públicos mediante regex"
-    ],
-    "instructions": "Introduce la cadena o patrón de expresión regular en el buscador y acota opcionalmente por ruta (path:) o lenguaje.",
     "lastReviewed": "2026-11-24",
     "status": "active"
   }

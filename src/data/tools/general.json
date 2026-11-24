@@ -6,23 +6,52 @@
     "description": "Árbol interactivo exhaustivo de recursos y herramientas OSINT ordenadas por tipo de dato a investigar.",
     "longDescription": "OSINT Framework es uno de los recursos de referencia mundial en inteligencia de fuentes abiertas. Presenta una interfaz de árbol jerárquica con categorías orientadas a nombres de usuario, correos, documentos, teléfonos, registros públicos y más.",
     "url": "https://osintframework.com/",
-    "categories": ["general"],
-    "investigateBy": ["username", "email", "phone", "domain-ip", "people-professional"],
-    "subcategories": ["frameworks", "directorios"],
-    "tags": ["framework", "directorio", "metodologia", "arbol"],
-    "synonyms": ["marco de trabajo", "indice herramientas", "arbol osint"],
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "username",
+      "email",
+      "phone",
+      "domain-ip",
+      "people-professional"
+    ],
+    "subcategories": [
+      "frameworks",
+      "directorios"
+    ],
+    "tags": [
+      "framework",
+      "directorio",
+      "metodologia",
+      "arbol"
+    ],
+    "synonyms": [
+      "marco de trabajo",
+      "indice herramientas",
+      "arbol osint"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Algunos enlaces externos incluidos en el árbol pueden estar desactualizados o ser de pago"],
-    "useCases": ["Punto de partida metodológico para cualquier investigación", "Identificar qué fuentes existen para un tipo de dato específico"],
+    "limitations": [
+      "Algunos enlaces externos incluidos en el árbol pueden estar desactualizados o ser de pago"
+    ],
+    "useCases": [
+      "Punto de partida metodológico para cualquier investigación",
+      "Identificar qué fuentes existen para un tipo de dato específico"
+    ],
     "instructions": "Navega por las ramas jerárquicas seleccionando el tipo de indicador que posees (ej. Username > Search Engines).",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -34,23 +63,52 @@
     "description": "Caja de herramientas y repositorio de metodologías de investigación abierta del colectivo Bellingcat.",
     "longDescription": "Compendio oficial de herramientas, hojas de cálculo, extensiones de navegador y metodologías recomendadas por los investigadores forenses y periodistas de investigación de Bellingcat.",
     "url": "https://bellingcat.gitbook.io/toolkit",
-    "categories": ["general", "imint", "geoint"],
-    "investigateBy": ["location", "social-media"],
-    "subcategories": ["periodismo", "guias", "forense"],
-    "tags": ["bellingcat", "periodismo", "verificacion", "toolkit"],
-    "synonyms": ["herramientas bellingcat", "guia bellingcat"],
+    "categories": [
+      "general",
+      "imint",
+      "geoint"
+    ],
+    "investigateBy": [
+      "location",
+      "social-media"
+    ],
+    "subcategories": [
+      "periodismo",
+      "guias",
+      "forense"
+    ],
+    "tags": [
+      "bellingcat",
+      "periodismo",
+      "verificacion",
+      "toolkit"
+    ],
+    "synonyms": [
+      "herramientas bellingcat",
+      "guia bellingcat"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Documentación en inglés"],
-    "useCases": ["Verificación de zonas de conflicto", "Metodologías de geolocalización de vídeo"],
+    "limitations": [
+      "Documentación en inglés"
+    ],
+    "useCases": [
+      "Verificación de zonas de conflicto",
+      "Metodologías de geolocalización de vídeo"
+    ],
     "instructions": "Consulta las secciones temáticas de satélite, mapas y redes sociales para encontrar flujos de trabajo validados.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -62,23 +120,46 @@
     "description": "Lista curada en GitHub con cientos de recursos, bibliotecas y herramientas para inteligencia de fuentes abiertas.",
     "longDescription": "Repositorio colaborativo de código abierto mantenido por la comunidad de seguridad y OSINT, que recopila las herramientas CLI, extensiones y fuentes más relevantes del sector.",
     "url": "https://github.com/jivoi/awesome-osint",
-    "categories": ["general"],
-    "investigateBy": ["github-dev"],
-    "subcategories": ["repositorios", "curacion"],
-    "tags": ["github", "awesome-list", "recursos", "comunidad"],
-    "synonyms": ["lista osint", "catalogo github"],
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "github-dev"
+    ],
+    "subcategories": [
+      "repositorios",
+      "curacion"
+    ],
+    "tags": [
+      "github",
+      "awesome-list",
+      "recursos",
+      "comunidad"
+    ],
+    "synonyms": [
+      "lista osint",
+      "catalogo github"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Requiere filtrar manualmente herramientas sin mantenimiento reciente"],
-    "useCases": ["Descubrir utilidades de línea de comandos y librerías Python para analistas"],
+    "limitations": [
+      "Requiere filtrar manualmente herramientas sin mantenimiento reciente"
+    ],
+    "useCases": [
+      "Descubrir utilidades de línea de comandos y librerías Python para analistas"
+    ],
     "instructions": "Usa la búsqueda dentro de la página (Ctrl+F) para filtrar por tecnologías o temas específicos.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -90,23 +171,48 @@
     "description": "Formularios de búsqueda avanzada e investigación diseñados por el experto en privacidad Michael Bazzell.",
     "longDescription": "Portal educativo de referencia que proporciona formularios optimizados para consultas OSINT en buscadores, redes sociales, dominios y registros públicos sin registrar actividad previa.",
     "url": "https://inteltechniques.com/tools/",
-    "categories": ["general", "search"],
-    "investigateBy": ["social-media", "username", "email"],
-    "subcategories": ["formularios", "metodologia"],
-    "tags": ["bazzell", "privacidad", "search-helpers"],
-    "synonyms": ["michael bazzell", "intel techniques"],
+    "categories": [
+      "general",
+      "search"
+    ],
+    "investigateBy": [
+      "social-media",
+      "username",
+      "email"
+    ],
+    "subcategories": [
+      "formularios",
+      "metodologia"
+    ],
+    "tags": [
+      "bazzell",
+      "privacidad",
+      "search-helpers"
+    ],
+    "synonyms": [
+      "michael bazzell",
+      "intel techniques"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Algunas utilidades propietarias son exclusivas de suscriptores del libro"],
-    "useCases": ["Generar consultas combinadas para motores de búsqueda y redes sociales"],
+    "limitations": [
+      "Algunas utilidades propietarias son exclusivas de suscriptores del libro"
+    ],
+    "useCases": [
+      "Generar consultas combinadas para motores de búsqueda y redes sociales"
+    ],
     "instructions": "Introduce el término o usuario en el formulario correspondiente para ejecutar queries preformateadas.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -118,25 +224,1630 @@
     "description": "Directorio estructurado de recursos y herramientas OSINT en español enfocado en el ámbito hispanohablante.",
     "longDescription": "Iniciativa comunitaria en español que agrupa herramientas y fuentes públicas organizadas por categorías de investigación con especial atención a España y Latinoamérica.",
     "url": "https://osintario.github.io/",
-    "categories": ["general"],
-    "investigateBy": ["people-professional", "companies"],
-    "subcategories": ["directorio-espanol"],
-    "tags": ["espanol", "espana", "comunidad", "directorio"],
-    "synonyms": ["osint en espanol", "directorio espanol"],
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "people-professional",
+      "companies"
+    ],
+    "subcategories": [
+      "directorio-espanol"
+    ],
+    "tags": [
+      "espanol",
+      "espana",
+      "comunidad",
+      "directorio"
+    ],
+    "synonyms": [
+      "osint en espanol",
+      "directorio espanol"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["spain", "global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "spain",
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Actualizaciones periódicas dependientes de la comunidad"],
-    "useCases": ["Localizar fuentes y enlaces orientados al marco legal y administrativo en español"],
+    "limitations": [
+      "Actualizaciones periódicas dependientes de la comunidad"
+    ],
+    "useCases": [
+      "Localizar fuentes y enlaces orientados al marco legal y administrativo en español"
+    ],
     "instructions": "Accede a las pestañas laterales para filtrar por tipo de recurso.",
     "lastReviewed": "2026-11-23",
+    "status": "active"
+  },
+  {
+    "id": "cyberchef",
+    "name": "CyberChef",
+    "slug": "cyberchef",
+    "description": "La 'navaja suiza' de la ciberseguridad para decodificar, desofuscar, convertir formatos y calcular hashes.",
+    "longDescription": "Aplicación web de código abierto creada por la agencia británica GCHQ. Permite encadenar decenas de operaciones ('recetas') de conversión y análisis: decodificación Base64, Hexadecimal, rotaciones ROT13, análisis de marcas de tiempo UNIX, formateo JSON/XML, extracción de expresiones regulares (IPs, correos) y cálculos criptográficos en el propio navegador sin enviar datos fuera.",
+    "url": "https://gchq.github.io/CyberChef/",
+    "categories": [
+      "general",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "email",
+      "phone"
+    ],
+    "subcategories": [
+      "decodificacion",
+      "criptografia",
+      "gchq",
+      "utilidades"
+    ],
+    "tags": [
+      "cyberchef",
+      "gchq",
+      "base64",
+      "decodificacion",
+      "hashes",
+      "regex",
+      "timestamps"
+    ],
+    "synonyms": [
+      "cyber chef",
+      "decodificador cyberchef",
+      "conversor base64 gchq"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Se ejecuta completamente en el lado del cliente (navegador); archivos extremadamente pesados pueden ralentizar la pestaña"
+    ],
+    "useCases": [
+      "Desofuscar cadenas de texto codificadas en Base64 o Hex encontradas en código web",
+      "Extraer masivamente todas las direcciones IPv4 o correos de un volcado de texto desestructurado"
+    ],
+    "instructions": "Arrastra operaciones desde la barra izquierda hacia 'Recipe', pega el texto en 'Input' y observa el resultado instantáneo en 'Output'.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "dcode",
+    "name": "dCode",
+    "slug": "dcode",
+    "description": "Portal con cientos de herramientas de criptografía clásica, resolución de ciphers, esteganografía y enigmas.",
+    "longDescription": "El repositorio online más extenso de utilidades de descifrado y resolución de códigos: cifrados históricos (César, Vigenère, Enigma), alfabetos alternativos, códigos de barras, esteganografía en imágenes, anagramas y algoritmos matemáticos.",
+    "url": "https://www.dcode.fr/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [],
+    "subcategories": [
+      "criptografia",
+      "ciphers",
+      "esteganografia"
+    ],
+    "tags": [
+      "dcode",
+      "criptografia",
+      "cifrado",
+      "vigenere",
+      "cesar",
+      "esteganografia",
+      "codigos"
+    ],
+    "synonyms": [
+      "d code",
+      "descifrador ciphers dcode"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado en criptografía clásica, puzzles y análisis lingüístico"
+    ],
+    "useCases": [
+      "Descifrar pistas o mensajes codificados en desafíos OSINT y CTFs",
+      "Identificar automáticamente qué tipo de cifrado ha sido utilizado sobre un texto"
+    ],
+    "instructions": "Utiliza la herramienta 'Cipher Identifier' si desconoces el algoritmo o busca directamente el método específico en el menú lateral.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "spiderfoot",
+    "name": "SpiderFoot",
+    "slug": "spiderfoot",
+    "description": "Herramienta de automatización OSINT para reconocimiento de objetivos (IPs, dominios, rangos de red y correos).",
+    "longDescription": "Herramienta de reconocimiento de fuentes abiertas que automatiza la recopilación de datos sobre cualquier objetivo (direcciones IP, nombres de dominio, números ASN, correos y subredes). Integra más de 200 módulos de fuentes públicas y APIs comerciales para correlacionar infraestructura y presencia online.",
+    "url": "https://github.com/smicallef/spiderfoot",
+    "categories": [
+      "general",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "email",
+      "companies"
+    ],
+    "subcategories": [
+      "automatizacion",
+      "reconocimiento",
+      "python"
+    ],
+    "tags": [
+      "spiderfoot",
+      "automatizacion-osint",
+      "reconocimiento",
+      "python",
+      "huella-digital"
+    ],
+    "synonyms": [
+      "spider foot",
+      "spiderfoot osint"
+    ],
+    "type": "cli",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli",
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere ejecutar en local vía Python/Docker; el rendimiento óptimo se logra añadiendo claves API de proveedores externos"
+    ],
+    "useCases": [
+      "Mapear automáticamente la huella digital y exposición de una empresa a partir de su dominio principal",
+      "Descubrir fugas de credenciales y registros DNS asociados"
+    ],
+    "instructions": "Inicia la interfaz web local con 'python ./sf.py -l 127.0.0.1:5001' y lanza un nuevo escaneo seleccionando los módulos deseados.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "theharvester",
+    "name": "theHarvester",
+    "slug": "theharvester",
+    "description": "Herramienta clásica de recopilación temprana de inteligencia: correos, subdominios, nombres y hosts.",
+    "longDescription": "Utilidad de línea de comandos incluida de serie en distribuciones de seguridad como Kali Linux. Consulta de manera pasiva decenas de motores de búsqueda (Google, Bing, Yahoo), redes como LinkedIn y repositorios públicos para enumerar correos electrónicos de empleados, subdominios y empleados vinculados a una organización.",
+    "url": "https://github.com/laramies/theHarvester",
+    "categories": [
+      "general",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "email",
+      "people-professional",
+      "companies"
+    ],
+    "subcategories": [
+      "reconocimiento",
+      "cli",
+      "python",
+      "emails"
+    ],
+    "tags": [
+      "theharvester",
+      "recoleccion-datos",
+      "subdominios",
+      "correos",
+      "kali-linux"
+    ],
+    "synonyms": [
+      "the harvester",
+      "theharvester osint"
+    ],
+    "type": "cli",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Algunas fuentes requieren claves de API para no ser bloqueadas por peticiones recurrentes"
+    ],
+    "useCases": [
+      "Obtener un listado inicial de cuentas de correo de una corporación para pruebas de ingeniería social o auditoría",
+      "Descubrir subdominios expuestos"
+    ],
+    "instructions": "Ejecuta 'theHarvester -d dominio.com -b all' en la terminal para consultar todas las fuentes soportadas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "recon-ng",
+    "name": "Recon-ng",
+    "slug": "recon-ng",
+    "description": "Framework de reconocimiento web modular con interfaz interactiva y base de datos relacional integrada.",
+    "longDescription": "Framework de inteligencia de fuentes abiertas con una interfaz similar a Metasploit. Organiza la investigación en espacios de trabajo (workspaces), almacena los hallazgos en una base de datos SQLite integrada y permite encadenar módulos de recolección de empresas, contactos, credenciales, dominios y ubicaciones.",
+    "url": "https://github.com/lanmaster53/recon-ng",
+    "categories": [
+      "general",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "email",
+      "companies"
+    ],
+    "subcategories": [
+      "frameworks",
+      "reconocimiento",
+      "cli"
+    ],
+    "tags": [
+      "recon-ng",
+      "framework",
+      "modular",
+      "reconocimiento",
+      "python"
+    ],
+    "synonyms": [
+      "recon ng framework",
+      "recon-ng osint"
+    ],
+    "type": "cli",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli"
+    ],
+    "difficulty": "advanced",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Curva de aprendizaje moderada; la mayoría de los módulos de terceros requieren claves API"
+    ],
+    "useCases": [
+      "Estructurar investigaciones complejas donde los resultados de un módulo alimentan automáticamente al siguiente",
+      "Generar informes técnicos consolidados"
+    ],
+    "instructions": "Inicia la consola interactiva con './recon-ng', crea un workspace y usa 'marketplace install' para cargar módulos de interés.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "owasp-amass",
+    "name": "OWASP Amass",
+    "slug": "owasp-amass",
+    "description": "Herramienta de mapeo profundo de superficie de ataque y enumeración de activos mediante grafos.",
+    "longDescription": "Proyecto insignia de OWASP para el descubrimiento y mapeo de la superficie de ataque externa de una organización. Utiliza técnicas pasivas de recolección (certificados, passive DNS, scraping), técnicas activas (fuerza bruta DNS, consultas de zona) y almacena la infraestructura en una base de datos de grafos para visualizar relaciones entre dominios, IPs y ASNs.",
+    "url": "https://github.com/owasp-amass/amass",
+    "categories": [
+      "general",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "companies"
+    ],
+    "subcategories": [
+      "superficie-ataque",
+      "owasp",
+      "subdominios",
+      "grafos"
+    ],
+    "tags": [
+      "amass",
+      "owasp",
+      "subdominios",
+      "superficie-ataque",
+      "dns",
+      "grafos"
+    ],
+    "synonyms": [
+      "amass owasp",
+      "owasp amass enum"
+    ],
+    "type": "cli",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli"
+    ],
+    "difficulty": "advanced",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Consumo notable de ancho de banda y recursos en escaneos activos exhaustivos"
+    ],
+    "useCases": [
+      "Descubrir toda la infraestructura pública de una multinacional a partir de su nombre de dominio principal",
+      "Identificar subdominios olvidados o mal configurados"
+    ],
+    "instructions": "Ejecuta 'amass enum -passive -d dominio.com' para un descubrimiento pasivo sigiloso sin enviar tráfico al objetivo.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "subfinder",
+    "name": "Subfinder",
+    "slug": "subfinder",
+    "description": "Herramienta ultrarrápida de descubrimiento pasivo de subdominios desarrollada por ProjectDiscovery.",
+    "longDescription": "Herramienta de línea de comandos modular escrita en Go. Diseñada para realizar enumeración pasiva de subdominios a gran velocidad consultando decenas de fuentes públicas pasivas (SecurityTrails, Censys, Shodan, crt.sh, Archive.org, etc.) de forma asíncrona y sin interactuar directamente con la infraestructura del objetivo.",
+    "url": "https://github.com/projectdiscovery/subfinder",
+    "categories": [
+      "general",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "subdominios",
+      "go",
+      "projectdiscovery",
+      "pasivo"
+    ],
+    "tags": [
+      "subfinder",
+      "projectdiscovery",
+      "subdominios",
+      "dns-pasivo",
+      "reconocimiento"
+    ],
+    "synonyms": [
+      "subfinder project discovery",
+      "buscar subdominios subfinder"
+    ],
+    "type": "cli",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Solo realiza enumeración pasiva (no resuelve consultas DNS activas por sí misma)"
+    ],
+    "useCases": [
+      "Listar miles de subdominios en segundos para canalizar a herramientas de resolución como dnsx o httpx",
+      "Reconocimiento rápido en programas de bug bounty"
+    ],
+    "instructions": "Ejecuta 'subfinder -d dominio.com -o subdominios.txt' para guardar la lista de subdominios encontrados.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "maltego",
+    "name": "Maltego",
+    "slug": "maltego",
+    "description": "Plataforma de análisis forense y minería de datos visual para relacionar personas, empresas y redes.",
+    "longDescription": "La herramienta de minería visual y análisis relacional más reconocida del mundo de la inteligencia. Representa entidades (personas, alias, correos, empresas, dominios, IPs) en un grafo interactivo y aplica 'transformadas' automáticas para descubrir conexiones ocultas entre nodos a través de cientos de bases de datos integradas.",
+    "url": "https://www.maltego.com/",
+    "categories": [
+      "general",
+      "cyber"
+    ],
+    "investigateBy": [
+      "people-professional",
+      "companies",
+      "domain-ip",
+      "email"
+    ],
+    "subcategories": [
+      "grafos",
+      "analisis-relacional",
+      "inteligencia-visual"
+    ],
+    "tags": [
+      "maltego",
+      "grafos",
+      "entidades",
+      "transformadas",
+      "inteligencia-relacional",
+      "forense"
+    ],
+    "synonyms": [
+      "maltego graph",
+      "analisis de enlaces maltego"
+    ],
+    "type": "desktop",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "desktop"
+    ],
+    "difficulty": "advanced",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La versión Community Edition gratuita (Maltego CE) limita el número de resultados devueltos por cada transformada a 12 nodos"
+    ],
+    "useCases": [
+      "Investigar estructuras de blanqueo de capitales o redes societarias opacas",
+      "Mapear la relación entre un ciberdelincuente, sus alias y su infraestructura de servidores"
+    ],
+    "instructions": "Descarga e instala el cliente de escritorio, inicia sesión con tu cuenta gratuita de Maltego CE y arrastra una entidad al lienzo para ejecutar transformadas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "gephi",
+    "name": "Gephi",
+    "slug": "gephi",
+    "description": "Software de código abierto líder en visualización y análisis de redes complejas y grafos masivos.",
+    "longDescription": "Herramienta de exploración y visualización gráfica para grandes volúmenes de datos relacionales. Permite aplicar algoritmos de agrupamiento (modularidad), métricas de centralidad (Betweenness, PageRank) y algoritmos de distribución espacial (ForceAtlas2) para analizar redes sociales, flujos de desinformación o vínculos empresariales.",
+    "url": "https://gephi.org/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "social-media",
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "grafos",
+      "redes-sociales",
+      "visualizacion-datos"
+    ],
+    "tags": [
+      "gephi",
+      "grafos",
+      "redes-complejas",
+      "algoritmos",
+      "visualizacion",
+      "modularidad"
+    ],
+    "synonyms": [
+      "gephi visualizador de redes",
+      "analisis grafos gephi"
+    ],
+    "type": "desktop",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "desktop"
+    ],
+    "difficulty": "advanced",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere tener instalada la máquina virtual Java (JRE) en el sistema"
+    ],
+    "useCases": [
+      "Detectar comunidades y cuentas coordinadas en campañas de desinformación en X/Twitter",
+      "Visualizar la estructura nuclear y nodos puente de una red de delincuencia"
+    ],
+    "instructions": "Importa un archivo CSV de nodos y aristas (edges), aplica un algoritmo de disposición en 'Layout' (como ForceAtlas2) y colorea por 'Modularity Class'.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "changedetection-io",
+    "name": "ChangeDetection.io",
+    "slug": "changedetection-io",
+    "description": "Monitor web de código abierto para auditar cambios en páginas, textos, precios y elementos HTML.",
+    "longDescription": "Herramienta que monitoriza sitios web periódicamente para alertar al instante sobre cualquier modificación de contenido: textos agregados o eliminados, cambios en avisos legales, modificaciones de precios o actualizaciones de inventario. Permite filtrar por selectores CSS/XPath específicos y renderizado con Chrome.",
+    "url": "https://changedetection.io/",
+    "categories": [
+      "general",
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "companies",
+      "classifieds"
+    ],
+    "subcategories": [
+      "monitorizacion",
+      "cambios-web",
+      "alertas"
+    ],
+    "tags": [
+      "changedetection",
+      "monitor-web",
+      "alertas-cambios",
+      "rastreo-paginas",
+      "open-source"
+    ],
+    "synonyms": [
+      "change detection io",
+      "vigilar cambios en web"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "cli"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Servicio en la nube con plan gratuito y planes de pago; 100% libre e ilimitado si se autohospeda vía Docker"
+    ],
+    "useCases": [
+      "Detectar el instante en que un portal institucional o empresa modifica un comunicado oficial o borra un nombre de su directiva",
+      "Monitorizar ofertas de segunda mano o cambios de precio en clasificados"
+    ],
+    "instructions": "Añade la URL que deseas vigilar, define la frecuencia de revisión y configura el selector CSS para vigilar solo un bloque específico.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "taranis-ai",
+    "name": "Taranis AI",
+    "slug": "taranis-ai",
+    "description": "Plataforma de código abierto para agregación, monitorización y análisis de inteligencia de fuentes abiertas.",
+    "longDescription": "Solución OSINT desarrollada originalmente para equipos de respuesta ante incidentes (CSIRTs/CERTs) y analistas geopolíticos. Agrega noticias, blogs técnicos, feeds RSS, redes sociales y canales de Telegram, clasificando la información mediante procesamiento de lenguaje natural (NLP) para generar informes de situación.",
+    "url": "https://taranis.ai/",
+    "categories": [
+      "general",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "social-media"
+    ],
+    "subcategories": [
+      "inteligencia-amenazas",
+      "nlp",
+      "agregador-noticias"
+    ],
+    "tags": [
+      "taranis",
+      "taranis-ai",
+      "osint-aggregator",
+      "nlp",
+      "threat-intelligence"
+    ],
+    "synonyms": [
+      "taranis ai osint",
+      "plataforma taranis"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "cli"
+    ],
+    "difficulty": "advanced",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La versión abierta completa requiere despliegue en servidor propio"
+    ],
+    "useCases": [
+      "Monitorizar continuamente narrativas mediáticas y alertas de ciberseguridad sobre un país o sector industrial",
+      "Automatizar resúmenes de inteligencia"
+    ],
+    "instructions": "Explora la documentación del proyecto o accede a la demo para configurar canales de monitorización por palabras clave.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "deepl",
+    "name": "DeepL Traductor",
+    "slug": "deepl",
+    "description": "Traductor neuronal líder de alta precisión contextual para documentos e investigaciones multilingües.",
+    "longDescription": "Reconocido internacionalmente como el traductor automático más preciso para captar matices lingüísticos, jerga técnica y giros idiomáticos naturales en más de 30 idiomas. Permite traducir textos largos y documentos completos (PDF, DOCX, PPTX) respetando el formato original.",
+    "url": "https://www.deepl.com/translator",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "people-professional",
+      "companies",
+      "social-media"
+    ],
+    "subcategories": [
+      "traduccion",
+      "idiomas",
+      "documentos"
+    ],
+    "tags": [
+      "deepl",
+      "traductor",
+      "idiomas",
+      "inteligencia-artificial",
+      "documentos"
+    ],
+    "synonyms": [
+      "deep l",
+      "traductor deepl",
+      "traducir documentos"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "desktop",
+      "mobile",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La versión gratuita web tiene un límite de caracteres por bloque de texto"
+    ],
+    "useCases": [
+      "Traducir publicaciones de foros extranjeros, testimonios de testigos o documentos mercantiles con máxima fidelidad",
+      "Analizar textos en ucraniano, ruso, árabe o chino"
+    ],
+    "instructions": "Pega el texto en la caja izquierda o sube un documento PDF para obtener la traducción en tiempo real con sugerencias de sinónimos.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "linguee",
+    "name": "Linguee",
+    "slug": "linguee",
+    "description": "Diccionario bilingüe y buscador de concordancias con millones de textos traducidos por humanos.",
+    "longDescription": "Buscador lingüístico creado por los desarrolladores de DeepL que indexa textos paralelos y traducciones profesionales bilingües procedentes de directivas de la Unión Europea, patentes internacionales y tratados diplomáticos, mostrando el contexto exacto en el que se utiliza cada término técnico o legal.",
+    "url": "https://www.linguee.es/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "people-professional",
+      "companies"
+    ],
+    "subcategories": [
+      "diccionario",
+      "traduccion",
+      "terminologia-legal"
+    ],
+    "tags": [
+      "linguee",
+      "diccionario-bilingue",
+      "terminologia",
+      "derecho-comparado",
+      "idiomas"
+    ],
+    "synonyms": [
+      "linguee diccionario",
+      "buscador traducciones bilingues"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Orientado a pares de idiomas principales (español, inglés, francés, alemán, etc.)"
+    ],
+    "useCases": [
+      "Comprender la terminología jurídica o mercantil exacta empleada en escrituras de constitución o sentencias extranjeras",
+      "Verificar acepciones técnicas de un cargo societario"
+    ],
+    "instructions": "Escribe el término o expresión técnica en la casilla de búsqueda para examinar ejemplos reales de traducción lado a lado.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "openalex",
+    "name": "OpenAlex",
+    "slug": "openalex",
+    "description": "Catálogo abierto masivo de la ciencia mundial: 250M de publicaciones, autores, afiliaciones y financiación.",
+    "longDescription": "El mayor grafo de conocimiento abierto de la producción científica y académica del planeta. Reemplazo libre y abierto de Scopus y Web of Science, indexa más de 250 millones de obras científicas, identificando investigadores (ORCID), instituciones de afiliación, fuentes de financiación y redes de colaboración científica.",
+    "url": "https://openalex.org/",
+    "categories": [
+      "general",
+      "public-records"
+    ],
+    "investigateBy": [
+      "people-professional",
+      "companies"
+    ],
+    "subcategories": [
+      "ciencia",
+      "investigacion-academica",
+      "publicaciones",
+      "autores"
+    ],
+    "tags": [
+      "openalex",
+      "ciencia",
+      "articulos-cientificos",
+      "investigadores",
+      "orcid",
+      "datos-abiertos"
+    ],
+    "synonyms": [
+      "open alex",
+      "grafo cientifico openalex"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado estrictamente en producción científica, académica y patentes vinculadas"
+    ],
+    "useCases": [
+      "Investigar el perfil académico real de un experto o perito, sus coautores y quién financió sus investigaciones",
+      "Descubrir vínculos entre científicos y laboratorios farmacéuticos"
+    ],
+    "instructions": "Busca por nombre de autor, tema o institución en la barra central para explorar las relaciones interactivas y descargar datos vía API.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "semantic-scholar",
+    "name": "Semantic Scholar",
+    "slug": "semantic-scholar",
+    "description": "Buscador de literatura científica impulsado por IA para extraer hipótesis, metodología e impacto de papers.",
+    "longDescription": "Desarrollado por el Allen Institute for AI, este motor de búsqueda académico utiliza modelos de lenguaje para generar resúmenes automáticos en una frase (TLDR), identificar citas altamente influyentes y trazar la evolución metodológica de investigaciones biomédicas, de computación y ciencias sociales.",
+    "url": "https://www.semanticscholar.org/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "people-professional"
+    ],
+    "subcategories": [
+      "ciencia",
+      "ia",
+      "resumenes",
+      "papers"
+    ],
+    "tags": [
+      "semantic-scholar",
+      "papers",
+      "investigacion",
+      "allen-ai",
+      "tldr"
+    ],
+    "synonyms": [
+      "semantic scholar ai",
+      "buscador papers semantic"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Mayor profundidad en ciencias de la computación, medicina y neurociencia"
+    ],
+    "useCases": [
+      "Evaluar rápidamente el contenido esencial de un estudio técnico citado en un informe",
+      "Identificar los artículos de investigación más influyentes de un científico"
+    ],
+    "instructions": "Introduce el tema, título del paper o autor en la barra de búsqueda y consulta los resúmenes automáticos 'TLDR'.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "core-ac-uk",
+    "name": "CORE",
+    "slug": "core-ac-uk",
+    "description": "El mayor agregador mundial de artículos de investigación y tesis doctorales en acceso abierto.",
+    "longDescription": "Servicio prestado por Jisc y The Open University en el Reino Unido que cosecha y unifica millones de artículos científicos de texto completo procedentes de repositorios institucionales, bibliotecas universitarias y revistas de acceso abierto de todo el mundo.",
+    "url": "https://core.ac.uk/",
+    "categories": [
+      "general",
+      "public-records"
+    ],
+    "investigateBy": [
+      "people-professional"
+    ],
+    "subcategories": [
+      "acceso-abierto",
+      "tesis",
+      "articulos-cientificos"
+    ],
+    "tags": [
+      "core",
+      "open-access",
+      "tesis-doctorales",
+      "papers-gratis",
+      "repositorios"
+    ],
+    "synonyms": [
+      "core ac uk",
+      "buscador de tesis core"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Solo indexa documentos depositados bajo licencias de acceso abierto"
+    ],
+    "useCases": [
+      "Descargar libremente tesis doctorales y trabajos de fin de máster de universidades públicas para auditar plagios o formación declarada",
+      "Localizar papers científicos sin muros de pago"
+    ],
+    "instructions": "Escribe las palabras clave o el nombre del investigador para filtrar por documentos disponibles con PDF descargable.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "dialnet",
+    "name": "Dialnet (Universidad de La Rioja)",
+    "slug": "dialnet",
+    "description": "El mayor portal bibliográfico de literatura científica hispana: revistas, libros, actas y tesis doctorales.",
+    "longDescription": "Proyecto de la Universidad de La Rioja que constituye el catálogo de referencia imprescindible para el ámbito hispanohablante. Contiene millones de referencias de artículos de revistas científicas de España y Latinoamérica, tesis doctorales leídas en universidades españolas (Dialnet Tesis) y perfiles estructurados de investigadores.",
+    "url": "https://dialnet.unirioja.es/",
+    "categories": [
+      "general",
+      "public-records"
+    ],
+    "investigateBy": [
+      "people-professional"
+    ],
+    "subcategories": [
+      "hispanoamerica",
+      "espana",
+      "tesis-doctorales",
+      "bibliografia"
+    ],
+    "tags": [
+      "dialnet",
+      "tesis-espana",
+      "universidades-espana",
+      "investigadores",
+      "publicaciones-cientificas"
+    ],
+    "synonyms": [
+      "dialnet tesis",
+      "dialnet universidad la rioja"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain",
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La consulta del catálogo y la descarga de artículos abiertos es libre; los servicios bibliométricos avanzados corresponden a Dialnet Métricas"
+    ],
+    "useCases": [
+      "Verificar la trayectoria académica y publicaciones reales de profesores, peritos judiciales y cargos políticos en España",
+      "Localizar la tesis doctoral defendida por un sujeto investigado"
+    ],
+    "instructions": "Usa la pestaña 'Buscar documentos' o 'Buscar autores' para acceder a las fichas biográficas y obras catalogadas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "gdelt-project",
+    "name": "GDELT Project",
+    "slug": "gdelt-project",
+    "description": "Monitor mundial en tiempo real de medios globales que traduce y cataloga eventos geopolíticos en 100+ idiomas.",
+    "longDescription": "La mayor base de datos abierta del comportamiento social y geopolítico humano. Monitoriza periódicos, televisión, radio y medios online de todo el mundo, extrayendo personas, organizaciones, lugares, eventos (siguiendo la taxonomía CAMEO) y cálculo de tonalidad o sentimiento.",
+    "url": "https://www.gdeltproject.org/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "location",
+      "social-media",
+      "people-professional"
+    ],
+    "subcategories": [
+      "big-data",
+      "geopolitica",
+      "monitoreo-medios",
+      "conflictos"
+    ],
+    "tags": [
+      "gdelt",
+      "cameo",
+      "conflictos",
+      "prensa-mundial",
+      "geopolitica",
+      "bigquery"
+    ],
+    "synonyms": [
+      "gdelt project",
+      "base de datos gdelt"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "advanced",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Dataset masivo que requiere herramientas como Google BigQuery o el visualizador GDELT Analysis Service para consultas a gran escala"
+    ],
+    "useCases": [
+      "Rastrear cómo se expandió una noticia o crisis diplomática a través de los medios de comunicación mundiales minuto a minuto",
+      "Analizar tendencias de inestabilidad sociopolítica"
+    ],
+    "instructions": "Utiliza el visualizador 'GDELT Event Database' o accede a los datasets públicos en Google BigQuery para ejecutar consultas SQL.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "acled",
+    "name": "ACLED (Armed Conflict Location & Event Data)",
+    "slug": "acled",
+    "description": "Base de datos y mapa desagregado de violencia política, conflictos armados, manifestaciones y disturbios.",
+    "longDescription": "Organización independiente sin ánimo de lucro que recopila datos detallados con fechas y coordenadas exactas de eventos de conflicto en todo el mundo: combates armados, explosiones, violencia contra civiles, protestas pacíficas y disturbios violentos, categorizando los grupos armados e intervinientes.",
+    "url": "https://acleddata.com/",
+    "categories": [
+      "general",
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "conflictos-armados",
+      "protestas",
+      "geopolitica",
+      "violencia"
+    ],
+    "tags": [
+      "acled",
+      "conflictos",
+      "guerras",
+      "protestas",
+      "violencia-politica",
+      "geoint"
+    ],
+    "synonyms": [
+      "acled data",
+      "mapa de conflictos armados acled"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La descarga de microdatos y uso de API requiere registro gratuito con fines de investigación"
+    ],
+    "useCases": [
+      "Verificar si en una aldea o región específica se produjo un enfrentamiento armado en una fecha concreta",
+      "Analizar patrones espaciales de protestas civiles"
+    ],
+    "instructions": "Accede al 'Dashboard' interactivo para filtrar por país, tipo de evento o actor armado, y consultar las bajas reportadas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "ine-espana",
+    "name": "INE (Instituto Nacional de Estadística)",
+    "slug": "ine-espana",
+    "description": "Portal oficial de estadística de España: censos de población, renta media por sección censal y demografía.",
+    "longDescription": "Organismo autónomo encargado de la coordinación estadística general del Reino de España. Ofrece datos sociodemográficos de extraordinario valor analítico: el callejero censal, el Nomenclátor de entidades y núcleos de población, el Atlas de Distribución de Renta de los Hogares (renta media por sección censal y manzana) y defunciones/nacimientos.",
+    "url": "https://www.ine.es/",
+    "categories": [
+      "general",
+      "public-records"
+    ],
+    "investigateBy": [
+      "location",
+      "companies"
+    ],
+    "subcategories": [
+      "estadistica",
+      "espana",
+      "censo",
+      "renta",
+      "demografia"
+    ],
+    "tags": [
+      "ine",
+      "estadistica-espana",
+      "padron",
+      "renta-hogares",
+      "secciones-censales",
+      "demografia"
+    ],
+    "synonyms": [
+      "instituto nacional estadistica",
+      "ine espana",
+      "datos censo ine"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Datos agrupados y anonimizados estadísticamente para garantizar el secreto estadístico"
+    ],
+    "useCases": [
+      "Conocer el nivel socioeconómico exacto y la renta media del vecindario donde reside un individuo o se ubica un inmueble",
+      "Verificar la existencia legal de un núcleo de población aislado en el Nomenclátor"
+    ],
+    "instructions": "Consulta el 'Atlas de Distribución de Renta' en el menú de mapas interactivos o utiliza INEbase para consultar tablas de población.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "eurostat",
+    "name": "Eurostat",
+    "slug": "eurostat",
+    "description": "Oficina estadística oficial de la Unión Europea con datos comparados de economía, comercio y regiones.",
+    "longDescription": "Dirección General de la Comisión Europea con sede en Luxemburgo. Proporciona estadísticas oficiales rigurosas y estandarizadas de los Estados miembros de la UE sobre comercio exterior, empleo, delincuencia reportada, energía, transporte y regiones NUTS (Nomenclatura de Unidades Territoriales Estadísticas).",
+    "url": "https://ec.europa.eu/eurostat",
+    "categories": [
+      "general",
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "location"
+    ],
+    "subcategories": [
+      "estadistica",
+      "union-europea",
+      "nuts",
+      "comercio"
+    ],
+    "tags": [
+      "eurostat",
+      "union-europea",
+      "estadisticas-ue",
+      "nuts",
+      "comercio-exterior",
+      "demografia"
+    ],
+    "synonyms": [
+      "eurostat ue",
+      "estadisticas comision europea"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado en estadísticas macro y agregados regionales de los países miembros"
+    ],
+    "useCases": [
+      "Comparar indicadores económicos de un sector empresarial entre España y otros países de la UE",
+      "Obtener clasificaciones geográficas estandarizadas NUTS"
+    ],
+    "instructions": "Accede a la sección 'Data Navigation Tree' o usa el buscador para visualizar gráficos interactivos y descargar microdatos.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "etherscan",
+    "name": "Etherscan",
+    "slug": "etherscan",
+    "description": "Explorador y analizador de bloques, transacciones, contratos inteligentes y tokens de Ethereum.",
+    "longDescription": "El estándar indiscutible para la investigación forense sobre la blockchain de Ethereum. Permite rastrear direcciones de billeteras cripto (wallets), saldos de ETH y tokens ERC-20/ERC-721 (NFTs), descompilar contratos inteligentes, revisar interacciones con protocolos DeFi y seguir el rastro de fondos sustraídos en estafas o hackeos.",
+    "url": "https://etherscan.io/",
+    "categories": [
+      "general",
+      "cyber"
+    ],
+    "investigateBy": [
+      "fraud-scams",
+      "domain-ip"
+    ],
+    "subcategories": [
+      "blockchain",
+      "ethereum",
+      "criptomonedas",
+      "forense-cripto"
+    ],
+    "tags": [
+      "etherscan",
+      "ethereum",
+      "blockchain",
+      "wallets",
+      "criptomonedas",
+      "rastreo-fondos",
+      "smart-contracts"
+    ],
+    "synonyms": [
+      "ether scan",
+      "explorador ethereum",
+      "rastrear wallet ethereum"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Específico de la red principal de Ethereum (existen exploradores homólogos como Polygonscan, Arbiscan o BscScan para otras cadenas EVM)"
+    ],
+    "useCases": [
+      "Rastrear a qué exchanges o mezcladores cripto (mixers) envió los fondos un ciberdelincuente",
+      "Comprobar si una wallet tiene etiquetas públicas de phishing o estafa (Fake_Phishing)"
+    ],
+    "instructions": "Pega la dirección de la billetera (0x...), el hash de transacción o el contrato en el buscador superior para examinar el historial cronológico.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "blockchair",
+    "name": "Blockchair",
+    "slug": "blockchair",
+    "description": "Motor de búsqueda universal y explorador multiblockchain para Bitcoin, Ethereum, Monero y decenas de redes.",
+    "longDescription": "Potente motor de búsqueda y agregador de análisis forense para más de 20 cadenas de bloques (Bitcoin, Ethereum, Litecoin, Monero, Ripple, Dogecoin, etc.). Permite filtrar transacciones por importe, fecha o tarifas, buscar texto incrustado en transacciones (OP_RETURN) y analizar balances con alta privacidad.",
+    "url": "https://blockchair.com/",
+    "categories": [
+      "general",
+      "cyber"
+    ],
+    "investigateBy": [
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "blockchain",
+      "bitcoin",
+      "multicadena",
+      "criptomonedas"
+    ],
+    "tags": [
+      "blockchair",
+      "bitcoin",
+      "blockchain-search",
+      "cripto",
+      "transacciones",
+      "op-return"
+    ],
+    "synonyms": [
+      "block chair",
+      "buscador bitcoin blockchair",
+      "explorador multicadena"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Las direcciones protegidas por tecnologías de privacidad avanzadas como Monero no revelan importes ni saldos públicos"
+    ],
+    "useCases": [
+      "Investigar transferencias de Bitcoin vinculadas a pagos de rescate de ransomware o extorsión",
+      "Buscar mensajes de texto ocultos en la cadena de bloques"
+    ],
+    "instructions": "Escribe una dirección pública, identificador de transacción (txid) o hash de bloque en la barra de búsqueda universal.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "chainabuse",
+    "name": "Chainabuse",
+    "slug": "chainabuse",
+    "description": "Plataforma comunitaria de denuncia y verificación de estafas cripto respaldada por TRM Labs.",
+    "longDescription": "Base de datos abierta desarrollada con el apoyo de la firma líder en análisis de blockchain TRM Labs. Permite a víctimas, analistas e investigadores de delitos económicos denunciar y consultar direcciones criptográficas involucradas en phishing, estafas piramidales, esquemas Ponzi, sextorsión y robos de fondos.",
+    "url": "https://www.chainabuse.com/",
+    "categories": [
+      "cyber",
+      "general"
+    ],
+    "investigateBy": [
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "cripto-estafas",
+      "denuncias",
+      "trm-labs",
+      "phishing-cripto"
+    ],
+    "tags": [
+      "chainabuse",
+      "trm-labs",
+      "estafas-cripto",
+      "denuncias-wallets",
+      "ciberfraude",
+      "blockchain"
+    ],
+    "synonyms": [
+      "chain abuse",
+      "denunciar estafa cripto",
+      "verificar wallet fraudulenta"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Información basada en denuncias de usuarios e investigadores que pasa por un proceso de verificación algorítmica y manual"
+    ],
+    "useCases": [
+      "Comprobar si una billetera de criptomonedas donde te piden depositar fondos ha sido reportada por otras víctimas de estafas",
+      "Aportar reportes con pruebas documentales sobre fraudes"
+    ],
+    "instructions": "Introduce la dirección cripto sospechosa en el buscador principal para revisar el número de denuncias recibidas y las descripciones del fraude.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "wallapop",
+    "name": "Wallapop",
+    "slug": "wallapop",
+    "description": "Mayor plataforma de compraventa de segunda mano en España: perfiles de vendedores, artículos y ubicación.",
+    "longDescription": "Aplicación líder en España para la venta de objetos usados entre particulares (electrónica, vehículos, muebles, moda). En el ámbito de la investigación, es fundamental para localizar objetos robados, estudiar el catálogo de ventas pasado y activo de un sospechoso, identificar su código postal o municipio aproximado y analizar las fotografías subidas para geolocalización de interiores y metadatos contextuales.",
+    "url": "https://es.wallapop.com/",
+    "categories": [
+      "general",
+      "socmint"
+    ],
+    "investigateBy": [
+      "classifieds",
+      "vehicle",
+      "location",
+      "people-professional"
+    ],
+    "subcategories": [
+      "clasificados",
+      "segunda-mano",
+      "espana",
+      "vendedores"
+    ],
+    "tags": [
+      "wallapop",
+      "segunda-mano",
+      "clasificados-espana",
+      "vehiculos-usados",
+      "perfil-vendedor",
+      "fraude-compraventa"
+    ],
+    "synonyms": [
+      "wallapop espana",
+      "buscar en wallapop",
+      "perfil wallapop"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere cuenta para enviar mensajes o ver ciertas valoraciones profundas; la geolocalización del vendedor se muestra en un radio aproximado"
+    ],
+    "useCases": [
+      "Rastrear si una persona investigada está vendiendo material corporativo sustraído o bienes no declarados",
+      "Correlacionar vehículos en venta con matrículas visibles o fondos reconocibles"
+    ],
+    "instructions": "Utiliza los filtros de ubicación (distancia en km respecto a un código postal), ordenación y categoría, o examina el perfil público del vendedor para ver sus artículos vendidos y reseñas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "milanuncios",
+    "name": "Milanuncios",
+    "slug": "milanuncios",
+    "description": "Portal histórico de anuncios clasificados en España: motor, empleo, inmuebles y contactos telefónicos.",
+    "longDescription": "Uno de los portales más antiguos y con mayor volumen de clasificados de España. A diferencia de apps modernas, muchos anuncios conservan números de teléfono móvil directos, descripciones extensas y fotografías sin comprimir en exceso, lo que lo convierte en un objetivo primordial para pivotar desde números de teléfono hacia anuncios pasados de empleo, venta de fincas, vehículos de segunda mano o servicios profesionales.",
+    "url": "https://www.milanuncios.com/",
+    "categories": [
+      "general",
+      "socmint"
+    ],
+    "investigateBy": [
+      "classifieds",
+      "phone",
+      "vehicle",
+      "jobs-careers"
+    ],
+    "subcategories": [
+      "clasificados",
+      "espana",
+      "telefonos",
+      "motor",
+      "empleo"
+    ],
+    "tags": [
+      "milanuncios",
+      "clasificados",
+      "anuncios-espana",
+      "telefonos-contacto",
+      "motor",
+      "inmobiliaria"
+    ],
+    "synonyms": [
+      "mil anuncios",
+      "milanuncios buscar por telefono",
+      "anuncios clasificados espana"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Algunos anuncios caducados se retiran de la vista pública pero permanecen indexados en motores de búsqueda"
+    ],
+    "useCases": [
+      "Pivotar desde un número de teléfono móvil para descubrir qué vehículos o propiedades ha vendido el usuario en el pasado",
+      "Investigar ofertas de empleo sospechosas o falsas agencias de colocación"
+    ],
+    "instructions": "Introduce el número de teléfono o los términos clave en el buscador general o utiliza dorks en Google ('site:milanuncios.com \"6XXXXXXXX\"') para recuperar anuncios indexados.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "idealista",
+    "name": "Idealista",
+    "slug": "idealista",
+    "description": "Portal inmobiliario de referencia en España: compra y alquiler de viviendas, locales, naves y terrenos.",
+    "longDescription": "El mayor portal del mercado inmobiliario en España, Portugal e Italia. Ofrece fotografías de alta calidad de interiores, fachadas y vistas desde balcones/terrazas (extremadamente útiles para geolocalización precisa por alineación de líneas de visión), planos de distribución, histórico de evolución del precio del metro cuadrado por barrio y datos de agencias o particulares anunciantes.",
+    "url": "https://www.idealista.com/",
+    "categories": [
+      "general",
+      "geoint"
+    ],
+    "investigateBy": [
+      "classifieds",
+      "location",
+      "companies"
+    ],
+    "subcategories": [
+      "inmobiliaria",
+      "viviendas",
+      "espana",
+      "geolocalizacion"
+    ],
+    "tags": [
+      "idealista",
+      "inmuebles",
+      "viviendas",
+      "pisos",
+      "locales",
+      "geolocalizacion-interiores",
+      "espana"
+    ],
+    "synonyms": [
+      "idealista inmobiliaria",
+      "buscar piso idealista",
+      "fotos inmuebles idealista"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain",
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La dirección exacta del inmueble suele estar aproximada por la agencia para evitar visitas no concertadas, salvo que se identifique la fachada"
+    ],
+    "useCases": [
+      "Geolocalizar el piso o ático desde el cual se grabó un vídeo o fotografía comparando la perspectiva de la terraza y las vistas con los anuncios en venta",
+      "Investigar la cartera de inmuebles gestionada por una sociedad patrimonial"
+    ],
+    "instructions": "Filtra por municipio o barrio, activa la opción 'Dibujar zona en el mapa' para delimitar el área y analiza las fotos de fachadas y planos adjuntos.",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   }
 ]

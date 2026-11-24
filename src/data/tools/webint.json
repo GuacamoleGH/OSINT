@@ -288,7 +288,9 @@
     "longDescription": "Indexa millones de archivos de código abierto en GitHub permitiendo búsquedas instantáneas mediante texto literal o regex con coincidencia de mayúsculas/minúsculas y filtros por lenguaje o ruta de archivo.",
     "url": "https://grep.app/",
     "categories": [
-      "webint"
+      "webint",
+      "search",
+      "cyber"
     ],
     "investigateBy": [
       "github-dev",
@@ -600,6 +602,757 @@
     ],
     "instructions": "Escribe 'usuario/repositorio' para ver la constelación de proyectos afines.",
     "lastReviewed": "2026-11-23",
+    "status": "active"
+  },
+  {
+    "id": "ghostarchive",
+    "name": "Ghostarchive",
+    "slug": "ghostarchive",
+    "description": "Servicio de preservación digital y archivado forense de páginas web, publicaciones sociales y vídeos de YouTube.",
+    "longDescription": "Herramienta de preservación web independiente optimizada para archivar instantáneas de páginas complejas con JavaScript dinámico, publicaciones en redes sociales y vídeos completos de plataformas de streaming con descarga de metadatos.",
+    "url": "https://ghostarchive.org/",
+    "categories": [
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "social-media"
+    ],
+    "subcategories": [
+      "archivado",
+      "video-archive",
+      "preservacion"
+    ],
+    "tags": [
+      "ghostarchive",
+      "archivo-web",
+      "youtube-archive",
+      "preservacion",
+      "evidencia"
+    ],
+    "synonyms": [
+      "ghost archive",
+      "archivar youtube",
+      "copia web ghostarchive"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Servidor gestionado por donaciones comunitarias; puede presentar colas de espera en horas punta"
+    ],
+    "useCases": [
+      "Guardar una copia inalterable de un vídeo o publicación antes de que sea eliminado por el autor",
+      "Consultar instantáneas archivadas de publicaciones borradas"
+    ],
+    "instructions": "Pega la URL a guardar en el recuadro superior o introduce una URL para comprobar si ya existen capturas archivadas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "memento-time-travel",
+    "name": "Memento Time Travel",
+    "slug": "memento-time-travel",
+    "description": "Metabuscador universal de instantáneas web a través de decenas de archivos digitales de todo el mundo.",
+    "longDescription": "Proyecto impulsado por el consorcio Memento Framework que consulta simultáneamente Wayback Machine, Archive.today, bibliotecas nacionales (Library of Congress, BnF, UK Web Archive) y repositorios académicos para encontrar la versión archivada más cercana a una fecha y hora específica.",
+    "url": "https://timetravel.mementoweb.org/",
+    "categories": [
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "archivo-web",
+      "metabuscador",
+      "historico"
+    ],
+    "tags": [
+      "memento",
+      "time-travel",
+      "archivo-web",
+      "historico",
+      "multi-archivo"
+    ],
+    "synonyms": [
+      "memento web",
+      "time travel memento",
+      "buscar en todos los archivos web"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Depende del tiempo de respuesta de los diversos archivos web federados"
+    ],
+    "useCases": [
+      "Encontrar una página web que fue eliminada de Wayback Machine pero permanece guardada en un archivo nacional europeo",
+      "Reconstruir la línea temporal de un sitio web"
+    ],
+    "instructions": "Introduce la URL y la fecha exacta que deseas consultar para que el sistema redirija a la mejor instantánea disponible.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "perma-cc",
+    "name": "Perma.cc",
+    "slug": "perma-cc",
+    "description": "Plataforma de archivado web inmutable y con valor legal desarrollada por la Facultad de Derecho de Harvard.",
+    "longDescription": "Servicio de preservación digital fundado por el Harvard Library Innovation Lab para resolver el decaimiento de enlaces (link rot) en el ámbito jurídico y académico. Genera enlaces permanentes y registros inmutables auditables admitidos en citas judiciales.",
+    "url": "https://perma.cc/",
+    "categories": [
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "preservacion",
+      "legal",
+      "harvard",
+      "enlaces-permanentes"
+    ],
+    "tags": [
+      "perma-cc",
+      "harvard",
+      "preservacion-legal",
+      "link-rot",
+      "evidencias"
+    ],
+    "synonyms": [
+      "perma cc",
+      "archivo legal perma"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Las cuentas individuales gratuitas disponen de un cupo limitado de enlaces archivados al mes"
+    ],
+    "useCases": [
+      "Fijar pruebas documentales y sitios web en informes periciales con garantía de inalterabilidad",
+      "Evitar la pérdida de fuentes citadas en investigaciones"
+    ],
+    "instructions": "Inicia sesión con tu cuenta, pega la URL de la evidencia y pulsa 'Create Perma Link' para obtener el enlace permanente y su archivo WARC.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "bellingcat-auto-archiver",
+    "name": "Bellingcat Auto Archiver",
+    "slug": "bellingcat-auto-archiver",
+    "description": "Herramienta de código abierto de Bellingcat para archivar de forma automatizada y forense enlaces, vídeos y redes.",
+    "longDescription": "Suite de automatización en Python desarrollada por el equipo de tecnología de Bellingcat. Permite procesar listas de URLs o feeds de hojas de cálculo (Google Sheets) para archivar de forma masiva y forense publicaciones de Twitter/X, TikTok, Telegram, Facebook y YouTube en Wayback Machine, Archive.today y almacenamiento S3/local.",
+    "url": "https://github.com/bellingcat/auto-archiver",
+    "categories": [
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "social-media"
+    ],
+    "subcategories": [
+      "automatizacion",
+      "python",
+      "bellingcat",
+      "preservacion"
+    ],
+    "tags": [
+      "bellingcat",
+      "auto-archiver",
+      "python",
+      "preservacion-forense",
+      "warc"
+    ],
+    "synonyms": [
+      "auto archiver bellingcat",
+      "archiver bellingcat"
+    ],
+    "type": "cli",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli"
+    ],
+    "difficulty": "advanced",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere instalación de dependencias en Python, Docker y credenciales si se usan APIs privadas de almacenamiento"
+    ],
+    "useCases": [
+      "Preservar automáticamente cientos de vídeos y fotos de testigos en zonas de conflicto",
+      "Mantener una copia forense local con cálculo de hash SHA-256 de todas las pruebas"
+    ],
+    "instructions": "Ejecuta con 'python -m auto_archiver --url <URL>' o conéctalo a una hoja de cálculo para procesamiento por lotes continuo.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "builtwith",
+    "name": "BuiltWith",
+    "slug": "builtwith",
+    "description": "Perfilador líder de tecnologías web: CMS, analítica, CDNs, hosting, pasarelas de pago y widgets.",
+    "longDescription": "Base de datos masiva de perfilado tecnológico que rastrea y cataloga el software, bibliotecas y servicios que componen cualquier sitio web en el mundo. Proporciona además historial de tecnologías utilizadas a lo largo de los años y relaciones por identificadores comunes (Google Analytics IDs, AdSense, tags).",
+    "url": "https://builtwith.com/",
+    "categories": [
+      "webint",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "companies"
+    ],
+    "subcategories": [
+      "stack-tecnologico",
+      "huella-digital",
+      "cms"
+    ],
+    "tags": [
+      "builtwith",
+      "stack",
+      "tecnologias",
+      "cms",
+      "rastreo-web",
+      "analytics-id"
+    ],
+    "synonyms": [
+      "built with",
+      "que tecnologia usa una web",
+      "analizador de tecnologia web"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "El perfil básico es público y gratuito; informes detallados de relaciones cruzadas por ID requieren cuenta premium"
+    ],
+    "useCases": [
+      "Conocer el gestor de contenidos (WordPress, Drupal, Shopify) y plugins activos en una web",
+      "Descubrir si dos sitios web distintos comparten el mismo código de seguimiento de Google Analytics o Facebook Pixel"
+    ],
+    "instructions": "Introduce el dominio en la barra de búsqueda para ver el desglose por categorías (Hosting, Frameworks, Analytics, Email, etc.).",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "wappalyzer",
+    "name": "Wappalyzer",
+    "slug": "wappalyzer",
+    "description": "Detector instantáneo de tecnologías, librerías, servidores web y frameworks utilizados en cualquier página.",
+    "longDescription": "Extensión y servicio web muy extendido entre profesionales de ciberseguridad e investigación. Inspecciona encabezados HTTP, variables JavaScript globales, cookies y código HTML para identificar con precisión versiones de software y servicios en ejecución.",
+    "url": "https://www.wappalyzer.com/",
+    "categories": [
+      "webint",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "stack-tecnologico",
+      "extension-navegador"
+    ],
+    "tags": [
+      "wappalyzer",
+      "stack",
+      "frameworks",
+      "servidores",
+      "librerias",
+      "webint"
+    ],
+    "synonyms": [
+      "wappalyzer extension",
+      "detector tecnologias web"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "browser-extension",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La extensión local para navegador es ilimitada y gratuita; las consultas por API o por lotes son de pago"
+    ],
+    "useCases": [
+      "Identificar de un vistazo la versión exacta de PHP, Nginx, React o jQuery al navegar por un sitio",
+      "Descubrir vectores de vulnerabilidad potencial por software desactualizado"
+    ],
+    "instructions": "Instala la extensión en Chrome/Firefox y haz clic en su icono al visitar cualquier página para ver el listado de componentes.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "netcraft-site-report",
+    "name": "Netcraft Site Report",
+    "slug": "netcraft-site-report",
+    "description": "Informe forense y de infraestructura sobre dominios: hosting, historial de delegación DNS, bloque IP y phishing.",
+    "longDescription": "Servicio histórico de inteligencia de red proporcionado por la firma de ciberseguridad Netcraft. Ofrece radiografías técnicas completas de sitios web: fecha del primer registro, sistema operativo subyacente, servidor web, ISP, bloque CIDR, historial de DNS y puntuación de riesgo de phishing.",
+    "url": "https://sitereport.netcraft.com/",
+    "categories": [
+      "webint",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "infraestructura",
+      "hosting",
+      "phishing",
+      "forense-web"
+    ],
+    "tags": [
+      "netcraft",
+      "site-report",
+      "hosting",
+      "servidores",
+      "phishing",
+      "dns-historico"
+    ],
+    "synonyms": [
+      "netcraft report",
+      "analisis hosting netcraft"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Algunos datos históricos profundos requieren suscripción empresarial a la suite de Netcraft"
+    ],
+    "useCases": [
+      "Comprobar en qué país y centro de datos está físicamente alojado un servidor sospechoso",
+      "Analizar si un sitio tiene calificaciones de riesgo de phishing"
+    ],
+    "instructions": "Introduce el dominio en la barra de búsqueda de sitereport.netcraft.com para desplegar el informe exhaustivo.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "viewdns",
+    "name": "ViewDNS.info",
+    "slug": "viewdns",
+    "description": "Caja de herramientas de investigación de dominios e IPs: Reverse IP, Reverse WHOIS, historial DNS y puertos.",
+    "longDescription": "Colección veterana y ágil de utilidades gratuitas para analistas de dominios y redes: Reverse IP Lookup (otros sitios alojados en el mismo servidor), Reverse WHOIS (otros dominios registrados a nombre de la misma persona o email), DNS Record Lookup, IP Location Finder, Port Scanner y Ping/Traceroute.",
+    "url": "https://viewdns.info/",
+    "categories": [
+      "webint",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "companies"
+    ],
+    "subcategories": [
+      "dns",
+      "reverse-ip",
+      "reverse-whois",
+      "redes"
+    ],
+    "tags": [
+      "viewdns",
+      "reverse-ip",
+      "reverse-whois",
+      "dns",
+      "puertos",
+      "traceroute"
+    ],
+    "synonyms": [
+      "view dns",
+      "reverse ip viewdns",
+      "reverse whois viewdns"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Interfaz sencilla orientada a consultas directas; API con coste"
+    ],
+    "useCases": [
+      "Descubrir todas las páginas web alojadas bajo una misma dirección IP",
+      "Identificar otros dominios registrados con el mismo correo electrónico en registros históricos de WHOIS"
+    ],
+    "instructions": "Haz clic en la utilidad deseada (ej. 'Reverse IP Lookup' o 'Reverse Whois Lookup') e introduce el valor a inspeccionar.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "securitytrails",
+    "name": "SecurityTrails",
+    "slug": "securitytrails",
+    "description": "Base de datos masiva de inteligencia de dominios, subdominios históricos, registros DNS pasivos y WHOIS.",
+    "longDescription": "Una de las plataformas de passive DNS más completas del mercado. Permite descubrir subdominios existentes y ya desaparecidos, consultar cambios históricos en registros A, AAAA, MX, NS y TXT a lo largo de los años, y desvelar IPs originales que se ocultan tras proxies inversos como Cloudflare.",
+    "url": "https://securitytrails.com/",
+    "categories": [
+      "webint",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "passive-dns",
+      "subdominios",
+      "dns-historico"
+    ],
+    "tags": [
+      "securitytrails",
+      "passive-dns",
+      "subdominios",
+      "dns-historico",
+      "whois",
+      "cloudflare-bypass"
+    ],
+    "synonyms": [
+      "security trails",
+      "dns historico securitytrails",
+      "buscar subdominios"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere registro gratuito con correo electrónico para acceder al historial completo de subdominios y DNS pasivo"
+    ],
+    "useCases": [
+      "Encontrar la IP real del servidor de origen de un sitio web protegido tras un WAF/CDN",
+      "Descubrir entornos de desarrollo o portales internos (staging, dev, admin) a través de subdominios históricos"
+    ],
+    "instructions": "Introduce el dominio y accede a las pestañas 'Subdomains' y 'Historical Data' (DNS History / WHOIS History).",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "robtex",
+    "name": "Robtex",
+    "slug": "robtex",
+    "description": "Análisis relacional y gráfico de dominios, infraestructura DNS, rangos IP contiguos y sistemas autónomos (ASN).",
+    "longDescription": "Herramienta que analiza y visualiza las interrelaciones entre direcciones IP, nombres de dominio, servidores de nombres (NS), registros de correo (MX) y bloques de enrutamiento BGP. Es especialmente útil para mapear toda la red de un objetivo de forma esquemática.",
+    "url": "https://www.robtex.com/",
+    "categories": [
+      "webint",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "dns",
+      "redes",
+      "asn",
+      "grafos"
+    ],
+    "tags": [
+      "robtex",
+      "dns",
+      "asn",
+      "relaciones-ip",
+      "subredes",
+      "enrutamiento"
+    ],
+    "synonyms": [
+      "robtex dns",
+      "robtex ip analyzer"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Visualización gráfica clásica"
+    ],
+    "useCases": [
+      "Comprender la topología de red de una organización a través de sus servidores de nombres y mail servers",
+      "Detectar si varias webs aparentemente desconectadas comparten el mismo bloque de red"
+    ],
+    "instructions": "Introduce un dominio o IP en la casilla central para generar el árbol de dependencias DNS y relaciones de red.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "wikidata-query",
+    "name": "Wikidata Query Service (WDQS)",
+    "slug": "wikidata-query",
+    "description": "Punto de consulta SPARQL sobre la base de conocimiento estructurada de Wikidata para correlaciones masivas.",
+    "longDescription": "Poderoso servicio de consultas semánticas que permite interrogar toda la base de datos libre y estructurada de Wikidata mediante SPARQL. Permite correlacionar personas, fechas de nacimiento, lazos familiares, empresas matrices, cargos públicos, coordenadas de monumentos o identificadores externos (VIAF, ISNI, Twitter IDs, registros mercantiles) a nivel planetario.",
+    "url": "https://query.wikidata.org/",
+    "categories": [
+      "webint",
+      "public-records"
+    ],
+    "investigateBy": [
+      "people-professional",
+      "companies",
+      "location"
+    ],
+    "subcategories": [
+      "sparql",
+      "grafo-de-conocimiento",
+      "datos-abiertos"
+    ],
+    "tags": [
+      "wikidata",
+      "sparql",
+      "grafo",
+      "wikipedia",
+      "datos-enlazados",
+      "relaciones"
+    ],
+    "synonyms": [
+      "wikidata sparql",
+      "consultas wikidata",
+      "wdqs"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "advanced",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere conocimientos del lenguaje de consulta semántico SPARQL o uso del asistente gráfico"
+    ],
+    "useCases": [
+      "Extraer un listado de todos los alcaldes de una comunidad autónoma y sus cuentas de Twitter registradas",
+      "Mapear genealogías y vinculaciones entre miembros de familias reales o élites empresariales"
+    ],
+    "instructions": "Escribe tu consulta SPARQL o carga uno de los cientos de ejemplos predefinidos en el botón 'Examples' para visualizar resultados en tabla, mapa o línea temporal.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "hemeroteca-bne",
+    "name": "Hemeroteca Digital de la BNE",
+    "slug": "hemeroteca-bne",
+    "description": "Colección digital de la Biblioteca Nacional de España con millones de páginas de prensa histórica con OCR.",
+    "longDescription": "Repositorio patrimonial oficial que digitaliza e indexa la prensa periódica y revistas publicadas en España desde 1772 hasta mediados del siglo XX. Incluye reconocimiento óptico de caracteres (OCR) de texto completo para buscar nombres de personas, sucesos, empresas históricas y referencias mercantiles del pasado.",
+    "url": "https://hemerotecadigital.bne.es/",
+    "categories": [
+      "webint",
+      "public-records"
+    ],
+    "investigateBy": [
+      "people-professional",
+      "companies"
+    ],
+    "subcategories": [
+      "hemeroteca",
+      "prensa-historica",
+      "espana",
+      "bne"
+    ],
+    "tags": [
+      "hemeroteca",
+      "bne",
+      "prensa-historica",
+      "periodicos",
+      "archivos-espana",
+      "ocr"
+    ],
+    "synonyms": [
+      "hemeroteca digital bne",
+      "prensa historica bne",
+      "periodicos antiguos espana"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Contenido limitado a publicaciones libres de derechos de autor o bajo acuerdos de conservación patrimonial"
+    ],
+    "useCases": [
+      "Investigar el pasado de familias influyentes, empresarios o inmuebles históricos en periódicos de los siglos XIX y XX",
+      "Buscar noticias sobre juicios o sucesos de la época"
+    ],
+    "instructions": "Escribe el nombre o término entre comillas en el buscador general y utiliza los filtros por fecha o lugar de publicación para refinar los resultados.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "archivo-web-bne",
+    "name": "Archivo de la Web Española (BNE)",
+    "slug": "archivo-web-bne",
+    "description": "Archivo y depósito legal de páginas web, medios digitales y blogs bajo el dominio .es custodiado por la BNE.",
+    "longDescription": "Proyecto de depósito legal electrónico regulado por el Real Decreto 635/2015 mediante el cual la Biblioteca Nacional de España preserva sistemáticamente el patrimonio digital del dominio .es y webs de temática española. Permite consultar colecciones temáticas (elecciones, crisis sanitarias, cultura, medios locales).",
+    "url": "https://www.bne.es/es/servicios/archivo-web-espanol",
+    "categories": [
+      "webint",
+      "public-records"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "companies",
+      "social-media"
+    ],
+    "subcategories": [
+      "archivo-web",
+      "espana",
+      "deposito-legal",
+      "bne"
+    ],
+    "tags": [
+      "archivo-web-espanol",
+      "bne",
+      "deposito-legal",
+      "patrimonio-digital",
+      "espana"
+    ],
+    "synonyms": [
+      "archivo web espanol",
+      "archivo digital bne",
+      "deposito legal web"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Las colecciones abiertas son accesibles en línea; los fondos exhaustivos completos de depósito legal se consultan en las salas de la BNE y centros de conservación autonómicos"
+    ],
+    "useCases": [
+      "Consultar versiones preservadas de blogs y periódicos digitales locales españoles ya extintos",
+      "Acceder a las campañas electorales y discursos políticos archivados desde 2014"
+    ],
+    "instructions": "Visita el portal oficial para explorar las colecciones temáticas abiertas o solicitar acceso a las terminales de consulta patrimonial.",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   }
 ]

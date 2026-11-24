@@ -6,23 +6,54 @@
     "description": "Diario oficial del Reino de España para leyes, nombramientos, licitaciones, multas y notificaciones judiciales.",
     "longDescription": "Fuente jurídica y administrativa primaria de España. Su potente buscador histórico permite localizar publicaciones oficiales por NIF/CIF, nombres y apellidos, oposiciones, concesiones de nacionalidad, nombramientos en cargos públicos y edictos judiciales.",
     "url": "https://www.boe.es/",
-    "categories": ["public-records"],
-    "investigateBy": ["companies", "people-professional"],
-    "subcategories": ["espana", "legislacion", "notificaciones-oficiales", "borme"],
-    "tags": ["boe", "espana", "oficial", "leyes", "borme", "licitaciones", "nombramientos"],
-    "synonyms": ["boletin oficial estado", "buscar en boe", "borme espana"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "espana",
+      "legislacion",
+      "notificaciones-oficiales",
+      "borme"
+    ],
+    "tags": [
+      "boe",
+      "espana",
+      "oficial",
+      "leyes",
+      "borme",
+      "licitaciones",
+      "nombramientos"
+    ],
+    "synonyms": [
+      "boletin oficial estado",
+      "buscar en boe",
+      "borme espana"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["spain"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Requiere búsquedas precisas entrecomilladas para evitar miles de coincidencias genéricas"],
-    "useCases": ["Localizar acuerdos societarios en el BORME (Boletín Oficial del Registro Mercantil) o nombramientos de administradores en empresas españolas"],
+    "limitations": [
+      "Requiere búsquedas precisas entrecomilladas para evitar miles de coincidencias genéricas"
+    ],
+    "useCases": [
+      "Localizar acuerdos societarios en el BORME (Boletín Oficial del Registro Mercantil) o nombramientos de administradores en empresas españolas"
+    ],
     "instructions": "Accede a 'Buscar en el BOE', introduce el nombre o denominación social entre comillas dobles y selecciona la sección deseada.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -34,23 +65,51 @@
     "description": "Portal oficial de licitaciones, adjudicaciones e importes de contratos públicos de las administraciones de España.",
     "longDescription": "Recopila todos los pliegos técnicos, importes de adjudicación (con y sin IVA), actas de las mesas de contratación y empresas adjudicatarias de ministerios, comunidades autónomas y ayuntamientos de España.",
     "url": "https://contrataciondelestado.es/",
-    "categories": ["public-records"],
-    "investigateBy": ["companies"],
-    "subcategories": ["espana", "licitaciones", "adjudicaciones", "contratos"],
-    "tags": ["contratacion", "espana", "licitaciones", "adjudicaciones", "empresas", "dinero-publico"],
-    "synonyms": ["contratacion del estado", "adjudicaciones publicas", "licitaciones espana"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies"
+    ],
+    "subcategories": [
+      "espana",
+      "licitaciones",
+      "adjudicaciones",
+      "contratos"
+    ],
+    "tags": [
+      "contratacion",
+      "espana",
+      "licitaciones",
+      "adjudicaciones",
+      "empresas",
+      "dinero-publico"
+    ],
+    "synonyms": [
+      "contratacion del estado",
+      "adjudicaciones publicas",
+      "licitaciones espana"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["spain"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Interfaz administrativa formal; se recomienda filtrar por NIF de la empresa o número de expediente"],
-    "useCases": ["Comprobar qué empresas privadas ganaron contratos de software, seguridad o infraestructuras convocados por organismos públicos en España"],
+    "limitations": [
+      "Interfaz administrativa formal; se recomienda filtrar por NIF de la empresa o número de expediente"
+    ],
+    "useCases": [
+      "Comprobar qué empresas privadas ganaron contratos de software, seguridad o infraestructuras convocados por organismos públicos en España"
+    ],
     "instructions": "En la pestaña 'Licitaciones', utiliza la 'Búsqueda de licitaciones y contratos' rellenando el CIF o nombre de la empresa adjudicataria.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -62,23 +121,50 @@
     "description": "Catálogo nacional de datos abiertos de España con miles de conjuntos de datos de administraciones públicas.",
     "longDescription": "Iniciativa del Gobierno de España para reutilizar información pública en formatos estructurados (CSV, JSON, GeoJSON): registros de transporte, energía, finanzas públicas, medio ambiente y sanidad.",
     "url": "https://datos.gob.es/",
-    "categories": ["public-records"],
-    "investigateBy": ["companies", "location"],
-    "subcategories": ["espana", "open-data", "datasets"],
-    "tags": ["datos-abiertos", "espana", "open-data", "datasets", "gobierno"],
-    "synonyms": ["open data espana", "datos abiertos gobierno"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "location"
+    ],
+    "subcategories": [
+      "espana",
+      "open-data",
+      "datasets"
+    ],
+    "tags": [
+      "datos-abiertos",
+      "espana",
+      "open-data",
+      "datasets",
+      "gobierno"
+    ],
+    "synonyms": [
+      "open data espana",
+      "datos abiertos gobierno"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["spain"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Los formatos varían según el organismo emisor (desde CSV limpios hasta documentos escaneados)"],
-    "useCases": ["Descargar censos oficiales de flotas, instalaciones autorizadas o subvenciones públicas"],
+    "limitations": [
+      "Los formatos varían según el organismo emisor (desde CSV limpios hasta documentos escaneados)"
+    ],
+    "useCases": [
+      "Descargar censos oficiales de flotas, instalaciones autorizadas o subvenciones públicas"
+    ],
     "instructions": "Utiliza los filtros de sector (Hacienda, Transporte, Medio Ambiente) para localizar el conjunto de datos de interés.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -90,23 +176,52 @@
     "description": "Organismo regulador de los mercados de valores en España: registros de sociedades cotizadas, fondos y advertencias.",
     "longDescription": "Supervisa los mercados bursátiles y sociedades financieras en España. Proporciona registros de accionistas significativos, hechos relevantes, cuentas anuales auditadas de empresas cotizadas y alertas de 'chiringuitos financieros' (entidades no autorizadas).",
     "url": "https://www.cnmv.es/",
-    "categories": ["public-records"],
-    "investigateBy": ["companies"],
-    "subcategories": ["espana", "mercado-valores", "auditorias", "alertas"],
-    "tags": ["cnmv", "espana", "finanzas", "bolsa", "chiringuitos-financieros", "regulador"],
-    "synonyms": ["cnmv espana", "mercado valores", "advertencias cnmv"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies"
+    ],
+    "subcategories": [
+      "espana",
+      "mercado-valores",
+      "auditorias",
+      "alertas"
+    ],
+    "tags": [
+      "cnmv",
+      "espana",
+      "finanzas",
+      "bolsa",
+      "chiringuitos-financieros",
+      "regulador"
+    ],
+    "synonyms": [
+      "cnmv espana",
+      "mercado valores",
+      "advertencias cnmv"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["spain", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "spain",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Se enfoca en entidades cotizadas, fondos de inversión y firmas de intermediación financiera reguladas"],
-    "useCases": ["Verificar si una plataforma de inversión está autorizada legalmente en España o cuenta con advertencia de fraude"],
+    "limitations": [
+      "Se enfoca en entidades cotizadas, fondos de inversión y firmas de intermediación financiera reguladas"
+    ],
+    "useCases": [
+      "Verificar si una plataforma de inversión está autorizada legalmente en España o cuenta con advertencia de fraude"
+    ],
     "instructions": "Consulta el apartado 'Consultas a los Registros Oficiales' o 'Advertencias al público'.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -118,24 +233,54 @@
     "description": "La mayor base de datos abierta de empresas del mundo con más de 200 millones de compañías registradas.",
     "longDescription": "Agrega y estandariza registros mercantiles de más de 140 jurisdicciones (incluida España y toda la Unión Europea). Permite buscar por denominación corporativa o por nombre de directores y administradores para identificar redes societarias cruzadas.",
     "url": "https://opencorporates.com/",
-    "categories": ["public-records"],
-    "investigateBy": ["companies", "people-professional"],
-    "subcategories": ["registro-mercantil", "administradores", "redes-societarias"],
-    "tags": ["opencorporates", "empresas", "mercantil", "sociedades", "directores"],
-    "synonyms": ["registro mercantil mundial", "buscar empresa opencorporates", "directores empresas"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "registro-mercantil",
+      "administradores",
+      "redes-societarias"
+    ],
+    "tags": [
+      "opencorporates",
+      "empresas",
+      "mercantil",
+      "sociedades",
+      "directores"
+    ],
+    "synonyms": [
+      "registro mercantil mundial",
+      "buscar empresa opencorporates",
+      "directores empresas"
+    ],
     "type": "web",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Búsqueda manual web de empresas y administradores gratuita; API y descargas masivas comerciales desde ~50€/mes)",
     "access": "public",
-    "geographicScope": ["global", "europe", "spain"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global",
+      "europe",
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Visualización web pública gratuita; la API masiva requiere clave comercial"],
-    "useCases": ["Descubrir filiales en el extranjero o empresas compartidas por un mismo administrador societario"],
+    "limitations": [
+      "Visualización web pública gratuita; la API masiva requiere clave comercial"
+    ],
+    "useCases": [
+      "Descubrir filiales en el extranjero o empresas compartidas por un mismo administrador societario"
+    ],
     "instructions": "Elige si deseas buscar por 'Companies' o por 'Officers' (nombres de administradores) e introduce el término.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -147,23 +292,52 @@
     "description": "Directorio oficial del identificador LEI (Legal Entity Identifier) para entidades financieras y corporativas globales.",
     "longDescription": "Base de datos abierta del estándar internacional ISO 17442 que identifica inequívocamente a cada entidad legal participante en transacciones financieras internacionales, mostrando quién es dueño de quién (estructura de matriz y filiales).",
     "url": "https://www.gleif.org/",
-    "categories": ["public-records"],
-    "investigateBy": ["companies"],
-    "subcategories": ["lei", "finanzas", "grupos-empresariales"],
-    "tags": ["gleif", "lei", "entidad-juridica", "finanzas", "holding", "filiales"],
-    "synonyms": ["codigo lei", "identificador entidad legal", "arbol empresarial"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies"
+    ],
+    "subcategories": [
+      "lei",
+      "finanzas",
+      "grupos-empresariales"
+    ],
+    "tags": [
+      "gleif",
+      "lei",
+      "entidad-juridica",
+      "finanzas",
+      "holding",
+      "filiales"
+    ],
+    "synonyms": [
+      "codigo lei",
+      "identificador entidad legal",
+      "arbol empresarial"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Aplica exclusivamente a empresas que disponen de código LEI activo para operar en mercados regulados"],
-    "useCases": ["Verificar la estructura de propiedad jerárquica de una multinacional o banco"],
+    "limitations": [
+      "Aplica exclusivamente a empresas que disponen de código LEI activo para operar en mercados regulados"
+    ],
+    "useCases": [
+      "Verificar la estructura de propiedad jerárquica de una multinacional o banco"
+    ],
     "instructions": "Usa la barra de búsqueda LEI Search para escribir el nombre de la empresa y ver su ficha oficial.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -175,23 +349,54 @@
     "description": "Base de datos internacional unificada de personas sancionadas, personas políticamente expuestas (PEP) y entidades vetadas.",
     "longDescription": "Cruza listas oficiales de sanciones de la Unión Europea, OFAC (Estados Unidos), Consejo de Seguridad de la ONU, Reino Unido e Interpol, además de censos de cargos políticos expuestos (PEPs) en todo el mundo.",
     "url": "https://www.opensanctions.org/",
-    "categories": ["public-records"],
-    "investigateBy": ["people-professional", "companies"],
-    "subcategories": ["sanciones", "pep", "ue", "cumplimiento"],
-    "tags": ["sanciones", "opensanctions", "pep", "ue", "ofac", "blanqueo"],
-    "synonyms": ["lista sanciones europa", "personas politicamente expuestas", "lista negra ue"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "people-professional",
+      "companies"
+    ],
+    "subcategories": [
+      "sanciones",
+      "pep",
+      "ue",
+      "cumplimiento"
+    ],
+    "tags": [
+      "sanciones",
+      "opensanctions",
+      "pep",
+      "ue",
+      "ofac",
+      "blanqueo"
+    ],
+    "synonyms": [
+      "lista sanciones europa",
+      "personas politicamente expuestas",
+      "lista negra ue"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Uso para investigación periodística y académica abierto y gratuito; comercial empresarial con licencia"],
-    "useCases": ["Comprobar si una persona física o empresa figura en la lista de sanciones de la Unión Europea"],
+    "limitations": [
+      "Uso para investigación periodística y académica abierto y gratuito; comercial empresarial con licencia"
+    ],
+    "useCases": [
+      "Comprobar si una persona física o empresa figura en la lista de sanciones de la Unión Europea"
+    ],
     "instructions": "Escribe el nombre completo o de la sociedad mercantil en el campo de búsqueda central.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -203,23 +408,52 @@
     "description": "Base de datos de investigaciones del Consorcio Internacional de Periodistas de Investigación (Panama Papers, Pandora Papers).",
     "longDescription": "Publicación estructurada que documenta más de 800.000 sociedades offshore, fideicomisos y fundaciones en paraísos fiscales conectadas con beneficiarios finales, directores intermediarios y bufetes de abogados.",
     "url": "https://offshoreleaks.icij.org/",
-    "categories": ["public-records"],
-    "investigateBy": ["companies", "people-professional"],
-    "subcategories": ["offshore", "periodismo-investigacion", "paraisos-fiscales"],
-    "tags": ["icij", "panama-papers", "pandora-papers", "offshore", "paraisos-fiscales"],
-    "synonyms": ["papeles de panama", "offshore leaks", "sociedades opacas"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "offshore",
+      "periodismo-investigacion",
+      "paraisos-fiscales"
+    ],
+    "tags": [
+      "icij",
+      "panama-papers",
+      "pandora-papers",
+      "offshore",
+      "paraisos-fiscales"
+    ],
+    "synonyms": [
+      "papeles de panama",
+      "offshore leaks",
+      "sociedades opacas"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe", "spain"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe",
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Contiene datos procedentes de filtraciones periodísticas publicadas; no constituye un registro público estatal continuado"],
-    "useCases": ["Investigar vínculos de personalidades públicas o empresas con entidades domiciliadas en jurisdicciones offshore"],
+    "limitations": [
+      "Contiene datos procedentes de filtraciones periodísticas publicadas; no constituye un registro público estatal continuado"
+    ],
+    "useCases": [
+      "Investigar vínculos de personalidades públicas o empresas con entidades domiciliadas en jurisdicciones offshore"
+    ],
     "instructions": "Filtra por país (ej. 'Spain') o introduce el nombre de la persona para visualizar el grafo de conexiones.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -231,23 +465,50 @@
     "description": "Plataforma de datos para periodistas de investigación con millones de documentos, registros mercantiles y filtraciones.",
     "longDescription": "Desarrollada por el Organized Crime and Corruption Reporting Project (OCCRP), Aleph indexa bases de datos corporativas de Europa del Este, Asia Central, Latinoamérica y Europa, permitiendo rastrear activos y delitos transnacionales.",
     "url": "https://aleph.occrp.org/",
-    "categories": ["public-records"],
-    "investigateBy": ["companies", "people-professional"],
-    "subcategories": ["crimen-organizado", "periodismo", "documentos"],
-    "tags": ["aleph", "occrp", "periodismo", "corrupcion", "registros"],
-    "synonyms": ["occrp aleph", "investigacion corrupcion"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "crimen-organizado",
+      "periodismo",
+      "documentos"
+    ],
+    "tags": [
+      "aleph",
+      "occrp",
+      "periodismo",
+      "corrupcion",
+      "registros"
+    ],
+    "synonyms": [
+      "occrp aleph",
+      "investigacion corrupcion"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Las colecciones públicas son de libre consulta; ciertas colecciones sensibles están reservadas a periodistas acreditados"],
-    "useCases": ["Buscar menciones de una compañía en filtraciones judiciales y gacetas mercantiles internacionales"],
+    "limitations": [
+      "Las colecciones públicas son de libre consulta; ciertas colecciones sensibles están reservadas a periodistas acreditados"
+    ],
+    "useCases": [
+      "Buscar menciones de una compañía en filtraciones judiciales y gacetas mercantiles internacionales"
+    ],
     "instructions": "Usa la búsqueda avanzada con operadores booleanos (AND, OR, NOT) sobre las colecciones públicas abiertas.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -259,23 +520,50 @@
     "description": "El portal oficial de datos abiertos de la Unión Europea que agrega los catálogos de todos los estados miembros.",
     "longDescription": "El punto de acceso unificado a los datos públicos producidos por las instituciones y organismos de la Unión Europea y los portales nacionales de datos de los países miembros (incluido España).",
     "url": "https://data.europa.eu/",
-    "categories": ["public-records"],
-    "investigateBy": ["companies", "location"],
-    "subcategories": ["europa", "ue", "open-data"],
-    "tags": ["data-europa", "ue", "europa", "open-data", "estadisticas"],
-    "synonyms": ["datos abiertos ue", "portal datos europa"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "location"
+    ],
+    "subcategories": [
+      "europa",
+      "ue",
+      "open-data"
+    ],
+    "tags": [
+      "data-europa",
+      "ue",
+      "europa",
+      "open-data",
+      "estadisticas"
+    ],
+    "synonyms": [
+      "datos abiertos ue",
+      "portal datos europa"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["europe"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Agregador masivo; la calidad y frescura de los metadatos depende de la administración de cada país"],
-    "useCases": ["Localizar estudios comparativos y censos oficiales armonizados a nivel de la Unión Europea"],
+    "limitations": [
+      "Agregador masivo; la calidad y frescura de los metadatos depende de la administración de cada país"
+    ],
+    "useCases": [
+      "Localizar estudios comparativos y censos oficiales armonizados a nivel de la Unión Europea"
+    ],
     "instructions": "Filtra por formato de archivo (CSV, RDF, JSON) o por temática europea en el panel lateral.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -287,23 +575,50 @@
     "description": "Punto de acceso oficial de la Comisión Europea a los registros mercantiles e insolvencias de los países de la UE (BRIS).",
     "longDescription": "Permite consultar de forma unificada a través del sistema BRIS (Business Registers Interconnection System) información verificada de empresas registradas en cualquier país de la Unión Europea, su número de registro oficial y su estado de actividad.",
     "url": "https://e-justice.europa.eu/",
-    "categories": ["public-records"],
-    "investigateBy": ["companies"],
-    "subcategories": ["bris", "europa", "justicia", "registros-mercantiles"],
-    "tags": ["e-justicia", "ue", "bris", "mercantil-europeo", "insolvencias"],
-    "synonyms": ["buscar empresa union europea", "bris registro europeo", "ejustice"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies"
+    ],
+    "subcategories": [
+      "bris",
+      "europa",
+      "justicia",
+      "registros-mercantiles"
+    ],
+    "tags": [
+      "e-justicia",
+      "ue",
+      "bris",
+      "mercantil-europeo",
+      "insolvencias"
+    ],
+    "synonyms": [
+      "buscar empresa union europea",
+      "bris registro europeo",
+      "ejustice"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["La información básica del BRIS es pública y gratuita; la obtención de copias de estatutos o cuentas anuales depende de las tasas oficiales de cada registro nacional"],
-    "useCases": ["Confirmar si una sociedad constituida en Alemania, Francia, Italia o Países Bajos está legalmente activa"],
+    "limitations": [
+      "La información básica del BRIS es pública y gratuita; la obtención de copias de estatutos o cuentas anuales depende de las tasas oficiales de cada registro nacional"
+    ],
+    "useCases": [
+      "Confirmar si una sociedad constituida en Alemania, Francia, Italia o Países Bajos está legalmente activa"
+    ],
     "instructions": "Accede a la sección 'Buscar una empresa en los registros mercantiles de los Estados miembros (BRIS)'.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -315,23 +630,51 @@
     "description": "Consulta pública y gratuita del distintivo ambiental oficial de la DGT para vehículos en España.",
     "longDescription": "Servicio oficial de la Dirección General de Tráfico de España que permite verificar de forma abierta y sin certificado el distintivo ambiental oficial (0, ECO, C, B o Sin Distintivo) asignado a cualquier matrícula española, confirmando la validez y existencia de la matrícula en el registro oficial.",
     "url": "https://sede.dgt.gob.es/es/vehiculos/distintivo-ambiental/",
-    "categories": ["public-records"],
-    "investigateBy": ["vehicle"],
-    "subcategories": ["espana", "dgt", "matriculas", "medioambiente"],
-    "tags": ["dgt", "espana", "distintivo-ambiental", "matricula", "vehiculos", "emisiones"],
-    "synonyms": ["distintivo dgt", "pegatina coche dgt", "comprobar matricula espana"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "vehicle"
+    ],
+    "subcategories": [
+      "espana",
+      "dgt",
+      "matriculas",
+      "medioambiente"
+    ],
+    "tags": [
+      "dgt",
+      "espana",
+      "distintivo-ambiental",
+      "matricula",
+      "vehiculos",
+      "emisiones"
+    ],
+    "synonyms": [
+      "distintivo dgt",
+      "pegatina coche dgt",
+      "comprobar matricula espana"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["spain"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Proporciona exclusivamente la etiqueta ambiental del vehículo; no revela datos personales del propietario ni características técnicas privadas"],
-    "useCases": ["Verificar si una matrícula española existe oficialmente en el registro de la DGT"],
+    "limitations": [
+      "Proporciona exclusivamente la etiqueta ambiental del vehículo; no revela datos personales del propietario ni características técnicas privadas"
+    ],
+    "useCases": [
+      "Verificar si una matrícula española existe oficialmente en el registro de la DGT"
+    ],
     "instructions": "Introduce la matrícula española sin espacios ni guiones (ej. 1234BBB) y pulsa Consultar.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -343,23 +686,50 @@
     "description": "Informe oficial gratuito de la DGT que confirma la fecha de primera matriculación y la ausencia de incidencias legales.",
     "longDescription": "Trámite telemático oficial de la Dirección General de Tráfico de España. Permite obtener de forma gratuita e inmediata un informe resumido con la fecha de primera matriculación, marca, modelo, tipo de combustible y si existen incidencias o precintos que impidan la circulación o transferencia del vehículo (sin datos personales de titulares).",
     "url": "https://sede.dgt.gob.es/es/vehiculos/informe-de-vehiculo/",
-    "categories": ["public-records"],
-    "investigateBy": ["vehicle"],
-    "subcategories": ["espana", "dgt", "informe-oficial"],
-    "tags": ["dgt", "informe-reducido", "espana", "matricula", "fecha-matriculacion", "vehiculo"],
-    "synonyms": ["informe dgt gratis", "informe reducido matricula", "ano matriculacion coche"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "vehicle"
+    ],
+    "subcategories": [
+      "espana",
+      "dgt",
+      "informe-oficial"
+    ],
+    "tags": [
+      "dgt",
+      "informe-reducido",
+      "espana",
+      "matricula",
+      "fecha-matriculacion",
+      "vehiculo"
+    ],
+    "synonyms": [
+      "informe dgt gratis",
+      "informe reducido matricula",
+      "ano matriculacion coche"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["spain"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["El informe reducido es gratuito y público; el informe completo y detallado de cargas requiere pago de tasa oficial DGT"],
-    "useCases": ["Averiguar el año exacto de matriculación de un vehículo a partir de su matrícula y comprobar si tiene avisos de seguridad pendientes"],
+    "limitations": [
+      "El informe reducido es gratuito y público; el informe completo y detallado de cargas requiere pago de tasa oficial DGT"
+    ],
+    "useCases": [
+      "Averiguar el año exacto de matriculación de un vehículo a partir de su matrícula y comprobar si tiene avisos de seguridad pendientes"
+    ],
     "instructions": "Selecciona la opción 'Informe reducido' e introduce la matrícula para descargar el resumen oficial.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -371,23 +741,50 @@
     "description": "Red oficial de cooperación de servicios de empleo de la UE, el Espacio Económico Europeo y Suiza.",
     "longDescription": "Portal público de la Comisión Europea que centraliza ofertas de empleo oficiales de todos los servicios públicos de empleo de la UE (incluido el SEPE de España), facilitando el análisis de demanda laboral por sectores, perfiles y regiones europeas.",
     "url": "https://eures.europa.eu/",
-    "categories": ["public-records"],
-    "investigateBy": ["jobs-careers"],
-    "subcategories": ["empleo-europeo", "ue", "sepe"],
-    "tags": ["eures", "empleo", "europa", "ue", "trabajo", "vacantes"],
-    "synonyms": ["eures europa", "ofertas trabajo union europea", "sepe eures"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "jobs-careers"
+    ],
+    "subcategories": [
+      "empleo-europeo",
+      "ue",
+      "sepe"
+    ],
+    "tags": [
+      "eures",
+      "empleo",
+      "europa",
+      "ue",
+      "trabajo",
+      "vacantes"
+    ],
+    "synonyms": [
+      "eures europa",
+      "ofertas trabajo union europea",
+      "sepe eures"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Se centra en ofertas gestionadas por los servicios públicos de empleo europeos"],
-    "useCases": ["Analizar contrataciones transfronterizas de empresas europeas y requisitos técnicos solicitados"],
+    "limitations": [
+      "Se centra en ofertas gestionadas por los servicios públicos de empleo europeos"
+    ],
+    "useCases": [
+      "Analizar contrataciones transfronterizas de empresas europeas y requisitos técnicos solicitados"
+    ],
     "instructions": "Navega por la sección 'Buscar empleo' filtrando por país (ej. España, Alemania, Francia) y sector profesional.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -399,23 +796,50 @@
     "description": "El portal de ofertas de empleo privado líder en España para análisis de perfiles de empresas y tecnologías requeridas.",
     "longDescription": "Plataforma de referencia para el mercado laboral español. El análisis de las ofertas activas e históricas publicadas por una empresa permite conocer su stack tecnológico interno, proyectos en desarrollo, convenios aplicados y volumen de contratación en España.",
     "url": "https://www.infojobs.net/",
-    "categories": ["public-records"],
-    "investigateBy": ["jobs-careers", "companies"],
-    "subcategories": ["espana", "empleo-espana", "empresas"],
-    "tags": ["infojobs", "espana", "empleo", "ofertas-trabajo", "empresas-espana"],
-    "synonyms": ["infojobs espana", "ofertas empleo espana", "buscar empresa infojobs"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "jobs-careers",
+      "companies"
+    ],
+    "subcategories": [
+      "espana",
+      "empleo-espana",
+      "empresas"
+    ],
+    "tags": [
+      "infojobs",
+      "espana",
+      "empleo",
+      "ofertas-trabajo",
+      "empresas-espana"
+    ],
+    "synonyms": [
+      "infojobs espana",
+      "ofertas empleo espana",
+      "buscar empresa infojobs"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["spain"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Las ofertas antiguas se retiran tras vencer el plazo de publicación"],
-    "useCases": ["Identificar qué tecnologías o software específico está incorporando una compañía española en sus sedes"],
+    "limitations": [
+      "Las ofertas antiguas se retiran tras vencer el plazo de publicación"
+    ],
+    "useCases": [
+      "Identificar qué tecnologías o software específico está incorporando una compañía española en sus sedes"
+    ],
     "instructions": "Usa la búsqueda por nombre de empresa para desplegar todas las ofertas publicadas en España.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -427,25 +851,1581 @@
     "description": "La mayor base de datos genealógica pública del mundo con registros eclesiásticos, censos y defunciones de España y Europa.",
     "longDescription": "Organización sin ánimo de lucro que digitaliza de forma gratuita millones de libros parroquiales históricos, registros civiles antiguos, censos de población y registros de inmigración/emigración de España y Europa.",
     "url": "https://www.familysearch.org/",
-    "categories": ["public-records"],
-    "investigateBy": ["people-professional"],
-    "subcategories": ["genealogia", "archivos-historicos", "censos"],
-    "tags": ["familysearch", "genealogia", "censos", "registros-historicos", "parroquias"],
-    "synonyms": ["arbol genealogico", "buscar antepasados", "registros historicos"],
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "people-professional"
+    ],
+    "subcategories": [
+      "genealogia",
+      "archivos-historicos",
+      "censos"
+    ],
+    "tags": [
+      "familysearch",
+      "genealogia",
+      "censos",
+      "registros-historicos",
+      "parroquias"
+    ],
+    "synonyms": [
+      "arbol genealogico",
+      "buscar antepasados",
+      "registros historicos"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "spain", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "spain",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": true,
     "apiKeyRequired": false,
-    "limitations": ["Requiere cuenta de usuario gratuita para visualizar imágenes digitalizadas de libros originales; respeta leyes de privacidad para personas vivas"],
-    "useCases": ["Investigación biográfica e histórica de linajes familiares y figuras públicas del pasado"],
+    "limitations": [
+      "Requiere cuenta de usuario gratuita para visualizar imágenes digitalizadas de libros originales; respeta leyes de privacidad para personas vivas"
+    ],
+    "useCases": [
+      "Investigación biográfica e histórica de linajes familiares y figuras públicas del pasado"
+    ],
     "instructions": "Inicia sesión con tu cuenta gratuita y busca en la sección 'Search > Records' por apellidos y provincia española.",
     "lastReviewed": "2026-11-23",
+    "status": "active"
+  },
+  {
+    "id": "borme",
+    "name": "Boletín Oficial del Registro Mercantil (BORME)",
+    "slug": "borme",
+    "description": "Publicación oficial de actos jurídicos, constituciones, nombramientos, ceses y balances de sociedades en España.",
+    "longDescription": "Sección especializada del BOE dedicada a la publicidad registral mercantil. Permite consultar la vida societaria legal de cualquier empresa española: constitución, nombramientos de administradores, ampliaciones de capital, fusiones, disoluciones y convocatorias de juntas.",
+    "url": "https://www.boe.es/diario_borme/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "espana",
+      "sociedades",
+      "mercantil",
+      "administradores"
+    ],
+    "tags": [
+      "borme",
+      "registro-mercantil",
+      "empresas",
+      "administradores",
+      "espana",
+      "sociedades"
+    ],
+    "synonyms": [
+      "buscar borme",
+      "boletin registro mercantil",
+      "ceses administradores",
+      "actos societarios"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta y descarga oficial 100% gratuita",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Las búsquedas por nombre de persona física pueden devolver personas homónimas en diferentes provincias"
+    ],
+    "useCases": [
+      "Comprobar qué cargos ostenta una persona en sociedades mercantiles registradas en España"
+    ],
+    "instructions": "Accede al buscador del BORME, introduce la denominación de la sociedad o el nombre del administrador y acota el año o provincia.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "registro-concursal",
+    "name": "Registro Público Concursal (España)",
+    "slug": "registro-concursal",
+    "description": "Portal judicial oficial de consulta de quiebras, autos de concurso de acreedores y liquidaciones en España.",
+    "longDescription": "Gestionado por el Colegio de Registradores bajo la supervisión del Ministerio de Justicia. Permite conocer en tiempo real si una persona física o jurídica se encuentra incursa en concurso de acreedores, planes de reestructuración o acuerdos de refinanciación judicializados.",
+    "url": "https://www.publicidadconcursal.es/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "espana",
+      "judicial",
+      "concursos",
+      "insolvencias"
+    ],
+    "tags": [
+      "concursal",
+      "quiebras",
+      "insolvencias",
+      "acreedores",
+      "espana",
+      "judicial"
+    ],
+    "synonyms": [
+      "publicidad concursal",
+      "consultar quiebra",
+      "concurso acreedores",
+      "insolvencia empresarial"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública gratuita oficial",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere NIF/CIF o nombre exacto para realizar la búsqueda"
+    ],
+    "useCases": [
+      "Verificar la solvencia y situación legal de una empresa proveedora o deudora en España"
+    ],
+    "instructions": "Accede a la sección de consulta pública e introduce el CIF de la empresa o NIF del deudor.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "teju",
+    "name": "Tablón Edictal Judicial Único (TEJU)",
+    "slug": "teju",
+    "description": "Plataforma oficial del BOE para la publicación y notificación de resoluciones y citaciones judiciales en España.",
+    "longDescription": "El TEJU centraliza los edictos y llamamientos de todos los juzgados y tribunales de España cuando no ha sido posible notificar personalmente al interesado. Esencial para localizar embargos, citaciones penales o pleitos civiles sobre particulares o mercantiles.",
+    "url": "https://www.boe.es/notificaciones/teju/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "people-professional",
+      "companies"
+    ],
+    "subcategories": [
+      "espana",
+      "notificaciones",
+      "judicial",
+      "edictos"
+    ],
+    "tags": [
+      "teju",
+      "boe",
+      "notificaciones-judiciales",
+      "juzgados",
+      "edictos",
+      "embargos"
+    ],
+    "synonyms": [
+      "tablon edictal judicial",
+      "notificaciones judiciales boe",
+      "buscar edictos"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Acceso libre 100% público",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los anuncios se retiran tras el plazo legal de exposición pública, aunque se archivan en el histórico"
+    ],
+    "useCases": [
+      "Comprobar si una persona o empresa tiene procedimientos judiciales con citaciones por edictos en curso"
+    ],
+    "instructions": "Introduce el NIF, CIF o apellidos en el formulario de búsqueda de notificaciones judiciales del BOE.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "cendoj",
+    "name": "CENDOJ — Jurisprudencia del CGPJ (España)",
+    "slug": "cendoj",
+    "description": "Base de datos oficial y abierta de sentencias y resoluciones judiciales de todos los tribunales de España.",
+    "longDescription": "El Centro de Documentación Judicial del Consejo General del Poder Judicial ofrece acceso libre a millones de sentencias del Tribunal Supremo, Audiencia Nacional, Tribunales Superiores de Justicia y Audiencias Provinciales, con filtros por materia, tribunal y fecha.",
+    "url": "https://www.poderjudicial.es/search/indexAN.jsp",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "espana",
+      "jurisprudencia",
+      "sentencias",
+      "tribunales"
+    ],
+    "tags": [
+      "cendoj",
+      "sentencias",
+      "cgpj",
+      "tribunal-supremo",
+      "audiencia-nacional",
+      "justicia"
+    ],
+    "synonyms": [
+      "buscador sentencias",
+      "jurisprudencia espana",
+      "poder judicial sentencias"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta jurisprudencial pública y gratuita",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los nombres de personas físicas están anonimizados salvo cargos públicos o nombres de personas jurídicas y mercantiles"
+    ],
+    "useCases": [
+      "Investigar litigios corporativos, sanciones administrativas confirmadas y jurisprudencia penal o mercantil"
+    ],
+    "instructions": "Utiliza el buscador libre con comillas dobles para buscar empresas, términos técnicos o referencias de litigios.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "bdns",
+    "name": "Base de Datos Nacional de Subvenciones (BDNS)",
+    "slug": "bdns",
+    "description": "Sistema oficial de publicidad de subvenciones y ayudas públicas concedidas por las administraciones de España.",
+    "longDescription": "El Sistema Nacional de Publicidad de Subvenciones de la Intervención General de la Administración del Estado (IGAE) recopila convocatorias y resoluciones de concesión de ayudas públicas, fondos europeos (Next Generation) e importes recibidos por empresas y particulares.",
+    "url": "https://www.infosubvenciones.es/bdnstrans/GE/es/index",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "espana",
+      "subvenciones",
+      "fondos-publicos",
+      "ayudas"
+    ],
+    "tags": [
+      "bdns",
+      "subvenciones",
+      "igae",
+      "fondos-europeos",
+      "ayudas-publicas",
+      "hacienda"
+    ],
+    "synonyms": [
+      "buscar subvenciones",
+      "concesiones ayudas",
+      "dinero publico subvenciones"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "100% público y gratuito",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Las subvenciones inferiores a ciertos umbrales de confidencialidad legal pueden no publicar el NIF de personas físicas"
+    ],
+    "useCases": [
+      "Auditar el volumen de ayudas públicas y fondos recibidos por una entidad mercantil o asociación"
+    ],
+    "instructions": "Accede a 'Concesiones', escribe el CIF o razón social de la empresa y pulsa en consultar.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "transparencia-gob",
+    "name": "Portal de la Transparencia de España",
+    "slug": "transparencia-gob",
+    "description": "Portal oficial del Gobierno de España para información institucional, retribuciones, contratos y solicitudes de acceso (LTAIBG).",
+    "longDescription": "Plataforma central del Estado para el ejercicio del derecho de acceso a la información pública regulado por la Ley 19/2013. Publica convenios, presupuestos, indemnizaciones de altos cargos, agendas públicas e informes oficiales de evaluación.",
+    "url": "https://transparencia.gob.es/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "espana",
+      "transparencia",
+      "gobierno",
+      "convenios"
+    ],
+    "tags": [
+      "transparencia",
+      "gobierno",
+      "altos-cargos",
+      "convenios",
+      "sueldos-publicos"
+    ],
+    "synonyms": [
+      "portal transparencia espana",
+      "solicitud informacion publica",
+      "sueldos altos cargos"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta y ejercicio de derecho de acceso gratuito",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Para realizar solicitudes formales de información con número de expediente se requiere certificado digital o Cl@ve"
+    ],
+    "useCases": [
+      "Consultar convenios suscritos por ministerios con empresas privadas o remuneraciones oficiales"
+    ],
+    "instructions": "Navega por las categorías institucionales o introduce términos clave en el buscador general.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "oepm",
+    "name": "Oficina Española de Patentes y Marcas (OEPM)",
+    "slug": "oepm",
+    "description": "Buscador oficial de marcas registradas, nombres comerciales, patentes y modelos de utilidad en España.",
+    "longDescription": "El portal de la OEPM (Localizador CEO) permite consultar el estado registral, titulares legítimos, fechas de solicitud, clases de Niza y logotipos de cualquier marca o patente registrada con efectos en territorio español.",
+    "url": "https://www.oepm.es/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "classifieds"
+    ],
+    "subcategories": [
+      "espana",
+      "marcas",
+      "patentes",
+      "propiedad-industrial"
+    ],
+    "tags": [
+      "oepm",
+      "marcas",
+      "patentes",
+      "nombres-comerciales",
+      "propiedad-intelectual",
+      "espana"
+    ],
+    "synonyms": [
+      "buscar marcas espana",
+      "titular marca",
+      "comprobar patente oepm"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Localizador y bases de datos públicas 100% gratis",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "No incluye marcas comunitarias no extendidas explícitamente a través del sistema de Madrid sin consultar EUIPO"
+    ],
+    "useCases": [
+      "Identificar la empresa o persona titular de una marca comercial o producto en venta"
+    ],
+    "instructions": "Accede al localizador de marcas (CEO), introduce la denominación o el nombre del titular y revisa el expediente.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "euipo",
+    "name": "EUIPO eSearch Plus (Marcas y Diseños de la UE)",
+    "slug": "euipo",
+    "description": "Buscador oficial de marcas de la Unión Europea y diseños industriales registrados con validez comunitaria.",
+    "longDescription": "Gestionado por la Oficina de Propiedad Intelectual de la Unión Europea (con sede en Alicante, España). eSearch Plus permite buscar por marca, imagen, titular, representante legal o clase de producto en los 27 Estados miembros.",
+    "url": "https://euipo.europa.eu/eSearch/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "classifieds"
+    ],
+    "subcategories": [
+      "europa",
+      "marcas-ue",
+      "disenos",
+      "propiedad-industrial"
+    ],
+    "tags": [
+      "euipo",
+      "marcas-ue",
+      "alicante",
+      "disenos-industriales",
+      "europa",
+      "esearch"
+    ],
+    "synonyms": [
+      "marcas comunitarias",
+      "euipo esearch",
+      "titular marca europea"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Búsqueda y visualización de expedientes 100% gratuita",
+    "access": "public",
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Para patentes de invención debe consultarse la Oficina Europea de Patentes (Espacenet)"
+    ],
+    "useCases": [
+      "Localizar activos intangibles y marcas pertenecientes a holdings o multinacionales en Europa"
+    ],
+    "instructions": "Escribe el nombre de la marca o titular en la barra superior de eSearch Plus.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "wipo",
+    "name": "WIPO — Global Brand Database & Patentscope",
+    "slug": "wipo",
+    "description": "Base de datos mundial de marcas internacionales, diseños y patentes de la Organización Mundial de la Propiedad Intelectual.",
+    "longDescription": "La OMPI/WIPO centraliza registros de marcas bajo el Sistema de Madrid y patentes PCT mundiales. Permite realizar búsquedas combinadas por titular en decenas de oficinas nacionales simultáneamente.",
+    "url": "https://www.wipo.int/reference/es/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies"
+    ],
+    "subcategories": [
+      "internacional",
+      "marcas",
+      "patentes",
+      "ompi"
+    ],
+    "tags": [
+      "wipo",
+      "ompi",
+      "marcas-mundiales",
+      "patentscope",
+      "pct",
+      "propiedad-intelectual"
+    ],
+    "synonyms": [
+      "wipo global brand",
+      "buscar marcas mundiales",
+      "patentscope wipo"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Acceso libre a bases de datos mundiales",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Sintaxis booleana avanzada recomendada para desambiguar patentes internacionales complejas"
+    ],
+    "useCases": [
+      "Rastrear patentes tecnológicas y registros de propiedad industrial de compañías multinacionales"
+    ],
+    "instructions": "Selecciona 'Global Brand Database' para marcas o 'PATENTSCOPE' para tecnología y patentes.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "espacenet",
+    "name": "Espacenet (Oficina Europea de Patentes)",
+    "slug": "espacenet",
+    "description": "Buscador de más de 140 millones de documentos y publicaciones de patentes de todo el mundo de la EPO.",
+    "longDescription": "Desarrollado por la European Patent Office (EPO). Es la mayor base de datos pública y libre de literatura de patentes mundial, incluyendo especificaciones técnicas, planos de invenciones, autores, empresas solicitantes e historial de citas.",
+    "url": "https://worldwide.espacenet.com/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "github-dev"
+    ],
+    "subcategories": [
+      "europa",
+      "patentes",
+      "tecnologia",
+      "inventores"
+    ],
+    "tags": [
+      "espacenet",
+      "epo",
+      "patentes",
+      "inventores",
+      "propiedad-industrial",
+      "europa"
+    ],
+    "synonyms": [
+      "buscar patentes europa",
+      "epo espacenet",
+      "planos patentes"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta completa sin coste",
+    "access": "public",
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los documentos técnicos suelen publicarse en el idioma del país solicitante"
+    ],
+    "useCases": [
+      "Investigar qué tecnologías patentan empresas de defensa, telecomunicaciones o automoción"
+    ],
+    "instructions": "Introduce el nombre de la compañía o inventor en el campo 'Applicant / Inventor'.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "vies",
+    "name": "VIES — Validación de NIF/IVA Intracomunitario (UE)",
+    "slug": "vies",
+    "description": "Servicio oficial de la Comisión Europea para verificar la validez y datos fiscales de NIF-IVA de operadores en la UE.",
+    "longDescription": "El sistema VIES (VAT Information Exchange System) confirma en tiempo real si un número de identificación fiscal español o europeo está dado de alta en el Registro de Operadores Intracomunitarios (ROI), devolviendo la razón social y domicilio fiscal legal.",
+    "url": "https://ec.europa.eu/taxation_customs/vies/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "europa",
+      "fiscalidad",
+      "iva",
+      "empresas"
+    ],
+    "tags": [
+      "vies",
+      "iva-intracomunitario",
+      "nif",
+      "cif",
+      "fiscal",
+      "comision-europea"
+    ],
+    "synonyms": [
+      "validar cif europeo",
+      "vies vat check",
+      "comprobar nif intracomunitario"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Servicio público gratuito oficial de la Comisión Europea",
+    "access": "public",
+    "geographicScope": [
+      "europe",
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Algunos estados miembros pueden limitar la visualización de la dirección según normativas locales"
+    ],
+    "useCases": [
+      "Verificar si una empresa extranjera o nacional que emite facturas está legalmente registrada para IVA intracomunitario"
+    ],
+    "instructions": "Selecciona el país miembro (ej. ES para España), introduce el número fiscal y pulsa 'Verificar'.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "ted-europa",
+    "name": "TED (Tenders Electronic Daily)",
+    "slug": "ted-europa",
+    "description": "Versión online del Suplemento al Diario Oficial de la Unión Europea dedicado a la contratación pública comunitaria.",
+    "longDescription": "Publica más de 700.000 anuncios de contratación pública al año por encima de los umbrales de la UE. Permite rastrear licitaciones, contratos de suministros militares, obras de infraestructura y adjudicaciones a grandes consorcios en los 27 países.",
+    "url": "https://ted.europa.eu/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies"
+    ],
+    "subcategories": [
+      "europa",
+      "licitaciones",
+      "contratacion-publica",
+      "fondos-ue"
+    ],
+    "tags": [
+      "ted",
+      "licitaciones-ue",
+      "diario-oficial",
+      "adjudicaciones",
+      "contratacion-europea"
+    ],
+    "synonyms": [
+      "tenders electronic daily",
+      "licitaciones europeas",
+      "contratos union europea"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Acceso libre multilingüe con exportación de datos",
+    "access": "public",
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Abarca contrataciones de alto volumen económico reguladas por directivas de la UE"
+    ],
+    "useCases": [
+      "Investigar qué empresas se adjudican los grandes contratos de obra civil o defensa en Europa"
+    ],
+    "instructions": "Utiliza la búsqueda avanzada por código CPV, país o denominación de la empresa adjudicataria.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "eu-transparency-register",
+    "name": "Registro de Transparencia de la UE (Lobbies)",
+    "slug": "eu-transparency-register",
+    "description": "Registro público oficial de organizaciones, lobbies y grupos de interés que influyen en las instituciones europeas.",
+    "longDescription": "Gestionado conjuntamente por el Parlamento Europeo, el Consejo y la Comisión Europea. Publica qué entidades ejercen presión sobre la legislación europea, sus presupuestos de representación, reuniones con comisarios y eurodiputados y número de empleados acreditados.",
+    "url": "https://transparency-register.europa.eu/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "europa",
+      "lobbies",
+      "transparencia",
+      "politica"
+    ],
+    "tags": [
+      "lobbies",
+      "transparencia-ue",
+      "parlamento-europeo",
+      "influencia",
+      "politica"
+    ],
+    "synonyms": [
+      "registro lobbies ue",
+      "transparency register",
+      "grupos de presion bruselas"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Datos abiertos y consulta pública gratuita",
+    "access": "public",
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Solo cubre reuniones con comisarios, directores generales o ponentes parlamentarios oficiales"
+    ],
+    "useCases": [
+      "Comprobar cuánto dinero declara una tecnológica o energética en actividades de lobby ante la UE"
+    ],
+    "instructions": "Introduce el nombre de la empresa, asociación o cliente en el buscador de entidades registradas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "infocif",
+    "name": "Infocif",
+    "slug": "infocif",
+    "description": "Directorio empresarial español con datos mercantiles, teléfonos, CIF, administradores y balances abreviados.",
+    "longDescription": "Red social y empresarial que ofrece fichas estructuradas de sociedades mercantiles españolas procedentes del Registro Mercantil y fuentes oficiales, con organigramas societarios, vinculaciones entre administradores y riesgo comercial.",
+    "url": "https://www.infocif.es/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "espana",
+      "directorio-empresas",
+      "cif",
+      "balances"
+    ],
+    "tags": [
+      "infocif",
+      "empresas",
+      "cif",
+      "administradores",
+      "espana",
+      "mercantil"
+    ],
+    "synonyms": [
+      "consultar cif infocif",
+      "directorio infocif",
+      "buscar administradores infocif"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "pricingDetails": "Freemium (Ficha básica y administradores gratis; informes de riesgo y balances detallados de pago)",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Informes económicos avanzados y cuentas anuales completas con coste"
+    ],
+    "useCases": [
+      "Localizar rápidamente el CIF, objeto social y vinculaciones societarias de directivos en España"
+    ],
+    "instructions": "Escribe la razón social o CIF en el buscador superior para acceder a la ficha corporativa.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "empresite",
+    "name": "Empresite (El Economista)",
+    "slug": "empresite",
+    "description": "Directorio y ranking sectorial de empresas de España con facturación, empleados, CNAE y ejecutivos.",
+    "longDescription": "Directorio de empresas españolas desarrollado por El Economista y eInforma. Permite explorar empresas por actividad económica (CNAE), rankings de facturación por provincias y listados de cargos directivos.",
+    "url": "https://empresite.eleconomista.es/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "jobs-careers"
+    ],
+    "subcategories": [
+      "espana",
+      "ranking-empresas",
+      "facturacion",
+      "cnae"
+    ],
+    "tags": [
+      "empresite",
+      "el-economista",
+      "ranking-empresas",
+      "facturacion",
+      "espana",
+      "cnae"
+    ],
+    "synonyms": [
+      "ranking empresas espana",
+      "directorio empresite",
+      "facturacion empresas"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta libre en el portal web",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los datos de facturación corresponden a las últimas cuentas anuales depositadas en el Registro Mercantil"
+    ],
+    "useCases": [
+      "Analizar el volumen de ventas, número de trabajadores y posición sectorial de una empresa en España"
+    ],
+    "instructions": "Busca por razón social o navega por provincias y sectores para ver rankings de empresas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "einforma",
+    "name": "eInforma",
+    "slug": "einforma",
+    "description": "Principal base de datos de información comercial, financiera, de riesgo y mercantil de empresas en España.",
+    "longDescription": "Filial de Cesce. Es el proveedor corporativo de referencia en España de informes comerciales, balances oficiales del Registro Mercantil, scoring de riesgo crediticio, impagos (RAI, ASNEF Empresas) e investigaciones de solvencia.",
+    "url": "https://www.einforma.com/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "espana",
+      "informes-mercantiles",
+      "solvencia",
+      "balances"
+    ],
+    "tags": [
+      "einforma",
+      "cesce",
+      "informes-comerciales",
+      "balances",
+      "riesgo",
+      "espana"
+    ],
+    "synonyms": [
+      "informes einforma",
+      "consultar empresa einforma",
+      "cif solvencia"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "pricingDetails": "Freemium (Ficha de identificación gratuita; informes analíticos completos de pago por consulta o suscripción)",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Descarga de cuentas anuales completas y scoring avanzado de pago"
+    ],
+    "useCases": [
+      "Verificar si una mercantil española sigue en activo o presenta incidencias de pago"
+    ],
+    "instructions": "Introduce la empresa o CIF para visualizar su ficha mercantil con estado de actividad y órganos de gobierno.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "registradores-espana",
+    "name": "Registradores de España (Colegio de Registradores)",
+    "slug": "registradores-espana",
+    "description": "Sede electrónica oficial para solicitar notas simples del Registro de la Propiedad y Registro Mercantil en España.",
+    "longDescription": "Portal oficial del Colegio de Registradores de la Propiedad, Mercantiles y de Bienes Muebles de España. Permite solicitar online notas simples de fincas (titularidad y cargas), titularidades reales de empresas (CRU), depósitos de cuentas anuales y estatutos oficiales.",
+    "url": "https://www.registradores.org/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "location",
+      "people-professional"
+    ],
+    "subcategories": [
+      "espana",
+      "propiedad",
+      "registro-mercantil",
+      "inmuebles"
+    ],
+    "tags": [
+      "registradores",
+      "nota-simple",
+      "registro-propiedad",
+      "mercantil",
+      "espana",
+      "cargas"
+    ],
+    "synonyms": [
+      "nota simple registro propiedad",
+      "colegio registradores",
+      "titularidad real mercantil"
+    ],
+    "type": "web",
+    "pricing": "paid",
+    "pricingDetails": "Aranceles oficiales regulados por ley (~9€ por nota simple de propiedad o mercantil)",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Emisión de documentos oficiales sujeta a pago de arancel e identificación con interés legítimo"
+    ],
+    "useCases": [
+      "Obtener la titularidad jurídica y cargas (hipotecas, embargos) de un inmueble o finca rústica en España"
+    ],
+    "instructions": "Accede a 'Sede Electrónica', selecciona Registro de la Propiedad o Mercantil y formaliza la solicitud.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "banco-de-espana-registros",
+    "name": "Banco de España — Registros Públicos Oficiales",
+    "slug": "banco-de-espana-registros",
+    "description": "Registros oficiales de entidades de crédito, entidades de pago, prestamistas inmobiliarios y divisas supervisadas.",
+    "longDescription": "Buscador oficial del Banco de España que permite verificar si una entidad financiera, banco, plataforma de dinero electrónico o prestamista cuenta con ficha activa y supervisión legal en España para operar con fondos de clientes.",
+    "url": "https://www.bde.es/bde/es/secciones/servicios/Registros_public/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "espana",
+      "bancos",
+      "supervision",
+      "finanzas"
+    ],
+    "tags": [
+      "banco-de-espana",
+      "bancos",
+      "entidades-pago",
+      "supervision",
+      "espana",
+      "finanzas"
+    ],
+    "synonyms": [
+      "registro entidades banco de espana",
+      "comprobar banco registrado",
+      "entidades de pago supervisadas"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública 100% gratuita",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "No incluye empresas de inversión financiera o brokers regulados por la CNMV"
+    ],
+    "useCases": [
+      "Comprobar si una fintech o pasarela de pagos está debidamente autorizada para captar depósitos en España"
+    ],
+    "instructions": "Selecciona el registro específico (ej. entidades de crédito o pago) y busca por nombre o código de registro.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "boja",
+    "name": "Boletín Oficial de la Junta de Andalucía (BOJA)",
+    "slug": "boja",
+    "description": "Diario oficial de la Junta de Andalucía para decretos, licitaciones autonómicas, subvenciones y nombramientos.",
+    "longDescription": "Publicación oficial de la comunidad autónoma más poblada de España. Su hemeroteca y buscador permiten rastrear adjudicaciones públicas de consejerías andaluzas, concesiones de subvenciones regionales y resoluciones administrativas.",
+    "url": "https://www.juntadeandalucia.es/eboja.html",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "espana",
+      "andalucia",
+      "diario-oficial",
+      "autonomico"
+    ],
+    "tags": [
+      "boja",
+      "andalucia",
+      "diario-oficial",
+      "junta-de-andalucia",
+      "espana",
+      "subvenciones"
+    ],
+    "synonyms": [
+      "buscar boja",
+      "boletin oficial junta andalucia",
+      "publicaciones andalucia"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta y descarga libre y gratuita",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Ámbito limitado a la comunidad autónoma de Andalucía"
+    ],
+    "useCases": [
+      "Rastrear subvenciones autonómicas o contrataciones públicas del gobierno andaluz"
+    ],
+    "instructions": "Utiliza el buscador avanzado del BOJA filtrando por texto libre entre comillas o por consejería.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "bop-malaga",
+    "name": "Boletín Oficial de la Provincia de Málaga (BOP)",
+    "slug": "bop-malaga",
+    "description": "Diario oficial provincial para anuncios municipales, embargos locales, licencias de obras y convenios en Málaga.",
+    "longDescription": "Gestionado por la Diputación de Málaga. Publica edictos de ayuntamientos (incluyendo Málaga capital, Marbella, Estepona, etc.), notificaciones de infracciones tributarias locales, licitaciones municipales y convocatorias de empleo público provincial.",
+    "url": "https://www.bopmalaga.es/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional",
+      "location"
+    ],
+    "subcategories": [
+      "espana",
+      "malaga",
+      "provincial",
+      "ayuntamientos"
+    ],
+    "tags": [
+      "bop-malaga",
+      "malaga",
+      "provincial",
+      "diputacion",
+      "ayuntamientos",
+      "espana"
+    ],
+    "synonyms": [
+      "boletin oficial malaga",
+      "bop malaga",
+      "edictos provincia malaga"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Acceso libre a todos los números oficiales",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Ámbito circunscrito estrictamente a la provincia de Málaga"
+    ],
+    "useCases": [
+      "Investigar acuerdos urbanísticos, licencias o anuncios municipales en la Costa del Sol y provincia de Málaga"
+    ],
+    "instructions": "Accede a la pestaña 'Búsqueda', introduce palabras clave o el municipio objetivo y selecciona el rango temporal.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "cnmv-alertas",
+    "name": "CNMV — Advertencias de Chiringuitos Financieros",
+    "slug": "cnmv-alertas",
+    "description": "Buscador oficial de advertencias de la CNMV e IOSCO sobre entidades no autorizadas, clones y fraudes financieros.",
+    "longDescription": "Herramienta de protección al inversor de la Comisión Nacional del Mercado de Valores. Mantiene una lista pública constantemente actualizada de personas y plataformas que ofrecen servicios de inversión sin estar autorizadas en España o que han sido denunciadas por reguladores internacionales por estafas.",
+    "url": "https://www.cnmv.es/portal/Inversor/Advertencias-CNMV.aspx",
+    "categories": [
+      "public-records",
+      "cyber"
+    ],
+    "investigateBy": [
+      "fraud-scams",
+      "companies",
+      "domain-ip"
+    ],
+    "subcategories": [
+      "espana",
+      "chiringuitos",
+      "alertas-fraude",
+      "estafas"
+    ],
+    "tags": [
+      "cnmv",
+      "chiringuitos-financieros",
+      "alertas-estafa",
+      "fraude-inversion",
+      "espana",
+      "iosco"
+    ],
+    "synonyms": [
+      "chiringuitos financieros cnmv",
+      "advertencias cnmv",
+      "estafas trading lista negra",
+      "broker falso"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública 100% gratuita",
+    "access": "public",
+    "geographicScope": [
+      "spain",
+      "europe",
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Que una entidad no aparezca en la lista no garantiza su legalidad, debe contrastarse con el registro de entidades autorizadas"
+    ],
+    "useCases": [
+      "Comprobar si una plataforma de trading online o intermediario ha sido alertado como chiringuito financiero o clon ilegal"
+    ],
+    "instructions": "Escribe la denominación comercial o dominio web en el campo 'Denominación / Entidad' para comprobar alertas vigentes.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "companies-house",
+    "name": "Companies House (Reino Unido)",
+    "slug": "companies-house",
+    "description": "Registro mercantil oficial y abierto de sociedades del Reino Unido con cuentas anuales y personas con control significativo.",
+    "longDescription": "El servicio 'Find and update company information' del gobierno británico ofrece acceso gratuito a millones de empresas registradas en el Reino Unido. Permite descargar cuentas anuales completas, estatutos, historial de directores y beneficiarios efectivos (PSC - Persons with Significant Control).",
+    "url": "https://find-and-update.company-information.service.gov.uk/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "reino-unido",
+      "mercantil",
+      "directores",
+      "psc"
+    ],
+    "tags": [
+      "companies-house",
+      "uk",
+      "reino-unido",
+      "directores",
+      "balances",
+      "cuentas-anuales"
+    ],
+    "synonyms": [
+      "registro mercantil uk",
+      "companies house search",
+      "empresas reino unido directores"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "100% gratuito con API pública abierta",
+    "access": "public",
+    "geographicScope": [
+      "europe",
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Cubre empresas registradas en Inglaterra, Gales, Escocia e Irlanda del Norte"
+    ],
+    "useCases": [
+      "Descubrir sociedades pantalla o directores británicos vinculados a estructuras internacionales"
+    ],
+    "instructions": "Introduce la denominación social o nombre del directivo en el buscador para ver el historial societario completo.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "sec-edgar",
+    "name": "SEC EDGAR Company Search (EE.UU.)",
+    "slug": "sec-edgar",
+    "description": "Buscador oficial de la SEC estadounidense para informes financieros, 10-K, adquisiciones e información societaria.",
+    "longDescription": "El sistema EDGAR (Electronic Data Gathering, Analysis, and Retrieval) de la Securities and Exchange Commission de EE.UU. recoge toda la documentación periódica obligatoria de compañías cotizadas públicas: balances auditados, paquetes accionariales de ejecutivos (Form 4), fusiones e investigaciones regulatorias.",
+    "url": "https://www.sec.gov/edgar/searchedgar/companysearch",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies"
+    ],
+    "subcategories": [
+      "eeuu",
+      "balances",
+      "bolsa",
+      "sec"
+    ],
+    "tags": [
+      "sec",
+      "edgar",
+      "eeuu",
+      "10-k",
+      "finanzas",
+      "bolsa",
+      "balances"
+    ],
+    "synonyms": [
+      "sec edgar search",
+      "informes 10-k",
+      "balances cotizadas eeuu"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Acceso libre regulatorio 100% gratuito",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Gran densidad de documentación en inglés financiero técnico"
+    ],
+    "useCases": [
+      "Analizar la estructura de propiedad y retribuciones de multinacionales estadounidenses"
+    ],
+    "instructions": "Introduce el ticker de la compañía o su nombre en el buscador de la SEC para consultar los archivos '10-K' o '8-K'.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "open-ownership",
+    "name": "Open Ownership Register",
+    "slug": "open-ownership",
+    "description": "Registro global de datos abiertos sobre titularidad real y beneficiarios efectivos de empresas en todo el mundo.",
+    "longDescription": "Iniciativa internacional sin ánimo de lucro que estandariza y publica datos abiertos de personas físicas que poseen o controlan en última instancia empresas mercantiles (beneficial ownership), facilitando el seguimiento de estructuras societarias opacas.",
+    "url": "https://openownership.org/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "internacional",
+      "beneficiarios-reales",
+      "transparencia-corporativa"
+    ],
+    "tags": [
+      "open-ownership",
+      "titularidad-real",
+      "beneficiarios-efectivos",
+      "anticorrupcion",
+      "empresas"
+    ],
+    "synonyms": [
+      "beneficial ownership register",
+      "titularidad real empresas",
+      "quien controla la empresa"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Datos abiertos de acceso público",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La cobertura varía en función de los países que han adoptado el estándar abierto de titularidad"
+    ],
+    "useCases": [
+      "Rastrear a los verdaderos beneficiarios económicos detrás de complejas tramas empresariales transfronterizas"
+    ],
+    "instructions": "Consulta las herramientas y repositorios del portal para mapear relaciones de propiedad corporativa.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "eu-sanctions-map",
+    "name": "EU Sanctions Map",
+    "slug": "eu-sanctions-map",
+    "description": "Herramienta interactiva oficial de la Unión Europea para explorar todas las medidas restrictivas y sanciones vigentes.",
+    "longDescription": "Desarrollado y mantenido por las instituciones de la Unión Europea. Ofrece un mapa interactivo visual para consultar regímenes de sanciones por país, embargos de armas, restricciones comerciales y listas individuales de personas y entidades con congelación de activos.",
+    "url": "https://www.sanctionsmap.eu/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "europa",
+      "sanciones",
+      "embargos",
+      "geopolitica"
+    ],
+    "tags": [
+      "sanciones-ue",
+      "eu-sanctions",
+      "congelacion-activos",
+      "embargos",
+      "europa"
+    ],
+    "synonyms": [
+      "eu sanctions map",
+      "lista sanciones union europea",
+      "mapa sanciones ue"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Herramienta oficial gratuita de la UE",
+    "access": "public",
+    "geographicScope": [
+      "europe",
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Actualizado conforme a las publicaciones en el Diario Oficial de la Unión Europea (DOUE)"
+    ],
+    "useCases": [
+      "Comprobar si una persona, banco o naviera está sujeta a sanciones comerciales o congelación de activos por la UE"
+    ],
+    "instructions": "Haz clic en un país o utiliza la pestaña 'Regímenes' o 'Lista' para buscar personas o entidades sancionadas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "ofac-sanctions",
+    "name": "OFAC Sanctions List Search (EE.UU.)",
+    "slug": "ofac-sanctions",
+    "description": "Buscador oficial del Departamento del Tesoro de EE.UU. para listas de personas bloqueadas y sanciones (SDN).",
+    "longDescription": "La Office of Foreign Assets Control (OFAC) administra las sanciones económicas y comerciales del gobierno de EE.UU. Su buscador oficial permite rastrear individuos, oligarcas, corporaciones, aeronaves y buques incluidos en la lista SDN (Specially Designated Nationals) con parámetros de fuzzy search.",
+    "url": "https://sanctionssearch.ofac.treas.gov/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "companies",
+      "people-professional",
+      "vehicle",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "eeuu",
+      "sanciones",
+      "ofac",
+      "sdn"
+    ],
+    "tags": [
+      "ofac",
+      "sanciones-eeuu",
+      "sdn",
+      "tesoro-eeuu",
+      "embargos",
+      "bloqueos"
+    ],
+    "synonyms": [
+      "buscar lista ofac",
+      "ofac sanctions search",
+      "lista sdn sanciones"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública oficial sin coste",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Permite ajustar el nivel de fuzzy matching para mitigar variaciones ortográficas de nombres en árabe, cirílico o chino"
+    ],
+    "useCases": [
+      "Debida diligencia para comprobar si una contraparte internacional o buque figura en listas negras de EE.UU."
+    ],
+    "instructions": "Introduce el nombre o número de identificación, ajusta el umbral de coincidencia difusa y pulsa 'Search'.",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   }
 ]

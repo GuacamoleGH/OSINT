@@ -764,5 +764,290 @@
     "lastReviewed": "2026-11-23",
     "status": "active",
     "pricingDetails": "Freemium (Créditos de prueba gratuitos; modelo de créditos desde ~0,20£/búsqueda o planes mensuales desde ~29£/mes)"
+  },
+  {
+    "id": "whatsmyname",
+    "name": "WhatsMyName Web",
+    "slug": "whatsmyname",
+    "description": "Buscador instantáneo de nombres de usuario en más de 600 sitios web y redes sociales.",
+    "longDescription": "Versión web oficial mantenida por Micah Hoffman y la comunidad OSINT del proyecto WhatsMyName. Permite comprobar en segundos si un alias de usuario existe en cientos de plataformas categorizadas (redes sociales, finanzas, gaming, pornografía, foros de programación y blogs).",
+    "url": "https://whatsmyname.app/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "username",
+      "social-media"
+    ],
+    "subcategories": [
+      "alias",
+      "username",
+      "redes-sociales"
+    ],
+    "tags": [
+      "whatsmyname",
+      "username",
+      "alias",
+      "redes-sociales",
+      "socmint",
+      "perfiles"
+    ],
+    "synonyms": [
+      "whats my name app",
+      "buscar nick en redes",
+      "detector de usuario"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Ciertas plataformas devuelven falsos positivos por cambios en sus estructuras HTML"
+    ],
+    "useCases": [
+      "Rastrear la huella digital de un nombre de usuario en foros olvidados y comunidades online",
+      "Encontrar perfiles vinculados a un sospechoso o víctima"
+    ],
+    "instructions": "Escribe el nombre de usuario exacto en el cuadro de búsqueda y pulsa Enter para ver la tabla en tiempo real con enlaces a los perfiles detectados.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "maldita",
+    "name": "Maldita.es",
+    "slug": "maldita",
+    "description": "Medio de fact-checking español acreditado por la IFCN especializado en desinformación y timos digitales.",
+    "longDescription": "Fundación periodística independiente y entidad de verificación referente en España. Cuenta con verticales especializadas (Maldito Bulo, Maldita Te Ayuda / Timo, Maldita Ciencia y Maldita Dato), además de un buscador de desmentidos y análisis forenses de cadenas de WhatsApp y publicaciones virales.",
+    "url": "https://maldita.es/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "social-media",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "fact-checking",
+      "desinformacion",
+      "espana",
+      "estafas"
+    ],
+    "tags": [
+      "maldita",
+      "bulos",
+      "fact-checking",
+      "desinformacion",
+      "timos",
+      "espana"
+    ],
+    "synonyms": [
+      "maldita es",
+      "maldito bulo",
+      "verificador maldita"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado primordialmente en el contexto sociopolítico y mediático de España"
+    ],
+    "useCases": [
+      "Verificar si un vídeo o mensaje alarmista viral en redes sociales ha sido ya desmentido",
+      "Identificar campañas recurrentes de smishing y phishing dirigidas a ciudadanos españoles"
+    ],
+    "instructions": "Introduce palabras clave, enlaces o números de teléfono en el buscador de la cabecera para acceder al repositorio de desmentidos.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "newtral",
+    "name": "Newtral Fact-Checking",
+    "slug": "newtral",
+    "description": "Portal de verificación de hechos, declaraciones políticas y contenidos manipulados acreditado por la IFCN.",
+    "longDescription": "Medio de comunicación y productora audiovisual española signataria de la International Fact-Checking Network (IFCN). Desarrolla herramientas de verificación como FactCheckEU y audita datos sobre políticas públicas, inmigración, bulos virales y declaraciones en medios.",
+    "url": "https://www.newtral.es/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "social-media"
+    ],
+    "subcategories": [
+      "fact-checking",
+      "verificacion",
+      "espana",
+      "politica"
+    ],
+    "tags": [
+      "newtral",
+      "fact-checking",
+      "verificacion",
+      "ifcn",
+      "politica",
+      "espana"
+    ],
+    "synonyms": [
+      "newtral verificacion",
+      "newtral bulos"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Cobertura principalmente española y europea"
+    ],
+    "useCases": [
+      "Comprobar si una cita o afirmación atribuida a un cargo público fue manipulada o sacada de contexto",
+      "Contrastar datos estadísticos citados en debates"
+    ],
+    "instructions": "Utiliza el buscador en la sección 'Fact-Check' para revisar la calificación y el desglose metodológico de la afirmación analizada.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "efe-verifica",
+    "name": "EFE Verifica",
+    "slug": "efe-verifica",
+    "description": "Servicio de verificación de hechos de la Agencia EFE para auditar desinformación en el mundo hispanohablante.",
+    "longDescription": "Canal de verificación de la Agencia EFE (la mayor agencia de noticias en lengua española del mundo), miembro de la IFCN y del Observatorio Europeo de Medios Digitales (EDMO). Desmiente contenidos virales, audios manipulados, documentos falsificados y desinformación en España y Latinoamérica.",
+    "url": "https://verifica.efe.com/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "social-media"
+    ],
+    "subcategories": [
+      "fact-checking",
+      "efe",
+      "hispanoamerica",
+      "noticias"
+    ],
+    "tags": [
+      "efe-verifica",
+      "agencia-efe",
+      "fact-checking",
+      "verificacion",
+      "noticias-falsas"
+    ],
+    "synonyms": [
+      "agencia efe verifica",
+      "efe fact check"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain",
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Centrado en noticias de amplio impacto mediático e internacional"
+    ],
+    "useCases": [
+      "Verificar la autenticidad de supuestos comunicados oficiales o noticias de última hora atribuidas a agencias",
+      "Rastrear el origen de bulos transnacionales"
+    ],
+    "instructions": "Escribe los términos clave del rumor o titular en el buscador superior para revisar la investigación periodística.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "google-fact-check",
+    "name": "Google Fact Check Explorer",
+    "slug": "google-fact-check",
+    "description": "Motor de búsqueda global de verificaciones periodísticas publicadas bajo el estándar ClaimReview.",
+    "longDescription": "Herramienta desarrollada por Google News Initiative que indexa artículos de fact-checking de medios acreditados de todo el mundo que utilizan el marcado estructurado ClaimReview de Schema.org. Permite buscar por persona, tema o afirmación y revisar qué medios han calificado el hecho como verdadero, falso o engañoso.",
+    "url": "https://toolbox.google.com/factcheck/explorer",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "social-media",
+      "people-professional"
+    ],
+    "subcategories": [
+      "fact-checking",
+      "google",
+      "claimreview",
+      "desinformacion"
+    ],
+    "tags": [
+      "google-fact-check",
+      "claimreview",
+      "verificacion",
+      "noticias",
+      "bulos"
+    ],
+    "synonyms": [
+      "google fact check explorer",
+      "buscador desmentidos google"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Solo indexa medios que implementen correctamente el marcado técnico de ClaimReview"
+    ],
+    "useCases": [
+      "Buscar qué verificadores internacionales han analizado una narrativa concreta",
+      "Examinar el historial de declaraciones verificadas de un político o líder de opinión"
+    ],
+    "instructions": "Escribe el nombre del político, tema o frase entre comillas en el cuadro de búsqueda para ver las fichas con su dictamen oficial.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
   }
 ]

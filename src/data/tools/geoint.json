@@ -6,23 +6,53 @@
     "description": "Exploración geográfica mediante ortofotos satelitales globales, relieve topográfico 3D y capas históricas.",
     "longDescription": "Estándar de facto en geolocalización e investigación de terrenos. La versión de escritorio (Google Earth Pro) permite además retroceder en el tiempo mediante deslizador de imágenes aéreas históricas.",
     "url": "https://earth.google.com/",
-    "categories": ["geoint", "satellite"],
-    "investigateBy": ["location"],
-    "subcategories": ["satelite", "mapas-3d", "historico"],
-    "tags": ["google-earth", "geolocalizacion", "3d", "relieve", "satelite"],
-    "synonyms": ["earth", "mapa satelite google", "geolocalizar foto"],
+    "categories": [
+      "geoint",
+      "satellite"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "satelite",
+      "mapas-3d",
+      "historico"
+    ],
+    "tags": [
+      "google-earth",
+      "geolocalizacion",
+      "3d",
+      "relieve",
+      "satelite"
+    ],
+    "synonyms": [
+      "earth",
+      "mapa satelite google",
+      "geolocalizar foto"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "desktop", "mobile"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "desktop",
+      "mobile"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["La versión web no cuenta con el deslizador completo de imágenes históricas disponible en la versión de escritorio Pro"],
-    "useCases": ["Comprobar la orografía de un paisaje montañoso para cotejar con una fotografía", "Medir distancias y elevaciones"],
+    "limitations": [
+      "La versión web no cuenta con el deslizador completo de imágenes históricas disponible en la versión de escritorio Pro"
+    ],
+    "useCases": [
+      "Comprobar la orografía de un paisaje montañoso para cotejar con una fotografía",
+      "Medir distancias y elevaciones"
+    ],
     "instructions": "Usa la herramienta de medición y la vista de perspectiva en 3D manteniendo pulsada la tecla Shift o con el botón central del ratón.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -34,23 +64,53 @@
     "description": "Visor cartográfico oficial del Instituto Geográfico Nacional de España con ortofotos PNOA de máxima resolución.",
     "longDescription": "Herramienta oficial imprescindible para investigar en territorio español. Proporciona capas del Plan Nacional de Ortofotografía Aérea (PNOA) con resoluciones submétricas (hasta 25cm/pixel), mapas topográficos MTN50/MTN25, modelos digitales del terreno y vuelos históricos desde 1956 (vuelo americano).",
     "url": "https://www.ign.es/iberpix/",
-    "categories": ["geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["espana", "ortofotos", "pnoa", "historico"],
-    "tags": ["ign", "espana", "pnoa", "cartografia", "topografia", "catastro"],
-    "synonyms": ["ign espana", "ortofoto pnoa", "mapas ign", "vuelo americano"],
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "espana",
+      "ortofotos",
+      "pnoa",
+      "historico"
+    ],
+    "tags": [
+      "ign",
+      "espana",
+      "pnoa",
+      "cartografia",
+      "topografia",
+      "catastro"
+    ],
+    "synonyms": [
+      "ign espana",
+      "ortofoto pnoa",
+      "mapas ign",
+      "vuelo americano"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["spain"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Cobertura exclusiva del territorio del Reino de España"],
-    "useCases": ["Comparar ortofotos actuales con el vuelo de 1956 o 1980 para verificar alteraciones en edificaciones o caminos", "Identificar topónimos y límites de parcelas"],
+    "limitations": [
+      "Cobertura exclusiva del territorio del Reino de España"
+    ],
+    "useCases": [
+      "Comparar ortofotos actuales con el vuelo de 1956 o 1980 para verificar alteraciones en edificaciones o caminos",
+      "Identificar topónimos y límites de parcelas"
+    ],
     "instructions": "Abre el selector de capas superior derecho para alternar entre 'PNOA Máxima Actualidad', 'Mapa Topográfico' y 'Fototeca Histórica'.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -62,23 +122,53 @@
     "description": "Portal público oficial del Ministerio de Hacienda de España para consulta de parcelas, lindes y referencias catastrales.",
     "longDescription": "Permite consultar de forma pública y gratuita la información descriptiva de cualquier bien inmueble en España (excepto País Vasco y Navarra que cuentan con regímenes forales propios): año de construcción, superficie construida, uso del suelo, plano de parcela y referencia catastral de 20 dígitos.",
     "url": "https://www.sedecatastro.gob.es/",
-    "categories": ["geoint", "public-records"],
-    "investigateBy": ["location", "companies"],
-    "subcategories": ["catastro", "espana", "inmuebles"],
-    "tags": ["catastro", "hacienda", "espana", "parcela", "inmueble", "referencia-catastral"],
-    "synonyms": ["catastro espana", "referencia catastral", "lindes inmueble"],
+    "categories": [
+      "geoint",
+      "public-records"
+    ],
+    "investigateBy": [
+      "location",
+      "companies"
+    ],
+    "subcategories": [
+      "catastro",
+      "espana",
+      "inmuebles"
+    ],
+    "tags": [
+      "catastro",
+      "hacienda",
+      "espana",
+      "parcela",
+      "inmueble",
+      "referencia-catastral"
+    ],
+    "synonyms": [
+      "catastro espana",
+      "referencia catastral",
+      "lindes inmueble"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["spain"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["La consulta gráfica y de datos técnicos del inmueble es pública; los datos de titularidad privada requieren certificado digital y acreditación de interés legítimo"],
-    "useCases": ["Obtener el año exacto de edificación y la planta arquitectónica de una vivienda o nave industrial", "Verificar coordenadas exactas de linderos"],
+    "limitations": [
+      "La consulta gráfica y de datos técnicos del inmueble es pública; los datos de titularidad privada requieren certificado digital y acreditación de interés legítimo"
+    ],
+    "useCases": [
+      "Obtener el año exacto de edificación y la planta arquitectónica de una vivienda o nave industrial",
+      "Verificar coordenadas exactas de linderos"
+    ],
     "instructions": "Accede al 'Buscador de Inmuebles y Visor Cartográfico'. Puedes buscar por referencia, calle, polígono/parcela o haciendo clic directo en el mapa.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -90,23 +180,47 @@
     "description": "Base de datos cartográfica mundial colaborativa y abierta, con alto nivel de detalle en infraestructuras y senderos.",
     "longDescription": "Proyecto abierto mantenido por millones de cartógrafos voluntarios. A menudo contiene detalles de mobiliario urbano, caminos rurales, números de policía, líneas de alta tensión e hidrografía ausentes en mapas comerciales.",
     "url": "https://www.openstreetmap.org/",
-    "categories": ["geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["mapas-abiertos", "crowdsourcing"],
-    "tags": ["osm", "mapas", "calles", "colaborativo", "infraestructura"],
-    "synonyms": ["osm", "mapa abierto"],
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "mapas-abiertos",
+      "crowdsourcing"
+    ],
+    "tags": [
+      "osm",
+      "mapas",
+      "calles",
+      "colaborativo",
+      "infraestructura"
+    ],
+    "synonyms": [
+      "osm",
+      "mapa abierto"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Los detalles dependen de la actividad de los contribuidores en cada región geográfica"],
-    "useCases": ["Verificar el nombre de una callejuela menor o senda forestal no registrada en Google Maps"],
+    "limitations": [
+      "Los detalles dependen de la actividad de los contribuidores en cada región geográfica"
+    ],
+    "useCases": [
+      "Verificar el nombre de una callejuela menor o senda forestal no registrada en Google Maps"
+    ],
     "instructions": "Usa el icono de capas a la derecha para ver capas especializadas como Cicloturismo o Transporte público.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -118,23 +232,49 @@
     "description": "Consola de minería y consulta de datos espaciales mediante Overpass QL sobre el grafo de OpenStreetMap.",
     "longDescription": "Permite realizar búsquedas geoespaciales avanzadas mediante lenguaje de consultas: por ejemplo, 'todas las farmacias situadas a menos de 50 metros de una estación de tren en Madrid' o 'todos los repetidores de telefonía en un radio dado'.",
     "url": "https://overpass-turbo.eu/",
-    "categories": ["geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["consultas-espaciales", "osm"],
-    "tags": ["overpass", "osm", "query", "geocoding", "espacial"],
-    "synonyms": ["overpass ql", "consulta osm", "filtrar mapa"],
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "consultas-espaciales",
+      "osm"
+    ],
+    "tags": [
+      "overpass",
+      "osm",
+      "query",
+      "geocoding",
+      "espacial"
+    ],
+    "synonyms": [
+      "overpass ql",
+      "consulta osm",
+      "filtrar mapa"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "advanced",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Curva de aprendizaje para la sintaxis de consultas Overpass QL; límite de memoria y tiempo en el servidor público"],
-    "useCases": ["Localizar intersecciones de elementos urbanos que coincidan con pistas visuales de una fotografía"],
+    "limitations": [
+      "Curva de aprendizaje para la sintaxis de consultas Overpass QL; límite de memoria y tiempo en el servidor público"
+    ],
+    "useCases": [
+      "Localizar intersecciones de elementos urbanos que coincidan con pistas visuales de una fotografía"
+    ],
     "instructions": "Utiliza el asistente 'Wizard' para construir consultas sencillas (ej. 'amenity=fuel in Barcelona') y pulsa Ejecutar.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -146,23 +286,48 @@
     "description": "Plataforma abierta de imágenes a nivel de calle compartidas por la comunidad con detección de señales por IA.",
     "longDescription": "Alternativa colaborativa a Google Street View que cuenta con millones de fotografías georreferenciadas a pie de calle en caminos rurales, senderos peatonales y carreteras secundarias de todo el mundo, con visión artificial para etiquetar señales y pasos de peatones.",
     "url": "https://www.mapillary.com/",
-    "categories": ["geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["street-level", "crowdsourcing"],
-    "tags": ["street-view", "nivel-de-calle", "fotografias", "ia"],
-    "synonyms": ["streetview libre", "fotos de calle", "camaras de coche"],
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "street-level",
+      "crowdsourcing"
+    ],
+    "tags": [
+      "street-view",
+      "nivel-de-calle",
+      "fotografias",
+      "ia"
+    ],
+    "synonyms": [
+      "streetview libre",
+      "fotos de calle",
+      "camaras de coche"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "mobile"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Visualización web pública gratuita; uso masivo de API comercial requiere cuenta comercial"],
-    "useCases": ["Comprobar cómo se veía un lugar en fechas donde Google Street View no tiene cobertura"],
+    "limitations": [
+      "Visualización web pública gratuita; uso masivo de API comercial requiere cuenta comercial"
+    ],
+    "useCases": [
+      "Comprobar cómo se veía un lugar en fechas donde Google Street View no tiene cobertura"
+    ],
     "instructions": "Explora el visor interactivo y filtra por rango de fechas de captura en el panel lateral.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -174,23 +339,43 @@
     "description": "Repositorio abierto de imágenes a nivel de calle capturadas con cámaras de vehículos y teléfonos.",
     "longDescription": "Plataforma anteriormente conocida como OpenStreetCam que proporciona imágenes de secuencias de conducción en 360 y gran angular, útiles para contrastar vistas a nivel de carretera.",
     "url": "https://kartaview.org/",
-    "categories": ["geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["street-level"],
-    "tags": ["kartaview", "openstreetcam", "streetview"],
-    "synonyms": ["openstreetcam"],
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "street-level"
+    ],
+    "tags": [
+      "kartaview",
+      "openstreetcam",
+      "streetview"
+    ],
+    "synonyms": [
+      "openstreetcam"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Menor densidad en ciertas regiones que Mapillary"],
-    "useCases": ["Localizar carteles viales y morfología de calzadas en carreteras interurbanas"],
+    "limitations": [
+      "Menor densidad en ciertas regiones que Mapillary"
+    ],
+    "useCases": [
+      "Localizar carteles viales y morfología de calzadas en carreteras interurbanas"
+    ],
     "instructions": "Haz zoom sobre las trazas verdes y moradas para cargar la secuencia fotográfica de los tramos.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -202,23 +387,49 @@
     "description": "Guía visual sistemática para identificar países por postes telefónicos, matrículas, líneas viales y bolardos.",
     "longDescription": "Base de conocimiento visual indispensable en GEOINT para deducir el país o región geográfica a partir de indicios de mobiliario urbano: tipos de postes de luz, diseños de bolardos, marcas de pintura en calzada y tipos de suelo.",
     "url": "https://geohints.com/",
-    "categories": ["geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["metodologia", "pistas-visuales"],
-    "tags": ["geoguessr", "postes", "bolardos", "matriculas", "geolocalizacion"],
-    "synonyms": ["pistas geoint", "identificar pais", "postes electricos paises"],
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "metodologia",
+      "pistas-visuales"
+    ],
+    "tags": [
+      "geoguessr",
+      "postes",
+      "bolardos",
+      "matriculas",
+      "geolocalizacion"
+    ],
+    "synonyms": [
+      "pistas geoint",
+      "identificar pais",
+      "postes electricos paises"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Orientado a deducción cualitativa visual"],
-    "useCases": ["Identificar el continente o país de procedencia de una fotografía sin metadatos EXIF"],
+    "limitations": [
+      "Orientado a deducción cualitativa visual"
+    ],
+    "useCases": [
+      "Identificar el continente o país de procedencia de una fotografía sin metadatos EXIF"
+    ],
     "instructions": "Navega por las categorías visuales de 'Bollards', 'Poles', 'Road Lines' o 'License Plates' para contrastar con tu imagen.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -230,23 +441,48 @@
     "description": "Sistema de Información Geográfica (GIS) de código abierto profesional para análisis espacial de capas.",
     "longDescription": "Aplicación de escritorio líder para superponer capas shapefile, GeoTIFF satelitales, datos LIDAR, cartografía WMS/WFS del IGN y trazas GPS en un único entorno de análisis forense.",
     "url": "https://qgis.org/",
-    "categories": ["geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["gis-desktop", "analisis-espacial"],
-    "tags": ["qgis", "gis", "software-libre", "capas", "shapefile"],
-    "synonyms": ["qgis software", "gis gratis", "visor shapefiles"],
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "gis-desktop",
+      "analisis-espacial"
+    ],
+    "tags": [
+      "qgis",
+      "gis",
+      "software-libre",
+      "capas",
+      "shapefile"
+    ],
+    "synonyms": [
+      "qgis software",
+      "gis gratis",
+      "visor shapefiles"
+    ],
     "type": "desktop",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["desktop"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "desktop"
+    ],
     "difficulty": "advanced",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Software de escritorio que requiere instalación local y conocimientos de cartografía digital"],
-    "useCases": ["Cargar servicios WMS del Catastro y del IGN simultáneamente con registros de antenas o incidentes"],
+    "limitations": [
+      "Software de escritorio que requiere instalación local y conocimientos de cartografía digital"
+    ],
+    "useCases": [
+      "Cargar servicios WMS del Catastro y del IGN simultáneamente con registros de antenas o incidentes"
+    ],
     "instructions": "Descarga la versión LTR e instala capas WMS/WMTS añadiendo la URL de servicios del IGN de España.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -258,23 +494,50 @@
     "description": "Catálogo central de infraestructuras de información espacial de los estados miembros de la UE.",
     "longDescription": "Iniciativa de la Comisión Europea que obliga a los países de la UE a interoperar sus datos geoespaciales: geología, hidrografía, redes de transporte, catastro y ortoimágenes de alta precisión.",
     "url": "https://inspire-geoportal.ec.europa.eu/",
-    "categories": ["geoint", "public-records"],
-    "investigateBy": ["location"],
-    "subcategories": ["europa", "estandares", "datos-abiertos"],
-    "tags": ["inspire", "europa", "ue", "cartografia-europea", "wms"],
-    "synonyms": ["geoportal ue", "inspire europa", "mapas union europea"],
+    "categories": [
+      "geoint",
+      "public-records"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "europa",
+      "estandares",
+      "datos-abiertos"
+    ],
+    "tags": [
+      "inspire",
+      "europa",
+      "ue",
+      "cartografia-europea",
+      "wms"
+    ],
+    "synonyms": [
+      "geoportal ue",
+      "inspire europa",
+      "mapas union europea"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Interfaz orientada a metadatos técnicos y servicios de mapas de administraciones públicas"],
-    "useCases": ["Localizar fuentes cartográficas oficiales de cualquier país miembro de la Unión Europea"],
+    "limitations": [
+      "Interfaz orientada a metadatos técnicos y servicios de mapas de administraciones públicas"
+    ],
+    "useCases": [
+      "Localizar fuentes cartográficas oficiales de cualquier país miembro de la Unión Europea"
+    ],
     "instructions": "Utiliza el buscador por país y tema cartográfico (Theme) para acceder a los visores de cada estado.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -286,23 +549,52 @@
     "description": "Mapa interactivo de recursos OSINT específicos de cada país desarrollado por Cipher387.",
     "longDescription": "Visualizador que ubica sobre un mapa mundial los portales, registros mercantiles, directorios telefónicos y buscadores propios de cada estado, permitiendo seleccionar España o cualquier país para ver sus herramientas nativas.",
     "url": "https://cipher387.github.io/osintmap/",
-    "categories": ["geoint", "general"],
-    "investigateBy": ["location", "companies", "people-professional"],
-    "subcategories": ["directorios-locales", "mapas-herramientas"],
-    "tags": ["cipher387", "mapa-mundial", "fuentes-locales", "paises"],
-    "synonyms": ["osint map", "cipher387 map", "herramientas por pais"],
+    "categories": [
+      "geoint",
+      "general"
+    ],
+    "investigateBy": [
+      "location",
+      "companies",
+      "people-professional"
+    ],
+    "subcategories": [
+      "directorios-locales",
+      "mapas-herramientas"
+    ],
+    "tags": [
+      "cipher387",
+      "mapa-mundial",
+      "fuentes-locales",
+      "paises"
+    ],
+    "synonyms": [
+      "osint map",
+      "cipher387 map",
+      "herramientas por pais"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe", "spain"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe",
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Actualizado periódicamente por un único desarrollador independiente"],
-    "useCases": ["Encontrar rápidamente las fuentes públicas del país exacto en el que transcurre el caso"],
+    "limitations": [
+      "Actualizado periódicamente por un único desarrollador independiente"
+    ],
+    "useCases": [
+      "Encontrar rápidamente las fuentes públicas del país exacto en el que transcurre el caso"
+    ],
     "instructions": "Haz clic en el país en el mapa interactivo para desplegar el listado de recursos clasificados.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -314,23 +606,53 @@
     "description": "Buscador espacial para localizar intersecciones de múltiples elementos geográficos en OpenStreetMap.",
     "longDescription": "Herramienta desarrollada por Bellingcat que simplifica drásticamente las búsquedas geoespaciales. Permite definir combinaciones de objetos visibles (por ejemplo: una torre de telecomunicaciones a menos de 200m de una iglesia y un campo de fútbol) y escanear regiones completas para señalar en el mapa las coordenadas exactas donde coinciden todos esos elementos.",
     "url": "https://osm-search.bellingcat.com/",
-    "categories": ["geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["osm", "consultas-espaciales", "intersecciones", "bellingcat"],
-    "tags": ["bellingcat", "osm", "geolocalizacion", "interseccion", "proximidad", "geoguessing"],
-    "synonyms": ["bellingcat osm search", "buscar interseccion mapa", "osm search tool", "buscar por elementos cercanos"],
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "osm",
+      "consultas-espaciales",
+      "intersecciones",
+      "bellingcat"
+    ],
+    "tags": [
+      "bellingcat",
+      "osm",
+      "geolocalizacion",
+      "interseccion",
+      "proximidad",
+      "geoguessing"
+    ],
+    "synonyms": [
+      "bellingcat osm search",
+      "buscar interseccion mapa",
+      "osm search tool",
+      "buscar por elementos cercanos"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Depende de la precisión del etiquetado de elementos en OpenStreetMap para la zona de búsqueda"],
-    "useCases": ["Encontrar el lugar exacto de una foto donde se aprecian simultáneamente una escuela, una vía de tren y una gasolinera"],
+    "limitations": [
+      "Depende de la precisión del etiquetado de elementos en OpenStreetMap para la zona de búsqueda"
+    ],
+    "useCases": [
+      "Encontrar el lugar exacto de una foto donde se aprecian simultáneamente una escuela, una vía de tren y una gasolinera"
+    ],
     "instructions": "Añade cada elemento con su etiqueta OSM (ej. amenity=school) y la distancia máxima de separación en metros, selecciona el país o dibuja el área de búsqueda y pulsa 'Search'.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -342,23 +664,53 @@
     "description": "Calculadora de campo de visión (FOV), distancia focal y ángulo de cámara para geolocalización de imágenes.",
     "longDescription": "Herramienta de Bellingcat diseñada para analistas OSINT que permite modelar y proyectar sobre mapas el cono de visión (Field of View / FOV) de una cámara o smartphone a partir de la distancia focal y el tamaño del sensor, permitiendo reconstruir desde qué punto exacto se tomó una fotografía o vídeo.",
     "url": "https://bellingcat.gitbook.io/toolkit/more/all-tools/spot",
-    "categories": ["geoint", "imint"],
-    "investigateBy": ["location"],
-    "subcategories": ["fov", "angulo-camara", "perspectiva", "bellingcat"],
-    "tags": ["spot", "bellingcat", "fov", "camara", "perspectiva", "optica", "angulo"],
-    "synonyms": ["spot bellingcat", "calcular fov camara", "angulo vision foto"],
+    "categories": [
+      "geoint",
+      "imint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "fov",
+      "angulo-camara",
+      "perspectiva",
+      "bellingcat"
+    ],
+    "tags": [
+      "spot",
+      "bellingcat",
+      "fov",
+      "camara",
+      "perspectiva",
+      "optica",
+      "angulo"
+    ],
+    "synonyms": [
+      "spot bellingcat",
+      "calcular fov camara",
+      "angulo vision foto"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "advanced",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Requiere conocer o estimar las dimensiones de referencia de objetos en la imagen y los parámetros ópticos de la lente"],
-    "useCases": ["Trazar el cono visual desde una colina o ventana para identificar el punto preciso donde se encontraba el autor del disparo o grabación"],
+    "limitations": [
+      "Requiere conocer o estimar las dimensiones de referencia de objetos en la imagen y los parámetros ópticos de la lente"
+    ],
+    "useCases": [
+      "Trazar el cono visual desde una colina o ventana para identificar el punto preciso donde se encontraba el autor del disparo o grabación"
+    ],
     "instructions": "Alinea los puntos de referencia conocidos del terreno con las líneas del cono de visión en la interfaz del mapa.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -370,23 +722,54 @@
     "description": "Visualizador 3D interactivo en tiempo real de OpenStreetMap con alturas de edificios, tejados, árboles y sombras.",
     "longDescription": "Renderizador 3D global basado en datos de OpenStreetMap que genera representaciones volumétricas exactas de ciudades y entornos rurales: plantas de edificios, tejados inclinados, torres, árboles con su altura real, farolas, fuentes y sombras dinámicas calculadas según la hora solar.",
     "url": "https://demo.f4map.com/",
-    "categories": ["geoint", "chronolocation"],
-    "investigateBy": ["location"],
-    "subcategories": ["mapas-3d", "edificios", "sombras-dinamicas", "osm"],
-    "tags": ["f4map", "3d", "osm", "edificios", "tejados", "sombras", "ciudades"],
-    "synonyms": ["f4 map 3d", "mapa edificios 3d", "volumetria osm"],
+    "categories": [
+      "geoint",
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "mapas-3d",
+      "edificios",
+      "sombras-dinamicas",
+      "osm"
+    ],
+    "tags": [
+      "f4map",
+      "3d",
+      "osm",
+      "edificios",
+      "tejados",
+      "sombras",
+      "ciudades"
+    ],
+    "synonyms": [
+      "f4 map 3d",
+      "mapa edificios 3d",
+      "volumetria osm"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["El nivel de detalle 3D depende de las etiquetas 'building:levels' y 'roof:shape' mapeadas en OpenStreetMap"],
-    "useCases": ["Cotejar la silueta de los tejados y chimeneas de un barrio con la perspectiva de una foto tomada desde una azotea o dron"],
+    "limitations": [
+      "El nivel de detalle 3D depende de las etiquetas 'building:levels' y 'roof:shape' mapeadas en OpenStreetMap"
+    ],
+    "useCases": [
+      "Cotejar la silueta de los tejados y chimeneas de un barrio con la perspectiva de una foto tomada desde una azotea o dron"
+    ],
     "instructions": "Navega con el ratón girando la perspectiva con el botón derecho; ajusta la barra temporal para ver la proyección de sombras en tiempo real.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -398,24 +781,55 @@
     "description": "Reconocimiento 3D de cimas, cordilleras y perfiles montañosos a partir de fotografías y modelos de elevación.",
     "longDescription": "Plataforma de modelado de terreno de alta precisión con tecnología de visión artificial y modelos digitales de elevación (DEM). Permite simular la línea del horizonte montañoso desde cualquier coordenada geográfica para contrastar y confirmar la localización exacta de fotos con cordilleras o picos de fondo.",
     "url": "https://peakvisor.com/",
-    "categories": ["geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["montanas", "relieve", "horizonte", "dem"],
-    "tags": ["peakvisor", "montanas", "relieve", "cumbres", "cordilleras", "geolocalizacion"],
-    "synonyms": ["peak visor", "identificar montana foto", "horizonte montanoso", "geolocalizar montana"],
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "montanas",
+      "relieve",
+      "horizonte",
+      "dem"
+    ],
+    "tags": [
+      "peakvisor",
+      "montanas",
+      "relieve",
+      "cumbres",
+      "cordilleras",
+      "geolocalizacion"
+    ],
+    "synonyms": [
+      "peak visor",
+      "identificar montana foto",
+      "horizonte montanoso",
+      "geolocalizar montana"
+    ],
     "type": "web",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Visualizador web 3D gratuito; versión móvil Pro con mapas offline por ~4,99€/mes o ~29,99€/año)",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web", "mobile"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Visualizador web 3D de libre acceso; app móvil con funciones de realidad aumentada en modalidad freemium"],
-    "useCases": ["Identificar qué picos montañosos aparecen al fondo de una foto de un conflicto o suceso rural para fijar las coordenadas exactas"],
+    "limitations": [
+      "Visualizador web 3D de libre acceso; app móvil con funciones de realidad aumentada en modalidad freemium"
+    ],
+    "useCases": [
+      "Identificar qué picos montañosos aparecen al fondo de una foto de un conflicto o suceso rural para fijar las coordenadas exactas"
+    ],
     "instructions": "Abre el mapa 3D en el navegador, busca la zona montañosa estimada y haz coincidir la silueta de los picos con el fondo de la imagen.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -427,23 +841,52 @@
     "description": "Comparador multiproveedor de imágenes satelitales (Apple, Google, Bing y Yandex Maps) en alta resolución.",
     "longDescription": "Visor cartográfico comparativo que permite alternar instantáneamente sobre las mismas coordenadas entre los satélites de Apple Maps, Google Maps, Bing Maps y Yandex Maps. Resulta clave en OSINT cuando una de las plataformas presenta imágenes satelitales más recientes, de mayor nitidez o sin nubes que las demás.",
     "url": "https://satellites.pro/",
-    "categories": ["geoint", "satellite"],
-    "investigateBy": ["location"],
-    "subcategories": ["comparador-satelite", "ortofotos", "multiproveedor"],
-    "tags": ["satellites-pro", "satelite", "comparador", "apple-maps", "bing", "yandex", "google-maps"],
-    "synonyms": ["satellites pro", "comparar satelite google apple bing", "mapa satelite alternativo"],
+    "categories": [
+      "geoint",
+      "satellite"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "comparador-satelite",
+      "ortofotos",
+      "multiproveedor"
+    ],
+    "tags": [
+      "satellites-pro",
+      "satelite",
+      "comparador",
+      "apple-maps",
+      "bing",
+      "yandex",
+      "google-maps"
+    ],
+    "synonyms": [
+      "satellites pro",
+      "comparar satelite google apple bing",
+      "mapa satelite alternativo"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Sujeto a las fechas de actualización de cada proveedor cartográfico comercial"],
-    "useCases": ["Encontrar imágenes de alta resolución en zonas donde Google Maps tiene baja calidad o nubes cambiando a Apple o Bing Maps"],
+    "limitations": [
+      "Sujeto a las fechas de actualización de cada proveedor cartográfico comercial"
+    ],
+    "useCases": [
+      "Encontrar imágenes de alta resolución en zonas donde Google Maps tiene baja calidad o nubes cambiando a Apple o Bing Maps"
+    ],
     "instructions": "Usa el menú desplegable en la esquina superior para cambiar de capa entre Google, Apple, Bing y Yandex manteniendo el zoom y la posición.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -455,23 +898,55 @@
     "description": "La guía de referencia mundial de pistas visuales, bolardos, postes, tipos de suelo y metadatos para GeoGuessing y OSINT.",
     "longDescription": "Enciclopedia comunitaria de geolocalización visual utilizada por campeones mundiales de GeoGuessing como Rainbolt y analistas OSINT. Documenta exhaustivamente por país: tipos de bolardos reflectantes, postes eléctricos y de hormigón, líneas viales (anchuras y colores), estilos de tejados, tipos de vegetación y suelo, y matrículas.",
     "url": "https://www.plonkit.net/guide",
-    "categories": ["geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["geoguessing", "pistas-visuales", "bolardos", "postes", "rainbolt"],
-    "tags": ["plonk-it", "geoguessr", "rainbolt", "bolardos", "postes", "matriculas", "geolocalizacion"],
-    "synonyms": ["plonk it", "guia rainbolt", "pistas geoguessr", "identificar pais por poste"],
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "geoguessing",
+      "pistas-visuales",
+      "bolardos",
+      "postes",
+      "rainbolt"
+    ],
+    "tags": [
+      "plonk-it",
+      "geoguessr",
+      "rainbolt",
+      "bolardos",
+      "postes",
+      "matriculas",
+      "geolocalizacion"
+    ],
+    "synonyms": [
+      "plonk it",
+      "guia rainbolt",
+      "pistas geoguessr",
+      "identificar pais por poste"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Enfocado en pistas analíticas y heurísticas deducibles visualmente"],
-    "useCases": ["Determinar el país exacto de una carretera aislada analizando el color del poste reflectante o las líneas laterales de la calzada"],
+    "limitations": [
+      "Enfocado en pistas analíticas y heurísticas deducibles visualmente"
+    ],
+    "useCases": [
+      "Determinar el país exacto de una carretera aislada analizando el color del poste reflectante o las líneas laterales de la calzada"
+    ],
     "instructions": "Selecciona el continente y país para revisar el desglose fotográfico de bolardos, postes de luz, señalización y marcas viales distintivas.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -483,23 +958,51 @@
     "description": "Generador de perfiles panorámicos de 360° del horizonte y línea de montañas desde cualquier punto del planeta.",
     "longDescription": "Herramienta de cálculo geodésico y topográfico que procesa datos de elevación del terreno (SRTM/LIDAR) para trazar el perfil de elevación exacto visible en 360 grados desde cualquier coordenada. Permite superponer la silueta matemática de las montañas con la foto de un suceso para comprobar o descartar una ubicación con precisión milimétrica.",
     "url": "https://www.heywhatsthat.com/",
-    "categories": ["geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["perfil-horizonte", "panorama-360", "srtm", "topografia"],
-    "tags": ["heywhatsthat", "horizonte", "silueta-montanas", "panorama", "geolocalizacion", "topografia"],
-    "synonyms": ["hey whats that", "perfil horizonte 360", "silueta montanas coordenadas"],
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "perfil-horizonte",
+      "panorama-360",
+      "srtm",
+      "topografia"
+    ],
+    "tags": [
+      "heywhatsthat",
+      "horizonte",
+      "silueta-montanas",
+      "panorama",
+      "geolocalizacion",
+      "topografia"
+    ],
+    "synonyms": [
+      "hey whats that",
+      "perfil horizonte 360",
+      "silueta montanas coordenadas"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["La generación de un nuevo panorama tarda entre 1 y 2 minutos mientras procesa los modelos de elevación del terreno"],
-    "useCases": ["Validar si las montañas que se recortan en el horizonte de un vídeo coinciden exactamente con la silueta calculada para esa coordenada"],
+    "limitations": [
+      "La generación de un nuevo panorama tarda entre 1 y 2 minutos mientras procesa los modelos de elevación del terreno"
+    ],
+    "useCases": [
+      "Validar si las montañas que se recortan en el horizonte de un vídeo coinciden exactamente con la silueta calculada para esa coordenada"
+    ],
     "instructions": "Introduce las coordenadas geográficas o haz clic en el mapa y selecciona 'Generate panorama' para obtener la silueta visual etiquetada con cada cima.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -511,23 +1014,48 @@
     "description": "Visualizador sincronizado en múltiples paneles de Google Maps, Street View y vista aérea oblicua.",
     "longDescription": "Herramienta de comparación simultánea que sincroniza en una sola pantalla dividida el mapa de carreteras, la fotografía de satélite cenital y la vista a pie de calle de Google Street View con orientación y brújula sincronizadas.",
     "url": "https://data.mashedworld.com/dualmaps/map.htm",
-    "categories": ["geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["pantalla-dividida", "streetview", "sincronizado"],
-    "tags": ["dual-maps", "street-view", "mapa-dividido", "geolocalizacion"],
-    "synonyms": ["dual maps", "street view y satelite simultaneo", "mapa dividido"],
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "pantalla-dividida",
+      "streetview",
+      "sincronizado"
+    ],
+    "tags": [
+      "dual-maps",
+      "street-view",
+      "mapa-dividido",
+      "geolocalizacion"
+    ],
+    "synonyms": [
+      "dual maps",
+      "street view y satelite simultaneo",
+      "mapa dividido"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Depende de la disponibilidad de Google Street View para la ubicación consultada"],
-    "useCases": ["Inspeccionar el entorno urbano a pie de calle mientras se observa simultáneamente la vista cenital de tejados"],
+    "limitations": [
+      "Depende de la disponibilidad de Google Street View para la ubicación consultada"
+    ],
+    "useCases": [
+      "Inspeccionar el entorno urbano a pie de calle mientras se observa simultáneamente la vista cenital de tejados"
+    ],
     "instructions": "Arrastra el muñeco de Street View para mover la vista panorámica mientras el mapa satelital sigue la orientación automáticamente.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -597,6 +1125,799 @@
     ],
     "instructions": "Accede a la sección 'OSINT Exercises' para resolver los retos prácticos de geolocalización o revisa los artículos y soluciones para estudiar las técnicas de investigación aplicadas.",
     "lastReviewed": "2026-11-23",
+    "status": "active"
+  },
+  {
+    "id": "fototeca-ign",
+    "name": "Fototeca Digital del IGN",
+    "slug": "fototeca-ign",
+    "description": "Visor y comparador de fotogramas aéreos históricos del territorio español desde 1929 hasta la actualidad.",
+    "longDescription": "Portal del Centro Nacional de Información Geográfica (CNIG) que custodia los vuelos fotogramétricos históricos sobre España: Vuelo Ruiz de Alda (1929), Serie A (1945-1946) y Serie B (1956-1957) del vuelo americano, Vuelo Interministerial (1973-1986), y series PNOA modernas. Permite geolocalizar transformaciones urbanísticas y del paisaje a lo largo de casi un siglo.",
+    "url": "https://fototeca.cnig.es/",
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "historico",
+      "fotogrametria",
+      "espana",
+      "pnoa"
+    ],
+    "tags": [
+      "fototeca",
+      "ign",
+      "espana",
+      "vuelo-americano",
+      "ortofotos",
+      "historico"
+    ],
+    "synonyms": [
+      "fototeca digital",
+      "vuelo americano ign",
+      "fototeca cnig"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado exclusivamente en territorio español y vuelos custodiados por el IGN"
+    ],
+    "useCases": [
+      "Verificar la existencia de edificaciones o caminos rurales en 1956 para peritajes judiciales",
+      "Investigar la evolución orográfica o lindes de fincas"
+    ],
+    "instructions": "Navega al mapa, localiza la zona con el buscador de municipios o coordenadas y pulsa en 'Consultar vuelos' para seleccionar el año de interés.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "cartociudad",
+    "name": "CartoCiudad (IGN)",
+    "slug": "cartociudad",
+    "description": "Red viaria y cartográfica oficial de España con callejero unificado, portales, secciones censales y códigos postales.",
+    "longDescription": "Servicio de referencia estatal desarrollado por el IGN en cooperación con Catastro, INE y Correos. Permite georreferenciación directa e inversa de direcciones postales en España con precisión a nivel de número de portal, tramo de vial y manzana censal.",
+    "url": "https://www.cartociudad.es/",
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "callejero",
+      "espana",
+      "geocodificacion"
+    ],
+    "tags": [
+      "cartociudad",
+      "ign",
+      "callejero",
+      "codigos-postales",
+      "portales",
+      "espana"
+    ],
+    "synonyms": [
+      "callejero ign",
+      "geocoder espana ign"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Exclusivo del territorio español"
+    ],
+    "useCases": [
+      "Obtener las coordenadas exactas de un número de portal",
+      "Identificar secciones censales y límites administrativos municipales"
+    ],
+    "instructions": "Escribe la dirección o coordenadas en el cuadro de búsqueda superior para situar el punto geográfico sobre la cartografía oficial.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "sigpac",
+    "name": "Visor SIGPAC",
+    "slug": "sigpac",
+    "description": "Sistema de Información Geográfica de Parcelas Agrícolas del Ministerio de Agricultura de España.",
+    "longDescription": "Visor cartográfico oficial del FEGA (Fondo Español de Garantía Agraria) que identifica geográficamente las parcelas declaradas por agricultores y ganaderos en el territorio nacional. Permite consultar usos de la tierra (olivar, secano, pasto, regadío), recintos, referencias de polígono y parcela agraria superpuestas con ortofotos PNOA.",
+    "url": "https://sigpac.mapa.gob.es/fega/visor/",
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "agricultura",
+      "parcelas",
+      "espana",
+      "catastro"
+    ],
+    "tags": [
+      "sigpac",
+      "fega",
+      "parcelas",
+      "cultivos",
+      "agricultura",
+      "espana"
+    ],
+    "synonyms": [
+      "visor fega",
+      "mapa sigpac",
+      "parcelas rusticas"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Datos agrarios limitados al ámbito de España"
+    ],
+    "useCases": [
+      "Verificar el uso real y la delimitación de una finca rústica",
+      "Localizar recintos agrícolas a partir de su referencia de provincia, municipio, polígono y parcela"
+    ],
+    "instructions": "Introduce provincia, municipio, polígono y parcela o pulsa en cualquier punto del mapa para desplegar la ficha descriptiva de la parcela agraria.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "idee",
+    "name": "IDEE (Infraestructura de Datos Espaciales de España)",
+    "slug": "idee",
+    "description": "Geoportal central de interoperabilidad cartográfica y servicios OGC (WMS/WFS/WMTS) de España.",
+    "longDescription": "Punto de integración de las infraestructuras de datos espaciales del Estado, comunidades autónomas y corporaciones locales bajo la directiva Inspire. Permite acceder a cientos de capas WMS y WFS públicas (hidrografía, geología, redes de transporte, áreas protegidas, catastro y ortofotografía).",
+    "url": "https://www.idee.es/",
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "ogc",
+      "wms",
+      "espana",
+      "geoportal"
+    ],
+    "tags": [
+      "idee",
+      "inspire",
+      "wms",
+      "wfs",
+      "geodatos",
+      "espana"
+    ],
+    "synonyms": [
+      "geoportal espana",
+      "servicios wms idee"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere conocimientos sobre sistemas de información geográfica y estándares OGC"
+    ],
+    "useCases": [
+      "Descubrir URLs de servicios WMS oficiales para importar capas en QGIS o visores web",
+      "Consultar el catálogo nacional de metadatos geográficos"
+    ],
+    "instructions": "Accede al 'Visualizador' o a 'Servicios Web' para obtener los endpoints WMS/WMTS de las distintas administraciones públicas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "esri-wayback",
+    "name": "Esri World Imagery Wayback",
+    "slug": "esri-wayback",
+    "description": "Archivo digital interactivo de ortofotos satelitales y aéreas de Esri con versiones históricas de los últimos 10 años.",
+    "longDescription": "Herramienta que permite viajar en el tiempo a través de cientos de versiones archivadas del mapa de ortofotos de Esri World Imagery (resolución submétrica en multitud de zonas urbanas y rurales del planeta). Es una de las alternativas más potentes al deslizador histórico de Google Earth.",
+    "url": "https://livingatlas.arcgis.com/wayback/",
+    "categories": [
+      "geoint",
+      "satellite"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "historico",
+      "satelite",
+      "ortofotos"
+    ],
+    "tags": [
+      "esri",
+      "wayback",
+      "satelite",
+      "historico",
+      "comparativa",
+      "arcgis"
+    ],
+    "synonyms": [
+      "arcgis wayback",
+      "esri historico",
+      "mapa satelite pasado"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La periodicidad de las ortofotos depende de las adquisiciones satelitales y aéreas de los proveedores de Esri"
+    ],
+    "useCases": [
+      "Identificar cuándo se construyó una pista de aterrizaje clandestina o una nave industrial",
+      "Detectar cambios en masas forestales y costas"
+    ],
+    "instructions": "Desplázate a la ubicación y selecciona las fechas en la lista lateral izquierda para ver las ortofotos del momento o activar la animación timelapse.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "openinframap",
+    "name": "OpenInfraMap",
+    "slug": "openinframap",
+    "description": "Mapa interactivo global de infraestructuras críticas: redes eléctricas, telecomunicaciones, petróleo y gas.",
+    "longDescription": "Proyecto basado en OpenStreetMap que extrae y visualiza exclusivamente la infraestructura energética y de comunicaciones a nivel planetario: líneas de alta tensión, subestaciones, plantas de generación (solar, eólica, nuclear, hidroeléctrica), oleoductos, gasoductos, centros de datos y antenas de radio.",
+    "url": "https://openinframap.org/",
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "infraestructuras",
+      "energia",
+      "telecomunicaciones"
+    ],
+    "tags": [
+      "openinframap",
+      "energia",
+      "electricidad",
+      "red-electrica",
+      "gasoductos",
+      "antenas"
+    ],
+    "synonyms": [
+      "mapa de infraestructura electrica",
+      "red electrica osm"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Depende de la precisión del mapeo comunitario en OpenStreetMap"
+    ],
+    "useCases": [
+      "Verificar la cercanía de tendidos de alta tensión o subestaciones eléctricas a una posición fotografiada",
+      "Localizar canalizaciones energéticas y data centers"
+    ],
+    "instructions": "Usa las capas situadas a la derecha para alternar entre Power (energía), Telecoms (telecomunicaciones) y Petroleum (gas y petróleo).",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "panoramax",
+    "name": "Panoramax",
+    "slug": "panoramax",
+    "description": "Plataforma abierta y federada de imágenes a nivel de calle de dominio público (Street View libre).",
+    "longDescription": "Iniciativa europea federada de código abierto respaldada por el IGN de Francia y OpenStreetMap para recopilar y publicar fotografías inmersivas de 360 grados y secuencias de calle. Funciona como alternativa soberana y libre de rastreo a Google Street View y Mapillary.",
+    "url": "https://panoramax.fr/",
+    "categories": [
+      "geoint",
+      "imint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "street-view",
+      "360",
+      "fotografia-urbana"
+    ],
+    "tags": [
+      "panoramax",
+      "streetview",
+      "open-source",
+      "ign-francia",
+      "fotografias-calle"
+    ],
+    "synonyms": [
+      "street view abierto",
+      "panoramax ign"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "En continua expansión comunitaria; mayor densidad de imágenes en Europa"
+    ],
+    "useCases": [
+      "Consultar perspectivas a pie de calle no cubiertas por los coches de Google o en fechas más recientes",
+      "Descargar imágenes bajo licencias abiertas"
+    ],
+    "instructions": "Haz zoom sobre el mapa en las líneas de color azul y haz clic en cualquier punto para abrir la vista panorámica a nivel de suelo.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "openrailwaymap",
+    "name": "OpenRailwayMap",
+    "slug": "openrailwaymap",
+    "description": "Mapa detallado de la infraestructura ferroviaria mundial: vías, velocidades, señalización y electrificación.",
+    "longDescription": "Visor cartográfico especializado que representa con extremo detalle las redes de tren, metro y tranvía de todo el mundo utilizando OpenStreetMap. Muestra el número de vías, sistemas de señalización (ASFA, ERTMS, etc.), electrificación (tensiones y catenarias) y velocidades máximas de vía.",
+    "url": "https://www.openrailwaymap.org/",
+    "categories": [
+      "geoint",
+      "transport"
+    ],
+    "investigateBy": [
+      "location",
+      "vehicle"
+    ],
+    "subcategories": [
+      "ferrocarril",
+      "trenes",
+      "infraestructuras"
+    ],
+    "tags": [
+      "openrailwaymap",
+      "trenes",
+      "ferrocarril",
+      "adif",
+      "vias",
+      "senales"
+    ],
+    "synonyms": [
+      "mapa vias de tren",
+      "red ferroviaria osm"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Datos mantenidos por la comunidad OSM"
+    ],
+    "useCases": [
+      "Geolocalizar una fotografía que incluya vías de tren, postes de catenaria o semáforos ferroviarios",
+      "Conocer el gálibo o tipo de vía de un trazado"
+    ],
+    "instructions": "Selecciona el estilo de mapa en el desplegable superior (Infraestructura, Velocidades máximas o Señalización).",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "osmcha",
+    "name": "OSMCha (OpenStreetMap Changeset Analyzer)",
+    "slug": "osmcha",
+    "description": "Herramienta forense de auditoría y análisis de ediciones y cambios (changesets) en OpenStreetMap.",
+    "longDescription": "Suite de validación y control de calidad sobre OpenStreetMap. Permite inspeccionar qué usuario creó, modificó o eliminó elementos geoespaciales en un área geográfica determinada o en un intervalo de tiempo concreto, con análisis de tags y advertencias automáticas.",
+    "url": "https://osmcha.org/",
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "osm",
+      "auditoria",
+      "historial"
+    ],
+    "tags": [
+      "osmcha",
+      "osm",
+      "changeset",
+      "historial-osm",
+      "auditoria-geografica"
+    ],
+    "synonyms": [
+      "analizador osm",
+      "changeset viewer"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere comprensión del modelo de datos de nodos, vías y relaciones de OSM"
+    ],
+    "useCases": [
+      "Averiguar quién modificó el nombre de una calle o una instalación sensible en OSM y cuándo",
+      "Rastrear la actividad de un usuario o editor sospechoso"
+    ],
+    "instructions": "Aplica filtros por área geográfica (BBOX), nombre de usuario o fecha de edición para inspeccionar el diff de las modificaciones.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "wikimapia",
+    "name": "Wikimapia",
+    "slug": "wikimapia",
+    "description": "Mapa colaborativo mundial de puntos de interés, polígonos industriales, bases militares y zonas restringidas.",
+    "longDescription": "Proyecto abierto nacido en 2006 donde usuarios de todo el mundo dibujan polígonos sobre imágenes satelitales y describen lugares con textos y fotos. Es una referencia histórica habitual en OSINT para identificar almacenes, bases militares, polígonos industriales y ruinas no catalogadas en mapas comerciales.",
+    "url": "https://wikimapia.org/",
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "colaborativo",
+      "poi",
+      "instalaciones"
+    ],
+    "tags": [
+      "wikimapia",
+      "poi",
+      "bases-militares",
+      "edificios",
+      "poligonos",
+      "cartografia"
+    ],
+    "synonyms": [
+      "wiki mapa",
+      "wikimapia poi"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Contenido generado por usuarios; requiere contrastar con fuentes oficiales"
+    ],
+    "useCases": [
+      "Identificar el propósito de un complejo de edificios o almacenes aislados",
+      "Encontrar nombres informales o históricos de parajes"
+    ],
+    "instructions": "Navega con el mapa satelital y haz clic en los rectángulos o polígonos dibujados para leer la descripción comunitaria del lugar.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "mapcarta",
+    "name": "Mapcarta",
+    "slug": "mapcarta",
+    "description": "Visualizador geográfico interactivo que combina OpenStreetMap con artículos de Wikipedia y Wikidata.",
+    "longDescription": "Portal cartográfico que enriquece la base cartográfica de OpenStreetMap con información contextual estructurada procedente de Wikipedia, Wikidata y guías de viaje, facilitando la comprensión rápida del entorno geográfico y de los monumentos o parajes circundantes.",
+    "url": "https://mapcarta.com/",
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "mapas",
+      "contexto",
+      "poi"
+    ],
+    "tags": [
+      "mapcarta",
+      "osm",
+      "wikipedia",
+      "wikidata",
+      "geografia"
+    ],
+    "synonyms": [
+      "mapcarta mapas"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado en información contextual y turística"
+    ],
+    "useCases": [
+      "Obtener un resumen rápido con fotografías y enlaces de Wikipedia de cualquier pueblo o accidente geográfico",
+      "Identificar cimas y rutas de senderismo"
+    ],
+    "instructions": "Busca cualquier topónimo en el buscador superior o explora el mapa interactivo haciendo clic en las fichas emergentes.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "zoom-earth",
+    "name": "Zoom Earth",
+    "slug": "zoom-earth",
+    "description": "Mapa meteorológico y satelital global en tiempo casi real con seguimiento de borrascas, vientos e incendios.",
+    "longDescription": "Plataforma que procesa imágenes satelitales geoestacionarias (GOES, Himawari, Meteosat) cada 10-15 minutos y datos de alta resolución de órbita polar (NASA GIBS). Ofrece capas de radar de precipitaciones, presión atmosférica, viento, temperatura e incendios activos.",
+    "url": "https://zoom.earth/",
+    "categories": [
+      "geoint",
+      "satellite",
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "tiempo-real",
+      "meteorologia",
+      "satelite"
+    ],
+    "tags": [
+      "zoom-earth",
+      "clima",
+      "meteorologia",
+      "incendios",
+      "radar",
+      "satelite"
+    ],
+    "synonyms": [
+      "zoom earth tiempo",
+      "satelite meteo en vivo"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Imágenes satelitales en vivo de resolución reducida comparadas con satélites espía u ópticos comerciales"
+    ],
+    "useCases": [
+      "Comprobar si el cielo estaba despejado o cubierto de nubes a una hora concreta para cronolocalización",
+      "Rastrear columnas de humo e incendios forestales"
+    ],
+    "instructions": "Utiliza la barra de tiempo inferior para retroceder o avanzar en los mapas meteorológicos y activa capas de radar o calor en el menú lateral.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "cellmapper",
+    "name": "CellMapper",
+    "slug": "cellmapper",
+    "description": "Mapa colaborativo mundial de cobertura de telefonía móvil y torres de telecomunicaciones (2G/3G/4G/5G).",
+    "longDescription": "Base de datos geolocalizada masiva construida por usuarios mediante mediciones directas de campo. Permite ubicar con precisión las torres y antenas de telefonía celular, sus eNodeB/gNB IDs, bandas de frecuencia asignadas y diagramas de radiación sectorial de todos los operadores del mundo.",
+    "url": "https://www.cellmapper.net/",
+    "categories": [
+      "geoint",
+      "sigint"
+    ],
+    "investigateBy": [
+      "location",
+      "domain-ip"
+    ],
+    "subcategories": [
+      "telefonia",
+      "antenas",
+      "cobertura",
+      "4g-5g"
+    ],
+    "tags": [
+      "cellmapper",
+      "torres-moviles",
+      "antenas-celulares",
+      "enodeb",
+      "lte",
+      "5g",
+      "gsm"
+    ],
+    "synonyms": [
+      "mapa antenas moviles",
+      "cobertura torres celular"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Las posiciones exactas de algunas antenas no mapeadas manualmente se calculan por triangulación estadística"
+    ],
+    "useCases": [
+      "Triangular la posición de un dispositivo móvil a partir de Cell ID (LAC/CID) o eNodeB",
+      "Verificar qué antenas de telefonía dan cobertura a una escena"
+    ],
+    "instructions": "Elige tu país y operador en el selector izquierdo para que aparezcan sobre el mapa las torres con sus sectores coloreados.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "visor-estaciones-radio",
+    "name": "Visor de Estaciones Radioeléctricas (VCTEL)",
+    "slug": "visor-estaciones-radio",
+    "description": "Geoportal oficial de la Secretaría de Estado de Telecomunicaciones con todas las antenas móviles de España.",
+    "longDescription": "Mapa oficial del Ministerio para la Transformación Digital y de la Función Pública de España que georreferencia todas las estaciones de telefonía móvil instaladas legalmente en el territorio nacional. Incluye operador, tecnologías activas (2G, 3G, 4G, 5G) e informes oficiales de niveles de exposición radioeléctrica.",
+    "url": "https://geoportal.minetur.gob.es/VCTEL/",
+    "categories": [
+      "geoint",
+      "sigint"
+    ],
+    "investigateBy": [
+      "location",
+      "domain-ip"
+    ],
+    "subcategories": [
+      "antenas",
+      "espana",
+      "telefonia",
+      "oficial"
+    ],
+    "tags": [
+      "vctel",
+      "minetur",
+      "seteleco",
+      "antenas",
+      "espana",
+      "radioelectrica",
+      "telefonia"
+    ],
+    "synonyms": [
+      "visor vctel",
+      "antenas ministerio espana",
+      "mapa antenas teleco"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Cobertura exclusiva de España; la carga del visor puede requerir unos segundos"
+    ],
+    "useCases": [
+      "Localizar exactamente qué antenas móviles existen sobre un edificio concreto en España",
+      "Consultar el operador titular de cada mástil"
+    ],
+    "instructions": "Introduce municipio o calle en el buscador o navega por el mapa hasta ver los puntos de las estaciones radioeléctricas.",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   }
 ]

@@ -523,5 +523,469 @@
     "instructions": "Introduce el código ICAO o IATA del aeropuerto (ej. LEMD para Madrid-Barajas o LEBL para Barcelona-El Prat) o busca por nombre de ciudad en el mapa para ver el informe meteorológico decodificado.",
     "lastReviewed": "2026-11-23",
     "status": "active"
+  },
+  {
+    "id": "planespotters",
+    "name": "Planespotters.net",
+    "slug": "planespotters",
+    "description": "La mayor base de datos genealógica de flotas de aviación: historiales de aeronaves, matrículas y números de serie.",
+    "longDescription": "Referencia mundial para investigadores de aviación civil y comercial. Permite rastrear la historia completa de cualquier aeronave comercial o corporativa a través de su número de serie de fabricante (MSN) o matrícula (tail number): operadores anteriores, edades de flota, fechas de entrega y configuración de cabina.",
+    "url": "https://www.planespotters.net/",
+    "categories": [
+      "transport"
+    ],
+    "investigateBy": [
+      "vehicle"
+    ],
+    "subcategories": [
+      "aviacion",
+      "flotas",
+      "matriculas-aviones",
+      "msn"
+    ],
+    "tags": [
+      "planespotters",
+      "aviones",
+      "flotas",
+      "matriculas",
+      "msn",
+      "aviacion-civil"
+    ],
+    "synonyms": [
+      "planespotters net",
+      "historial de avion por matricula"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado en aviación comercial, cargueros y aviación corporativa registrada; aviación militar selectiva"
+    ],
+    "useCases": [
+      "Conocer el propietario y operador real de un jet privado o avión de carga sospechoso",
+      "Rastrear la cadena de custodia de una aeronave que cambió de matrícula"
+    ],
+    "instructions": "Escribe la matrícula (ej. EC-XXX, NXXXX) o número de serie en el buscador superior para desplegar la genealogía completa del aparato.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "jetphotos",
+    "name": "JetPhotos",
+    "slug": "jetphotos",
+    "description": "El mayor archivo mundial de fotografías de aeronaves verificadas por editores aeronáuticos.",
+    "longDescription": "Base de datos fotográfica con millones de imágenes de aviones en alta resolución, proveedora oficial de fotografías de Flightradar24. Cada imagen está minuciosamente auditada e incluye matrícula exacta, número de serie, aerolínea, aeropuerto donde se tomó la foto y fecha precisa.",
+    "url": "https://www.jetphotos.com/",
+    "categories": [
+      "transport",
+      "imint"
+    ],
+    "investigateBy": [
+      "vehicle"
+    ],
+    "subcategories": [
+      "fotografia-aeronautica",
+      "aviones",
+      "matriculas"
+    ],
+    "tags": [
+      "jetphotos",
+      "aviones",
+      "fotografias-aviones",
+      "matriculas",
+      "spotting"
+    ],
+    "synonyms": [
+      "jet photos",
+      "fotos de aviones por matricula"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Servicio de consulta fotográfica; no es un rastreador de vuelos en tiempo real"
+    ],
+    "useCases": [
+      "Comprobar el aspecto visual y la librea exacta de una aeronave en una fecha concreta",
+      "Verificar si un avión llevaba instalados sensores o modificaciones físicas especiales"
+    ],
+    "instructions": "Introduce la matrícula del avión en la caja de búsqueda para examinar todas las fotografías históricas ordenadas cronológicamente.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "flightaware",
+    "name": "FlightAware",
+    "slug": "flightaware",
+    "description": "Plataforma global de rastreo y telemetría de vuelos comerciales y aviación privada en tiempo real.",
+    "longDescription": "Red de seguimiento de vuelos con cobertura mundial basada en datos de radar de autoridades de aviación civil (FAA, Eurocontrol) y miles de receptores terrestres ADS-B. Proporciona planes de vuelo IFR, historial de vuelos de semanas anteriores, retrasos y métricas operativas por aerolínea y aeropuerto.",
+    "url": "https://flightaware.com/",
+    "categories": [
+      "transport"
+    ],
+    "investigateBy": [
+      "vehicle",
+      "location"
+    ],
+    "subcategories": [
+      "aviacion",
+      "seguimiento-vuelos",
+      "ads-b",
+      "radar"
+    ],
+    "tags": [
+      "flightaware",
+      "vuelos",
+      "aviones",
+      "seguimiento-aereo",
+      "ifr",
+      "radar"
+    ],
+    "synonyms": [
+      "flight aware",
+      "rastreador flightaware"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Historiales extendidos de más de varios meses requieren cuenta de suscripción"
+    ],
+    "useCases": [
+      "Comprobar la ruta real seguida por un vuelo y el aeropuerto alternativo al que se desvió",
+      "Investigar la actividad de jets privados no ocultados"
+    ],
+    "instructions": "Escribe el número de vuelo, matrícula o código ICAO del aeropuerto en el buscador principal.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "myshiptracking",
+    "name": "MyShipTracking",
+    "slug": "myshiptracking",
+    "description": "Monitor en vivo de tráfico marítimo con cobertura AIS de buques, petroleros, yates y puertos.",
+    "longDescription": "Visualizador de posicionamiento marítimo en tiempo real basado en el sistema de identificación automática (AIS) terrestre y satelital. Muestra rutas marítimas, velocidades, calados, destino declarado y escalas portuarias de miles de buques de todo el mundo.",
+    "url": "https://www.myshiptracking.com/",
+    "categories": [
+      "transport"
+    ],
+    "investigateBy": [
+      "vehicle",
+      "location"
+    ],
+    "subcategories": [
+      "maritimo",
+      "ais",
+      "buques",
+      "puertos"
+    ],
+    "tags": [
+      "myshiptracking",
+      "barcos",
+      "maritimo",
+      "ais",
+      "petroleros",
+      "yates"
+    ],
+    "synonyms": [
+      "my ship tracking",
+      "rastreador barcos online"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La cobertura en mar abierto depende de recepciones satelitales periódicas"
+    ],
+    "useCases": [
+      "Seguir la travesía de un mercante o yate de recreo entre puertos",
+      "Identificar los barcos amarrados en una dársena portuaria específica"
+    ],
+    "instructions": "Haz zoom en cualquier costa del mapa o busca por el nombre del buque o número MMSI/IMO en el buscador.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "aena-infovuelos",
+    "name": "Aena InfoVuelos",
+    "slug": "aena-infovuelos",
+    "description": "Servicio oficial en tiempo real de salidas y llegadas de los 46 aeropuertos públicos de España.",
+    "longDescription": "Portal oficial del gestor aeroportuario español Aena que detalla el estado en vivo de todas las operaciones comerciales en los aeropuertos de la red estatal (Madrid-Barajas, Barcelona-El Prat, Málaga-Costa del Sol, Palma de Mallorca, etc.): terminal, puerta de embarque, cinta de equipajes y retrasos confirmados.",
+    "url": "https://www.aena.es/es/infovuelos.html",
+    "categories": [
+      "transport"
+    ],
+    "investigateBy": [
+      "vehicle",
+      "location"
+    ],
+    "subcategories": [
+      "aeropuertos",
+      "espana",
+      "vuelos",
+      "aena"
+    ],
+    "tags": [
+      "aena",
+      "infovuelos",
+      "aeropuertos-espana",
+      "vuelos",
+      "barajas",
+      "el-prat"
+    ],
+    "synonyms": [
+      "aena vuelos en vivo",
+      "horarios aeropuertos espana"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Cobertura exclusiva de vuelos que despeguen o aterricen en la red de aeropuertos de Aena"
+    ],
+    "useCases": [
+      "Verificar la hora real de aterrizaje de un vuelo en territorio español",
+      "Comprobar qué terminal y puerta de embarque se asignó a una salida"
+    ],
+    "instructions": "Selecciona el aeropuerto de la red de Aena, elige entre Salidas o Llegadas e introduce el número de vuelo o ciudad.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "enaire-drones",
+    "name": "ENAIRE Drones",
+    "slug": "enaire-drones",
+    "description": "Visor aeronáutico oficial de espacios aéreos, zonas de vuelo restringido y NOTAMs en España.",
+    "longDescription": "Aplicación oficial desarrollada por ENAIRE (entidad pública de navegación aérea en España) que representa geográficamente los espacios aéreos controlados (CTR), zonas prohibidas (P), restringidas (R), peligrosas (D), zonas de protección ambiental para fauna y avisos NOTAM en vigor para operaciones con drones y aviación general.",
+    "url": "https://drones.enaire.es/",
+    "categories": [
+      "transport",
+      "geoint"
+    ],
+    "investigateBy": [
+      "vehicle",
+      "location"
+    ],
+    "subcategories": [
+      "espacio-aereo",
+      "drones",
+      "espana",
+      "notam"
+    ],
+    "tags": [
+      "enaire",
+      "drones",
+      "espacio-aereo",
+      "ctr",
+      "notam",
+      "aviacion-espana"
+    ],
+    "synonyms": [
+      "enaire drones visor",
+      "mapa vuelo drones espana",
+      "zonas restringidas vuelo"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Datos aplicables a la regulación del espacio aéreo español (Enaire / AESA)"
+    ],
+    "useCases": [
+      "Comprobar si el vuelo de un dron o aeronave en una ubicación específica cumplía la legalidad aeronáutica o invadió un CTR",
+      "Consultar NOTAMs temporales que restrinjan el espacio aéreo en una zona de rescate"
+    ],
+    "instructions": "Navega por el mapa de España o introduce unas coordenadas para ver las capas de restricción y los condicionantes aeronáuticos de la zona.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "puertos-del-estado",
+    "name": "Puertos del Estado (Medición y Tráfico)",
+    "slug": "puertos-del-estado",
+    "description": "Portal público oficial con datos oceanográficos, boyas, mareas y tráfico portuario de España.",
+    "longDescription": "Organismo público adscrito al Ministerio de Transportes de España. Proporciona datos de telemetría de boyas oceanográficas en tiempo real (altura de olas, temperatura del agua, salinidad, corrientes y vientos marinos), predicciones meteorológicas marítimas e información del tráfico de buques en los puertos de interés general del Estado.",
+    "url": "https://www.puertos.es/",
+    "categories": [
+      "transport",
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "vehicle",
+      "location"
+    ],
+    "subcategories": [
+      "puertos",
+      "maritimo",
+      "oceanografia",
+      "espana"
+    ],
+    "tags": [
+      "puertos-del-estado",
+      "maritimo",
+      "boyas",
+      "oleaje",
+      "mareas",
+      "espana"
+    ],
+    "synonyms": [
+      "puertos del estado espana",
+      "boyas puertos del estado",
+      "datos oceanograficos espana"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Datos centrados en la costa y aguas jurisdiccionales españolas"
+    ],
+    "useCases": [
+      "Verificar el estado del mar (altura y fuerza del oleaje) en una fecha y hora pasada para comprobar la viabilidad del naufragio o avistamiento de una embarcación",
+      "Consultar la actividad de mercancías y escalas en puertos estatales"
+    ],
+    "instructions": "Accede a la sección de 'Medio Físico y Clima Marítimo' para interactuar con el mapa de boyas y estaciones mareográficas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "camaras-trafico-dgt",
+    "name": "Cámaras de Tráfico DGT",
+    "slug": "camaras-trafico-dgt",
+    "description": "Mapa interactivo oficial de la DGT con imágenes en directo de las cámaras de vigilancia en carreteras españolas.",
+    "longDescription": "Servicio de información del tráfico en tiempo real mantenido por la Dirección General de Tráfico de España. Muestra un mapa georreferenciado con todas las cámaras de circuito cerrado de televisión (CCTV) instaladas en la red de carreteras del Estado, actualizando imágenes fijas cada pocos minutos.",
+    "url": "https://infocar.dgt.es/etraffic/",
+    "categories": [
+      "transport",
+      "geoint",
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location",
+      "vehicle"
+    ],
+    "subcategories": [
+      "trafico",
+      "camaras",
+      "espana",
+      "dgt"
+    ],
+    "tags": [
+      "dgt",
+      "camaras-trafico",
+      "carreteras",
+      "espana",
+      "trafico-en-vivo",
+      "cctv"
+    ],
+    "synonyms": [
+      "camaras dgt",
+      "camaras trafico espana",
+      "ver camaras dgt en directo"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Las imágenes se refrescan periódicamente; no proporcionan vídeo continuo en alta definición por motivos de privacidad"
+    ],
+    "useCases": [
+      "Comprobar las condiciones meteorológicas y el estado de la circulación vial en un punto kilométrico exacto en tiempo real",
+      "Verificar si un corte de carretera o accidente está ocurriendo en este momento"
+    ],
+    "instructions": "En el mapa interactivo de infocar.dgt.es, activa la capa 'Cámaras' y pulsa sobre el icono de cualquier cámara de carretera para visualizar la última captura disponible.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
   }
 ]

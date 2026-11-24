@@ -25,6 +25,8 @@ import {
   Network,
   Building,
   MapPin,
+  ShieldAlert,
+  ShoppingBag,
 } from "lucide-react";
 import { useFavorites } from "@/hooks/useFavorites";
 
@@ -60,6 +62,8 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
     { label: "Dominio e IP", href: "/investigate-by/domain-ip", icon: Network, id: "domain-ip" },
     { label: "Sociedades y Empresas", href: "/investigate-by/companies", icon: Building, id: "companies" },
     { label: "Ubicación Geográfica", href: "/investigate-by/location", icon: MapPin, id: "location" },
+    { label: "Fraudes y Estafas", href: "/investigate-by/fraud-scams", icon: ShieldAlert, id: "fraud-scams" },
+    { label: "Anuncios y Clasificados", href: "/investigate-by/classifieds", icon: ShoppingBag, id: "classifieds" },
   ];
 
   const learnLinks = [

@@ -6,24 +6,56 @@
     "description": "La mayor base de datos colaborativa mundial de redes Wi-Fi, torres de telefonía y dispositivos Bluetooth geolocalizados.",
     "longDescription": "WiGLE (Wireless Geographic Logging Engine) recopila datos georreferenciados de redes inalámbricas registrados por investigadores mediante wardriving. Permite buscar por dirección BSSID (MAC del router) o SSID para situar geográficamente una red Wi-Fi concreta en el mapa.",
     "url": "https://wigle.net/",
-    "categories": ["sigint", "geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["wifi", "bssid", "wardriving", "bluetooth"],
-    "tags": ["wigle", "wifi", "bssid", "ssid", "torres-celulares", "wardriving", "antenas"],
-    "synonyms": ["buscar bssid", "geolocalizar wifi", "mapa redes wifi"],
+    "categories": [
+      "sigint",
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "wifi",
+      "bssid",
+      "wardriving",
+      "bluetooth"
+    ],
+    "tags": [
+      "wigle",
+      "wifi",
+      "bssid",
+      "ssid",
+      "torres-celulares",
+      "wardriving",
+      "antenas"
+    ],
+    "synonyms": [
+      "buscar bssid",
+      "geolocalizar wifi",
+      "mapa redes wifi"
+    ],
     "type": "web",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Búsqueda y subida comunitaria 100% gratis con cuenta; licencias comerciales y uso masivo de API de pago)",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "mobile", "api"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile",
+      "api"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": true,
     "apiKeyRequired": false,
-    "limitations": ["La búsqueda avanzada por BSSID y el uso de filtros requiere crear una cuenta gratuita en la plataforma"],
-    "useCases": ["Geolocalizar las coordenadas exactas de una vivienda si se conoce el BSSID (dirección MAC) del router Wi-Fi capturado"],
+    "limitations": [
+      "La búsqueda avanzada por BSSID y el uso de filtros requiere crear una cuenta gratuita en la plataforma"
+    ],
+    "useCases": [
+      "Geolocalizar las coordenadas exactas de una vivienda si se conoce el BSSID (dirección MAC) del router Wi-Fi capturado"
+    ],
     "instructions": "Inicia sesión con tu cuenta gratuita, abre 'View > Basic Search' e introduce el BSSID en formato XX:XX:XX:XX:XX:XX.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -35,23 +67,47 @@
     "description": "Comunidad, guías y repositorio de receptores de radio definida por software (SDR) de bajo coste.",
     "longDescription": "Portal central para receptores de radio basados en sintonizadores DVB-T económicos (RTL2832U). Proporciona tutoriales de recepción de señales ADS-B de aviación, AIS marítimo, radiosondas meteorológicas, telemetría y satélites meteorológicos NOAA.",
     "url": "https://www.rtl-sdr.com/",
-    "categories": ["sigint"],
+    "categories": [
+      "sigint"
+    ],
     "investigateBy": [],
-    "subcategories": ["sdr", "radiofrecuencia", "hardware"],
-    "tags": ["rtl-sdr", "radio", "sdr", "frecuencias", "senales", "hardware"],
-    "synonyms": ["radio definida por software", "sintonizador sdr"],
+    "subcategories": [
+      "sdr",
+      "radiofrecuencia",
+      "hardware"
+    ],
+    "tags": [
+      "rtl-sdr",
+      "radio",
+      "sdr",
+      "frecuencias",
+      "senales",
+      "hardware"
+    ],
+    "synonyms": [
+      "radio definida por software",
+      "sintonizador sdr"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "advanced",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Orientado a documentación y proyectos técnicos que requieren hardware receptor SDR físico"],
-    "useCases": ["Aprender a decodificar señales de radio locales sin depender de proveedores de datos comerciales"],
+    "limitations": [
+      "Orientado a documentación y proyectos técnicos que requieren hardware receptor SDR físico"
+    ],
+    "useCases": [
+      "Aprender a decodificar señales de radio locales sin depender de proveedores de datos comerciales"
+    ],
     "instructions": "Consulta la sección 'Quickstart Guide' para instalar controladores Zadig y software como SDR# o GQRX.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -63,23 +119,47 @@
     "description": "Red mundial de receptores de radio de onda corta y frecuencias VHF/UHF accesibles en tiempo real vía navegador.",
     "longDescription": "Servidores conectados a receptores SDR operados por radioaficionados y universidades de todo el mundo que permiten escuchar señales de radio reales en vivo, sincronizar frecuencias marítimas y aéreas e inspeccionar el espectrograma (waterfall).",
     "url": "http://www.websdr.org/",
-    "categories": ["sigint"],
+    "categories": [
+      "sigint"
+    ],
     "investigateBy": [],
-    "subcategories": ["receptores-remotos", "espectro-radio"],
-    "tags": ["websdr", "radiofrecuencia", "espectrograma", "onda-corta", "tiempo-real"],
-    "synonyms": ["radio online sdr", "escuchar radio aficionado", "espectro radio"],
+    "subcategories": [
+      "receptores-remotos",
+      "espectro-radio"
+    ],
+    "tags": [
+      "websdr",
+      "radiofrecuencia",
+      "espectrograma",
+      "onda-corta",
+      "tiempo-real"
+    ],
+    "synonyms": [
+      "radio online sdr",
+      "escuchar radio aficionado",
+      "espectro radio"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["La calidad del audio depende de la antena del receptor remoto y de las condiciones de propagación ionosférica"],
-    "useCases": ["Comprobar transmisiones de radio de emergencia o emisiones de onda corta desde cualquier parte del mundo"],
+    "limitations": [
+      "La calidad del audio depende de la antena del receptor remoto y de las condiciones de propagación ionosférica"
+    ],
+    "useCases": [
+      "Comprobar transmisiones de radio de emergencia o emisiones de onda corta desde cualquier parte del mundo"
+    ],
     "instructions": "Elige un servidor de la lista (por ejemplo, el de la Universidad de Twente en Europa) y sintoniza la frecuencia deseada con el ratón.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -91,24 +171,45 @@
     "description": "La mayor base de datos colaborativa de frecuencias de radio, planes de banda y sistemas troncalizados.",
     "longDescription": "Directorio exhaustivo con asignaciones oficiales de radiofrecuencias, códigos de llamada y frecuencias de servicios públicos, marítimos y de aviación.",
     "url": "https://www.radioreference.com/",
-    "categories": ["sigint"],
+    "categories": [
+      "sigint"
+    ],
     "investigateBy": [],
-    "subcategories": ["frecuencias", "planes-de-banda"],
-    "tags": ["radioreference", "frecuencias", "scanner", "bandas"],
-    "synonyms": ["frecuencias radio", "directorio frecuencias"],
+    "subcategories": [
+      "frecuencias",
+      "planes-de-banda"
+    ],
+    "tags": [
+      "radioreference",
+      "frecuencias",
+      "scanner",
+      "bandas"
+    ],
+    "synonyms": [
+      "frecuencias radio",
+      "directorio frecuencias"
+    ],
     "type": "web",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Directorio y consulta web básica gratis; suscripción Premium por ~15$/semestre o ~30$/año)",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Mayor concentración en Norteamérica y cobertura variable en Europa"],
-    "useCases": ["Identificar a qué tipo de servicio o entidad corresponde una frecuencia de radio captada"],
+    "limitations": [
+      "Mayor concentración en Norteamérica y cobertura variable en Europa"
+    ],
+    "useCases": [
+      "Identificar a qué tipo de servicio o entidad corresponde una frecuencia de radio captada"
+    ],
     "instructions": "Navega por las categorías geográficas en la pestaña 'Databases'.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -120,24 +221,57 @@
     "description": "Detector de redes inalámbricas, sniffer de paquetes Wi-Fi (802.11) y monitorización pasiva de tráfico RF.",
     "longDescription": "Kismet es la herramienta de referencia de código abierto para captura e inspección pasiva de redes Wi-Fi, interfaces Bluetooth, sensores IoT y dispositivos RF. Permite mapear puntos de acceso y clientes sin emitir paquetes identificables en la red.",
     "url": "https://www.kismetwireless.net/",
-    "categories": ["sigint"],
-    "investigateBy": ["location"],
-    "subcategories": ["wifi", "sniffer", "802.11", "bluetooth"],
-    "tags": ["kismet", "wifi", "wi-fi", "wireless", "bssid", "ssid", "sniffer", "wardriving", "802.11"],
-    "synonyms": ["escaner wifi", "sniffer wifi", "detector redes inalambricas", "wardriving"],
+    "categories": [
+      "sigint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "wifi",
+      "sniffer",
+      "802.11",
+      "bluetooth"
+    ],
+    "tags": [
+      "kismet",
+      "wifi",
+      "wi-fi",
+      "wireless",
+      "bssid",
+      "ssid",
+      "sniffer",
+      "wardriving",
+      "802.11"
+    ],
+    "synonyms": [
+      "escaner wifi",
+      "sniffer wifi",
+      "detector redes inalambricas",
+      "wardriving"
+    ],
     "type": "cli",
     "pricing": "free",
     "pricingDetails": "100% código abierto y gratuito (GPL)",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["desktop", "cli"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "desktop",
+      "cli"
+    ],
     "difficulty": "advanced",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Requiere una tarjeta Wi-Fi compatible con modo monitor para la captura en vivo de paquetes"],
-    "useCases": ["Detección de puntos de acceso no autorizados (rogue AP) y monitorización de señales inalámbricas"],
+    "limitations": [
+      "Requiere una tarjeta Wi-Fi compatible con modo monitor para la captura en vivo de paquetes"
+    ],
+    "useCases": [
+      "Detección de puntos de acceso no autorizados (rogue AP) y monitorización de señales inalámbricas"
+    ],
     "instructions": "Ejecuta 'kismet' en la terminal o accede a la interfaz web local en http://localhost:2501 para visualizar el espectro detectado.",
     "lastReviewed": "2026-11-24",
     "status": "active"
@@ -149,24 +283,59 @@
     "description": "Buscador oficial del fabricante de tarjetas de red, routers y puntos de acceso Wi-Fi a partir de la dirección MAC o BSSID.",
     "longDescription": "Permite resolver el identificador único organizacional (OUI) asignado por el IEEE a los primeros octetos de cualquier dirección física MAC o BSSID. Fundamental en investigaciones OSINT para determinar la marca, modelo o tipo de dispositivo router o punto de acceso Wi-Fi localizado.",
     "url": "https://www.wireshark.org/tools/oui-lookup.html",
-    "categories": ["sigint", "cyber"],
-    "investigateBy": ["domain-ip", "location"],
-    "subcategories": ["wifi", "bssid", "oui", "mac-address"],
-    "tags": ["wireshark", "oui", "mac", "bssid", "wifi", "wi-fi", "router", "fabricante"],
-    "synonyms": ["buscar bssid", "fabricante wifi", "mac address lookup", "oui lookup", "identificar router"],
+    "categories": [
+      "sigint",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "location"
+    ],
+    "subcategories": [
+      "wifi",
+      "bssid",
+      "oui",
+      "mac-address"
+    ],
+    "tags": [
+      "wireshark",
+      "oui",
+      "mac",
+      "bssid",
+      "wifi",
+      "wi-fi",
+      "router",
+      "fabricante"
+    ],
+    "synonyms": [
+      "buscar bssid",
+      "fabricante wifi",
+      "mac address lookup",
+      "oui lookup",
+      "identificar router"
+    ],
     "type": "web",
     "pricing": "free",
     "pricingDetails": "100% gratuito sin registro",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["No identifica la ubicación física directa, sino el fabricante del chipset o dispositivo (OUI)"],
-    "useCases": ["Conocer el fabricante de un router Wi-Fi a partir del BSSID capturado en un informe o fotografía"],
+    "limitations": [
+      "No identifica la ubicación física directa, sino el fabricante del chipset o dispositivo (OUI)"
+    ],
+    "useCases": [
+      "Conocer el fabricante de un router Wi-Fi a partir del BSSID capturado en un informe o fotografía"
+    ],
     "instructions": "Introduce los primeros 6 caracteres hexadecimales del BSSID (o la MAC completa) para ver la empresa fabricante registrada en el IEEE.",
     "lastReviewed": "2026-11-24",
     "status": "active"
@@ -178,24 +347,54 @@
     "description": "Servicio de geolocalización pública y abierta por coordenadas a partir de direcciones BSSID de routers Wi-Fi.",
     "longDescription": "Base de datos y API abierta de geolocalización que consulta coordenadas geográficas (latitud, longitud y precisión) a partir de la dirección MAC (BSSID) de un punto de acceso Wi-Fi público.",
     "url": "https://www.mylnikov.org/",
-    "categories": ["sigint", "geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["wifi", "bssid", "geolocalizacion"],
-    "tags": ["mylnikov", "wifi", "wi-fi", "bssid", "geolocalizacion", "coordenadas", "api"],
-    "synonyms": ["geolocalizar bssid", "buscar router coordenadas", "wifi geolocalizacion"],
+    "categories": [
+      "sigint",
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "wifi",
+      "bssid",
+      "geolocalizacion"
+    ],
+    "tags": [
+      "mylnikov",
+      "wifi",
+      "wi-fi",
+      "bssid",
+      "geolocalizacion",
+      "coordenadas",
+      "api"
+    ],
+    "synonyms": [
+      "geolocalizar bssid",
+      "buscar router coordenadas",
+      "wifi geolocalizacion"
+    ],
     "type": "web",
     "pricing": "free",
     "pricingDetails": "API pública gratuita",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["La cobertura depende de los BSSID indexados en su base de datos pública y comunitaria"],
-    "useCases": ["Obtener latitud y longitud aproximadas de una red Wi-Fi conocida mediante llamada API o consulta"],
+    "limitations": [
+      "La cobertura depende de los BSSID indexados en su base de datos pública y comunitaria"
+    ],
+    "useCases": [
+      "Obtener latitud y longitud aproximadas de una red Wi-Fi conocida mediante llamada API o consulta"
+    ],
     "instructions": "Consulta el endpoint público de la API pasando la dirección BSSID deseada para recibir el JSON con latitud y longitud.",
     "lastReviewed": "2026-11-24",
     "status": "active"
@@ -207,25 +406,233 @@
     "description": "Base de datos abierta de redes inalámbricas y mapa de geolocalización de routers por BSSID y ESSID.",
     "longDescription": "3WiFi (también conocida como p3wifi) es una de las mayores plataformas colaborativas de inteligencia inalámbrica. Permite buscar redes Wi-Fi a nivel global mediante selectores BSSID (dirección MAC) o ESSID (nombre de red), visualizando su ubicación física estimada en mapas interactivos y analizando puntos de acceso indexados.",
     "url": "https://3wifi.dev/",
-    "categories": ["sigint", "geoint"],
-    "investigateBy": ["location", "domain-ip"],
-    "subcategories": ["wifi", "bssid", "wardriving", "geolocalizacion", "router-scan"],
-    "tags": ["3wifi", "p3wifi", "wifi", "wi-fi", "bssid", "ssid", "wardriving", "geolocalizacion", "router"],
-    "synonyms": ["p3wifi", "3wifi dev", "3wifi database", "buscar bssid", "geolocalizar router", "mapa redes wifi"],
+    "categories": [
+      "sigint",
+      "geoint"
+    ],
+    "investigateBy": [
+      "location",
+      "domain-ip"
+    ],
+    "subcategories": [
+      "wifi",
+      "bssid",
+      "wardriving",
+      "geolocalizacion",
+      "router-scan"
+    ],
+    "tags": [
+      "3wifi",
+      "p3wifi",
+      "wifi",
+      "wi-fi",
+      "bssid",
+      "ssid",
+      "wardriving",
+      "geolocalizacion",
+      "router"
+    ],
+    "synonyms": [
+      "p3wifi",
+      "3wifi dev",
+      "3wifi database",
+      "buscar bssid",
+      "geolocalizar router",
+      "mapa redes wifi"
+    ],
     "type": "web",
     "pricing": "free",
     "pricingDetails": "Acceso y consulta web libre sin coste",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["La precisión geográfica depende de los reportes y escaneos aportados por la comunidad"],
-    "useCases": ["Localizar geográficamente un punto de acceso Wi-Fi a partir de su identificador BSSID o ESSID"],
+    "limitations": [
+      "La precisión geográfica depende de los reportes y escaneos aportados por la comunidad"
+    ],
+    "useCases": [
+      "Localizar geográficamente un punto de acceso Wi-Fi a partir de su identificador BSSID o ESSID"
+    ],
     "instructions": "Accede a la pestaña 'Search' o 'Map', introduce la dirección MAC/BSSID en formato XX:XX:XX:XX:XX:XX o el nombre de red ESSID y pulsa buscar.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "kiwisdr",
+    "name": "KiwiSDR Map & Network",
+    "slug": "kiwisdr",
+    "description": "Red mundial de receptores de radio SDR de onda corta (10 kHz - 30 MHz) accesibles online en tiempo real.",
+    "longDescription": "Red global de radio definida por software (SDR) desplegada por radioaficionados y estaciones de escucha. Permite sintonizar frecuencias de onda corta (HF), emisiones de emisoras de números militares, transmisiones diplomáticas, radioteletipo (RTTY) y avisos marítimos desde receptores físicos ubicados en todos los continentes.",
+    "url": "http://kiwisdr.com/",
+    "categories": [
+      "sigint"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "sdr",
+      "onda-corta",
+      "radiofrecuencia"
+    ],
+    "tags": [
+      "kiwisdr",
+      "sdr",
+      "radio",
+      "hf",
+      "onda-corta",
+      "sigint",
+      "espectro"
+    ],
+    "synonyms": [
+      "kiwi sdr",
+      "escuchar radio onda corta online"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "advanced",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Cada receptor admite un número limitado de usuarios simultáneos (generalmente 4 u 8 oyentes)"
+    ],
+    "useCases": [
+      "Escuchar transmisiones de radio de alta frecuencia en zonas de conflicto o estaciones numéricas militares",
+      "Analizar la propagación de señales electromagnéticas"
+    ],
+    "instructions": "Accede al mapa de receptores activos (rx.kiwisdr.com), selecciona una estación en la región geográfica deseada y sintoniza la frecuencia y modo (AM, LSB, USB, CW).",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "broadcastify",
+    "name": "Broadcastify",
+    "slug": "broadcastify",
+    "description": "La mayor plataforma de streaming de radio de servicios de emergencia, policía, bomberos y aviación.",
+    "longDescription": "Red masiva de transmisiones en directo de comunicaciones por radio proporcionadas por voluntarios con escáneres en miles de condados y ciudades. Permite monitorizar despachos de policía, servicios de rescate, bomberos, ferrocarriles y control de tráfico aéreo.",
+    "url": "https://www.broadcastify.com/",
+    "categories": [
+      "sigint"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "location"
+    ],
+    "subcategories": [
+      "emergencias",
+      "radio-scanner",
+      "audio-en-vivo"
+    ],
+    "tags": [
+      "broadcastify",
+      "policia",
+      "bomberos",
+      "emergencias",
+      "scanner-radio",
+      "audio"
+    ],
+    "synonyms": [
+      "broadcastify police radio",
+      "scanner policia online"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Mayor concentración de emisiones en Norteamérica; feeds sujetos a disponibilidad del operador local"
+    ],
+    "useCases": [
+      "Seguir en directo la respuesta de las fuerzas de seguridad durante tiroteos, protestas o catástrofes naturales",
+      "Analizar grabaciones de audio de incidentes pasados"
+    ],
+    "instructions": "Busca por estado, provincia o tipo de servicio en el menú 'Listen' para reproducir el streaming de audio en vivo.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "openmhz",
+    "name": "OpenMHz",
+    "slug": "openmhz",
+    "description": "Monitor y grabador de sistemas de radio troncalizados (P25) de seguridad pública segmentado por grupos.",
+    "longDescription": "Proyecto que graba y archiva automáticamente las transmisiones de audio de sistemas de radiocomunicaciones digitales troncalizadas (P25, SmartZone) mediante software Trunk-Recorder. Permite escuchar llamadas individuales ordenadas cronológicamente y filtradas por 'talkgroups' (canales tácticos, patrullas, tráfico).",
+    "url": "https://openmhz.com/",
+    "categories": [
+      "sigint"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "location"
+    ],
+    "subcategories": [
+      "p25",
+      "radio-digital",
+      "trunked-radio"
+    ],
+    "tags": [
+      "openmhz",
+      "trunk-recorder",
+      "p25",
+      "policia",
+      "radios-digitales"
+    ],
+    "synonyms": [
+      "open mhz",
+      "openmhz scanner"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Disponible en ciudades y condados donde voluntarios han instalado nodos SDR dedicados"
+    ],
+    "useCases": [
+      "Auditar las órdenes operativas dadas durante una persecución o despliegue de seguridad pública",
+      "Descargar los audios exactos de una intervención policial"
+    ],
+    "instructions": "Elige un sistema en el listado de ciudades, filtra por los talkgroups de interés y reproduce las piezas de audio en la línea de tiempo.",
     "lastReviewed": "2026-11-24",
     "status": "active"
   }

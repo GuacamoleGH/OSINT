@@ -6,23 +6,54 @@
     "description": "Portal oficial de la Unión Europea y la ESA para visualización y descarga de imágenes satelitales Sentinel.",
     "longDescription": "La infraestructura oficial de observación de la Tierra de la Unión Europea (ESA/Comisión Europea). Ofrece acceso gratuito a las constelaciones Sentinel-1 (radar SAR), Sentinel-2 (óptico multiespectral de 10m de resolución con revisita de 5 días), Sentinel-3 y Sentinel-5P, con scripts de visualización de vegetación (NDVI), índices de agua y detección de incendios.",
     "url": "https://browser.dataspace.copernicus.eu/",
-    "categories": ["satellite", "geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["sentinel", "ue", "teledeteccion"],
-    "tags": ["copernicus", "sentinel", "esa", "ue", "satelite", "radar", "multiespectral"],
-    "synonyms": ["sentinel hub copernicus", "satelite europa", "imagenes sentinel"],
+    "categories": [
+      "satellite",
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "sentinel",
+      "ue",
+      "teledeteccion"
+    ],
+    "tags": [
+      "copernicus",
+      "sentinel",
+      "esa",
+      "ue",
+      "satelite",
+      "radar",
+      "multiespectral"
+    ],
+    "synonyms": [
+      "sentinel hub copernicus",
+      "satelite europa",
+      "imagenes sentinel"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["europe", "global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "europe",
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Visualización abierta gratuita; la descarga masiva de productos procesados en bruto requiere registro gratuito"],
-    "useCases": ["Comprobar si una construcción o deforestación ocurrió en una semana concreta", "Detectar barcos mediante radar SAR atravesando nubes"],
+    "limitations": [
+      "Visualización abierta gratuita; la descarga masiva de productos procesados en bruto requiere registro gratuito"
+    ],
+    "useCases": [
+      "Comprobar si una construcción o deforestación ocurrió en una semana concreta",
+      "Detectar barcos mediante radar SAR atravesando nubes"
+    ],
     "instructions": "Busca la región, selecciona la fecha deseada en el calendario y activa la capa 'True Color' o 'False Color (urban)'.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -34,23 +65,49 @@
     "description": "Potente visor interactivo de misiones satelitales (Sentinel, Landsat, MODIS) con comparador de cambios temporales.",
     "longDescription": "Herramienta analítica de teledetección que permite comparar dos imágenes tomadas en fechas distintas mediante cortinilla deslizante (split screen) o timelapses animados, facilitando la identificación de cambios sobre el terreno.",
     "url": "https://apps.sentinel-hub.com/eo-browser/",
-    "categories": ["satellite"],
-    "investigateBy": ["location"],
-    "subcategories": ["comparativa-temporal", "timelapse"],
-    "tags": ["eo-browser", "sentinel-hub", "satelite", "timelapse", "cambios"],
-    "synonyms": ["eo browser", "comparar satelite temporal"],
+    "categories": [
+      "satellite"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "comparativa-temporal",
+      "timelapse"
+    ],
+    "tags": [
+      "eo-browser",
+      "sentinel-hub",
+      "satelite",
+      "timelapse",
+      "cambios"
+    ],
+    "synonyms": [
+      "eo browser",
+      "comparar satelite temporal"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Uso web gratuito; cuentas comerciales para llamadas API a gran escala"],
-    "useCases": ["Comparar el estado de un embalse en España antes y después de una sequía o temporal", "Visualizar penachos de humo y vertidos"],
+    "limitations": [
+      "Uso web gratuito; cuentas comerciales para llamadas API a gran escala"
+    ],
+    "useCases": [
+      "Comparar el estado de un embalse en España antes y después de una sequía o temporal",
+      "Visualizar penachos de humo y vertidos"
+    ],
     "instructions": "Selecciona 'Compare' en el menú lateral para fijar dos fechas y arrastra el divisor interactivo.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -62,23 +119,49 @@
     "description": "Visualización diaria de la Tierra en tiempo casi real a través de los satélites Terra, Aqua y Suomi NPP.",
     "longDescription": "Aplicación de la NASA que ofrece más de mil capas de datos satelitales actualizadas diariamente (a menudo disponibles a las pocas horas de la pasada orbital): cobertura de nubes, polvo del Sahara, hielo marino e incendios.",
     "url": "https://worldview.earthdata.nasa.gov/",
-    "categories": ["satellite", "chronolocation"],
-    "investigateBy": ["location"],
-    "subcategories": ["nasa", "tiempo-casi-real"],
-    "tags": ["nasa", "worldview", "tiempo-real", "clima", "humo", "polvo"],
-    "synonyms": ["satelite nasa", "tierra hoy nasa"],
+    "categories": [
+      "satellite",
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "nasa",
+      "tiempo-casi-real"
+    ],
+    "tags": [
+      "nasa",
+      "worldview",
+      "tiempo-real",
+      "clima",
+      "humo",
+      "polvo"
+    ],
+    "synonyms": [
+      "satelite nasa",
+      "tierra hoy nasa"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Resolución espacial moderada (250m/pixel), pensada para fenómenos meteorológicos y paisajísticos de gran escala"],
-    "useCases": ["Verificar si en un día concreto de los últimos 20 años el cielo estaba despejado o cubierto de nubes sobre una localidad"],
+    "limitations": [
+      "Resolución espacial moderada (250m/pixel), pensada para fenómenos meteorológicos y paisajísticos de gran escala"
+    ],
+    "useCases": [
+      "Verificar si en un día concreto de los últimos 20 años el cielo estaba despejado o cubierto de nubes sobre una localidad"
+    ],
     "instructions": "Usa el deslizador temporal inferior para retroceder días, meses o años y visualizar la captura de satélite de ese día.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -90,23 +173,51 @@
     "description": "Detección térmica satelital de anomalías de calor e incendios forestales en tiempo casi real mediante MODIS y VIIRS.",
     "longDescription": "Sistema de alerta y monitorización térmica de la NASA que procesa datos de sensores infrarrojos espaciales para detectar puntos calientes (incendios, explosiones y emisiones industriales de alta temperatura) en menos de 3 horas desde la observación.",
     "url": "https://firms.modaps.eosdis.nasa.gov/",
-    "categories": ["satellite"],
-    "investigateBy": ["location"],
-    "subcategories": ["termico", "incendios", "anomalias"],
-    "tags": ["firms", "incendios", "termico", "infrarrojo", "nasa", "puntos-calientes"],
-    "synonyms": ["mapa incendios satelite", "focos calor nasa"],
+    "categories": [
+      "satellite"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "termico",
+      "incendios",
+      "anomalias"
+    ],
+    "tags": [
+      "firms",
+      "incendios",
+      "termico",
+      "infrarrojo",
+      "nasa",
+      "puntos-calientes"
+    ],
+    "synonyms": [
+      "mapa incendios satelite",
+      "focos calor nasa"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Puede generar reflejos especulares de tejados solares como falsas anomalías térmicas menores"],
-    "useCases": ["Monitorear el avance del frente de un incendio forestal en verano en España o Europa", "Identificar detonaciones o fuegos industriales"],
+    "limitations": [
+      "Puede generar reflejos especulares de tejados solares como falsas anomalías térmicas menores"
+    ],
+    "useCases": [
+      "Monitorear el avance del frente de un incendio forestal en verano en España o Europa",
+      "Identificar detonaciones o fuegos industriales"
+    ],
     "instructions": "Abre el visor interactivo de mapa, ajusta la ventana temporal a las últimas 24 o 48 horas y revisa los puntos de calor del sensor VIIRS.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -118,25 +229,165 @@
     "description": "Catálogo abierto y colaborativo de ortofotografías aéreas de ultra alta resolución capturadas con drones.",
     "longDescription": "Repositorio abierto donde organizaciones humanitarias, universidades y pilotos de drones comparten ortomosaicos georreferenciados de zonas de catástrofes, inundaciones o áreas urbanas con resolución de centímetros por píxel.",
     "url": "https://openaerialmap.org/",
-    "categories": ["satellite", "geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["drones", "ortomosaicos", "humanitario"],
-    "tags": ["dron", "ortofoto", "alta-resolucion", "humanitario", "uav"],
-    "synonyms": ["mapas dron", "fotos aereas drones"],
+    "categories": [
+      "satellite",
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "drones",
+      "ortomosaicos",
+      "humanitario"
+    ],
+    "tags": [
+      "dron",
+      "ortofoto",
+      "alta-resolucion",
+      "humanitario",
+      "uav"
+    ],
+    "synonyms": [
+      "mapas dron",
+      "fotos aereas drones"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["La cobertura es puntual según vuelos subidos por voluntarios y organizaciones"],
-    "useCases": ["Examinar el impacto de una riada o daño estructural con un nivel de detalle inalcanzable por satélites civiles"],
+    "limitations": [
+      "La cobertura es puntual según vuelos subidos por voluntarios y organizaciones"
+    ],
+    "useCases": [
+      "Examinar el impacto de una riada o daño estructural con un nivel de detalle inalcanzable por satélites civiles"
+    ],
     "instructions": "Explora el mapa mundial y haz clic en los polígonos coloreados para inspeccionar el ortomosaico de vuelo.",
     "lastReviewed": "2026-11-23",
+    "status": "active"
+  },
+  {
+    "id": "usgs-earthexplorer",
+    "name": "USGS EarthExplorer",
+    "slug": "usgs-earthexplorer",
+    "description": "Repositorio del Servicio Geológico de EE.UU. con catálogo masivo de Landsat, DEMs e inteligencia desclasificada.",
+    "longDescription": "Uno de los catálogos de teledetección más extensos del planeta gestionado por el U.S. Geological Survey. Proporciona acceso a misiones Landsat completas (desde Landsat 1 en 1972 hasta Landsat 9), Modelos Digitales de Elevación (SRTM), fotografías aéreas históricas y satélites espía desclasificados (CORONA, ARGON, LANYARD).",
+    "url": "https://earthexplorer.usgs.gov/",
+    "categories": [
+      "satellite",
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "landsat",
+      "desclasificado",
+      "usgs",
+      "dem"
+    ],
+    "tags": [
+      "usgs",
+      "earthexplorer",
+      "landsat",
+      "desclasificado",
+      "corona",
+      "elevacion"
+    ],
+    "synonyms": [
+      "earth explorer usgs",
+      "catalogo landsat usgs"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "advanced",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere cuenta de usuario gratuita (EROS Registration System) para la descarga de escenas"
+    ],
+    "useCases": [
+      "Descargar escenas históricas de satélites espía de los años 60 y 70 para estudiar bases militares",
+      "Obtener datos multiespectrales calibrados de Landsat"
+    ],
+    "instructions": "Define el área en 'Search Criteria', selecciona los datasets en la pestaña 'Data Sets' (ej. Landsat, Declassified Data) y consulta los resultados.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "maxar-open-data",
+    "name": "Maxar Open Data Program",
+    "slug": "maxar-open-data",
+    "description": "Imágenes satelitales ópticas de ultra-alta resolución liberadas durante emergencias y crisis humanitarias.",
+    "longDescription": "Programa de datos abiertos de Maxar Technologies que publica mosaicos de imágenes satelitales de alta resolución (30cm/pixel) tomadas por WorldView y GeoEye antes y después de grandes desastres naturales, terremotos, inundaciones y crisis geopolíticas.",
+    "url": "https://www.maxar.com/open-data",
+    "categories": [
+      "satellite",
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "alta-resolucion",
+      "emergencias",
+      "maxar"
+    ],
+    "tags": [
+      "maxar",
+      "open-data",
+      "worldview",
+      "alta-resolucion",
+      "desastres",
+      "satelite"
+    ],
+    "synonyms": [
+      "maxar open data",
+      "imagenes satelite maxar gratis"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Las imágenes de alta resolución solo se liberan para zonas y eventos catastróficos específicos cubiertos por el programa"
+    ],
+    "useCases": [
+      "Evaluar el impacto de un terremoto, rotura de presas o conflicto bélico sobre infraestructuras civiles",
+      "Comparar imágenes antes y después de una catástrofe"
+    ],
+    "instructions": "Selecciona el evento en la lista de eventos activos y descarga las teselas GeoTIFF o consúltalas en los visores asociados.",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   }
 ]

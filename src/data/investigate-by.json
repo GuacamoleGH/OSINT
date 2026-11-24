@@ -223,5 +223,43 @@
       "Combina la dirección de las sombras con SunCalc para deducir orientación o franja horaria."
     ],
     "order": 12
+  },
+  {
+    "id": "fraud-scams",
+    "name": "Fraudes y Estafas",
+    "shortDescription": "Chiringuitos financieros, phishing, fraudes cripto y productos peligrosos.",
+    "description": "Alertas públicas de la CNMV, INCIBE-CERT, PhishTank, Chainabuse, Safety Gate de la UE y exploradores de blockchain para auditar entidades no autorizadas, estafas y transacciones fraudulentas.",
+    "icon": "AlertTriangle",
+    "platforms": [
+      "CNMV Alertas",
+      "INCIBE-CERT",
+      "Chainabuse",
+      "Safety Gate UE",
+      "PhishTank",
+      "Etherscan",
+      "Blockchair"
+    ],
+    "tips": [
+      "Comprueba en la CNMV si la entidad financiera dispone de autorización legal antes de operar.",
+      "Usa Chainabuse y exploradores blockchain para rastrear direcciones asociadas a esquemas de estafa."
+    ],
+    "order": 13
+  },
+  {
+    "id": "classifieds",
+    "name": "Anuncios y Clasificados",
+    "shortDescription": "Segunda mano, inmuebles, vehículos y perfiles de venta.",
+    "description": "Portales de anuncios clasificados y compraventa en España (Wallapop, Milanuncios, Idealista) para investigación de bienes, números de contacto, historiales de venta y anuncios inmobiliarios.",
+    "icon": "ShoppingBag",
+    "platforms": [
+      "Wallapop",
+      "Milanuncios",
+      "Idealista"
+    ],
+    "tips": [
+      "Busca números de teléfono, correos o nombres de usuario entre las descripciones de los anuncios.",
+      "Compara precios, fechas de publicación y fotografías para verificar la autenticidad de inmuebles o vehículos."
+    ],
+    "order": 14
   }
 ]

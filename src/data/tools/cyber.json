@@ -6,24 +6,54 @@
     "description": "Análisis multivirus de archivos, URLs, dominios e IPs con más de 70 motores antivirus y feeds de amenazas.",
     "longDescription": "Servicio de referencia fundado en España (Málaga) y adquirido por Google. Permite analizar muestras de malware, hashes SHA256, direcciones IP y nombres de dominio para verificar su reputación histórica, firmas de detección y resoluciones pasivas de DNS.",
     "url": "https://www.virustotal.com/",
-    "categories": ["cyber", "webint"],
-    "investigateBy": ["domain-ip"],
-    "subcategories": ["reputacion", "malware", "dns-pasivo"],
-    "tags": ["virustotal", "malware", "antivirus", "ip", "dominio", "espana"],
-    "synonyms": ["virustotal", "analizar ip virus", "reputacion dominio"],
+    "categories": [
+      "cyber",
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "reputacion",
+      "malware",
+      "dns-pasivo"
+    ],
+    "tags": [
+      "virustotal",
+      "malware",
+      "antivirus",
+      "ip",
+      "dominio",
+      "espana"
+    ],
+    "synonyms": [
+      "virustotal",
+      "analizar ip virus",
+      "reputacion dominio"
+    ],
     "type": "web",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Búsqueda web e inspección API pública gratis hasta 500 req/día; planes Enterprise para empresas)",
     "access": "public",
-    "geographicScope": ["global", "spain"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global",
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Cualquier archivo o URL analizado públicamente pasa a formar parte de la base de datos compartida con investigadores de seguridad"],
-    "useCases": ["Comprobar el historial de resoluciones IP de un dominio y si ha distribuido malware"],
+    "limitations": [
+      "Cualquier archivo o URL analizado públicamente pasa a formar parte de la base de datos compartida con investigadores de seguridad"
+    ],
+    "useCases": [
+      "Comprobar el historial de resoluciones IP de un dominio y si ha distribuido malware"
+    ],
     "instructions": "Introduce la IP o dominio en la pestaña 'URL' o 'Search' y revisa la pestaña 'Relations' para ver el historial pasivo.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -35,24 +65,52 @@
     "description": "Motor de búsqueda de dispositivos e infraestructura conectada a Internet (servidores, cámaras, SCADA e IoT).",
     "longDescription": "Escanea pasivamente todo el espacio de direcciones IPv4 recopilando los banners de respuesta de los puertos abiertos. Permite buscar servidores por cabeceras HTTP, certificados SSL, tecnologías industriales o país.",
     "url": "https://www.shodan.io/",
-    "categories": ["cyber"],
-    "investigateBy": ["domain-ip"],
-    "subcategories": ["escaneo-pasivo", "iot", "infraestructura"],
-    "tags": ["shodan", "iot", "puertos", "banners", "servidores", "ciberseguridad"],
-    "synonyms": ["buscador servidores shodan", "puertos abiertos ip"],
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "escaneo-pasivo",
+      "iot",
+      "infraestructura"
+    ],
+    "tags": [
+      "shodan",
+      "iot",
+      "puertos",
+      "banners",
+      "servidores",
+      "ciberseguridad"
+    ],
+    "synonyms": [
+      "buscador servidores shodan",
+      "puertos abiertos ip"
+    ],
     "type": "web",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Búsqueda básica gratis con cuenta; Membresía académica/one-time de por vida por 49$ o planes Pro desde ~59$/mes)",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "cli", "api"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "cli",
+      "api"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": true,
     "apiKeyRequired": false,
-    "limitations": ["Requiere cuenta gratuita para ver más de dos resultados y aplicar filtros avanzados (country:, port:); cuenta académica/paga para consultas masivas"],
-    "useCases": ["Identificar qué servicios y versiones de software tiene expuestos públicamente una dirección IP fija"],
+    "limitations": [
+      "Requiere cuenta gratuita para ver más de dos resultados y aplicar filtros avanzados (country:, port:); cuenta académica/paga para consultas masivas"
+    ],
+    "useCases": [
+      "Identificar qué servicios y versiones de software tiene expuestos públicamente una dirección IP fija"
+    ],
     "instructions": "Crea una cuenta gratuita e introduce la IP directamente en el buscador o usa filtros (ej. 'country:ES port:80').",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -64,24 +122,49 @@
     "description": "Buscador de hosts y certificados digitales en Internet con indexación continua del protocolo HTTPS.",
     "longDescription": "Plataforma de inteligencia de superficie de ataque que analiza continuamente los hosts conectados y posee una de las bases de datos más completas de certificados X.509 públicos.",
     "url": "https://search.censys.io/",
-    "categories": ["cyber"],
-    "investigateBy": ["domain-ip"],
-    "subcategories": ["hosts", "certificados", "superficie-ataque"],
-    "tags": ["censys", "certificados", "hosts", "ciberinteligencia"],
-    "synonyms": ["censys search", "buscar host ip"],
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "hosts",
+      "certificados",
+      "superficie-ataque"
+    ],
+    "tags": [
+      "censys",
+      "certificados",
+      "hosts",
+      "ciberinteligencia"
+    ],
+    "synonyms": [
+      "censys search",
+      "buscar host ip"
+    ],
     "type": "web",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Cuenta Community gratuita con 250 consultas/mes; planes de pago Starter desde ~99$/mes)",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": true,
     "apiKeyRequired": false,
-    "limitations": ["Requiere registro gratuito con cuota mensual limitada de consultas"],
-    "useCases": ["Encontrar la dirección IP real de un servidor web protegido detrás de un proxy inverso mediante la coincidencia del hash de su certificado SSL"],
+    "limitations": [
+      "Requiere registro gratuito con cuota mensual limitada de consultas"
+    ],
+    "useCases": [
+      "Encontrar la dirección IP real de un servidor web protegido detrás de un proxy inverso mediante la coincidencia del hash de su certificado SSL"
+    ],
     "instructions": "Regístrate con tu correo y busca por IP, nombre de host o nombre de la organización del certificado.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -93,23 +176,55 @@
     "description": "Portal oficial del Registro Regional de Internet para Europa (RIPE NCC) con datos de bloques IP, ASN y enrutamiento BGP.",
     "longDescription": "Herramienta oficial esencial en Europa para auditar la asignación de direcciones IP, sistemas autónomos (ASN), historial de delegación geográfica y rutas BGP operadas por proveedores europeos.",
     "url": "https://stat.ripe.net/",
-    "categories": ["cyber", "public-records"],
-    "investigateBy": ["domain-ip"],
-    "subcategories": ["ripe-ncc", "europa", "asn", "enrutamiento"],
-    "tags": ["ripe", "ripestat", "europa", "asn", "ip", "bgp", "whois-ip"],
-    "synonyms": ["ripe ncc", "whois ip europa", "sistema autonomo asn"],
+    "categories": [
+      "cyber",
+      "public-records"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "ripe-ncc",
+      "europa",
+      "asn",
+      "enrutamiento"
+    ],
+    "tags": [
+      "ripe",
+      "ripestat",
+      "europa",
+      "asn",
+      "ip",
+      "bgp",
+      "whois-ip"
+    ],
+    "synonyms": [
+      "ripe ncc",
+      "whois ip europa",
+      "sistema autonomo asn"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["europe", "global"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "europe",
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Datos técnicos de telecomunicaciones y redes; registro primario para Europa y Oriente Medio"],
-    "useCases": ["Verificar qué operador de telecomunicaciones o empresa española es la titular oficial de un rango IP asignado"],
+    "limitations": [
+      "Datos técnicos de telecomunicaciones y redes; registro primario para Europa y Oriente Medio"
+    ],
+    "useCases": [
+      "Verificar qué operador de telecomunicaciones o empresa española es la titular oficial de un rango IP asignado"
+    ],
     "instructions": "Escribe la IP o el número de ASN (ej. AS3352 para Telefónica de España) para ver widgets de titularidad y vecinos BGP.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -121,23 +236,50 @@
     "description": "Visualizador de datos de Sistemas Autónomos (ASN), prefijos de red, peers y operadores de Internet.",
     "longDescription": "Proporciona una interfaz visual intuitiva para explorar cualquier Sistema Autónomo (ASN), ver a qué ISP pertenece, qué prefijos IPv4 e IPv6 anuncia y qué proveedores de tránsito (upstream/peers) utiliza para conectarse a Internet.",
     "url": "https://bgpview.io/",
-    "categories": ["cyber"],
-    "investigateBy": ["domain-ip"],
-    "subcategories": ["bgp", "asn", "operadores"],
-    "tags": ["bgp", "asn", "bgpview", "enrutamiento", "prefijos", "operadores"],
-    "synonyms": ["bgp view", "quien es el isp asn"],
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "bgp",
+      "asn",
+      "operadores"
+    ],
+    "tags": [
+      "bgp",
+      "asn",
+      "bgpview",
+      "enrutamiento",
+      "prefijos",
+      "operadores"
+    ],
+    "synonyms": [
+      "bgp view",
+      "quien es el isp asn"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Consulta de datos de enrutamiento globales sin coste"],
-    "useCases": ["Conocer la infraestructura troncal de telecomunicaciones de una gran corporación o proveedor de hosting"],
+    "limitations": [
+      "Consulta de datos de enrutamiento globales sin coste"
+    ],
+    "useCases": [
+      "Conocer la infraestructura troncal de telecomunicaciones de una gran corporación o proveedor de hosting"
+    ],
     "instructions": "Introduce el ASN (ej. AS5001) o la dirección IP para explorar sus gráficos de interconexión.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -149,24 +291,51 @@
     "description": "Base de datos colaborativa de reputación y denuncias de direcciones IP involucradas en ataques y escaneos.",
     "longDescription": "Plataforma centralizada donde administradores de sistemas y centros de operaciones de seguridad (SOC) reportan IPs activas en ataques de fuerza bruta, escaneo de puertos, spam y exploits.",
     "url": "https://www.abuseipdb.com/",
-    "categories": ["cyber"],
-    "investigateBy": ["domain-ip"],
-    "subcategories": ["reputacion-ip", "ataques", "denuncias"],
-    "tags": ["abuseipdb", "reputacion", "fuerza-bruta", "ataques", "blacklist"],
-    "synonyms": ["comprobar ip maliciosa", "denunciar ip", "score abuso ip"],
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "reputacion-ip",
+      "ataques",
+      "denuncias"
+    ],
+    "tags": [
+      "abuseipdb",
+      "reputacion",
+      "fuerza-bruta",
+      "ataques",
+      "blacklist"
+    ],
+    "synonyms": [
+      "comprobar ip maliciosa",
+      "denunciar ip",
+      "score abuso ip"
+    ],
     "type": "web",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Comprobaciones web y 1.000 consultas API/día gratis; planes Pro para empresas desde ~20$/mes)",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Consultas web gratuitas sin registro; la API de comprobación rápida requiere cuenta con límite diario"],
-    "useCases": ["Verificar si una dirección IP sospechosa que interactuó con un servidor cuenta con historial previo de abusos"],
+    "limitations": [
+      "Consultas web gratuitas sin registro; la API de comprobación rápida requiere cuenta con límite diario"
+    ],
+    "useCases": [
+      "Verificar si una dirección IP sospechosa que interactuó con un servidor cuenta con historial previo de abusos"
+    ],
     "instructions": "Introduce la IP en la barra superior para ver el 'Abuse Confidence Score' y los comentarios de incidentes reportados.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -178,23 +347,50 @@
     "description": "Observatorio global de tendencias de tráfico en Internet, cortes de red, ataques DDoS y protocolos.",
     "longDescription": "Aprovechando la red global de Cloudflare (que procesa una porción masiva del tráfico web mundial), Radar ofrece estadísticas públicas agregadas sobre caídas de servicio por país, adopción de IPv6 y tipos de amenazas.",
     "url": "https://radar.cloudflare.com/",
-    "categories": ["cyber"],
-    "investigateBy": ["domain-ip"],
-    "subcategories": ["observatorio-global", "tendencias", "ddos"],
-    "tags": ["cloudflare", "radar", "trafico-global", "cortes-internet", "estadisticas"],
-    "synonyms": ["radar internet", "caidas de internet paises"],
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "observatorio-global",
+      "tendencias",
+      "ddos"
+    ],
+    "tags": [
+      "cloudflare",
+      "radar",
+      "trafico-global",
+      "cortes-internet",
+      "estadisticas"
+    ],
+    "synonyms": [
+      "radar internet",
+      "caidas de internet paises"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "spain", "europe"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global",
+      "spain",
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Datos agregados a nivel macro; no permite el perfilado de usuarios particulares"],
-    "useCases": ["Confirmar si una interrupción de un servicio web se debe a una caída masiva de conectividad en una región o país"],
+    "limitations": [
+      "Datos agregados a nivel macro; no permite el perfilado de usuarios particulares"
+    ],
+    "useCases": [
+      "Confirmar si una interrupción de un servicio web se debe a una caída masiva de conectividad en una región o país"
+    ],
     "instructions": "Accede a la pestaña 'Outages' para ver cortes de red recientes o filtra por España en el selector geográfico.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -206,23 +402,49 @@
     "description": "Una de las mayores redes comerciales de detección de amenazas e inteligencia de reputación de IP y correo.",
     "longDescription": "Ofrece un buscador público para comprobar la reputación de direcciones IP y nombres de dominio en los sistemas de filtrado de Cisco (Talos), clasificando el nivel de riesgo en Good, Neutral o Poor.",
     "url": "https://talosintelligence.com/",
-    "categories": ["cyber"],
-    "investigateBy": ["domain-ip", "email"],
-    "subcategories": ["reputacion", "antispam", "cisco"],
-    "tags": ["talos", "cisco", "reputacion-ip", "amenazas", "spam"],
-    "synonyms": ["talos reputacion", "cisco talos ip"],
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "email"
+    ],
+    "subcategories": [
+      "reputacion",
+      "antispam",
+      "cisco"
+    ],
+    "tags": [
+      "talos",
+      "cisco",
+      "reputacion-ip",
+      "amenazas",
+      "spam"
+    ],
+    "synonyms": [
+      "talos reputacion",
+      "cisco talos ip"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Consulta individual de reputación gratuita; telemetría completa para clientes empresariales"],
-    "useCases": ["Verificar si un servidor de correo saliente está catalogado como emisor de correo basura"],
+    "limitations": [
+      "Consulta individual de reputación gratuita; telemetría completa para clientes empresariales"
+    ],
+    "useCases": [
+      "Verificar si un servidor de correo saliente está catalogado como emisor de correo basura"
+    ],
     "instructions": "Introduce la IP o dominio en la casilla 'Reputation Lookup' de la página principal.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -234,23 +456,52 @@
     "description": "Servicio de referencia fundado por Troy Hunt para comprobar si un correo o cuenta ha aparecido en brechas de datos públicas.",
     "longDescription": "Base de datos que indexa miles de millones de cuentas comprometidas en filtraciones públicas de seguridad corporativa. Permite verificar de forma autorizada y ética si una dirección de correo o teléfono propio estuvo expuesto en brechas conocidas (Adobe, LinkedIn, Canva, etc.).",
     "url": "https://haveibeenpwned.com/",
-    "categories": ["cyber"],
-    "investigateBy": ["email", "phone"],
-    "subcategories": ["brechas", "filtraciones", "seguridad-cuentas"],
-    "tags": ["hibp", "pwned", "brechas", "seguridad", "correo", "filtraciones"],
-    "synonyms": ["have i been pwned", "comprobar filtracion correo", "brechas de seguridad"],
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "email",
+      "phone"
+    ],
+    "subcategories": [
+      "brechas",
+      "filtraciones",
+      "seguridad-cuentas"
+    ],
+    "tags": [
+      "hibp",
+      "pwned",
+      "brechas",
+      "seguridad",
+      "correo",
+      "filtraciones"
+    ],
+    "synonyms": [
+      "have i been pwned",
+      "comprobar filtracion correo",
+      "brechas de seguridad"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["No revela contraseñas en texto claro de terceros; solo informa de la fecha y nombre del servicio comprometido"],
-    "useCases": ["Auditar la exposición histórica de direcciones de correo corporativas"],
+    "limitations": [
+      "No revela contraseñas en texto claro de terceros; solo informa de la fecha y nombre del servicio comprometido"
+    ],
+    "useCases": [
+      "Auditar la exposición histórica de direcciones de correo corporativas"
+    ],
     "instructions": "Escribe la dirección de correo y revisa el listado de brechas históricas en las que figura.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -262,25 +513,1319 @@
     "description": "Evaluación de reputación, actividad en redes, credenciales expuestas y antigüedad de direcciones de email.",
     "longDescription": "API y portal de inteligencia sobre correos electrónicos que analiza más de cientos de factores para calcular la confiabilidad de un email: fecha del primer avistamiento en la red, perfiles sociales detectados, dominio desechable y presencia en listas de spam.",
     "url": "https://emailrep.io/",
-    "categories": ["cyber"],
-    "investigateBy": ["email"],
-    "subcategories": ["reputacion-email", "antifraude", "antiguedad"],
-    "tags": ["emailrep", "reputacion", "email", "antifraude", "spam"],
-    "synonyms": ["reputacion email", "email reputation", "emailrep"],
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "email"
+    ],
+    "subcategories": [
+      "reputacion-email",
+      "antifraude",
+      "antiguedad"
+    ],
+    "tags": [
+      "emailrep",
+      "reputacion",
+      "email",
+      "antifraude",
+      "spam"
+    ],
+    "synonyms": [
+      "reputacion email",
+      "email reputation",
+      "emailrep"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Consulta web gratuita; API con cuota de peticiones diarias"],
-    "useCases": ["Verificar si una cuenta de correo es de reciente creación para actividades sospechosas"],
+    "limitations": [
+      "Consulta web gratuita; API con cuota de peticiones diarias"
+    ],
+    "useCases": [
+      "Verificar si una cuenta de correo es de reciente creación para actividades sospechosas"
+    ],
     "instructions": "Introduce la dirección en el buscador para ver el badge de reputación y las banderas (flags) detectadas.",
     "lastReviewed": "2026-11-23",
+    "status": "active"
+  },
+  {
+    "id": "abuse-ch",
+    "name": "abuse.ch",
+    "slug": "abuse-ch",
+    "description": "Plataforma comunitaria de ciberinteligencia que engloba URLhaus, ThreatFox, MalwareBazaar y YARAify.",
+    "longDescription": "Proyecto de investigación sin ánimo de lucro de la Universidad de Ciencias Aplicadas de Berna. Es uno de los mayores proveedores abiertos de indicadores de compromiso (IoCs) del mundo: URLhaus (malware URLs), ThreatFox (C2 e IoCs), MalwareBazaar (muestras de binarios maliciosos), YARAify y SSL Blacklist.",
+    "url": "https://abuse.ch/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "iocs",
+      "malware",
+      "threat-intelligence",
+      "c2"
+    ],
+    "tags": [
+      "abuse-ch",
+      "threatfox",
+      "urlhaus",
+      "malwarebazaar",
+      "iocs",
+      "ciberinteligencia"
+    ],
+    "synonyms": [
+      "abuse ch",
+      "urlhaus",
+      "threatfox"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado en malware y cibercrimen activo; no es un escáner antivirus general"
+    ],
+    "useCases": [
+      "Verificar si una dirección IP o dominio está catalogada como servidor de mando y control (C2)",
+      "Descargar hashes y muestras de troyanos bancarios"
+    ],
+    "instructions": "Navega a ThreatFox o URLhaus e introduce la IP, hash o dominio en el buscador de IoCs.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "alienvault-otx",
+    "name": "AlienVault OTX (Open Threat Exchange)",
+    "slug": "alienvault-otx",
+    "description": "Comunidad abierta de intercambio de inteligencia de amenazas con millones de IoCs en pulsos colaborativos.",
+    "longDescription": "Plataforma global de inteligencia de amenazas desarrollada por AT&T Cybersecurity. Investigadores y empresas comparten 'pulsos' con indicadores de compromiso (IoCs) sobre campañas de ransomware, actores APT, hashes, IPs atacantes y dominios maliciosos.",
+    "url": "https://otx.alienvault.com/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "threat-intelligence",
+      "iocs",
+      "apt"
+    ],
+    "tags": [
+      "otx",
+      "alienvault",
+      "threat-intelligence",
+      "iocs",
+      "apt",
+      "ciberseguridad"
+    ],
+    "synonyms": [
+      "alienvault otx",
+      "open threat exchange"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La consulta web es pública; suscribirse a pulsos automáticos o descargar feeds requiere cuenta gratuita"
+    ],
+    "useCases": [
+      "Revisar a qué campaña o grupo de ciberespionaje está vinculada una IP sospechosa",
+      "Extraer reglas YARA y listas de IoCs asociadas a un exploit"
+    ],
+    "instructions": "Escribe una IP, dominio o hash en el buscador superior para ver en qué pulsos de investigación aparece citado.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "greynoise",
+    "name": "GreyNoise",
+    "slug": "greynoise",
+    "description": "Motor de inteligencia que analiza el ruido de fondo de Internet para distinguir escáneres benignos de ataques reales.",
+    "longDescription": "Sistema de sensores distribuidos globalmente que monitoriza el tráfico de escaneo oportunista en toda la IPv4. Clasifica las IPs en 'benign' (escáneres legítimos como Shodan, Censys, antivirus o universidades) y 'malicious' (gusanos, botnets, intentos de explotación activa de vulnerabilidades).",
+    "url": "https://www.greynoise.io/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "ruido-internet",
+      "escaners",
+      "threat-intelligence"
+    ],
+    "tags": [
+      "greynoise",
+      "escaners",
+      "ruido-ip",
+      "botnet",
+      "vulnerabilidades"
+    ],
+    "synonyms": [
+      "grey noise",
+      "greynoise ip lookup"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api",
+      "cli"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Visualizador web básico gratuito; consultas complejas en GreyNoise Visualizer requieren cuenta"
+    ],
+    "useCases": [
+      "Saber si una IP que atacó tu servidor está escaneando a ciegas a todo Internet o es un ataque dirigido",
+      "Filtrar falsas alarmas provocadas por rastreadores conocidos"
+    ],
+    "instructions": "Introduce la IP en el buscador de GreyNoise para consultar su clasificación, etiquetas de comportamiento y puertos objetivo.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "zoomeye",
+    "name": "ZoomEye",
+    "slug": "zoomeye",
+    "description": "Motor de búsqueda del ciberespacio que cataloga dispositivos, puertos abiertos, servicios y tecnologías web.",
+    "longDescription": "Desarrollado por el equipo Knownsec, es uno de los principales motores de búsqueda de superficie de ataque junto a Shodan y Censys. Permite buscar dispositivos IoT, cámaras, servidores web, routers y aplicaciones industriales utilizando componentes tecnológicos (component), puertos, sistemas operativos y geolocalización.",
+    "url": "https://www.zoomeye.org/",
+    "categories": [
+      "cyber",
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "escaner-ciberespacio",
+      "puertos",
+      "iot"
+    ],
+    "tags": [
+      "zoomeye",
+      "ciberespacio",
+      "shodan-alternative",
+      "puertos",
+      "iot",
+      "servicios"
+    ],
+    "synonyms": [
+      "zoom eye",
+      "shodan chino",
+      "buscador puertos zoomeye"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "advanced",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere registro gratuito para ejecutar búsquedas con filtros avanzados y ver resultados completos"
+    ],
+    "useCases": [
+      "Localizar servicios expuestos sin autenticación en un rango de IPs de un país u operador",
+      "Auditar la exposición de dispositivos industriales o cámaras"
+    ],
+    "instructions": "Utiliza operadores como 'app:nginx', 'port:22', 'country:ES' en la barra de búsqueda para filtrar la infraestructura.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "leakix",
+    "name": "LeakIX",
+    "slug": "leakix",
+    "description": "Motor de búsqueda de servicios web mal configurados, bases de datos expuestas y filtraciones de información.",
+    "longDescription": "Plataforma de inteligencia que indexa activamente servicios expuestos a Internet sin autenticación (Elasticsearch, MongoDB, Kibana, Redis, Git repos públicos, paneles de administración abiertos) notificando a los propietarios bajo un modelo de divulgación responsable.",
+    "url": "https://leakix.net/",
+    "categories": [
+      "cyber",
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "companies"
+    ],
+    "subcategories": [
+      "filtraciones",
+      "bases-de-datos",
+      "misconfigurations"
+    ],
+    "tags": [
+      "leakix",
+      "bases-de-datos-abiertas",
+      "elasticsearch",
+      "mongodb",
+      "filtraciones",
+      "exposicion"
+    ],
+    "synonyms": [
+      "leak ix",
+      "buscar base de datos abierta"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "advanced",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los detalles sensibles y volcados directos están restringidos por motivos éticos y de privacidad"
+    ],
+    "useCases": [
+      "Auditar si una empresa ha dejado expuesta una base de datos de clientes sin contraseña",
+      "Localizar repositorios .git expuestos en servidores de producción"
+    ],
+    "instructions": "Busca por dominio, nombre de organización o tipo de software ('service:mongodb') para ver si existen incidencias registradas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "netlas",
+    "name": "Netlas.io",
+    "slug": "netlas",
+    "description": "Plataforma de reconocimiento de superficie de ataque con certificados SSL, dominios, DNS y respuestas HTTP.",
+    "longDescription": "Suite de reconocimiento técnico para investigadores de ciberseguridad. Proporciona búsqueda cruzada de certificados SSL/TLS, respuestas HTTP completas, registros WHOIS históricos, respuestas de cabeceras y resoluciones de DNS para trazar el mapa de activos conectados de cualquier objetivo.",
+    "url": "https://netlas.io/",
+    "categories": [
+      "cyber",
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "superficie-ataque",
+      "certificados-ssl",
+      "dns"
+    ],
+    "tags": [
+      "netlas",
+      "superficie-de-ataque",
+      "certificados",
+      "ssl",
+      "reconocimiento",
+      "whois"
+    ],
+    "synonyms": [
+      "netlas io",
+      "buscador netlas"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Plan gratuito con cupo de solicitudes diarias; planes profesionales para búsquedas ilimitadas"
+    ],
+    "useCases": [
+      "Descubrir servidores ocultos de una empresa buscando por el nombre de la organización en los certificados SSL",
+      "Mapear subdominios y tecnologías"
+    ],
+    "instructions": "Escribe una consulta en el cuadro de búsqueda (ej. 'certificate.subject.organization:\"Nombre Empresa\"') para listar servidores asociados.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "nvd-nist",
+    "name": "National Vulnerability Database (NVD)",
+    "slug": "nvd-nist",
+    "description": "Base de datos oficial de vulnerabilidades (CVE) del gobierno de EE.UU. gestionada por el NIST.",
+    "longDescription": "El repositorio oficial y estándar de la industria para el análisis de vulnerabilidades informáticas conocidas. Clasifica cada fallo bajo identificadores CVE, métricas de severidad CVSS, vectores de ataque y listas de plataformas afectadas (CPE).",
+    "url": "https://nvd.nist.gov/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "cve",
+      "vulnerabilidades",
+      "nist",
+      "cvss"
+    ],
+    "tags": [
+      "nvd",
+      "nist",
+      "cve",
+      "cvss",
+      "vulnerabilidades",
+      "seguridad"
+    ],
+    "synonyms": [
+      "nvd nist",
+      "buscar cve",
+      "base de datos de vulnerabilidades"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Información técnica orientada a seguridad defensiva y gestión de parches"
+    ],
+    "useCases": [
+      "Consultar la gravedad oficial CVSS y detalles de un fallo de seguridad (CVE-XXXX-XXXXX)",
+      "Comprobar qué versiones de un software son vulnerables"
+    ],
+    "instructions": "Introduce el identificador CVE o el nombre del software en la casilla de búsqueda de vulnerabilidades.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "cisa-kev",
+    "name": "CISA KEV (Known Exploited Vulnerabilities)",
+    "slug": "cisa-kev",
+    "description": "Catálogo oficial de CISA de vulnerabilidades que están siendo explotadas activamente por atacantes.",
+    "longDescription": "Listado de referencia emitido por la Cybersecurity and Infrastructure Security Agency de EE.UU. Contiene exclusivamente vulnerabilidades confirmadas como objeto de explotación activa en el mundo real por parte de grupos cibercriminales o actores de ciberespionaje, sirviendo como priorizador crítico de riesgos.",
+    "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "vulnerabilidades-activas",
+      "cisa",
+      "exploits"
+    ],
+    "tags": [
+      "cisa",
+      "kev",
+      "vulnerabilidades-explotadas",
+      "exploits-activos",
+      "ciberdefensa"
+    ],
+    "synonyms": [
+      "cisa kev catalog",
+      "catalogo vulnerabilidades cisa"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Solo incluye vulnerabilidades con evidencia contrastada de explotación en el mundo real"
+    ],
+    "useCases": [
+      "Priorizar si una vulnerabilidad detectada en un sistema está siendo utilizada activamente por grupos criminales",
+      "Descargar la lista en JSON/CSV para cruzar con inventarios de activos"
+    ],
+    "instructions": "Filtra la tabla en vivo por proveedor (vendor), producto o fecha de adición al catálogo.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "any-run",
+    "name": "ANY.RUN Interactive Sandbox",
+    "slug": "any-run",
+    "description": "Sandbox interactivo en tiempo real para detonar y analizar malware, phishing y enlaces sospechosos.",
+    "longDescription": "Entorno virtual interactivo líder en análisis de amenazas. Permite abrir y observar en tiempo real la ejecución de un archivo malicioso, interactuar con el escritorio virtual como si fuera un usuario, interceptar tráfico de red HTTPS, ver procesos inyectados y extraer conexiones y claves.",
+    "url": "https://any.run/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "sandbox",
+      "malware",
+      "phishing",
+      "dinamico"
+    ],
+    "tags": [
+      "any-run",
+      "sandbox",
+      "analisis-malware",
+      "phishing",
+      "detonacion-segura"
+    ],
+    "synonyms": [
+      "any run sandbox",
+      "detonar malware online"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los análisis en la versión comunitaria gratuita son completamente públicos para la comunidad de investigación"
+    ],
+    "useCases": [
+      "Detonar de forma segura un enlace de phishing bancario para ver a qué servidor envía las credenciales",
+      "Observar el comportamiento en vivo de un troyano"
+    ],
+    "instructions": "Sube el archivo o escribe la URL en 'New Task', elige la versión de Windows y pulsa 'Run' para interactuar directamente con la máquina.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "hybrid-analysis",
+    "name": "Hybrid Analysis",
+    "slug": "hybrid-analysis",
+    "description": "Servicio de análisis automatizado de malware y sandboxing impulsado por tecnología Falcon Sandbox.",
+    "longDescription": "Herramienta gratuita para la comunidad respaldada por CrowdStrike. Realiza análisis híbrido (estático y dinámico) de ejecutables, documentos ofimáticos, PDFs y scripts sospechosos, generando informes con puntuación de amenaza y mapeo al marco MITRE ATT&CK.",
+    "url": "https://www.hybrid-analysis.com/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "sandbox",
+      "crowdstrike",
+      "mitre-attck",
+      "malware"
+    ],
+    "tags": [
+      "hybrid-analysis",
+      "crowdstrike",
+      "sandbox",
+      "malware",
+      "mitre"
+    ],
+    "synonyms": [
+      "hybrid analysis crowdstrike",
+      "analizador malware hybrid"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Las muestras enviadas se publican en el repositorio compartido para analistas"
+    ],
+    "useCases": [
+      "Analizar un documento adjunto sospechoso para verificar si contiene macros maliciosas o exploits",
+      "Buscar análisis previos de un hash SHA256"
+    ],
+    "instructions": "Arrastra el archivo o pega la URL en la caja central, acepta los términos y espera a que el informe forense finalice.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "tria-ge",
+    "name": "Tria.ge Sandbox",
+    "slug": "tria-ge",
+    "description": "Sandbox rápido de análisis de malware compatible con Windows, Linux, Android y macOS.",
+    "longDescription": "Plataforma moderna de análisis de malware desarrollada por Hatching (adquirida por Recorded Future). Destaca por su alta velocidad de ejecución, soporte multiplataforma y capacidad para extraer configuraciones de familias conocidas de malware (infostealers, rat, ransomware).",
+    "url": "https://tria.ge/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "sandbox",
+      "multiplataforma",
+      "malware",
+      "config-extraction"
+    ],
+    "tags": [
+      "triage",
+      "sandbox",
+      "malware",
+      "infostealers",
+      "recorded-future"
+    ],
+    "synonyms": [
+      "triage sandbox",
+      "hatching triage"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los análisis en la versión pública son visibles para otros usuarios de la comunidad"
+    ],
+    "useCases": [
+      "Extraer automáticamente el panel de control C2 y las claves de configuración de un troyano infostealer",
+      "Analizar APKs de Android sospechosas"
+    ],
+    "instructions": "Carga la muestra o URL sospechosa para iniciar el análisis automático y descargar las capturas y tráfico PCAP.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "ransomware-live",
+    "name": "Ransomware.live",
+    "slug": "ransomware-live",
+    "description": "Monitor en tiempo real de ataques de ransomware, víctimas y publicaciones en blogs de extorsión de la Dark Web.",
+    "longDescription": "Proyecto abierto que rastrea continuamente más de 100 sitios de filtración y extorsión (Data Leak Sites - DLS) alojados en la red Tor por grupos de ransomware (LockBit, BlackCat, Play, etc.). Proporciona estadísticas por país, sector industrial, víctimas recientes y tácticas de negociación.",
+    "url": "https://www.ransomware.live/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "companies",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "ransomware",
+      "dark-web",
+      "cibercrimen",
+      "extorsion"
+    ],
+    "tags": [
+      "ransomware",
+      "dark-web",
+      "tor",
+      "victimas",
+      "extorsion",
+      "lockbit",
+      "cibercrimen"
+    ],
+    "synonyms": [
+      "ransomware live",
+      "victimas ransomware",
+      "leak sites tracker"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Refleja únicamente a las víctimas hechas públicas en los sitios de extorsión de las bandas criminales"
+    ],
+    "useCases": [
+      "Verificar si una empresa española u organismo público ha sido víctima de un ataque de ransomware",
+      "Conocer qué grupo criminal reivindica un incidente cibernético"
+    ],
+    "instructions": "Consulta el feed cronológico 'Recent Victims' o utiliza el buscador para comprobar si una empresa aparece en la base de datos.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "bgp-he-net",
+    "name": "Hurricane Electric BGP Toolkit",
+    "slug": "bgp-he-net",
+    "description": "Herramienta de referencia para inspeccionar Sistemas Autónomos (ASN), prefijos BGP, peering y bloques IP.",
+    "longDescription": "El recurso canónico de ingeniería de redes para investigar cómo se conectan las organizaciones a Internet a través del protocolo BGP. Muestra Sistemas Autónomos (ASN), prefijos IPv4/IPv6 anunciados, operadores de tránsito, acuerdos de intercambio de tráfico y registros Whois de RIRs (RIPE, ARIN, LACNIC).",
+    "url": "https://bgp.he.net/",
+    "categories": [
+      "cyber",
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "bgp",
+      "asn",
+      "enrutamiento",
+      "infraestructura-ip"
+    ],
+    "tags": [
+      "bgp",
+      "he-net",
+      "asn",
+      "enrutamiento",
+      "prefijos-ip",
+      "peering"
+    ],
+    "synonyms": [
+      "bgp he",
+      "hurricane electric bgp",
+      "consultar asn"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado estrictamente en topología de red y tablas de enrutamiento BGP"
+    ],
+    "useCases": [
+      "Identificar el propietario legítimo de un bloque de direcciones IP y su proveedor de tránsito",
+      "Investigar secuestros de rutas BGP (BGP hijacking) o cambios sospechosos de ASN"
+    ],
+    "instructions": "Escribe un número de ASN (ej. AS3352), nombre de empresa o dirección IP para inspeccionar su conectividad global.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "peeringdb",
+    "name": "PeeringDB",
+    "slug": "peeringdb",
+    "description": "Base de datos global comunitaria sobre interconexión de redes, puntos neutros (IXP) y centros de datos.",
+    "longDescription": "Plataforma neutral mantenida por la comunidad global de operadores de telecomunicaciones e ISPs. Facilita información técnica detallada sobre qué redes hacen presencia física en qué puntos neutros de intercambio de tráfico (IXP como ESPANIX, CATNIX o DE-CIX) y en qué instalaciones de colocación (centros de datos).",
+    "url": "https://www.peeringdb.com/",
+    "categories": [
+      "cyber",
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "companies"
+    ],
+    "subcategories": [
+      "ixp",
+      "peering",
+      "centros-de-datos",
+      "interconexion"
+    ],
+    "tags": [
+      "peeringdb",
+      "ixp",
+      "espanix",
+      "centros-de-datos",
+      "isps",
+      "interconexion"
+    ],
+    "synonyms": [
+      "peering db",
+      "directorio ixp peering"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "advanced",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Datos técnicos destinados a arquitectos de redes e investigadores de infraestructura"
+    ],
+    "useCases": [
+      "Conocer en qué centro de datos físico se encuentra la infraestructura de red de un operador",
+      "Descubrir si dos proveedores de servicios intercambian tráfico de forma directa"
+    ],
+    "instructions": "Introduce el nombre del operador o punto neutro en la casilla de búsqueda para desplegar su ficha de presencia física e interfaces.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "ioda",
+    "name": "IODA (Internet Outage Detection and Analysis)",
+    "slug": "ioda",
+    "description": "Sistema de telemetría que detecta cortes de Internet masivos causados por censura, guerras o averías.",
+    "longDescription": "Plataforma de monitorización desarrollada por el Center for Applied Internet Data Analysis (CAIDA) y Georgia Tech. Combina tres fuentes independientes de datos en tiempo real (rutas BGP, telemetría de sondeo activo y darknets pasivas) para detectar de forma temprana caídas macroscópicas de conectividad a nivel de país, provincia o ASN.",
+    "url": "https://ioda.inetintel.cc.gatech.edu/",
+    "categories": [
+      "cyber",
+      "geoint"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "location"
+    ],
+    "subcategories": [
+      "cortes-de-internet",
+      "telemetria",
+      "apagones",
+      "censura"
+    ],
+    "tags": [
+      "ioda",
+      "caida",
+      "cortes-internet",
+      "apagones-red",
+      "censura",
+      "telemetria"
+    ],
+    "synonyms": [
+      "ioda caida",
+      "internet outage detector"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Diseñado para interrupciones a gran escala que afecten a regiones enteras o grandes operadores"
+    ],
+    "useCases": [
+      "Verificar si un corte de Internet en una zona de conflicto bélico o durante protestas civiles es real",
+      "Analizar el impacto geográfico de una avería de cable submarino"
+    ],
+    "instructions": "Selecciona el país o región en el mapa para ver las gráficas de telemetría BGP y sondeo de las últimas 24 horas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "netblocks",
+    "name": "NetBlocks",
+    "slug": "netblocks",
+    "description": "Observatorio global de derechos digitales que documenta cortes de Internet y bloqueos de redes sociales.",
+    "longDescription": "Organización de la sociedad civil y referencia en telemetría de censura en Internet. Mide y publica en tiempo real apagones de conectividad impuestos por regímenes gubernamentales, interferencias en plataformas como X, YouTube o WhatsApp, y calcula el coste económico de los cortes mediante la herramienta COST.",
+    "url": "https://netblocks.org/",
+    "categories": [
+      "cyber",
+      "socmint"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "social-media"
+    ],
+    "subcategories": [
+      "censura",
+      "derechos-digitales",
+      "bloqueos",
+      "metricas"
+    ],
+    "tags": [
+      "netblocks",
+      "censura-internet",
+      "bloqueos-red",
+      "cortes-gubernamentales",
+      "derechos-digitales"
+    ],
+    "synonyms": [
+      "netblocks internet observatory",
+      "monitor bloqueos netblocks"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Informes centrados en eventos sociopolíticos y emergencias nacionales"
+    ],
+    "useCases": [
+      "Comprobar si una red social ha sido bloqueada en un país durante elecciones o revueltas",
+      "Obtener gráficas contrastadas para investigaciones periodísticas"
+    ],
+    "instructions": "Accede a la sección 'Reports' o consulta las alertas en tiempo real publicadas en el sitio web oficial.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "ooni",
+    "name": "OONI (Open Observatory of Network Interference)",
+    "slug": "ooni",
+    "description": "Red global abierta de medición para documentar la censura en Internet y el bloqueo de páginas web.",
+    "longDescription": "Proyecto del ecosistema Tor de código abierto y datos abiertos. Miles de voluntarios ejecutan sondas (OONI Probe) en todo el mundo para documentar técnicamente la censura: bloqueo de sitios web por DNS/SNI/TCP, interceptación de conexiones y restricción de aplicaciones de mensajería y circumvención (Tor, Psiphon).",
+    "url": "https://ooni.org/",
+    "categories": [
+      "cyber",
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "censura",
+      "tor",
+      "mediciones",
+      "datos-abiertos"
+    ],
+    "tags": [
+      "ooni",
+      "ooni-probe",
+      "censura",
+      "bloqueo-web",
+      "tor",
+      "inspeccion-de-paquetes"
+    ],
+    "synonyms": [
+      "ooni explorer",
+      "open observatory network interference"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile",
+      "desktop",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los datos reflejan exclusivamente las pruebas ejecutadas por los usuarios que corren la sonda OONI"
+    ],
+    "useCases": [
+      "Demostrar técnicamente qué método de filtrado (bloqueo por DNS, inyección RST o bloqueo por IP) aplica un operador a una web",
+      "Auditar la censura de medios informativos en cualquier país"
+    ],
+    "instructions": "Abre OONI Explorer (explorer.ooni.org) e introduce el dominio o selecciona un país para ver las mediciones históricas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "incibe-cert",
+    "name": "INCIBE-CERT",
+    "slug": "incibe-cert",
+    "description": "Centro de Respuesta a Incidentes de Seguridad de España para ciudadanos y empresas operado por INCIBE.",
+    "longDescription": "Capacidad de respuesta estatal a incidentes de ciberseguridad en España adscrita al Ministerio para la Transformación Digital y de la Función Pública. Publica avisos de seguridad críticos para empresas y ciudadanos, gestiona el teléfono de ayuda 017 y coordina la mitigación de fraudes online, malware y vulnerabilidades en territorio español.",
+    "url": "https://www.incibe.es/linea-de-ayuda-en-ciberseguridad",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "fraud-scams",
+      "domain-ip"
+    ],
+    "subcategories": [
+      "espana",
+      "cert",
+      "alertas",
+      "incidentes"
+    ],
+    "tags": [
+      "incibe",
+      "incibe-cert",
+      "espana",
+      "017",
+      "alertas-seguridad",
+      "ciberseguridad"
+    ],
+    "synonyms": [
+      "incibe cert",
+      "instituto nacional de ciberseguridad",
+      "linea 017 incibe"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Ámbito territorial de actuación preferente en España"
+    ],
+    "useCases": [
+      "Consultar alertas oficiales sobre campañas de phishing o ransomware que afectan a pymes y ciudadanos españoles",
+      "Reportar fraudes cibernéticos o brechas de seguridad"
+    ],
+    "instructions": "Revisa los avisos de seguridad en la sección de ciberseguridad o contacta a través de la Línea de Ayuda 017.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "ccn-cert",
+    "name": "CCN-CERT",
+    "slug": "ccn-cert",
+    "description": "Capacidad de Respuesta a Incidentes del Centro Criptológico Nacional (CNI) para el sector público de España.",
+    "longDescription": "Organismo oficial adscrito al Centro Nacional de Inteligencia (CNI) de España encargado de velar por la ciberseguridad de las administraciones públicas y de las empresas del sector estratégico y crítico nacional. Publica las Guías CCN-STIC, el catálogo de productos de seguridad cualificados (CPSTIC) y alertas sobre ciberespionaje estatal y APTs.",
+    "url": "https://www.ccn-cert.cni.es/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "cni",
+      "espana",
+      "cert",
+      "apt",
+      "guias-stic"
+    ],
+    "tags": [
+      "ccn-cert",
+      "cni",
+      "espana",
+      "ciberseguridad-estatal",
+      "apt",
+      "sector-publico"
+    ],
+    "synonyms": [
+      "ccn cert",
+      "centro criptologico nacional cert"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Ciertas alertas e informes de ciberamenazas clasificadas se distribuyen exclusivamente a través de la plataforma privada LUCIA a entidades adheridas"
+    ],
+    "useCases": [
+      "Consultar guías de securización de sistemas (CCN-STIC)",
+      "Revisar avisos de vulnerabilidades críticas y ciberataques contra la administración pública española"
+    ],
+    "instructions": "Accede a la pestaña 'Avisos' o 'Documentación' para consultar guías metodológicas e informes de amenazas públicas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "phishtank",
+    "name": "PhishTank",
+    "slug": "phishtank",
+    "description": "Base de datos colaborativa operada por Cisco para verificar y compartir URLs activas de campañas de phishing.",
+    "longDescription": "Comunidad global de intercambio de datos sobre phishing. Usuarios e investigadores envían enlaces sospechosos, los cuales son votados y verificados colectivamente mediante análisis del código fuente y captura de pantalla, alimentando listas de bloqueo públicas.",
+    "url": "https://phishtank.org/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "fraud-scams",
+      "domain-ip"
+    ],
+    "subcategories": [
+      "phishing",
+      "comunitario",
+      "cisco"
+    ],
+    "tags": [
+      "phishtank",
+      "phishing",
+      "estafas-web",
+      "cisco",
+      "iocs"
+    ],
+    "synonyms": [
+      "phish tank",
+      "verificar phishing phishtank"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Depende de la validación humana comunitaria para marcar una URL como phishing verificado"
+    ],
+    "useCases": [
+      "Comprobar si un enlace sospechoso recibido por SMS o email ha sido ya clasificado como suplantación bancaria",
+      "Descargar feeds de URLs maliciosas activas"
+    ],
+    "instructions": "Escribe la URL sospechosa en la casilla 'Is it a phish?' para ver su estado y la captura forense del sitio.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "openphish",
+    "name": "OpenPhish",
+    "slug": "openphish",
+    "description": "Feed automatizado de inteligencia de amenazas que detecta campañas de phishing en tiempo real con IA.",
+    "longDescription": "Servicio de ciberinteligencia que monitoriza activamente la web para identificar páginas de suplantación de identidad en el momento en que se lanzan. Analiza el contenido visual, las marcas suplantadas (bancos, servicios en la nube, criptomonedas) y las direcciones de destino de las credenciales robadas.",
+    "url": "https://openphish.com/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "fraud-scams",
+      "domain-ip"
+    ],
+    "subcategories": [
+      "phishing",
+      "threat-intelligence",
+      "tiempo-real"
+    ],
+    "tags": [
+      "openphish",
+      "phishing-feed",
+      "suplantacion",
+      "iocs",
+      "fraude"
+    ],
+    "synonyms": [
+      "open phish",
+      "feed openphish"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "El feed comunitario gratuito se actualiza cada 12 horas; el feed comercial es en tiempo real"
+    ],
+    "useCases": [
+      "Identificar kits de phishing y marcas que sufren campañas de suplantación masiva en este momento",
+      "Integrar IoCs de phishing en cortafuegos o proxies"
+    ],
+    "instructions": "Descarga el feed de texto plano gratuito en la sección 'Community Feed' o revisa las estadísticas de marcas atacadas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "safety-gate-ue",
+    "name": "Safety Gate (Unión Europea)",
+    "slug": "safety-gate-ue",
+    "description": "Sistema oficial de alerta rápida de la Unión Europea para productos de consumo peligrosos y retirados.",
+    "longDescription": "Sistema de alerta de la Comisión Europea (antiguo RAPEX) que permite a las autoridades de los 27 Estados miembros y el EEE intercambiar rápidamente información sobre productos de consumo no alimentarios que presentan riesgos graves para la salud y seguridad de los consumidores (juguetes con sustancias tóxicas, cargadores que provocan incendios, cosméticos ilegales, vehículos defectuosos).",
+    "url": "https://ec.europa.eu/safety-gate-alerts/",
+    "categories": [
+      "cyber",
+      "public-records"
+    ],
+    "investigateBy": [
+      "fraud-scams",
+      "companies"
+    ],
+    "subcategories": [
+      "alerta-rapida",
+      "seguridad-productos",
+      "union-europea",
+      "consumo"
+    ],
+    "tags": [
+      "safety-gate",
+      "rapex",
+      "union-europea",
+      "productos-peligrosos",
+      "alertas-consumo",
+      "fraude-comercial"
+    ],
+    "synonyms": [
+      "safety gate alerts",
+      "rapex alertas europa",
+      "productos retirados ue"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "No incluye alimentos, piensos ni medicamentos (gestionados por RASFF y EMA)"
+    ],
+    "useCases": [
+      "Investigar si un producto vendido en plataformas de comercio electrónico ha sido formalmente prohibido o retirado en la Unión Europea",
+      "Identificar importadores y fabricantes sancionados"
+    ],
+    "instructions": "Utiliza los filtros por país notificador, categoría de producto o riesgo para consultar los informes semanales de alertas.",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   }
 ]

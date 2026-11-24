@@ -6,23 +6,52 @@
     "description": "Calculadora geométrica de trayectoria solar, azimut, elevación y longitud de sombras para cualquier fecha y lugar.",
     "longDescription": "La herramienta principal de cronolocalización en la comunidad de investigación abierta. Permite colocar un marcador en cualquier coordenada del planeta, seleccionar el día del año y mover el reloj para ver la dirección y proyección exacta de las sombras que proyectaría un objeto vertical.",
     "url": "https://www.suncalc.org/",
-    "categories": ["chronolocation"],
-    "investigateBy": ["location"],
-    "subcategories": ["sol", "sombras", "azimut", "hora"],
-    "tags": ["suncalc", "sol", "sombras", "azimut", "cronolocalizacion", "hora"],
-    "synonyms": ["calcular hora por sombra", "posicion del sol", "azimut solar"],
+    "categories": [
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "sol",
+      "sombras",
+      "azimut",
+      "hora"
+    ],
+    "tags": [
+      "suncalc",
+      "sol",
+      "sombras",
+      "azimut",
+      "cronolocalizacion",
+      "hora"
+    ],
+    "synonyms": [
+      "calcular hora por sombra",
+      "posicion del sol",
+      "azimut solar"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Asume suelo perfectamente plano en el cálculo básico de longitud de sombra"],
-    "useCases": ["Determinar la hora exacta en que se tomó una fotografía a partir del ángulo de sombra de una farola o persona", "Comprobar si una foto pudo haber sido tomada a la hora afirmada por un testigo"],
+    "limitations": [
+      "Asume suelo perfectamente plano en el cálculo básico de longitud de sombra"
+    ],
+    "useCases": [
+      "Determinar la hora exacta en que se tomó una fotografía a partir del ángulo de sombra de una farola o persona",
+      "Comprobar si una foto pudo haber sido tomada a la hora afirmada por un testigo"
+    ],
     "instructions": "Introduce las coordenadas o arrastra el pin al lugar del incidente. Ajusta la fecha y desplaza la barra horaria hasta que el rayo naranja coincida con el ángulo de la sombra en la fotografía.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -34,24 +63,48 @@
     "description": "Visualizador 3D realista de sombras proyectadas sobre edificios y relieve del terreno en tiempo real o histórico.",
     "longDescription": "Combina modelos de elevación del terreno en 3D y volúmenes de edificios para renderizar de manera interactiva cómo incide la luz solar y dónde caen las sombras exactas a lo largo de cualquier día del año.",
     "url": "https://shadowmap.org/",
-    "categories": ["chronolocation"],
-    "investigateBy": ["location"],
-    "subcategories": ["sombras-3d", "edificios"],
-    "tags": ["shadowmap", "3d", "sombras", "edificios", "cronolocalizacion"],
-    "synonyms": ["simulador sombras 3d", "sombras edificios"],
+    "categories": [
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "sombras-3d",
+      "edificios"
+    ],
+    "tags": [
+      "shadowmap",
+      "3d",
+      "sombras",
+      "edificios",
+      "cronolocalizacion"
+    ],
+    "synonyms": [
+      "simulador sombras 3d",
+      "sombras edificios"
+    ],
     "type": "web",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Visualizador básico gratis en tiempo real; Pro para fechas históricas desde ~10€/mes o ~99€/año)",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Visualización en el día actual gratuita; la simulación de fechas históricas personalizadas requiere suscripción Pro"],
-    "useCases": ["Verificar si un patio interior o ventana recibe luz solar directa a una hora determinada del día"],
+    "limitations": [
+      "Visualización en el día actual gratuita; la simulación de fechas históricas personalizadas requiere suscripción Pro"
+    ],
+    "useCases": [
+      "Verificar si un patio interior o ventana recibe luz solar directa a una hora determinada del día"
+    ],
     "instructions": "Busca la ciudad deseada y usa la barra deslizadora inferior para comprobar cómo cambian las sombras en los edificios 3D.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -63,23 +116,46 @@
     "description": "Calculadora inversa para determinar la fecha y hora de una foto a partir de la longitud y orientación de su sombra.",
     "longDescription": "Aplicación web desarrollada con algoritmos astronómicos que permite introducir la altura estimada de un objeto, la longitud medida de su sombra y su orientación en grados para calcular automáticamente las posibles fechas y horas compatibles.",
     "url": "https://kluter.github.io/shadowfinder-web/",
-    "categories": ["chronolocation"],
-    "investigateBy": ["location"],
-    "subcategories": ["calculo-inverso", "sombras"],
-    "tags": ["shadowfinder", "inversa", "algoritmo", "cronolocalizacion"],
-    "synonyms": ["shadow finder", "calcular fecha por sombra"],
+    "categories": [
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "calculo-inverso",
+      "sombras"
+    ],
+    "tags": [
+      "shadowfinder",
+      "inversa",
+      "algoritmo",
+      "cronolocalizacion"
+    ],
+    "synonyms": [
+      "shadow finder",
+      "calcular fecha por sombra"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "advanced",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Requiere mediciones precisas de longitud de sombra y corrección de perspectiva en la imagen"],
-    "useCases": ["Deducir el rango horario posible cuando se desconoce por completo la hora de captura"],
+    "limitations": [
+      "Requiere mediciones precisas de longitud de sombra y corrección de perspectiva en la imagen"
+    ],
+    "useCases": [
+      "Deducir el rango horario posible cuando se desconoce por completo la hora de captura"
+    ],
     "instructions": "Introduce las coordenadas de la foto, la altura del objeto (ej. 1.80m) y la longitud de su sombra proyectada en el suelo.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -91,23 +167,52 @@
     "description": "Portal oficial de la Agencia Estatal de Meteorología de España con registros históricos por estación.",
     "longDescription": "Fuente oficial de España para validar condiciones meteorológicas de fechas pasadas: temperaturas máximas y mínimas registradas, rachas de viento, nubosidad y precipitación acumulada por estación meteorológica oficial.",
     "url": "https://www.aemet.es/es/serviciosclimaticos/datosclimatologicos",
-    "categories": ["chronolocation", "public-records"],
-    "investigateBy": ["location"],
-    "subcategories": ["espana", "meteorologia", "climatologia"],
-    "tags": ["aemet", "espana", "clima", "historico-tiempo", "lluvia", "viento"],
-    "synonyms": ["tiempo historico espana", "aemet historico", "estacion aemet"],
+    "categories": [
+      "chronolocation",
+      "public-records"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "espana",
+      "meteorologia",
+      "climatologia"
+    ],
+    "tags": [
+      "aemet",
+      "espana",
+      "clima",
+      "historico-tiempo",
+      "lluvia",
+      "viento"
+    ],
+    "synonyms": [
+      "tiempo historico espana",
+      "aemet historico",
+      "estacion aemet"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["spain"],
-    "platforms": ["web", "api"],
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Cobertura exclusiva de España; AEMET OpenData ofrece API gratuita con clave"],
-    "useCases": ["Comprobar si el día en que presuntamente se grabó un vídeo llovió realmente en esa provincia española"],
+    "limitations": [
+      "Cobertura exclusiva de España; AEMET OpenData ofrece API gratuita con clave"
+    ],
+    "useCases": [
+      "Comprobar si el día en que presuntamente se grabó un vídeo llovió realmente en esa provincia española"
+    ],
     "instructions": "Accede a 'Valores climatológicos normales' o 'Resúmenes climatológicos' seleccionando provincia y estación.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -119,23 +224,52 @@
     "description": "Visualizador meteorológico interactivo de alta resolución con capas de viento, nubosidad y radar.",
     "longDescription": "Aplicación meteorológica avanzada desarrollada en la Unión Europea (República Checa) que representa mediante partículas dinámicas el viento, frentes de presión, altura de olas, cobertura nubosa y precipitaciones a nivel global.",
     "url": "https://www.ventusky.com/",
-    "categories": ["chronolocation", "geoint"],
-    "investigateBy": ["location"],
-    "subcategories": ["viento", "nubes", "radar"],
-    "tags": ["ventusky", "viento", "tiempo", "radar", "nubes", "meteorologia"],
-    "synonyms": ["mapa de vientos", "radar nubosidad"],
+    "categories": [
+      "chronolocation",
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "viento",
+      "nubes",
+      "radar"
+    ],
+    "tags": [
+      "ventusky",
+      "viento",
+      "tiempo",
+      "radar",
+      "nubes",
+      "meteorologia"
+    ],
+    "synonyms": [
+      "mapa de vientos",
+      "radar nubosidad"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global", "europe"],
-    "platforms": ["web", "mobile"],
+    "geographicScope": [
+      "global",
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Visualización web gratuita; predicciones a muy largo plazo requieren versión de pago en la app"],
-    "useCases": ["Corroborar la dirección del humo o de una bandera en un vídeo con la dirección del viento registrada ese día"],
+    "limitations": [
+      "Visualización web gratuita; predicciones a muy largo plazo requieren versión de pago en la app"
+    ],
+    "useCases": [
+      "Corroborar la dirección del humo o de una bandera en un vídeo con la dirección del viento registrada ese día"
+    ],
     "instructions": "Cambia de capa entre 'Wind gusts', 'Clouds' y 'Precipitation' usando la barra lateral izquierda.",
     "lastReviewed": "2026-11-23",
     "status": "active"
@@ -147,25 +281,336 @@
     "description": "Referencia mundial para cálculo de husos horarios, fases lunares, orto/ocaso y clima histórico mundial.",
     "longDescription": "Portal que recopila tablas exactas de salida y puesta del sol, crepúsculos civiles y astronómicos, conversor horario internacional con cambio de hora de verano/invierno y registros meteorológicos pasados.",
     "url": "https://www.timeanddate.com/",
-    "categories": ["chronolocation"],
-    "investigateBy": ["location"],
-    "subcategories": ["husos-horarios", "orto-ocaso", "historico"],
-    "tags": ["hora", "husos-horarios", "puesta-de-sol", "salida-de-sol", "astronomia"],
-    "synonyms": ["hora mundial", "puesta de sol fecha", "zona horaria"],
+    "categories": [
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "husos-horarios",
+      "orto-ocaso",
+      "historico"
+    ],
+    "tags": [
+      "hora",
+      "husos-horarios",
+      "puesta-de-sol",
+      "salida-de-sol",
+      "astronomia"
+    ],
+    "synonyms": [
+      "hora mundial",
+      "puesta de sol fecha",
+      "zona horaria"
+    ],
     "type": "web",
     "pricing": "free",
     "access": "public",
-    "geographicScope": ["global"],
-    "platforms": ["web"],
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
     "registrationRequired": false,
     "apiKeyRequired": false,
-    "limitations": ["Interfaz con publicidad en la versión gratuita"],
-    "useCases": ["Determinar a qué minuto exacto anocheció en una ciudad en una fecha concreta de hace 5 años"],
+    "limitations": [
+      "Interfaz con publicidad en la versión gratuita"
+    ],
+    "useCases": [
+      "Determinar a qué minuto exacto anocheció en una ciudad en una fecha concreta de hace 5 años"
+    ],
     "instructions": "Accede a Sun & Moon > Sun Calculator e introduce la localidad deseada.",
     "lastReviewed": "2026-11-23",
+    "status": "active"
+  },
+  {
+    "id": "ogimet",
+    "name": "Ogimet",
+    "slug": "ogimet",
+    "description": "Base de datos meteorológica histórica de partes oficiales SYNOP y METAR de estaciones de todo el mundo.",
+    "longDescription": "Portal especializado de referencia técnica para meteorólogos e investigadores OSINT. Permite recuperar registros meteorológicos históricos reales (temperatura, nubosidad, presión, viento, lluvia, visibilidad) registrados cada hora o cada 3 horas por estaciones meteorológicas oficiales del servicio meteorológico mundial (OMM/WMO).",
+    "url": "https://www.ogimet.com/",
+    "categories": [
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "meteorologia",
+      "historico",
+      "synop",
+      "metar"
+    ],
+    "tags": [
+      "ogimet",
+      "synop",
+      "metar",
+      "clima-historico",
+      "cronolocalizacion",
+      "estaciones"
+    ],
+    "synonyms": [
+      "ogimet clima historico",
+      "partes synop ogimet"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Interfaz técnica basada en formatos y códigos estándar de la OMM (SYNOP/METAR)"
+    ],
+    "useCases": [
+      "Comprobar si en una ciudad concreta llovió a las 17:00 en una fecha específica del pasado",
+      "Contrastar la temperatura y velocidad del viento declarada con los registros de la estación más cercana"
+    ],
+    "instructions": "Accede a la sección 'Daily SYNOP summary' o 'METAR', introduce el indicativo OMM de la estación más cercana o el país, y selecciona el rango de fechas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "meteostat",
+    "name": "Meteostat",
+    "slug": "meteostat",
+    "description": "Plataforma abierta y API de datos climáticos y meteorológicos históricos a escala global.",
+    "longDescription": "Base de datos abierta que agrega observaciones meteorológicas de estaciones gubernamentales e internacionales con datos horarios, diarios y mensuales de temperatura, precipitaciones, humedad y viento desde hace décadas, con visualizaciones limpias y accesibilidad vía navegador o API en Python.",
+    "url": "https://meteostat.net/",
+    "categories": [
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "meteorologia",
+      "historico",
+      "api",
+      "temperatura"
+    ],
+    "tags": [
+      "meteostat",
+      "clima",
+      "historico",
+      "cronolocalizacion",
+      "lluvia",
+      "viento"
+    ],
+    "synonyms": [
+      "meteostat historico",
+      "tiempo historico meteostat"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La densidad de estaciones puede variar según el país"
+    ],
+    "useCases": [
+      "Verificar si las condiciones atmosféricas visibles en un vídeo coinciden con el registro histórico de esa fecha y lugar",
+      "Corroborar la presencia de nevadas o temporales"
+    ],
+    "instructions": "Busca la ciudad o estación en la barra de búsqueda superior y consulta la pestaña de datos históricos u horarios para el periodo deseado.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "stellarium-web",
+    "name": "Stellarium Web",
+    "slug": "stellarium-web",
+    "description": "Planetario interactivo online para simular la posición exacta de estrellas, planetas y la luna en cualquier fecha.",
+    "longDescription": "Versión web del aclamado planetario astronómico de código abierto. Permite situarse en cualquier coordenada de la Tierra en cualquier momento exacto del pasado o futuro para visualizar el cielo nocturno, fases lunares, altura de los planetas sobre el horizonte y constelaciones visibles.",
+    "url": "https://stellarium-web.org/",
+    "categories": [
+      "chronolocation"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "astronomia",
+      "cielo-nocturno",
+      "luna",
+      "estrellas"
+    ],
+    "tags": [
+      "stellarium",
+      "astronomia",
+      "estrellas",
+      "luna",
+      "planetas",
+      "cielo",
+      "nocturno"
+    ],
+    "synonyms": [
+      "stellarium online",
+      "planetario web stellarium"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "desktop"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La versión web tiene un catálogo estelar más ligero que el software de escritorio"
+    ],
+    "useCases": [
+      "Cronolocalizar una fotografía nocturna identificando la posición de la Luna o constelaciones en el horizonte",
+      "Confirmar si una imagen nocturna fue manipulada o montada digitalmente"
+    ],
+    "instructions": "Fija las coordenadas del lugar en la esquina inferior izquierda, ajusta la fecha y hora en el reloj inferior derecho y gira el firmamento hacia la orientación deseada.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "heavens-above",
+    "name": "Heavens-Above",
+    "slug": "heavens-above",
+    "description": "Seguimiento y cálculo astronómico de pasos de la Estación Espacial Internacional y satélites visibles.",
+    "longDescription": "Portal astronómico fundamental para predecir o verificar avistamientos y tránsitos de satélites artificiales visibles a simple vista (Estación Espacial Internacional, Tiangong, constelación Starlink) desde cualquier coordenada terrestre, con diagramas de trayectoria en el cielo para horas concretas.",
+    "url": "https://www.heavens-above.com/",
+    "categories": [
+      "chronolocation",
+      "satellite"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "satelites",
+      "transitos",
+      "iss",
+      "astronomia"
+    ],
+    "tags": [
+      "heavens-above",
+      "iss",
+      "satelites-visibles",
+      "starlink",
+      "transito",
+      "astronomia"
+    ],
+    "synonyms": [
+      "heavens above",
+      "paso de satelites visibles"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Interfaz clásica pero altamente detallada y matemáticamente rigurosa"
+    ],
+    "useCases": [
+      "Identificar si un trazo de luz en una fotografía de larga exposición nocturna corresponde al paso de la ISS o de un satélite",
+      "Validar relatos de avistamientos anómalos"
+    ],
+    "instructions": "Configura la ubicación del observador arriba a la derecha y selecciona el satélite o 'Pases de satélites brillantes' para consultar las efemérides.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "n2yo",
+    "name": "N2YO Satellite Tracking",
+    "slug": "n2yo",
+    "description": "Rastreo de órbitas de satélites en tiempo real y trayectorias históricas sobre el mapa mundial.",
+    "longDescription": "Extensa base de datos de telemetría y elementos orbitales TLE mantenida con datos de Space-Track/NORAD. Permite rastrear en tiempo real o en retrospectiva cualquier objeto artificial en órbita terrestre (satélites militares, meteorológicos, restos espaciales y misiones científicas).",
+    "url": "https://www.n2yo.com/",
+    "categories": [
+      "chronolocation",
+      "satellite"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "orbita",
+      "tle",
+      "rastreo-satelites"
+    ],
+    "tags": [
+      "n2yo",
+      "satelites",
+      "tle",
+      "orbita",
+      "rastreo-orbital",
+      "norad"
+    ],
+    "synonyms": [
+      "n2yo satelite tracker",
+      "rastreo satelites norad"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Ciertas órbitas de satélites militares de alto secreto no disponen de TLEs públicos"
+    ],
+    "useCases": [
+      "Comprobar qué satélites pasaban sobre una región en el minuto exacto de una explosión o avistamiento",
+      "Calcular la huella de cobertura terrestre de un satélite"
+    ],
+    "instructions": "Escribe el nombre o catálogo NORAD del satélite en el buscador y activa la vista 2D/3D de su órbita actual y huella sobre la Tierra.",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   }
 ]
