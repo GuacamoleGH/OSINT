@@ -27,7 +27,7 @@ docker compose up -d --build
 ```
 
 Una vez levantado, accede desde tu navegador en:
-👉 **`http://localhost:3104`**
+👉 **`http://localhost:3080`**
 
 > [!TIP]
 > Para despliegues en servidores domésticos (Homelab), túneles seguros con **Cloudflare Tunnel**, variables de entorno y certificados SSL, consulta la guía dedicada en [docs/DEPLOY.md](docs/DEPLOY.md).
@@ -72,5 +72,5 @@ Para servir los archivos estáticos pre-renderizados en un servidor Node.js o de
 npm run build
 
 # Iniciar servidor de producción (por defecto en el puerto 3000)
-npm run start -p 3104
+npm run start -p 3080
 ```

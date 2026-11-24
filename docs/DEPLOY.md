@@ -37,7 +37,7 @@ services:
     container_name: osint-hub
     restart: unless-stopped
     ports:
-      - "3104:3000"
+      - "127.0.0.1:3080:3000"
     environment:
       - NODE_ENV=production
       - PORT=3000
@@ -57,7 +57,7 @@ services:
 docker compose up -d --build
 ```
 
-El servicio responderá en `http://localhost:3104` (o la IP interna de tu nodo local).
+El servicio responderá en `http://localhost:3080` (o la IP interna de tu nodo local).
 
 ---
 
@@ -72,14 +72,14 @@ osint.tu-dominio.com
 Cloudflare Edge Network
         │
         ▼ (Túnel cifrado con cloudflared)
-Servidor Local: http://127.0.0.1:3104
+Servidor Local: http://127.0.0.1:3080
 ```
 
 ### Pasos en Cloudflare Zero Trust (`Networks > Tunnels`):
 1. Añade una regla de entrada (*Ingress Rule*):
    - **Public Hostname:** `osint.tu-dominio.com` (ejemplo: `osint.guacamolegh.es`)
    - **Service Type:** `HTTP`
-   - **URL:** `127.0.0.1:3104` (o la IP local del host Docker)
+   - **URL:** `127.0.0.1:3080` (o la IP local del host Docker)
 2. Guarda los cambios. El portal quedará disponible de inmediato con HTTPS estricto.
 
 ---
