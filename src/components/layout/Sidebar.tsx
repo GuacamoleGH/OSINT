@@ -63,7 +63,7 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
   ];
 
   const learnLinks = [
-    { label: "Guías y Metodología", href: "/guides", icon: BookOpen },
+    { label: "Guías & Dorking", href: "/guides", icon: BookOpen },
     { label: "Práctica y Retos CTF", href: "/challenges", icon: Target },
     { label: "Acerca de", href: "/about", icon: Info },
   ];

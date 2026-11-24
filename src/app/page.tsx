@@ -262,10 +262,10 @@ export default function HomePage() {
           </div>
           <div className="flex-1 min-w-0">
             <h3 className="font-bold text-sm text-gray-100 group-hover:text-guacamole-turquoise transition-colors">
-              Guías y Metodología
+              Guías & Google Dorking
             </h3>
             <p className="text-xs text-gray-400 mt-0.5 truncate">
-              Manuales de geolocalización, análisis EXIF y registros mercantiles.
+              Generador en vivo, chuleta de operadores (site:, filetype:), GitHub y Shodan.
             </p>
           </div>
           <ArrowRight className="w-4 h-4 text-gray-500 group-hover:text-guacamole-turquoise group-hover:translate-x-1 transition-all shrink-0" />

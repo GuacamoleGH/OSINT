@@ -57,6 +57,10 @@ const SYNONYMS_MAP: Record<string, string[]> = {
   gralhix: ["sofia santos", "ejercicios", "geolocalizacion", "retos", "imint"],
   sofia: ["gralhix", "sofia santos", "ejercicios", "geolocalizacion"],
   santos: ["gralhix", "sofia santos", "ejercicios"],
+  dork: ["dorksearch", "ghdb", "advangle", "google advanced search", "grep-app"],
+  dorking: ["dorksearch", "ghdb", "advangle", "google advanced search", "grep-app"],
+  site: ["dorksearch", "advangle", "google advanced search", "dorking"],
+  filetype: ["dorksearch", "advangle", "google advanced search", "dorking"],
 };
 
 export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {

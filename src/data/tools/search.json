@@ -166,5 +166,181 @@
     "instructions": "Introduce el término entrecomillado para búsquedas literales estrictas.",
     "lastReviewed": "2026-11-23",
     "status": "active"
+  },
+  {
+    "id": "dorksearch",
+    "name": "DorkSearch",
+    "slug": "dorksearch",
+    "description": "Buscador y generador rápido de Google Dorks con miles de consultas preconfiguradas por categorías de auditoría.",
+    "longDescription": "Plataforma especializada que permite buscar y construir Google Dorks en segundos. Cuenta con una colección comunitaria indexada de dorks para descubrir archivos confidenciales, paneles de administración, bases de datos expuestas, cámaras y directorios abiertos con un solo clic.",
+    "url": "https://dorksearch.com/",
+    "categories": [
+      "search",
+      "cyber"
+    ],
+    "investigateBy": [
+      "domain-ip"
+    ],
+    "subcategories": [
+      "dorking",
+      "buscadores",
+      "ciberseguridad"
+    ],
+    "tags": [
+      "dorksearch",
+      "google-dorks",
+      "dorking",
+      "generador-dorks",
+      "exploit",
+      "ciberseguridad"
+    ],
+    "synonyms": [
+      "dorksearch",
+      "dork search",
+      "generador google dorks",
+      "dorking engine"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Gratuito (Buscador y biblioteca de dorks libre sin registro)",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Las consultas se ejecutan abriendo la búsqueda resultante en Google"
+    ],
+    "useCases": [
+      "Localizar en segundos Google Dorks listos para auditar dominios sin memorizar la sintaxis",
+      "Filtrar por categorías como paneles de administración, documentos financieros o directorios desprotegidos"
+    ],
+    "instructions": "Escribe el dominio objetivo en la barra superior o selecciona una categoría de dorks para generar y lanzar la búsqueda en Google.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "advangle",
+    "name": "Advangle",
+    "slug": "advangle",
+    "description": "Generador visual de consultas booleanas y operadores avanzados de búsqueda para Google y Bing.",
+    "longDescription": "Constructor de consultas que simplifica la creación de búsquedas complejas mediante bloques visuales de operadores (site, filetype, inurl, intext, fechas y exclusiones), evitando errores de sintaxis y permitiendo lanzar la búsqueda directamente en Google o Bing.",
+    "url": "https://advangle.com/",
+    "categories": [
+      "search"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "people-professional"
+    ],
+    "subcategories": [
+      "dorking",
+      "constructor-consultas",
+      "buscadores"
+    ],
+    "tags": [
+      "advangle",
+      "dorking-builder",
+      "operadores-booleanos",
+      "google",
+      "bing"
+    ],
+    "synonyms": [
+      "advangle",
+      "constructor dorks",
+      "generador booleanos"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Gratuito (Acceso web libre sin registro)",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Herramienta web de asistencia; la efectividad de la búsqueda depende de la indexación de Google/Bing"
+    ],
+    "useCases": [
+      "Diseñar búsquedas compuestas con operadores lógicos AND, OR y NOT sin equivocarse en los paréntesis",
+      "Filtrar por múltiples extensiones de archivo y rangos de fecha de manera gráfica"
+    ],
+    "instructions": "Añade bloques de términos, selecciona los operadores deseados (sitio, tipo de archivo, título) y pulsa en el botón de Google o Bing para ejecutar la consulta.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "grep-app",
+    "name": "Grep.app",
+    "slug": "grep-app",
+    "description": "Buscador de código ultrarrápido con expresiones regulares y operadores en más de medio millón de repositorios públicos de GitHub.",
+    "longDescription": "Motor de búsqueda de código que indexa más de 500.000 repositorios de código abierto. Permite aplicar dorks de desarrollo (path:, repo:, lang:) y expresiones regulares para localizar tokens de API, credenciales filtradas, endpoints internos o funciones específicas en segundos.",
+    "url": "https://grep.app/",
+    "categories": [
+      "cyber",
+      "search"
+    ],
+    "investigateBy": [
+      "github-dev",
+      "domain-ip"
+    ],
+    "subcategories": [
+      "github-dorks",
+      "codigo-fuente",
+      "filtraciones"
+    ],
+    "tags": [
+      "grep-app",
+      "github-dorks",
+      "regex",
+      "codigo",
+      "credenciales",
+      "repositorios"
+    ],
+    "synonyms": [
+      "grep app",
+      "github code search",
+      "dorking github",
+      "regex github"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Gratuito (Búsquedas de código libres sin registro)",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Indexa repositorios públicos populares de GitHub; no cubre repositorios privados ni redes internas"
+    ],
+    "useCases": [
+      "Buscar si el nombre de dominio o IP de un objetivo aparece referenciado en código o scripts de terceros",
+      "Localizar patrones de claves de API, certificados o contraseñas expuestas en commits públicos mediante regex"
+    ],
+    "instructions": "Introduce la cadena o patrón de expresión regular en el buscador y acota opcionalmente por ruta (path:) o lenguaje.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
   }
 ]
