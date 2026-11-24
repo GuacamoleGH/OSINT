@@ -4,7 +4,7 @@ import React, { useState, useEffect, useMemo, useRef } from "react";
 import Fuse from "fuse.js";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ToolItem } from "@/types/osint";
+import { ToolItem, PRICING_LABELS, PRICING_BADGE_CLASSES } from "@/types/osint";
 import { Search, X, ExternalLink, ArrowRight, CornerDownLeft, Sparkles } from "lucide-react";
 
 interface SearchDialogProps {
@@ -287,16 +287,13 @@ export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
                       <span className="font-semibold text-gray-100 text-sm hover:text-guacamole-green">
                         {tool.name}
                       </span>
-                      {tool.pricing === "free" && (
-                        <span className="text-[10px] font-medium px-1.5 py-0.5 bg-emerald-950/60 text-emerald-400 border border-emerald-800/60 rounded">
-                          Gratis
-                        </span>
-                      )}
-                      {tool.pricing === "freemium" && (
-                        <span className="text-[10px] font-medium px-1.5 py-0.5 bg-amber-950/60 text-amber-400 border border-amber-800/60 rounded">
-                          Freemium
-                        </span>
-                      )}
+                      <span
+                        className={`text-[10px] font-medium px-1.5 py-0.5 rounded border ${
+                          PRICING_BADGE_CLASSES[tool.pricing] || PRICING_BADGE_CLASSES.unknown
+                        }`}
+                      >
+                        {PRICING_LABELS[tool.pricing] || "Desconocido"}
+                      </span>
                       {tool.geographicScope.includes("spain") && (
                         <span className="text-[10px] font-medium px-1.5 py-0.5 bg-red-950/60 text-red-300 border border-red-800/60 rounded">
                           España

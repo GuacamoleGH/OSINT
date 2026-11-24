@@ -3,7 +3,7 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ToolItem } from "@/types/osint";
+import { ToolItem, PRICING_LABELS, PRICING_BADGE_CLASSES } from "@/types/osint";
 import { Heart, ExternalLink, Terminal } from "lucide-react";
 import { useFavorites } from "@/hooks/useFavorites";
 
@@ -37,13 +37,11 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
             </span>
 
             <span
-              className={`text-[10px] font-medium px-2 py-0.5 rounded ${
-                tool.pricing === "free"
-                  ? "bg-emerald-950/60 text-emerald-400 border border-emerald-800/60"
-                  : "bg-amber-950/60 text-amber-400 border border-amber-800/60"
+              className={`text-[10px] font-medium px-2 py-0.5 rounded border ${
+                PRICING_BADGE_CLASSES[tool.pricing] || PRICING_BADGE_CLASSES.unknown
               }`}
             >
-              {tool.pricing === "free" ? "Gratis" : "Freemium"}
+              {PRICING_LABELS[tool.pricing] || "Desconocido"}
             </span>
 
             {isSpain && (
@@ -65,9 +63,13 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
               </span>
             )}
 
-            {tool.lastReviewed && (
-              <span className="text-[10px] text-gray-400 font-mono hidden md:inline ml-auto">
-                Verificado: {tool.lastReviewed}
+            {tool.verified ? (
+              <span className="text-[10px] text-guacamole-green font-mono hidden md:inline ml-auto">
+                ✓ Verificado{tool.lastReviewed ? `: ${tool.lastReviewed}` : ""}
+              </span>
+            ) : (
+              <span className="text-[10px] text-gray-500 font-mono hidden md:inline ml-auto">
+                Pendiente de verificación
               </span>
             )}
           </div>
@@ -138,13 +140,11 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
         {/* Badges line: Clean and minimal */}
         <div className="flex flex-wrap items-center gap-1.5 mb-2.5">
           <span
-            className={`text-[10px] font-medium px-1.5 py-0.5 rounded ${
-              tool.pricing === "free"
-                ? "bg-emerald-950/60 text-emerald-400 border border-emerald-800/60"
-                : "bg-amber-950/60 text-amber-400 border border-amber-800/60"
+            className={`text-[10px] font-medium px-1.5 py-0.5 rounded border ${
+              PRICING_BADGE_CLASSES[tool.pricing] || PRICING_BADGE_CLASSES.unknown
             }`}
           >
-            {tool.pricing === "free" ? "Gratis" : "Freemium"}
+            {PRICING_LABELS[tool.pricing] || "Desconocido"}
           </span>
 
           {isSpain && (
@@ -176,9 +176,13 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
           {tool.categories[0]}
         </span>
 
-        {tool.lastReviewed && (
-          <span className="text-[10px] text-gray-500 font-mono" title={`Última verificación: ${tool.lastReviewed}`}>
-            {tool.lastReviewed}
+        {tool.verified ? (
+          <span className="text-[10px] text-guacamole-green font-mono" title={tool.lastReviewed ? `Última verificación: ${tool.lastReviewed}` : "Verificada"}>
+            ✓ Verificada
+          </span>
+        ) : (
+          <span className="text-[10px] text-gray-500 font-mono" title="Pendiente de verificación">
+            Pendiente
           </span>
         )}
 

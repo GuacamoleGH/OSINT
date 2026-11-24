@@ -308,8 +308,10 @@ export function ToolsDirectory({
                 className="w-full appearance-none text-xs bg-guacamole-input border border-guacamole-border rounded-md pl-2.5 pr-7 py-1.5 text-gray-200 outline-none focus:border-guacamole-green cursor-pointer"
               >
                 <option value="all">Cualquier precio</option>
-                <option value="free">Gratuito (100% Free)</option>
+                <option value="free">Gratis</option>
                 <option value="freemium">Freemium</option>
+                <option value="paid">De pago</option>
+                <option value="unknown">Desconocido</option>
               </select>
               <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
             </div>
