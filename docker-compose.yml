@@ -6,7 +6,7 @@ services:
     container_name: osint-hub
     restart: unless-stopped
     ports:
-      - "3104:3000"
+      - "192.168.0.18:3104:3000"
     environment:
       - NODE_ENV=production
       - PORT=3000
