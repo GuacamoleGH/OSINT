@@ -1,5 +1,14 @@
 import type { Config } from "tailwindcss";
 
+function withOpacity(variableName: string): any {
+  return ({ opacityValue }: { opacityValue?: string }) => {
+    if (opacityValue !== undefined) {
+      return `rgba(var(${variableName}), ${opacityValue})`;
+    }
+    return `rgb(var(${variableName}))`;
+  };
+}
+
 const config: Config = {
   darkMode: ["class", '[data-theme="dark"]'],
   content: [
@@ -11,19 +20,19 @@ const config: Config = {
     extend: {
       colors: {
         guacamole: {
-          deep: "#0c0e12",
-          base: "#12151b",
-          card: "#181d26",
-          hover: "#1f2532",
-          elevated: "#262d3d",
-          input: "#0f131a",
-          border: "#222a38",
-          green: "#00f59b",
-          turquoise: "#00d9c4",
-          emerald: "#10b981",
-          cyan: "#06b6d4",
-          amber: "#f59e0b",
-          rose: "#f43f5e",
+          deep: withOpacity("--bg-deep"),
+          base: withOpacity("--bg-base"),
+          card: withOpacity("--surface-card"),
+          hover: withOpacity("--surface-hover"),
+          elevated: withOpacity("--surface-elevated"),
+          input: withOpacity("--surface-input"),
+          border: withOpacity("--border-subtle"),
+          green: withOpacity("--accent-green"),
+          turquoise: withOpacity("--accent-turquoise"),
+          emerald: withOpacity("--accent-emerald"),
+          cyan: withOpacity("--accent-cyan"),
+          amber: withOpacity("--accent-amber"),
+          rose: withOpacity("--accent-rose"),
         },
       },
       fontFamily: {

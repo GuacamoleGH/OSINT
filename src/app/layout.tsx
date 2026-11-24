@@ -22,7 +22,14 @@ export default function RootLayout({
   const investigateCounts = getInvestigateByToolCounts();
 
   return (
-    <html lang="es" data-theme="dark">
+    <html lang="es" data-theme="dark" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){try{var t=localStorage.getItem('guacamolegh_osint_theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);}}catch(e){}})();`,
+          }}
+        />
+      </head>
       <body className="antialiased">
         <AppShell allTools={allTools} investigateCounts={investigateCounts}>
           {children}
