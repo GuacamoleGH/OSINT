@@ -78,6 +78,7 @@ export default function ChallengesPage() {
               <option value="free">Gratis</option>
               <option value="freemium">Freemium</option>
               <option value="paid">De pago</option>
+              <option value="unknown">Desconocido</option>
             </select>
             <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
           </div>
@@ -114,17 +115,38 @@ export default function ChallengesPage() {
                   <span className="text-[11px] text-gray-400">Por {item.provider}</span>
                 </div>
 
-                <span
-                  className={`text-[10px] font-medium px-2 py-0.5 rounded border shrink-0 ${
-                    item.pricing === "free"
-                      ? "bg-emerald-950/60 text-emerald-400 border-emerald-800/60"
+                <div className="flex flex-wrap items-center gap-1.5 shrink-0">
+                  <span
+                    className={`text-[10px] font-medium px-2 py-0.5 rounded border shrink-0 ${
+                      item.pricing === "free"
+                        ? "bg-emerald-950/60 text-emerald-400 border-emerald-800/60"
+                        : item.pricing === "freemium"
+                        ? "bg-amber-950/60 text-amber-400 border-amber-800/60"
+                        : item.pricing === "paid"
+                        ? "bg-rose-950/60 text-rose-400 border-rose-800/60"
+                        : "bg-gray-800/60 text-gray-300 border-gray-700/60"
+                    }`}
+                  >
+                    {item.pricing === "free"
+                      ? "Gratis"
                       : item.pricing === "freemium"
-                      ? "bg-amber-950/60 text-amber-400 border-amber-800/60"
-                      : "bg-rose-950/60 text-rose-400 border-rose-800/60"
-                  }`}
-                >
-                  {item.pricing === "free" ? "Gratis" : item.pricing === "freemium" ? "Freemium" : "De pago"}
-                </span>
+                      ? "Freemium"
+                      : item.pricing === "paid"
+                      ? "De pago"
+                      : "Desconocido"}
+                  </span>
+                  {item.registrationRequired !== undefined && (
+                    <span
+                      className={`text-[10px] font-medium px-2 py-0.5 rounded border shrink-0 ${
+                        item.registrationRequired
+                          ? "bg-purple-950/60 text-purple-300 border-purple-800/60"
+                          : "bg-guacamole-input text-gray-400 border-guacamole-border"
+                      }`}
+                    >
+                      {item.registrationRequired ? "Requiere cuenta" : "Sin registro"}
+                    </span>
+                  )}
+                </div>
               </div>
 
               <p className="text-xs text-gray-300 leading-relaxed line-clamp-2">

@@ -2,26 +2,28 @@
   {
     "id": "bellingcat-challenges",
     "title": "Bellingcat Challenges",
-    "description": "Retos oficiales periódicos de geolocalización, verificación forense y análisis de imágenes organizados por el equipo e investigadores de Bellingcat.",
+    "description": "Plataforma oficial de retos interactivos de Bellingcat para ejercitar habilidades de geolocalización, análisis de fuentes abiertas y verificación visual forense organizados por categorías y niveles.",
     "category": "geoint",
     "difficulty": "intermediate",
-    "url": "https://www.bellingcat.com/category/resources/how-tos/",
+    "url": "https://challenge.bellingcat.com/",
     "provider": "Bellingcat",
     "pricing": "free",
     "pricingDetails": "100% Gratuito y de acceso público",
-    "tags": ["bellingcat", "geolocalizacion", "verificacion", "retos"]
+    "tags": ["bellingcat", "geolocalizacion", "verificacion", "retos"],
+    "registrationRequired": false
   },
   {
     "id": "osint-industries-ctf",
     "title": "OSINT Industries CTF",
-    "description": "Competiciones Capture The Flag (CTF) especializadas en OSINT organizadas por OSINT Industries para entrenar pivoteo entre selectores (email, teléfono, alias, dominios y redes sociales).",
+    "description": "Desafíos y competiciones CTF de OSINT Industries para entrenar pivoteo entre selectores (email, teléfono, alias, dominios y redes sociales). Requiere registrarse e iniciar sesión con una cuenta para acceder a los retos.",
     "category": "socmint",
     "difficulty": "advanced",
-    "url": "https://ctf.osint.industries/",
+    "url": "https://ctf.osint.industries/challenges",
     "provider": "OSINT Industries",
     "pricing": "free",
-    "pricingDetails": "100% Gratuito con registro",
-    "tags": ["ctf", "selectores", "socmint", "email"]
+    "pricingDetails": "Gratuito (requiere registro de cuenta obligatoria)",
+    "tags": ["ctf", "selectores", "socmint", "email", "cuenta-requerida"],
+    "registrationRequired": true
   },
   {
     "id": "sourcing-games",
@@ -33,7 +35,8 @@
     "provider": "Jan Tegze",
     "pricing": "free",
     "pricingDetails": "100% Gratuito sin registro obligatorio",
-    "tags": ["dorking", "gamificado", "identidades", "busqueda"]
+    "tags": ["dorking", "gamificado", "identidades", "busqueda"],
+    "registrationRequired": false
   },
   {
     "id": "sofia-santos-exercises",
@@ -45,7 +48,8 @@
     "provider": "Sofia Santos / Gralhix",
     "pricing": "free",
     "pricingDetails": "100% Gratuito y abierto",
-    "tags": ["geolocalizacion", "imint", "metodologia", "soluciones"]
+    "tags": ["geolocalizacion", "imint", "metodologia", "soluciones"],
+    "registrationRequired": false
   },
   {
     "id": "quiztime",
@@ -57,7 +61,8 @@
     "provider": "Quiztime Team",
     "pricing": "free",
     "pricingDetails": "100% Gratuito en blog y redes sociales",
-    "tags": ["periodismo", "verificacion", "fotos", "acertijos"]
+    "tags": ["periodismo", "verificacion", "fotos", "acertijos"],
+    "registrationRequired": false
   },
   {
     "id": "trace-labs-search-party",
@@ -69,7 +74,8 @@
     "provider": "Trace Labs",
     "pricing": "free",
     "pricingDetails": "Gratuito para voluntarios e investigadores comunitarios",
-    "tags": ["missing-persons", "humanitario", "ctf", "comunitario"]
+    "tags": ["missing-persons", "humanitario", "ctf", "comunitario"],
+    "registrationRequired": true
   },
   {
     "id": "tryhackme-osint",
@@ -81,7 +87,8 @@
     "provider": "TryHackMe",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Salas básicas gratis; suscripción Pro opcional por ~14$/mes o ~126$/año)",
-    "tags": ["laboratorio", "guiado", "cyber", "imint"]
+    "tags": ["laboratorio", "guiado", "cyber", "imint"],
+    "registrationRequired": true
   },
   {
     "id": "cyberdefenders",
@@ -93,7 +100,8 @@
     "provider": "CyberDefenders",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Decenas de retos comunitarios gratuitos; suscripción Pro por ~20$/mes)",
-    "tags": ["threat-intel", "forense", "ctf", "cyber"]
+    "tags": ["threat-intel", "forense", "ctf", "cyber"],
+    "registrationRequired": true
   },
   {
     "id": "geoguessr",
@@ -105,7 +113,8 @@
     "provider": "GeoGuessr AB",
     "pricing": "freemium",
     "pricingDetails": "Freemium (Partidas diarias gratuitas limitadas; suscripción Pro ilimitada por ~2,99€/mes o ~23,88€/año)",
-    "tags": ["streetview", "geografia", "deduccion", "entrenamiento"]
+    "tags": ["streetview", "geografia", "deduccion", "entrenamiento"],
+    "registrationRequired": true
   },
   {
     "id": "kase-scenarios",
@@ -117,6 +126,7 @@
     "provider": "Kase Scenarios",
     "pricing": "paid",
     "pricingDetails": "De pago (Acceso individual a investigaciones por ~15€ - 30€ por caso interactivo)",
-    "tags": ["investigacion-profesional", "simulacion", "casos-reales"]
+    "tags": ["investigacion-profesional", "simulacion", "casos-reales"],
+    "registrationRequired": true
   }
 ]
