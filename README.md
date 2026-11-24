@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/GuacamoleGH/OSINT"><img src="https://img.shields.io/badge/versi%C3%B3n-1.0.0-00f59b?style=flat-square" alt="Versión"></a>
+  <a href="https://github.com/GuacamoleGH/OSINT"><img src="https://img.shields.io/badge/versi%C3%B3n-1.1.0-00f59b?style=flat-square" alt="Versión"></a>
   <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-14.2.35-black?style=flat-square&logo=next.js" alt="Next.js"></a>
   <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.7-3178c6?style=flat-square&logo=typescript" alt="TypeScript"></a>
   <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-3.4-38bdf8?style=flat-square&logo=tailwind-css" alt="Tailwind CSS"></a>
@@ -40,17 +40,34 @@ A diferencia de directorios genéricos o listas no filtradas, **OSINT Hub** impl
 - **Doble Vista en el Directorio:** Selector dinámico de visualización en **Cuadrícula** (tarjetas informativas con etiquetas) o en **Lista** (filas compactas de alta densidad).
 
 ### 🔍 Buscador Global Inteligente (`Ctrl + K` / `/`)
-- **Fuzzy Search con Fuse.js:** Búsqueda aproximada en el cliente con tolerancia a erratas en nombres, descripciones, etiquetas, subcategorías y ámbitos geográficos.
+- **Prioridad Directa & Fuzzy Search:** Coincidencias exactas y subcadenas inmediatas con tolerancia a erratas (Fuse.js) en nombres, descripciones, etiquetas, subcategorías y ámbitos geográficos.
 - **Diccionario Bilingüe de Sinónimos:** Resolución instantánea de términos cruzados en español e inglés:
   - `correo` ↔ `email`, `mail`
   - `matrícula` ↔ `vehicle`, `coche`, `dgt`
   - `teléfono` ↔ `phone`, `móvil`
   - `sol` / `sombras` ↔ `suncalc`, `azimut`, `hora`
   - `qr` / `código de barras` ↔ `zxing`, `barcode`, `bcbp`
-  - `avión` / `vuelo` ↔ `flight`, `plane`, `ads-b`
+  - `avión` / `vuelo` ↔ `flight`, `plane`, `ads-b`, `metar`
   - `barco` / `marítimo` ↔ `vessel`, `ais`, `imo`
   - `montaña` / `horizonte` ↔ `peakvisor`, `heywhatsthat`, `relieve`
-  - `geoguessing` ↔ `rainbolt`, `geoguessr`, `plonkit`, `geohints`
+  - `geoguessing` ↔ `rainbolt`, `geoguessr`, `plonkit`, `geohints`, `gralhix`
+  - `dork` / `dorking` ↔ `dorksearch`, `ghdb`, `advangle`, `site:`, `filetype:`
+
+### ⚡ Google Dorking & Operadores Avanzados (`/guides`)
+Módulo interactivo completo para exfiltrar y acotar información pública mediante sintaxis técnica:
+- **Generador de Dorks en Vivo:** Introduce el dominio objetivo y genera al instante consultas preconfiguradas y listas para copiar con 1 clic:
+  - 📑 *Documentos & Informes:* `site:{target} (filetype:pdf OR filetype:xlsx OR filetype:docx) "confidencial"`
+  - 🔑 *Configuración & Backups:* `site:{target} (ext:env OR ext:sql OR ext:bak OR ext:log OR ext:key)`
+  - 🚪 *Paneles de Administración:* `site:{target} (inurl:admin OR inurl:login OR inurl:cpanel OR inurl:dashboard)`
+  - 📂 *Directorios Abiertos:* `site:{target} intitle:"index of /" ("parent directory" OR "size")`
+  - 🔍 *Subdominios Expuestos:* `site:*.{target} -www.{target}`
+  - 🐙 *Secretos en GitHub:* `"{target}" (filename:.env OR filename:config.json) ("api_key" OR "secret")`
+- **Diccionario Interactivo por Plataforma:**
+  - **Google:** `site:`, `filetype:`, `inurl:`, `intitle:`, `intext:`, `cache:`, `after: / before:`, `AROUND(n)`, `-`, `""`.
+  - **GitHub Dorking:** `filename:`, `path:`, `extension:`, `language:`, `org: / user:`, `fork:only`.
+  - **Shodan / Censys:** `port:`, `country:`, `city:`, `org:`, `http.title:`, `ssl:`, `product:`.
+  - **Bing & DuckDuckGo:** `filetype:`, `contains:`, `ip:`, `instreamset:`, `feed:`.
+  - Cada operador incluye su explicación técnica, ejemplo real y botón directo para probarlo en el motor.
 
 ### 💰 Transparencia en Precios y Costes Aproximados
 - Todas las herramientas y plataformas que disponen de planes de pago, modelos **Freemium** o créditos indican su **precio aproximado** (por ejemplo, cuotas mensuales, límites gratuitos o coste de suscripción) directamente en las tarjetas y fichas técnicas.
@@ -72,17 +89,17 @@ A diferencia de directorios genéricos o listas no filtradas, **OSINT Hub** impl
 | Disciplina | Icono | Enfoque Principal |
 | :--- | :---: | :--- |
 | **General OSINT** | 🧭 | Directorios estructurados, marcos de trabajo (OSINT Framework) y cajas de herramientas. |
-| **Search Engines** | 🔍 | Búsqueda avanzada booleana, Google Dorks (GHDB), metabuscadores privados (SearXNG) y clustering semántico (Carrot2). |
-| **GEOINT & Maps** | 📍 | Ortofotos oficiales de España (PNOA/Iberpix, Sede del Catastro), OpenStreetMap, Street View libre (Mapillary, KartaView), GIS (QGIS) y geolocalización visual (GeoHints, Plonk It, F4Map 3D, PeakVisor, HeyWhatsThat, Bellingcat OSM Search, Spot, Dual Maps). |
-| **IMINT & Media** | 📷 | Búsqueda inversa visual (Google Lens, Yandex, TinEye), análisis forense digital (Forensically, FotoForensics, InVID-WeVerify UE), metadatos EXIF (ExifTool), decodificación de códigos QR/barras (ZXing) y metadatos de vídeo (YouTube Metadata). |
+| **Search Engines** | 🔍 | Búsqueda avanzada booleana, Google Dorks (GHDB, DorkSearch, Advangle), metabuscadores privados (SearXNG) y clustering semántico (Carrot2). |
+| **GEOINT & Maps** | 📍 | Ortofotos oficiales de España (PNOA/Iberpix, Sede del Catastro), OpenStreetMap, Street View libre (Mapillary, KartaView), GIS (QGIS), geolocalización visual (GeoHints, Plonk It, F4Map 3D, PeakVisor, HeyWhatsThat, Bellingcat OSM Search, Spot, Dual Maps) y retos formativos (Gralhix / Sofia Santos). |
+| **IMINT & Media** | 📷 | Búsqueda inversa visual (Google Lens, Yandex, TinEye), análisis forense digital (Forensically, FotoForensics, InVID-WeVerify UE), metadatos EXIF (ExifTool), decodificación de códigos QR/barras (ZXing), ejercicios de verificación (Gralhix) y metadatos de vídeo (YouTube Metadata). |
 | **Satellite Intelligence** | 🛰️ | Teledetección orbital de la Unión Europea (Copernicus Data Space Browser, Sentinel Hub EO Browser), sensores térmicos e infrarrojos de la NASA (Worldview, FIRMS) y mosaicos de drones (OpenAerialMap). |
 | **Chronolocation** | ⏱️ | Cálculo de trayectorias solares, azimut y proyección de sombras (SunCalc, Shadowmap, ShadowFinder Web, F4Map), meteorología histórica oficial (AEMET España, Ventusky) y husos horarios (Time and Date). |
 | **SOCMINT** | 👥 | Rastreo pasivo de alias y perfiles (Sherlock, Maigret, Blackbird), monitorización comunitaria de canales públicos de Telegram (TGStat, Telemetr), videojuegos (SteamID.io, OSINT-Steam), métricas de audiencia (Social Blade) y tendencias en España (Trends24). |
 | **WEBINT** | 🌐 | Archivos históricos inmutables de la web (Wayback Machine, Archive.today), transparencia de certificados SSL/TLS y subdominios (crt.sh), topología DNS (DNSDumpster), escaneo pasivo en sandbox (urlscan.io), minería de código (grep.app) y diagnóstico de correo (MXToolbox). |
 | **SIGINT** | 📻 | Base de datos global de redes inalámbricas geolocalizadas (WiGLE), radio definida por software (RTL-SDR), redes mundiales de receptores de radio en vivo (WebSDR.org) y frecuencias públicas (RadioReference). |
-| **Cyber Intelligence** | 🛡️ | Telemetría multivirus y DNS pasivo (VirusTotal), escaneo pasivo de puertos y servicios expuestos (Shodan, Censys), asignación de bloques IP y ASN europeos (RIPEstat), interconexión BGP (BGPView) y reputación de IPs (AbuseIPDB, Cisco Talos, Have I Been Pwned). |
+| **Cyber Intelligence** | 🛡️ | Telemetría multivirus y DNS pasivo (VirusTotal), escaneo pasivo de puertos y servicios expuestos (Shodan, Censys), asignación de bloques IP y ASN europeos (RIPEstat), interconexión BGP (BGPView), reputación de IPs (AbuseIPDB, Cisco Talos, Have I Been Pwned) y minería de código (Grep.app). |
 | **Public Records** | 🏛️ | Fuentes oficiales del Estado en España (BOE y BORME, Plataforma de Contratación del Sector Público, Catastro, Datos.gob.es, CNMV, DGT Distintivo Ambiental, DGT Informe Reducido, InfoJobs), registros mercantiles europeos (Portal e-Justicia BRIS, data.europa.eu), registros mundiales de empresas (OpenCorporates, GLEIF), sanciones internacionales (OpenSanctions) y filtraciones periodísticas (ICIJ Offshore Leaks, OCCRP Aleph). |
-| **Transport Intelligence** | ✈️ | Seguimiento aéreo ADS-B y militar sin censura (Flightradar24, ADS-B Exchange, OpenSky Network), monitorización marítima AIS (MarineTraffic, VesselFinder, Global Fishing Watch, Equasis UE) y decodificador de tarjetas de embarque IATA (Orca Scan BCBP Barcode Decoder). |
+| **Transport Intelligence** | ✈️ | Seguimiento aéreo ADS-B y militar sin censura (Flightradar24, ADS-B Exchange, OpenSky Network), meteorología y pistas de aeropuertos en tiempo real (METAR-TAF), monitorización marítima AIS (MarineTraffic, VesselFinder, Global Fishing Watch, Equasis UE) y decodificador de tarjetas de embarque IATA (Orca Scan BCBP Barcode Decoder). |
 
 ### 🎯 Las 12 Agrupaciones "Investigate By"
 - **Social Media** • **Gaming** • **GitHub & Developer** • **Username** • **People & Professional** • **Email** • **Phone** • **Vehicle** • **Jobs & Careers** • **Domain & IP** • **Companies** • **Location**.
@@ -132,6 +149,7 @@ OSINT/
 │   ├── components/
 │   │   ├── layout/              # Header, Sidebar responsive y AppShell
 │   │   ├── search/              # SearchDialog con Fuse.js y atajos Ctrl+K
+│   │   ├── dorking/             # DorkingCheatsheet interactivo con generador en vivo
 │   │   └── tools/               # ToolCard (grid/list) y ToolsDirectory reactivo
 │   ├── data/
 │   │   ├── categories.json      # Metadatos de las 12 disciplinas
@@ -225,7 +243,7 @@ npm run lint
 # 4. Iniciar entorno de desarrollo
 npm run dev
 
-# 5. Compilar para producción (genera 150 páginas estáticas)
+# 5. Compilar para producción (genera 154 páginas estáticas)
 npm run build
 
 # 6. Ejecutar compilación de producción en puerto 3104
