@@ -24,8 +24,8 @@
 **OSINT Hub** centraliza herramientas de investigación, buscadores especializados, registros oficiales, plataformas de práctica (CTFs) y metodologías técnicas en un portal ligero y sin dependencias de bases de datos.
 
 A diferencia de marcadores estáticos o directorios genéricos, el catálogo está modelado en JSON con validación en Zod, fecha de última revisión por herramienta (`lastReviewed`), comprobación periódica de enlaces y navegación dual:
-1. **Por Disciplina Técnica:** GEOINT, IMINT, SOCMINT, WEBINT, SIGINT, Cyber Intelligence, Chronolocation, Public Records y Transport.
-2. **Por Selector Objetivo ("Investigate By"):** Comenzando por el dato disponible (usuario, correo, teléfono, matrícula, empresa o ubicación).
+1. **Por Disciplina Técnica:** GEOINT, IMINT, Satellite, Chronolocation, SOCMINT, WEBINT, SIGINT, Cyber Intelligence, Public Records, Transport, Search y General.
+2. **Por Selector Objetivo ("Investigate By"):** Comenzando por el vector de entrada disponible (usuario, correo, teléfono, vehículo/matrícula, empresa, empleos, fraude/estafas, anuncios clasificados o ubicación geográfica).
 
 ---
 

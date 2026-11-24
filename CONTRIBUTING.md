@@ -85,7 +85,7 @@ Cada elemento debe cumplir estrictamente con el esquema Zod definido en `src/typ
 
 ### Valores Válidos para Campos Enumerados:
 - **`categories`:** `general`, `search`, `geoint`, `imint`, `satellite`, `chronolocation`, `socmint`, `webint`, `sigint`, `cyber`, `public-records`, `transport`.
-- **`investigateBy`:** `social-media`, `gaming`, `github-dev`, `username`, `people-professional`, `email`, `phone`, `vehicle`, `jobs-careers`, `domain-ip`, `companies`, `location`.
+- **`investigateBy`:** `social-media`, `gaming`, `github-dev`, `username`, `people-professional`, `email`, `phone`, `vehicle`, `jobs-careers`, `domain-ip`, `companies`, `location`, `fraud-scams`, `classifieds`.
 - **`pricing`:** `free`, `freemium`, `paid`, `unknown`.
 - **`geographicScope`:** `spain`, `europe`, `global`.
 - **`difficulty`:** `beginner`, `intermediate`, `advanced`.
