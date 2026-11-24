@@ -204,21 +204,21 @@ export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
         onClick={(e) => e.stopPropagation()}
       >
         {/* Search Input Bar */}
-        <div className="flex items-center px-4 py-3 border-b border-guacamole-border bg-guacamole-card/50">
-          <Search className="w-5 h-5 text-guacamole-green mr-3 shrink-0" />
+        <div className="flex items-center px-4 py-3 border-b border-guacamole-border bg-guacamole-card/50 gap-2">
+          <Search className="w-5 h-5 text-guacamole-green shrink-0" />
           <input
             ref={inputRef}
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder="Buscar por término, disciplina o dato (ej. 'satélite', 'correo', 'DGT', 'Steam', 'BSSID')..."
-            className="w-full bg-transparent text-gray-100 placeholder-gray-500 text-base outline-none"
+            placeholder="Buscar herramientas, selectores o técnicas..."
+            className="flex-1 min-w-0 bg-transparent text-gray-100 placeholder-gray-500 text-sm sm:text-base outline-none pr-2"
           />
           {query && (
             <button
               onClick={() => setQuery("")}
-              className="p-1 text-gray-400 hover:text-gray-200 transition-colors mr-2"
+              className="p-1 text-gray-400 hover:text-gray-200 transition-colors shrink-0"
               title="Borrar"
             >
               <X className="w-4 h-4" />
@@ -227,7 +227,7 @@ export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
           <button
             type="button"
             onClick={onClose}
-            className="flex items-center gap-1.5 px-2 py-1 text-xs text-gray-400 hover:text-white bg-guacamole-input hover:bg-guacamole-hover border border-guacamole-border hover:border-gray-500 rounded transition-colors cursor-pointer shrink-0 ml-1"
+            className="flex items-center gap-1.5 px-2.5 py-1 text-xs text-gray-400 hover:text-white bg-guacamole-input hover:bg-guacamole-hover border border-guacamole-border hover:border-gray-500 rounded-md transition-colors cursor-pointer shrink-0"
             title="Cerrar ventana (ESC)"
           >
             <span className="font-mono text-[11px] font-semibold leading-none">ESC</span>
