@@ -61,11 +61,13 @@ const SYNONYMS_MAP: Record<string, string[]> = {
   dorking: ["dorksearch", "ghdb", "advangle", "google advanced search", "grep-app"],
   site: ["dorksearch", "advangle", "google advanced search", "dorking"],
   filetype: ["dorksearch", "advangle", "google advanced search", "dorking"],
-  wifi: ["wi-fi", "wireless", "bssid", "ssid", "wigle", "kismet", "inalambrica"],
-  "wi-fi": ["wifi", "wireless", "bssid", "ssid", "wigle", "kismet"],
-  wireless: ["wifi", "wi-fi", "bssid", "ssid", "wigle", "kismet"],
-  bssid: ["wifi", "wi-fi", "mac", "router", "wigle", "kismet", "oui"],
-  ssid: ["wifi", "wi-fi", "red", "wigle", "kismet"],
+  wifi: ["wi-fi", "wireless", "bssid", "ssid", "wigle", "kismet", "3wifi", "p3wifi", "inalambrica"],
+  "wi-fi": ["wifi", "wireless", "bssid", "ssid", "wigle", "kismet", "3wifi", "p3wifi"],
+  p3wifi: ["3wifi", "wifi", "wi-fi", "bssid", "ssid", "wigle"],
+  "3wifi": ["p3wifi", "wifi", "wi-fi", "bssid", "ssid", "wigle"],
+  wireless: ["wifi", "wi-fi", "bssid", "ssid", "wigle", "kismet", "3wifi"],
+  bssid: ["wifi", "wi-fi", "mac", "router", "wigle", "kismet", "3wifi", "p3wifi", "oui"],
+  ssid: ["wifi", "wi-fi", "red", "wigle", "kismet", "3wifi", "p3wifi"],
 };
 
 export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
