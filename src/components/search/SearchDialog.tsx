@@ -61,6 +61,11 @@ const SYNONYMS_MAP: Record<string, string[]> = {
   dorking: ["dorksearch", "ghdb", "advangle", "google advanced search", "grep-app"],
   site: ["dorksearch", "advangle", "google advanced search", "dorking"],
   filetype: ["dorksearch", "advangle", "google advanced search", "dorking"],
+  wifi: ["wi-fi", "wireless", "bssid", "ssid", "wigle", "kismet", "inalambrica"],
+  "wi-fi": ["wifi", "wireless", "bssid", "ssid", "wigle", "kismet"],
+  wireless: ["wifi", "wi-fi", "bssid", "ssid", "wigle", "kismet"],
+  bssid: ["wifi", "wi-fi", "mac", "router", "wigle", "kismet", "oui"],
+  ssid: ["wifi", "wi-fi", "red", "wigle", "kismet"],
 };
 
 export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
@@ -97,16 +102,13 @@ export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
   const fuse = useMemo(() => {
     return new Fuse(tools, {
       keys: [
-        { name: "name", weight: 0.35 },
-        { name: "synonyms", weight: 0.25 },
-        { name: "tags", weight: 0.2 },
-        { name: "description", weight: 0.15 },
-        { name: "subcategories", weight: 0.1 },
-        { name: "categories", weight: 0.1 },
-        { name: "investigateBy", weight: 0.1 },
+        { name: "name", weight: 0.4 },
+        { name: "synonyms", weight: 0.3 },
+        { name: "tags", weight: 0.25 },
+        { name: "subcategories", weight: 0.15 },
       ],
-      threshold: 0.35,
-      ignoreLocation: true,
+      threshold: 0.28,
+      minMatchCharLength: 3,
       includeScore: true,
     });
   }, [tools]);
@@ -118,23 +120,38 @@ export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
       return tools.filter((t) => t.featured).slice(0, 8);
     }
 
+    const cleanTrimmed = trimmed.replace(/[-\s_]/g, "");
+
     // 1. Direct substring matches (highest priority, 100% reliable)
     const directMatches = tools.filter((tool) => {
-      const matchName = tool.name.toLowerCase().includes(trimmed);
+      const matchName =
+        tool.name.toLowerCase().includes(trimmed) ||
+        (cleanTrimmed.length >= 3 && tool.name.toLowerCase().replace(/[-\s_]/g, "").includes(cleanTrimmed));
       const matchSlug = tool.slug.toLowerCase().includes(trimmed);
-      const matchTag = tool.tags.some((t) => t.toLowerCase().includes(trimmed));
-      const matchSynonym = tool.synonyms.some((s) => s.toLowerCase().includes(trimmed));
+      const matchTag = tool.tags.some(
+        (t) =>
+          t.toLowerCase().includes(trimmed) ||
+          (cleanTrimmed.length >= 3 && t.toLowerCase().replace(/[-\s_]/g, "").includes(cleanTrimmed))
+      );
+      const matchSynonym = tool.synonyms.some(
+        (s) =>
+          s.toLowerCase().includes(trimmed) ||
+          (cleanTrimmed.length >= 3 && s.toLowerCase().replace(/[-\s_]/g, "").includes(cleanTrimmed))
+      );
       const matchDesc = tool.description.toLowerCase().includes(trimmed);
       const matchCategory = tool.categories.some((c) => c.toLowerCase().includes(trimmed));
       const matchInvestigate = tool.investigateBy.some((i) => i.toLowerCase().includes(trimmed));
       return matchName || matchSlug || matchTag || matchSynonym || matchDesc || matchCategory || matchInvestigate;
     });
 
-    // 2. Fuzzy search with Fuse on the exact query
-    const fuseMatches = fuse.search(trimmed).map((r) => r.item);
+    // 2. Fuzzy search with Fuse on the exact query (filter high precision matches to prevent false positives)
+    const fuseMatches = fuse
+      .search(trimmed)
+      .filter((r) => r.score !== undefined && r.score <= 0.28)
+      .map((r) => r.item);
 
     // 3. Synonym matches (if synonyms are registered for any of the query words)
-    const words = trimmed.split(/\s+/);
+    const words = trimmed.split(/[\s,]+/);
     const relatedSynonyms: string[] = [];
     for (const w of words) {
       if (SYNONYMS_MAP[w]) {
@@ -151,8 +168,7 @@ export function SearchDialog({ isOpen, onClose, tools }: SearchDialogProps) {
                 tool.name.toLowerCase().includes(s) ||
                 tool.slug.toLowerCase().includes(s) ||
                 tool.tags.some((t) => t.toLowerCase().includes(s)) ||
-                tool.synonyms.some((sy) => sy.toLowerCase().includes(s)) ||
-                tool.description.toLowerCase().includes(s)
+                tool.synonyms.some((sy) => sy.toLowerCase().includes(s))
               );
             })
           )

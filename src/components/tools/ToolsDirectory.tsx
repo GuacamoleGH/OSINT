@@ -50,10 +50,21 @@ export function ToolsDirectory({
         // Search filter
         if (search.trim()) {
           const q = search.toLowerCase();
-          const matchName = tool.name.toLowerCase().includes(q);
+          const cleanQ = q.replace(/[-\s_]/g, "");
+          const matchName =
+            tool.name.toLowerCase().includes(q) ||
+            (cleanQ.length >= 3 && tool.name.toLowerCase().replace(/[-\s_]/g, "").includes(cleanQ));
           const matchDesc = tool.description.toLowerCase().includes(q);
-          const matchTag = tool.tags.some((t) => t.toLowerCase().includes(q));
-          const matchSynonym = tool.synonyms.some((s) => s.toLowerCase().includes(q));
+          const matchTag = tool.tags.some(
+            (t) =>
+              t.toLowerCase().includes(q) ||
+              (cleanQ.length >= 3 && t.toLowerCase().replace(/[-\s_]/g, "").includes(cleanQ))
+          );
+          const matchSynonym = tool.synonyms.some(
+            (s) =>
+              s.toLowerCase().includes(q) ||
+              (cleanQ.length >= 3 && s.toLowerCase().replace(/[-\s_]/g, "").includes(cleanQ))
+          );
           if (!matchName && !matchDesc && !matchTag && !matchSynonym) {
             return false;
           }
