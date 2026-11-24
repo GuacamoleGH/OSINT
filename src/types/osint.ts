@@ -68,6 +68,29 @@ export type DifficultyLevel = z.infer<typeof DifficultyLevelSchema>;
 export const PlatformTypeSchema = z.enum(["web", "cli", "desktop", "browser-extension", "mobile", "api"]);
 export type PlatformType = z.infer<typeof PlatformTypeSchema>;
 
+export const PLATFORM_LABELS: Record<PlatformType, string> = {
+  web: "Web",
+  cli: "CLI",
+  desktop: "Escritorio",
+  "browser-extension": "Extensión",
+  mobile: "App móvil",
+  api: "API",
+};
+
+export const PLATFORM_BADGE_CLASSES: Record<PlatformType, string> = {
+  web: "bg-sky-950/60 text-sky-300 border border-sky-800/60",
+  cli: "bg-purple-950/60 text-purple-300 border border-purple-800/60",
+  desktop: "bg-indigo-950/60 text-indigo-300 border border-indigo-800/60",
+  "browser-extension": "bg-amber-950/60 text-amber-300 border border-amber-800/60",
+  mobile: "bg-teal-950/60 text-teal-300 border border-teal-800/60",
+  api: "bg-slate-800/70 text-slate-300 border border-slate-700/70",
+};
+
+export function getToolPlatforms(type: PlatformType, platforms?: PlatformType[]): PlatformType[] {
+  const list = platforms && platforms.length > 0 ? platforms : [type];
+  return Array.from(new Set([type, ...list]));
+}
+
 export const ToolItemSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),

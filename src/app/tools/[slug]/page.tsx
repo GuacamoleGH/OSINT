@@ -11,6 +11,7 @@ import {
 import { PRICING_LABELS } from "@/types/osint";
 import { ToolDetailActions } from "@/components/tools/ToolDetailActions";
 import { ToolCard } from "@/components/tools/ToolCard";
+import { PlatformBadges } from "@/components/tools/PlatformBadges";
 import {
   ArrowLeft,
   ExternalLink,
@@ -144,10 +145,10 @@ export default function ToolDetailPage({ params }: ToolDetailPageProps) {
           </div>
 
           <div className="p-3 rounded-lg bg-guacamole-input/80 border border-guacamole-border">
-            <span className="text-gray-400 block mb-1">Plataforma</span>
-            <span className="font-semibold text-gray-100 uppercase font-mono">
-              {tool.type}
-            </span>
+            <span className="text-gray-400 block mb-1.5">Plataformas</span>
+            <div className="flex flex-wrap gap-1.5">
+              <PlatformBadges type={tool.type} platforms={tool.platforms} includeApi size="sm" />
+            </div>
           </div>
         </div>
 

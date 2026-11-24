@@ -4,8 +4,9 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ToolItem, PRICING_LABELS, PRICING_BADGE_CLASSES } from "@/types/osint";
-import { Heart, ExternalLink, Terminal } from "lucide-react";
+import { Heart, ExternalLink } from "lucide-react";
 import { useFavorites } from "@/hooks/useFavorites";
+import { PlatformBadges } from "@/components/tools/PlatformBadges";
 
 interface ToolCardProps {
   tool: ToolItem;
@@ -56,12 +57,7 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
               </span>
             )}
 
-            {tool.type === "cli" && (
-              <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-purple-950/60 text-purple-300 border border-purple-800/60 flex items-center gap-1">
-                <Terminal className="w-3 h-3" />
-                CLI
-              </span>
-            )}
+            <PlatformBadges type={tool.type} platforms={tool.platforms} includeApi={false} />
 
             {tool.verified ? (
               <span className="text-[10px] text-guacamole-green font-mono hidden md:inline ml-auto">
@@ -159,11 +155,7 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
             </span>
           )}
 
-          {tool.type === "cli" && (
-            <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-purple-950/60 text-purple-300 border border-purple-800/60">
-              CLI
-            </span>
-          )}
+          <PlatformBadges type={tool.type} platforms={tool.platforms} includeApi={false} />
         </div>
 
         {/* Description: 2 lines max, airy and readable */}

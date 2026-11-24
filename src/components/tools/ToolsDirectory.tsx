@@ -95,8 +95,12 @@ export function ToolsDirectory({
           return false;
         }
 
-        // Platform type filter
-        if (selectedType !== "all" && tool.type !== selectedType) {
+        // Platform type filter (matches primary type or any listed secondary platform)
+        if (
+          selectedType !== "all" &&
+          tool.type !== selectedType &&
+          !tool.platforms.includes(selectedType as any)
+        ) {
           return false;
         }
 
@@ -350,9 +354,11 @@ export function ToolsDirectory({
               >
                 <option value="all">Todos los tipos</option>
                 <option value="web">Web App</option>
-                <option value="cli">Línea de comandos (CLI)</option>
+                <option value="mobile">App móvil</option>
                 <option value="desktop">Software de escritorio</option>
+                <option value="cli">Línea de comandos (CLI)</option>
                 <option value="browser-extension">Extensión de navegador</option>
+                <option value="api">API</option>
               </select>
               <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
             </div>
