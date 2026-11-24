@@ -115,7 +115,10 @@
     "categories": [
       "search"
     ],
-    "investigateBy": [],
+    "investigateBy": [
+      "domain-ip",
+      "username"
+    ],
     "subcategories": [
       "metabuscadores",
       "privacidad"
@@ -217,7 +220,10 @@
     "categories": [
       "search"
     ],
-    "investigateBy": [],
+    "investigateBy": [
+      "domain-ip",
+      "username"
+    ],
     "subcategories": [
       "indice-independiente",
       "privacidad"
@@ -421,6 +427,174 @@
       "Filtrar por múltiples extensiones de archivo y rangos de fecha de manera gráfica"
     ],
     "instructions": "Añade bloques de términos, selecciona los operadores deseados (sitio, tipo de archivo, título) y pulsa en el botón de Google o Bing para ejecutar la consulta.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "github-advanced-search",
+    "name": "GitHub Advanced Search y Code Search",
+    "slug": "github-advanced-search",
+    "description": "Búsqueda avanzada de código, repositorios, commits y expresiones regulares en GitHub.",
+    "longDescription": "Interfaz oficial de búsqueda avanzada y el nuevo motor GitHub Code Search. Permite buscar cadenas exactas, expresiones regulares, rutas de archivos (path:), extensiones (extension:), autores y secretos en cientos de millones de repositorios públicos mundiales.",
+    "url": "https://github.com/search/advanced",
+    "categories": [
+      "search"
+    ],
+    "investigateBy": [
+      "github-dev"
+    ],
+    "subcategories": [
+      "codigo",
+      "github",
+      "busqueda-avanzada",
+      "expresiones-regulares"
+    ],
+    "tags": [
+      "github-search",
+      "code-search",
+      "repositorios",
+      "expresiones-regulares",
+      "commits"
+    ],
+    "synonyms": [
+      "github code search",
+      "buscar codigo en github",
+      "github advanced search"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Acceso gratuito con cuenta de GitHub",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere iniciar sesión en GitHub para utilizar la búsqueda de código con expresiones regulares"
+    ],
+    "useCases": [
+      "Auditar si credenciales o tokens de una organización han sido subidos accidentalmente a GitHub",
+      "Buscar implementaciones de funciones o librerías específicas"
+    ],
+    "instructions": "Utiliza calificadores como \"org:nombre repo:nombre path:.env\" o expresiones regulares en la barra de búsqueda de GitHub.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "searchcode",
+    "name": "searchcode",
+    "slug": "searchcode",
+    "description": "Motor de búsqueda de código fuente libre que indexa miles de millones de líneas en múltiples repositorios.",
+    "longDescription": "Buscador especializado en código fuente que indexa repositorios públicos de GitHub, GitLab, Bitbucket y Google Code. Permite localizar funciones específicas, nombres de variables, llamadas a APIs y fragmentos de código en más de 90 lenguajes de programación.",
+    "url": "https://searchcode.com/",
+    "categories": [
+      "search"
+    ],
+    "investigateBy": [
+      "github-dev"
+    ],
+    "subcategories": [
+      "codigo-fuente",
+      "multirepositorio",
+      "busqueda-codigo"
+    ],
+    "tags": [
+      "searchcode",
+      "buscador-codigo",
+      "gitlab",
+      "bitbucket",
+      "snippets"
+    ],
+    "synonyms": [
+      "search code",
+      "buscador de codigo searchcode"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Motor de búsqueda 100% gratuito sin registro",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Índice actualizado periódicamente según las cosechas de repositorios"
+    ],
+    "useCases": [
+      "Buscar si un fragmento de código propietario o clave API ha sido filtrado en plataformas alternativas a GitHub",
+      "Identificar librerías que implementan un algoritmo concreto"
+    ],
+    "instructions": "Escribe la función, nombre de variable o texto entre comillas en el cuadro de búsqueda.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "sourcebot",
+    "name": "Sourcebot",
+    "slug": "sourcebot",
+    "description": "Buscador de código abierto rápido para navegar y consultar repositorios y bibliotecas de software.",
+    "longDescription": "Motor de búsqueda de código de alto rendimiento que permite explorar bases de código, definiciones de tipos, símbolos y referencias entre paquetes de software de código abierto con una interfaz limpia.",
+    "url": "https://www.sourcebot.dev/",
+    "categories": [
+      "search"
+    ],
+    "investigateBy": [
+      "github-dev"
+    ],
+    "subcategories": [
+      "codigo",
+      "simbolos",
+      "desarrollo",
+      "search-engine"
+    ],
+    "tags": [
+      "sourcebot",
+      "code-search",
+      "simbolos",
+      "navegacion-codigo"
+    ],
+    "synonyms": [
+      "source bot",
+      "buscador sourcebot"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Acceso web gratuito",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado en repositorios populares de código abierto indexados"
+    ],
+    "useCases": [
+      "Buscar referencias cruzadas a métodos o configuraciones de código",
+      "Inspeccionar paquetes públicos"
+    ],
+    "instructions": "Introduce la cadena o identificador que deseas buscar en las bases de código disponibles.",
     "lastReviewed": "2026-11-24",
     "status": "active"
   }

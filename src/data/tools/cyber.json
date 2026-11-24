@@ -460,8 +460,7 @@
       "cyber"
     ],
     "investigateBy": [
-      "email",
-      "phone"
+      "email"
     ],
     "subcategories": [
       "brechas",
@@ -1825,6 +1824,692 @@
       "Identificar importadores y fabricantes sancionados"
     ],
     "instructions": "Utiliza los filtros por país notificador, categoría de producto o riesgo para consultar los informes semanales de alertas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "osv-dev",
+    "name": "OSV.dev",
+    "slug": "osv-dev",
+    "description": "Base de datos de vulnerabilidades en código abierto impulsada por Google y la OpenSSF.",
+    "longDescription": "Open Source Vulnerabilities (OSV) es una base de datos distribuida y formato estándar promovido por Google y la Open Source Security Foundation. Agrega y correlaciona avisos de seguridad en ecosistemas como npm, PyPI, Go, Rust (crates.io), Maven y el kernel de Linux con mapeo exacto a commits y versiones corregidas.",
+    "url": "https://osv.dev/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "github-dev"
+    ],
+    "subcategories": [
+      "vulnerabilidades",
+      "open-source",
+      "google",
+      "openssf"
+    ],
+    "tags": [
+      "osv",
+      "vulnerabilidades-open-source",
+      "google-security",
+      "cve",
+      "dependencias"
+    ],
+    "synonyms": [
+      "osv dev",
+      "google osv",
+      "open source vulnerabilities"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Base de datos y API 100% libre y gratuita",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado exclusivamente en paquetes y librerías de código abierto"
+    ],
+    "useCases": [
+      "Auditar si una dependencia de software utilizada en un proyecto contiene fallos de seguridad conocidos",
+      "Comprobar el commit exacto donde se introdujo o solucionó una vulnerabilidad"
+    ],
+    "instructions": "Busca por nombre de paquete (ej. \"lodash\") o identificador GHSA/CVE para ver el desglose técnico.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "deps-dev",
+    "name": "deps.dev",
+    "slug": "deps-dev",
+    "description": "Plataforma de análisis de grafos de dependencias, licencias y seguridad en la cadena de suministro de software.",
+    "longDescription": "Servicio desarrollado por Google que analiza continuamente millones de paquetes en los principales ecosistemas de código abierto. Mapea el árbol completo de dependencias directas y transitivas, riesgos de seguridad (OpenSSF Scorecard), licencias de software y asesores de seguridad.",
+    "url": "https://deps.dev/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "github-dev"
+    ],
+    "subcategories": [
+      "dependencias",
+      "cadena-suministro",
+      "seguridad",
+      "google"
+    ],
+    "tags": [
+      "deps-dev",
+      "openssf-scorecard",
+      "dependencias-software",
+      "google",
+      "licencias"
+    ],
+    "synonyms": [
+      "deps dev",
+      "google deps"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "100% gratuito sin registro",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Soporta ecosistemas principales: npm, PyPI, Go, Maven, Cargo"
+    ],
+    "useCases": [
+      "Examinar la salud y riesgos de la cadena de suministro de una librería",
+      "Identificar dependencias transitivas vulnerables"
+    ],
+    "instructions": "Introduce el nombre del paquete para desplegar su grafo de dependencias y puntuación OpenSSF.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "trufflehog",
+    "name": "TruffleHog",
+    "slug": "trufflehog",
+    "description": "Escáner de secretos, credenciales expuestas y claves API en repositorios de código y sistemas de archivos.",
+    "longDescription": "Herramienta líder de auditoría de seguridad desarrollada por Truffle Security. Analiza repositorios Git completos (incluyendo historial de commits anteriores y ramas borradas), sistemas de archivos y buckets S3 para detectar más de 800 tipos de credenciales, verificando además criptográficamente si la clave sigue activa.",
+    "url": "https://github.com/trufflesecurity/trufflehog",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "github-dev"
+    ],
+    "subcategories": [
+      "secretos",
+      "auditoria-seguridad",
+      "credenciales",
+      "git"
+    ],
+    "tags": [
+      "trufflehog",
+      "secret-scanning",
+      "claves-api",
+      "git-audit",
+      "ciberseguridad-defensiva"
+    ],
+    "synonyms": [
+      "truffle hog",
+      "detector de secretos git"
+    ],
+    "type": "cli",
+    "pricing": "free",
+    "pricingDetails": "Herramienta CLI de código abierto 100% gratuita",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Usar solo sobre cuentas, repos y activos propios o con autorización"
+    ],
+    "useCases": [
+      "Auditar repositorios propios antes de publicarlos para evitar fugas de claves de AWS o bases de datos",
+      "Detectar tokens expuestos en historiales de commits pasados"
+    ],
+    "instructions": "Ejecuta \"trufflehog git https://github.com/organizacion/repositorio\" en tu terminal para iniciar el escaneo.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "gitleaks",
+    "name": "Gitleaks",
+    "slug": "gitleaks",
+    "description": "Detector estático ultrarrápido de secretos, contraseñas y tokens en repositorios Git y pipelines de CI/CD.",
+    "longDescription": "Herramienta de código abierto escrita en Go para la detección de secretos (API keys, contraseñas, certificados privados) en código fuente y repositorios Git. Puede integrarse como pre-commit hook o ejecutarse de forma aislada en auditorías de seguridad.",
+    "url": "https://github.com/gitleaks/gitleaks",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "github-dev"
+    ],
+    "subcategories": [
+      "secretos",
+      "cli",
+      "go",
+      "ci-cd"
+    ],
+    "tags": [
+      "gitleaks",
+      "secret-detection",
+      "seguridad-git",
+      "tokens",
+      "auditoria-codigo"
+    ],
+    "synonyms": [
+      "git leaks",
+      "gitleaks scanner"
+    ],
+    "type": "cli",
+    "pricing": "free",
+    "pricingDetails": "CLI de código abierto 100% gratuito",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "cli"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Usar solo sobre cuentas, repos y activos propios o con autorización"
+    ],
+    "useCases": [
+      "Escanear el historial completo de un repositorio en busca de contraseñas olvidadas",
+      "Prevenir subidas accidentales de credenciales en repositorios corporativos"
+    ],
+    "instructions": "Ejecuta \"gitleaks detect --source .\" en la raíz de tu proyecto para auditar el código.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "gitleak-io",
+    "name": "GitLeak",
+    "slug": "gitleak-io",
+    "description": "Buscador y monitor de secretos expuestos en repositorios públicos de GitHub.",
+    "longDescription": "Servicio web especializado en monitorizar y buscar patrones de claves API, tokens de acceso y secretos de configuración expuestos accidentalmente en repositorios públicos de código abierto.",
+    "url": "https://gitleak.io/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "github-dev"
+    ],
+    "subcategories": [
+      "secretos",
+      "filtraciones",
+      "github",
+      "auditoria"
+    ],
+    "tags": [
+      "gitleak",
+      "leaks-github",
+      "claves-expuestas",
+      "ciberseguridad"
+    ],
+    "synonyms": [
+      "gitleak io",
+      "buscador secretos git"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta web de seguridad defensiva",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Usar solo sobre cuentas, repos y activos propios o con autorización"
+    ],
+    "useCases": [
+      "Comprobar si los activos o nombres de una organización aparecen vinculados a fugas de claves en GitHub",
+      "Auditar exposición corporativa"
+    ],
+    "instructions": "Introduce el dominio o nombre de organización para comprobar si existen credenciales indexadas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "freecarrierlookup",
+    "name": "Free Carrier Lookup",
+    "slug": "freecarrierlookup",
+    "description": "Identificador de operador telefónico móvil (carrier) y tipo de línea a partir del número.",
+    "longDescription": "Herramienta que consulta bases de datos de numeración telefónica para identificar el proveedor de telecomunicaciones actual (carrier), si la línea es móvil o fija (landline/wireless) y la puerta de enlace de correo a SMS (SMS gateway address).",
+    "url": "https://freecarrierlookup.com/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "phone"
+    ],
+    "subcategories": [
+      "telefonia",
+      "operadores",
+      "carrier-lookup",
+      "sms-gateway"
+    ],
+    "tags": [
+      "freecarrierlookup",
+      "operador-movil",
+      "carrier",
+      "telefonos",
+      "sms-gateway"
+    ],
+    "synonyms": [
+      "free carrier lookup",
+      "saber operador de telefono"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Búsqueda web gratuita",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Mayor precisión en números de Estados Unidos, Canadá y redes internacionales interconectadas"
+    ],
+    "useCases": [
+      "Determinar si un número telefónico corresponde a un teléfono móvil o a una línea fija o VoIP virtual",
+      "Comprobar el operador original de una línea"
+    ],
+    "instructions": "Escribe el número con su prefijo internacional y resuelve el captcha para ver los datos del operador.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "twilio-lookup",
+    "name": "Twilio Lookup API",
+    "slug": "twilio-lookup",
+    "description": "API profesional de telecomunicaciones para validación de formato, operador, tipo de línea y detección de fraude en números.",
+    "longDescription": "Servicio de consulta telefónica de nivel industrial operado por Twilio. Proporciona formateo normalizado E.164, identificación precisa del operador de red móvil o virtual (MVNO), detección de números virtuales desechables (VoIP) y evaluación de riesgo de fraude mediante SIM-swap.",
+    "url": "https://www.twilio.com/docs/lookup/v2-api",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "phone"
+    ],
+    "subcategories": [
+      "api-telefonia",
+      "carrier",
+      "voip-detection",
+      "antifraude"
+    ],
+    "tags": [
+      "twilio",
+      "lookup-api",
+      "operador-red",
+      "deteccion-voip",
+      "sim-swap"
+    ],
+    "synonyms": [
+      "twilio lookup",
+      "api verificar telefono twilio"
+    ],
+    "type": "api",
+    "pricing": "paid",
+    "pricingDetails": "Servicio de pago por llamada API tras prueba inicial con créditos para desarrolladores",
+    "access": "registration",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": true,
+    "limitations": [
+      "Requiere registro de cuenta de desarrollador en Twilio y clave API con saldo"
+    ],
+    "useCases": [
+      "Identificar si un número telefónico es una línea virtual VoIP utilizada en estafas o un número móvil real",
+      "Detectar si se ha producido un cambio reciente de tarjeta SIM (SIM-swap)"
+    ],
+    "instructions": "Envía peticiones GET autenticadas al endpoint v2 de Lookup pasando el número telefónico.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "listaspam",
+    "name": "ListaSpam",
+    "slug": "listaspam",
+    "description": "Directorio comunitario líder en España para identificar llamadas de spam, telemarketing agresivo y estafas telefónicas.",
+    "longDescription": "La mayor base de datos comunitaria en España e Hispanoamérica para identificar números de teléfono no deseados. Miles de usuarios reportan a diario intentos de fraude, suplantación bancaria, llamadas comerciales no autorizadas y acoso telefónico con comentarios detallados.",
+    "url": "https://www.listaspam.com/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "phone",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "spam-telefonico",
+      "estafas-telefonicas",
+      "espana",
+      "denuncias-comunitarias"
+    ],
+    "tags": [
+      "listaspam",
+      "spam-telefonico",
+      "quien-llama",
+      "estafas-telefono",
+      "espana"
+    ],
+    "synonyms": [
+      "lista spam",
+      "de quien es este numero listaspam"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública gratuita sin registro",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Datos basados en reportes ciudadanos voluntarios"
+    ],
+    "useCases": [
+      "Comprobar si un número de teléfono que contactó por SMS o llamada está asociado a campañas masivas de vishing o estafas bancarias",
+      "Identificar la empresa de telemarketing tras una línea"
+    ],
+    "instructions": "Introduce el número en el buscador superior para leer las opiniones y denuncias reportadas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "tellows-es",
+    "name": "Tellows España",
+    "slug": "tellows-es",
+    "description": "Plataforma internacional de evaluación de números telefónicos y puntuación de riesgo de fraude.",
+    "longDescription": "Comunidad global presente en más de 50 países que asigna una puntuación de riesgo (Tellows Score del 1 al 9) a cada número reportado, clasificando la tipología de la llamada (telemarketing, cobro de deudas, loterías falsas, llamadas silenciosas ping-calls).",
+    "url": "https://www.tellows.es/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "phone",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "riesgo-telefono",
+      "spam",
+      "tellows-score",
+      "antifraude"
+    ],
+    "tags": [
+      "tellows",
+      "tellows-score",
+      "identificador-llamadas",
+      "spam-espana",
+      "ciberfraude"
+    ],
+    "synonyms": [
+      "tellows espana",
+      "puntuacion tellows telefono"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta gratuita de puntuaciones y comentarios",
+    "access": "public",
+    "geographicScope": [
+      "spain",
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los números nuevos o con escasas llamadas pueden carecer de evaluaciones suficientes"
+    ],
+    "useCases": [
+      "Evaluar el nivel de riesgo de un teléfono antes de devolver una llamada perdida sospechosa",
+      "Conocer la ubicación geográfica estimada de la centralita"
+    ],
+    "instructions": "Escribe el número en el cajón de búsqueda para comprobar su Tellows Score y mapa de calor de búsquedas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "scamadviser",
+    "name": "ScamAdviser",
+    "slug": "scamadviser",
+    "description": "Motor de análisis de reputación y algoritmo de confianza para detectar tiendas online fraudulentas y sitios de estafa.",
+    "longDescription": "Plataforma que evalúa automáticamente la legitimidad de cualquier sitio web comercial mediante un algoritmo que combina más de 40 factores: antigüedad del dominio, ubicación física del servidor, certificados SSL, presencia en listas negras de malware y opiniones de usuarios.",
+    "url": "https://www.scamadviser.com/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "fraud-scams",
+      "domain-ip",
+      "classifieds"
+    ],
+    "subcategories": [
+      "antifraude",
+      "tiendas-falsas",
+      "confianza-web",
+      "reputacion"
+    ],
+    "tags": [
+      "scamadviser",
+      "trust-score",
+      "estafas-online",
+      "tiendas-fraudulentas",
+      "phishing-ecommerce"
+    ],
+    "synonyms": [
+      "scam adviser",
+      "comprobar si una tienda es fiable"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "pricingDetails": "Consulta individual gratuita; API comercial para integración empresarial",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los sitios legítimos de reciente creación pueden recibir inicialmente una puntuación cautelar baja"
+    ],
+    "useCases": [
+      "Verificar si una tienda online anunciada en redes sociales es una tapadera de estafa",
+      "Obtener la puntuación de confianza (Trustscore) de una pasarela de comercio"
+    ],
+    "instructions": "Pega la URL o dominio en el buscador para ver el informe de riesgo y análisis técnico.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "scamdoc",
+    "name": "Scamdoc",
+    "slug": "scamdoc",
+    "description": "Evaluador web que calcula la puntuación de fiabilidad y riesgo de estafa de nombres de dominio y correos.",
+    "longDescription": "Herramienta desarrollada por el equipo de Signal-Arnaques que asigna un índice de confianza porcentual a páginas web y direcciones de correo electrónico, analizando registros de WHOIS, popularidad web y denuncias ciudadanas de fraude.",
+    "url": "https://www.scamdoc.com/",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "fraud-scams",
+      "domain-ip",
+      "classifieds"
+    ],
+    "subcategories": [
+      "indice-confianza",
+      "correos-falsos",
+      "antifraude",
+      "reputacion"
+    ],
+    "tags": [
+      "scamdoc",
+      "confianza-web",
+      "detector-estafas",
+      "antifraude-correos"
+    ],
+    "synonyms": [
+      "scam doc",
+      "evaluador scamdoc"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "pricingDetails": "Análisis web gratuito de dominios y correos",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "El índice se genera algorítmicamente y debe ser contrastado con otras fuentes"
+    ],
+    "useCases": [
+      "Comprobar si una dirección de correo electrónico remitente está vinculada a campañas de estafas",
+      "Evaluar la fiabilidad de una página de clasificados o compraventa"
+    ],
+    "instructions": "Escribe el dominio o correo electrónico en la casilla de comprobación para obtener el porcentaje de fiabilidad.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "google-safe-browsing",
+    "name": "Google Safe Browsing Transparency Report",
+    "slug": "google-safe-browsing",
+    "description": "Informe de transparencia de Google para auditar si un dominio o URL contiene malware o phishing.",
+    "longDescription": "Herramienta oficial de Google Safe Browsing, la tecnología que protege a navegadores como Chrome, Firefox y Safari. Permite consultar el estado de seguridad actual de un sitio web para determinar si aloja software malicioso, ataques de ingeniería social o páginas de phishing dirigidas.",
+    "url": "https://transparencyreport.google.com/safe-browsing/search",
+    "categories": [
+      "cyber"
+    ],
+    "investigateBy": [
+      "fraud-scams",
+      "domain-ip"
+    ],
+    "subcategories": [
+      "google",
+      "malware",
+      "phishing",
+      "transparencia"
+    ],
+    "tags": [
+      "safe-browsing",
+      "google",
+      "transparency-report",
+      "sitio-peligroso",
+      "malware-web"
+    ],
+    "synonyms": [
+      "google safe browsing",
+      "comprobar web segura google"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública oficial gratuita",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Refleja el estado en el momento del último rastreo de los bots de Google"
+    ],
+    "useCases": [
+      "Comprobar si un dominio sospechoso ha sido clasificado formalmente como peligroso por Google",
+      "Verificar si un sitio hackeado ha sido limpiado"
+    ],
+    "instructions": "Pega la URL completa en el cuadro de búsqueda para ver el dictamen oficial de seguridad de Google.",
     "lastReviewed": "2026-11-24",
     "status": "active"
   }

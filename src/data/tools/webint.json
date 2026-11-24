@@ -1354,5 +1354,290 @@
     "instructions": "Visita el portal oficial para explorar las colecciones temáticas abiertas o solicitar acceso a las terminales de consulta patrimonial.",
     "lastReviewed": "2026-11-24",
     "status": "active"
+  },
+  {
+    "id": "gharchive",
+    "name": "GH Archive",
+    "slug": "gharchive",
+    "description": "Archivo histórico y público de todos los eventos de GitHub desde 2011 consultable vía BigQuery.",
+    "longDescription": "Proyecto que registra y archiva cada evento público generado en GitHub (commits, pull requests, comentarios, forks, estrellas, aperturas de issues) hora a hora desde 2011. Permite realizar consultas analíticas masivas sobre el historial de la comunidad de desarrolladores mediante Google BigQuery.",
+    "url": "https://www.gharchive.org/",
+    "categories": [
+      "webint"
+    ],
+    "investigateBy": [
+      "github-dev"
+    ],
+    "subcategories": [
+      "github",
+      "historico",
+      "bigquery",
+      "eventos"
+    ],
+    "tags": [
+      "gharchive",
+      "github-archive",
+      "bigquery",
+      "historico-commits",
+      "big-data"
+    ],
+    "synonyms": [
+      "gh archive",
+      "github archive bigquery"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Datos abiertos gratuitos; consultas mediante nivel gratuito de Google BigQuery",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "advanced",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere conocimientos de SQL y una cuenta de Google Cloud para lanzar consultas en BigQuery"
+    ],
+    "useCases": [
+      "Recuperar eventos y commits públicos que fueron posteriormente eliminados de un repositorio en GitHub",
+      "Analizar la evolución de la actividad de un usuario a lo largo de los años"
+    ],
+    "instructions": "Consulta la tabla pública \"githubarchive.day\" en la consola de Google BigQuery ejecutando consultas SQL.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "software-heritage",
+    "name": "Software Heritage Archive",
+    "slug": "software-heritage",
+    "description": "El mayor archivo mundial de preservación permanente de código fuente y repositorios de software.",
+    "longDescription": "Iniciativa internacional sin ánimo de lucro respaldada por la UNESCO e INRIA. Archiva de forma inmutable el código fuente de cientos de millones de proyectos de GitHub, GitLab, Debian y otros repositorios, asignando identificadores criptográficos permanentes (SWHID).",
+    "url": "https://archive.softwareheritage.org/",
+    "categories": [
+      "webint"
+    ],
+    "investigateBy": [
+      "github-dev"
+    ],
+    "subcategories": [
+      "archivo-codigo",
+      "unesco",
+      "preservacion",
+      "swhid"
+    ],
+    "tags": [
+      "software-heritage",
+      "unesco",
+      "preservacion-codigo",
+      "swhid",
+      "inmutable"
+    ],
+    "synonyms": [
+      "software heritage",
+      "archivo de codigo unesco"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Acceso público y gratuito a todo el archivo",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Orientado a la preservación del historial de versiones y commits"
+    ],
+    "useCases": [
+      "Recuperar un repositorio de software que ha sido eliminado o borrado de GitHub o GitLab",
+      "Verificar la autoría y fecha exacta de un commit histórico mediante su hash criptográfico"
+    ],
+    "instructions": "Escribe la URL del repositorio en el buscador o solicita el archivado inmediato de un proyecto.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "publicwww",
+    "name": "PublicWWW",
+    "slug": "publicwww",
+    "description": "Buscador de código fuente web en páginas de todo el mundo (HTML, JavaScript, CSS, snippets).",
+    "longDescription": "Motor de búsqueda especializado que indexa el código fuente HTML, JS y CSS de cientos de millones de sitios web. Permite buscar identificadores de seguimiento únicos (Google Analytics UA/G, AdSense, píxeles de Facebook), widgets, firmas de temas y claves embebidas en el front-end.",
+    "url": "https://publicwww.com/",
+    "categories": [
+      "webint"
+    ],
+    "investigateBy": [
+      "github-dev",
+      "domain-ip"
+    ],
+    "subcategories": [
+      "codigo-fuente",
+      "huella-digital",
+      "analytics-id",
+      "front-end"
+    ],
+    "tags": [
+      "publicwww",
+      "codigo-html",
+      "analytics-tracking",
+      "firmas-web",
+      "scripts"
+    ],
+    "synonyms": [
+      "public www",
+      "buscar en codigo fuente de webs"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "pricingDetails": "Búsqueda gratuita básica; suscripción de pago para exportación masiva y operadores avanzados",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La versión gratuita muestra los primeros resultados; para listas completas requiere planes de pago"
+    ],
+    "useCases": [
+      "Descubrir todos los sitios web creados por el mismo autor buscando su código de Google AdSense o Analytics",
+      "Localizar páginas web que ejecutan un script o librería concreta"
+    ],
+    "instructions": "Escribe el snippet de código, etiqueta HTML o identificador entre comillas en la barra de búsqueda.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "nerdydata",
+    "name": "NerdyData",
+    "slug": "nerdydata",
+    "description": "Motor de búsqueda de código fuente web, tecnologías instaladas y dependencias de JavaScript.",
+    "longDescription": "Buscador que indexa el código HTML y librerías JavaScript de millones de dominios de primer nivel. Permite encontrar qué sitios web utilizan determinados frameworks, scripts de rastreo, pasarelas de pago o metadatos comunes.",
+    "url": "https://www.nerdydata.com/",
+    "categories": [
+      "webint"
+    ],
+    "investigateBy": [
+      "github-dev",
+      "domain-ip"
+    ],
+    "subcategories": [
+      "codigo-web",
+      "javascript",
+      "stack-tecnologico"
+    ],
+    "tags": [
+      "nerdydata",
+      "source-code-search",
+      "tecnologias-web",
+      "analisis-front"
+    ],
+    "synonyms": [
+      "nerdy data",
+      "buscador codigo nerdydata"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "pricingDetails": "Consultas básicas gratuitas; planes comerciales para filtrado avanzado",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Límite de resultados visibles en el plan gratuito"
+    ],
+    "useCases": [
+      "Descubrir sitios web que comparten el mismo identificador o estructura de desarrollo",
+      "Analizar la adopción de una biblioteca"
+    ],
+    "instructions": "Introduce el fragmento de código, nombre de variable o script para ver la lista de sitios web coincidentes.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "analyzeid",
+    "name": "AnalyzeID",
+    "slug": "analyzeid",
+    "description": "Herramienta de análisis de huellas y relaciones entre sitios web mediante códigos de seguimiento compartidos.",
+    "longDescription": "Servicio OSINT que extrae y correlaciona identificadores analíticos (Google Analytics, AdSense, Amazon Associates, ClickBank) para desvelar qué otros nombres de dominio pertenecen al mismo propietario o red de sitios.",
+    "url": "https://analyzeid.com/",
+    "categories": [
+      "webint"
+    ],
+    "investigateBy": [
+      "domain-ip",
+      "github-dev"
+    ],
+    "subcategories": [
+      "analytics",
+      "relaciones-web",
+      "huella-digital",
+      "tracking"
+    ],
+    "tags": [
+      "analyzeid",
+      "google-analytics",
+      "adsense-id",
+      "relaciones-dominios",
+      "redes-web"
+    ],
+    "synonyms": [
+      "analyze id",
+      "buscar webs mismo analytics"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta gratuita de identificadores web",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Solo eficaz en sitios web que utilicen códigos de analítica o publicidad no enmascarados"
+    ],
+    "useCases": [
+      "Conectar una red de sitios de estafas o desinformación descubriendo que comparten el mismo ID de Google Analytics",
+      "Mapear el ecosistema digital de un individuo"
+    ],
+    "instructions": "Introduce el dominio para extraer sus IDs y ver la lista de otros dominios que comparten el mismo identificador.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
   }
 ]

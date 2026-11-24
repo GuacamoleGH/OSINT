@@ -70,7 +70,9 @@
     "categories": [
       "sigint"
     ],
-    "investigateBy": [],
+    "investigateBy": [
+      "location"
+    ],
     "subcategories": [
       "sdr",
       "radiofrecuencia",
@@ -118,11 +120,13 @@
     "slug": "websdr",
     "description": "Red mundial de receptores de radio de onda corta y frecuencias VHF/UHF accesibles en tiempo real vía navegador.",
     "longDescription": "Servidores conectados a receptores SDR operados por radioaficionados y universidades de todo el mundo que permiten escuchar señales de radio reales en vivo, sincronizar frecuencias marítimas y aéreas e inspeccionar el espectrograma (waterfall).",
-    "url": "http://www.websdr.org/",
+    "url": "https://www.websdr.org/",
     "categories": [
       "sigint"
     ],
-    "investigateBy": [],
+    "investigateBy": [
+      "location"
+    ],
     "subcategories": [
       "receptores-remotos",
       "espectro-radio"
@@ -174,7 +178,9 @@
     "categories": [
       "sigint"
     ],
-    "investigateBy": [],
+    "investigateBy": [
+      "location"
+    ],
     "subcategories": [
       "frecuencias",
       "planes-de-banda"
@@ -513,7 +519,8 @@
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
-      "Cada receptor admite un número limitado de usuarios simultáneos (generalmente 4 u 8 oyentes)"
+      "Cada receptor admite un número limitado de usuarios simultáneos (generalmente 4 u 8 oyentes)",
+      "Solo HTTP"
     ],
     "useCases": [
       "Escuchar transmisiones de radio de alta frecuencia en zonas de conflicto o estaciones numéricas militares",
@@ -633,6 +640,66 @@
       "Descargar los audios exactos de una intervención policial"
     ],
     "instructions": "Elige un sistema en el listado de ciudades, filtra por los talkgroups de interés y reproduce las piezas de audio en la línea de tiempo.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "opencellid",
+    "name": "OpenCellID",
+    "slug": "opencellid",
+    "description": "La mayor base de datos abierta y colaborativa del mundo de torres de telefonía celular y antenas móviles.",
+    "longDescription": "Proyecto de datos abiertos gestionado por Unwired Labs. Recopila millones de posiciones de antenas celulares GSM, UMTS, LTE y 5G con sus identificadores de celda (MCC, MNC, LAC, CID), permitiendo geolocalizar dispositivos móviles mediante triangulación de torres sin GPS.",
+    "url": "https://opencellid.org/",
+    "categories": [
+      "sigint"
+    ],
+    "investigateBy": [
+      "phone",
+      "location"
+    ],
+    "subcategories": [
+      "antenas",
+      "torres-celulares",
+      "gsm",
+      "triangulacion",
+      "open-data"
+    ],
+    "tags": [
+      "opencellid",
+      "torres-moviles",
+      "cell-id",
+      "lac",
+      "mcc",
+      "triangulacion-celular"
+    ],
+    "synonyms": [
+      "open cell id",
+      "base de datos torres celulares"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Datos abiertos gratuitos para uso personal con clave API gratuita",
+    "access": "registration",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": true,
+    "limitations": [
+      "Descargar los datos completos o realizar consultas masivas por API requiere crear una cuenta gratuita para obtener API key"
+    ],
+    "useCases": [
+      "Triangular la posición aproximada de un terminal si se conocen los Cell IDs registrados en los registros de llamadas",
+      "Descargar la base de datos de antenas de un país para análisis local en QGIS"
+    ],
+    "instructions": "Regístrate para obtener una API key gratuita e introduce el MCC, MNC, LAC y CellID en el visor para localizar la antena.",
     "lastReviewed": "2026-11-24",
     "status": "active"
   }

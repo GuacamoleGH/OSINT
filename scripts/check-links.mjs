@@ -41,7 +41,7 @@ async function checkUrl(tool) {
   const timeout = setTimeout(() => controller.abort(), 12000);
 
   try {
-    // Try HEAD first, fallback to GET if method not allowed (405) or forbidden (403)
+    // Try HEAD first, fallback to GET if HEAD fails (status >= 400 or network error)
     let response;
     try {
       response = await fetch(tool.url, {
@@ -50,8 +50,8 @@ async function checkUrl(tool) {
         signal: controller.signal,
         redirect: 'follow',
       });
-      if (response.status === 405 || response.status === 403) {
-        throw new Error('HEAD not supported');
+      if (response.status >= 400) {
+        throw new Error(`HEAD returned ${response.status}`);
       }
     } catch {
       response = await fetch(tool.url, {
@@ -64,8 +64,8 @@ async function checkUrl(tool) {
 
     clearTimeout(timeout);
 
-    // Accept 2xx and 3xx, and treat cloudflare challenge 403 as alive
-    if (response.status < 400 || response.status === 403) {
+    // Accept 2xx and 3xx, and treat WAF/Cloudflare challenge 403/405 as alive
+    if (response.status < 400 || response.status === 403 || response.status === 405) {
       return { ok: true, status: response.status };
     }
     return { ok: false, status: response.status, error: `HTTP ${response.status}` };
@@ -103,9 +103,23 @@ console.log(`\n✅ Enlaces accesibles: ${successful.length}/${tools.length}`);
 
 if (failed.length > 0) {
   console.log(`⚠️ Enlaces con advertencias o no accesibles (${failed.length}):`);
+  let md = `### ⚠️ Enlaces no accesibles detectados en el catálogo\n\n`;
+  md += `_Fecha de detección: ${new Date().toISOString()}_  \n`;
+  md += `Total de herramientas afectadas: **${failed.length}** de ${tools.length}\n\n`;
+  md += `| Herramienta | Archivo | URL | Estado / Error |\n`;
+  md += `| :--- | :--- | :--- | :--- |\n`;
+
   for (const f of failed) {
     console.log(`  - [${f.item.file}] ${f.item.name} (${f.item.url}): ${f.res.error}`);
+    md += `| **${f.item.name}** (\`${f.item.id}\`) | \`${f.item.file}\` | [Enlace](${f.item.url}) | \`${f.res.error}\` |\n`;
   }
+
+  try {
+    fs.writeFileSync('broken-links.md', md, 'utf8');
+  } catch (e) {
+    console.error('Error escribiendo broken-links.md:', e.message);
+  }
+
   // If run with --strict, exit with 1
   if (process.argv.includes('--strict')) {
     process.exit(1);

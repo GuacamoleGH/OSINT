@@ -29,6 +29,7 @@ import {
 
 export default function HomePage() {
   const categories = getAllCategories();
+  const allInvestigateBy = getAllInvestigateBy();
   const featuredTools = getFeaturedTools().slice(0, 4);
   const stats = getGlobalStats();
   const investigateCounts = getInvestigateByToolCounts();
@@ -37,42 +38,42 @@ export default function HomePage() {
     {
       id: "location",
       name: "Ubicación Geográfica",
-      count: investigateCounts["location"] || 45,
+      count: investigateCounts["location"] || 0,
       icon: MapPin,
       desc: "Satélites, mapas, streetview",
     },
     {
       id: "people-professional",
       name: "Personas y Profesional",
-      count: investigateCounts["people-professional"] || 15,
+      count: investigateCounts["people-professional"] || 0,
       icon: UserCheck,
       desc: "Perfiles, registros y filtraciones",
     },
     {
       id: "domain-ip",
       name: "Dominio e IP",
-      count: investigateCounts["domain-ip"] || 20,
+      count: investigateCounts["domain-ip"] || 0,
       icon: Network,
       desc: "DNS, WHOIS, certificados y red",
     },
     {
       id: "companies",
       name: "Sociedades y Empresas",
-      count: investigateCounts["companies"] || 18,
+      count: investigateCounts["companies"] || 0,
       icon: Building,
       desc: "BORME, registros mercantiles, CIF",
     },
     {
       id: "username",
       name: "Nombre de usuario",
-      count: investigateCounts["username"] || 10,
+      count: investigateCounts["username"] || 0,
       icon: AtSign,
-      desc: "Huella digital en +3000 plataformas",
+      desc: "Huella digital en redes y foros",
     },
     {
       id: "email",
       name: "Correo Electrónico",
-      count: investigateCounts["email"] || 11,
+      count: investigateCounts["email"] || 0,
       icon: Mail,
       desc: "Brechas, dominios y reputación",
     },
@@ -146,7 +147,7 @@ export default function HomePage() {
                 href="/investigate-by"
                 className="text-xs text-gray-400 hover:text-guacamole-turquoise transition-colors flex items-center gap-1"
               >
-                <span>Ver los 12</span>
+                <span>Ver los {allInvestigateBy.length}</span>
                 <ArrowRight className="w-3 h-3" />
               </Link>
             </div>

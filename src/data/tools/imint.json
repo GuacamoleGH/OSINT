@@ -121,7 +121,10 @@
     "categories": [
       "imint"
     ],
-    "investigateBy": [],
+    "investigateBy": [
+      "social-media",
+      "people-professional"
+    ],
     "subcategories": [
       "busqueda-inversa",
       "cronologia"
@@ -172,7 +175,10 @@
     "categories": [
       "imint"
     ],
-    "investigateBy": [],
+    "investigateBy": [
+      "social-media",
+      "location"
+    ],
     "subcategories": [
       "forense",
       "ela",
@@ -279,7 +285,10 @@
     "categories": [
       "imint"
     ],
-    "investigateBy": [],
+    "investigateBy": [
+      "social-media",
+      "location"
+    ],
     "subcategories": [
       "ela",
       "forense"
@@ -698,7 +707,8 @@
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
-      "Utiliza conexión HTTP estándar; incluye captcha para evitar abusos automatizados"
+      "Utiliza conexión HTTP estándar; incluye captcha para evitar abusos automatizados",
+      "Solo HTTP"
     ],
     "useCases": [
       "Extraer coordenadas GPS exactas ocultas en un archivo JPEG compartido directamente por mensajería o correo",

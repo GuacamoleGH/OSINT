@@ -1049,5 +1049,579 @@
     "instructions": "Escribe el nombre del político, tema o frase entre comillas en el cuadro de búsqueda para ver las fichas con su dictamen oficial.",
     "lastReviewed": "2026-11-24",
     "status": "active"
+  },
+  {
+    "id": "steamrep",
+    "name": "SteamRep",
+    "slug": "steamrep",
+    "description": "Base de datos comunitaria de reputación y prevención de fraudes y estafas en el comercio de Steam.",
+    "longDescription": "Plataforma sin ánimo de lucro de seguridad comunitaria para usuarios de Steam. Registra y verifica denuncias de estafas (scams), usurpación de identidad y comercio deshonesto de ítems virtuales, etiquetando perfiles fraudulentos.",
+    "url": "https://steamrep.com/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "gaming",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "steam",
+      "reputacion",
+      "antifraude",
+      "videojuegos"
+    ],
+    "tags": [
+      "steamrep",
+      "steam",
+      "estafas-steam",
+      "reputacion-gaming",
+      "steamid"
+    ],
+    "synonyms": [
+      "steam rep",
+      "verificar cuenta steam fraude"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta comunitaria 100% gratuita",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Basado en reportes comunitarios verificados por administradores de comunidades de intercambio"
+    ],
+    "useCases": [
+      "Comprobar si una cuenta de Steam ha sido marcada formalmente como estafadora (Scammer)",
+      "Obtener conversiones completas de SteamID, SteamID3 y SteamID64"
+    ],
+    "instructions": "Pega el enlace al perfil de Steam o su SteamID en el recuadro para desplegar el historial de reputación.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "namemc",
+    "name": "NameMC",
+    "slug": "namemc",
+    "description": "Historial de nombres de usuario, skins y perfiles de cuentas de Minecraft.",
+    "longDescription": "Base de datos que recopila el historial completo de cambios de nombre de usuario en Minecraft, UUIDs de cuentas de Mojang/Microsoft, aspectos (skins) utilizados a lo largo del tiempo y servidores asociados.",
+    "url": "https://namemc.com/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "gaming",
+      "username"
+    ],
+    "subcategories": [
+      "minecraft",
+      "alias",
+      "historial-nombres",
+      "gaming"
+    ],
+    "tags": [
+      "namemc",
+      "minecraft",
+      "uuid-mojang",
+      "alias-minecraft",
+      "skins"
+    ],
+    "synonyms": [
+      "name mc",
+      "historial nombres minecraft"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública gratuita",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Exclusivo del ecosistema de Minecraft"
+    ],
+    "useCases": [
+      "Rastrear qué nombres de usuario pasados ha tenido un jugador de Minecraft",
+      "Identificar perfiles relacionados a través de skins idénticas"
+    ],
+    "instructions": "Escribe el nombre de usuario actual o UUID en el buscador para ver la línea temporal de nombres y aspectos.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "tracker-gg",
+    "name": "Tracker Network",
+    "slug": "tracker-gg",
+    "description": "Estadísticas competitivas, historiales de partidas y perfiles de jugadores en múltiples videojuegos populares.",
+    "longDescription": "Red de rastreo de estadísticas para títulos multijugador masivos como Valorant, Fortnite, Apex Legends, Rainbow Six Siege, Rocket League y Call of Duty. Muestra rangos, partidas recientes, compañeros frecuentes y cambios de alias.",
+    "url": "https://tracker.gg/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "gaming"
+    ],
+    "subcategories": [
+      "videojuegos",
+      "estadisticas",
+      "esports",
+      "perfiles-gamers"
+    ],
+    "tags": [
+      "tracker-gg",
+      "valorant-tracker",
+      "fortnite-tracker",
+      "esports",
+      "gamers"
+    ],
+    "synonyms": [
+      "tracker gg",
+      "stats tracker gaming"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta gratuita de perfiles públicos de juego",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile",
+      "desktop"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Solo muestra perfiles configurados como públicos en la API del desarrollador del juego"
+    ],
+    "useCases": [
+      "Correlacionar las horas habituales de juego de un alias para deducir su huso horario probable",
+      "Identificar compañeros de equipo habituales para mapear su red social de contactos"
+    ],
+    "instructions": "Selecciona el videojuego, introduce el Riot ID o gamertag y consulta el historial de partidas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "psnprofiles",
+    "name": "PSNProfiles",
+    "slug": "psnprofiles",
+    "description": "Líder en estadísticas de PlayStation Network, historiales de trofeos y marcas temporales de juego en consolas Sony.",
+    "longDescription": "Base de datos de perfiles de PlayStation Network (PS3, PS4, PS5, PS Vita). Muestra trofeos desbloqueados con marca de tiempo exacta (segundo a segundo), lista de juegos jugados, rareza de logros y actividad cronológica del jugador.",
+    "url": "https://psnprofiles.com/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "gaming",
+      "username"
+    ],
+    "subcategories": [
+      "playstation",
+      "psn",
+      "trofeos",
+      "cronolocalizacion"
+    ],
+    "tags": [
+      "psnprofiles",
+      "psn",
+      "playstation",
+      "trofeos",
+      "sony",
+      "cronologia-juegos"
+    ],
+    "synonyms": [
+      "psn profiles",
+      "trofeos playstation psnprofiles"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública gratuita de perfiles PSN",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere que el usuario de PlayStation tenga la privacidad de trofeos abierta"
+    ],
+    "useCases": [
+      "Obtener la fecha y hora exacta en que un usuario estaba jugando a la consola mediante las marcas de tiempo de los trofeos",
+      "Correlacionar alias de PSN con otros servicios"
+    ],
+    "instructions": "Escribe el PSN Online ID en la casilla de búsqueda superior para desplegar la cronología de trofeos.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "trueachievements",
+    "name": "TrueAchievements",
+    "slug": "trueachievements",
+    "description": "Plataforma comunitaria de seguimiento de logros de Xbox con registros cronológicos de actividad en consolas Microsoft.",
+    "longDescription": "La mayor comunidad de seguimiento del ecosistema Xbox y Windows Gaming. Registra cada logro (achievement) con su Gamerscore, hora y fecha precisa de desbloqueo, amigos habituales de juego y estadísticas de sesión.",
+    "url": "https://www.trueachievements.com/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "gaming",
+      "username"
+    ],
+    "subcategories": [
+      "xbox",
+      "microsoft",
+      "logros",
+      "cronologia"
+    ],
+    "tags": [
+      "trueachievements",
+      "xbox",
+      "gamertag",
+      "logros-xbox",
+      "microsoft-gaming"
+    ],
+    "synonyms": [
+      "true achievements",
+      "logros xbox tracker"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública gratuita",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Perfiles configurados como privados en Xbox Live no revelan detalles"
+    ],
+    "useCases": [
+      "Analizar patrones de horarios de conexión de un objetivo a través de sus logros en Xbox",
+      "Identificar el Gamertag de un alias conocido"
+    ],
+    "instructions": "Introduce el Xbox Gamertag en la barra de búsqueda para ver el listado de logros ordenados por fecha.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "disboard",
+    "name": "Disboard",
+    "slug": "disboard",
+    "description": "El mayor directorio público de servidores de Discord organizados por categorías, temáticas y etiquetas.",
+    "longDescription": "Buscador y repositorio comunitario donde propietarios de servidores de Discord publican enlaces de invitación, descripciones y etiquetas. En OSINT, permite descubrir comunidades vinculadas a proyectos, ideologías, hacking, criptomonedas o regiones geográficas concretas.",
+    "url": "https://disboard.org/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "gaming",
+      "social-media"
+    ],
+    "subcategories": [
+      "discord",
+      "servidores",
+      "comunidades",
+      "mensajeria"
+    ],
+    "tags": [
+      "disboard",
+      "discord",
+      "servidores-discord",
+      "comunidades-online",
+      "chat"
+    ],
+    "synonyms": [
+      "disboard servidores discord",
+      "buscar canales discord"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Búsqueda pública gratuita de servidores",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Solo indexa servidores públicos cuyos administradores hayan decidido listarlos en la plataforma"
+    ],
+    "useCases": [
+      "Localizar servidores de Discord dedicados a un tema o filtración específica",
+      "Encontrar enlaces de invitación abiertos a grupos de debate"
+    ],
+    "instructions": "Escribe términos clave o etiquetas en el buscador para ver los servidores coincidentes y sus enlaces de invitación.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "discord-snowflake",
+    "name": "Discord ID / Snowflake Lookup",
+    "slug": "discord-snowflake",
+    "description": "Decodificador de identificadores Snowflake de Discord para calcular la fecha y hora exacta de creación.",
+    "longDescription": "Herramienta online que extrae la marca de tiempo (timestamp) de 64 bits codificada matemáticamente en los identificadores únicos (Snowflakes) de Discord. Permite averiguar con precisión de milisegundos cuándo se creó una cuenta de usuario, un servidor (guild), un canal o un mensaje.",
+    "url": "https://discord.id/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "gaming",
+      "social-media"
+    ],
+    "subcategories": [
+      "discord",
+      "snowflake",
+      "cronolocalizacion",
+      "metadatos"
+    ],
+    "tags": [
+      "discord-id",
+      "snowflake",
+      "discord-timestamp",
+      "identificadores-discord"
+    ],
+    "synonyms": [
+      "discord snowflake decoder",
+      "calcular fecha cuenta discord"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Utilidad web 100% gratuita sin registro",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Solo requiere el número numérico de 18 o 19 dígitos del Snowflake de Discord"
+    ],
+    "useCases": [
+      "Determinar si una cuenta de Discord es recién creada (posible cuenta señuelo o bot) o tiene años de antigüedad",
+      "Conocer la fecha exacta de fundación de un servidor de Discord"
+    ],
+    "instructions": "Activa el modo desarrollador en Discord, copia el ID de usuario o servidor y pégalo en la casilla de consulta.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "linkedin",
+    "name": "LinkedIn",
+    "slug": "linkedin",
+    "description": "La mayor red social profesional del mundo con perfiles laborales, organigramas corporativos y trayectorias.",
+    "longDescription": "Plataforma líder mundial en relaciones profesionales y laborales. Pieza angular de la disciplina SOCMINT y People OSINT para mapear la plantilla de empleados de una empresa, cargos directivos, tecnologías dominadas, historial formativo y relaciones laborales.",
+    "url": "https://www.linkedin.com/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "jobs-careers",
+      "people-professional",
+      "companies"
+    ],
+    "subcategories": [
+      "red-profesional",
+      "organigramas",
+      "trayectoria-laboral",
+      "empresas"
+    ],
+    "tags": [
+      "linkedin",
+      "profesionales",
+      "empleados",
+      "organigramas",
+      "perfiles-laborales"
+    ],
+    "synonyms": [
+      "linked in",
+      "buscar perfil linkedin",
+      "empleados empresa linkedin"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "pricingDetails": "Búsqueda básica con cuenta gratuita; planes Premium/Sales Navigator para filtros avanzados",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere iniciar sesión; ver perfiles puede notificar al titular si no se configura en modo anónimo"
+    ],
+    "useCases": [
+      "Reconstruir el organigrama y lista de empleados de un departamento corporativo",
+      "Verificar la trayectoria académica y laboral de un individuo"
+    ],
+    "instructions": "Usa operadores de búsqueda en Google (ej. site:linkedin.com/in/ \"Nombre\") para consultar perfiles sin alertar notificaciones.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "xing",
+    "name": "Xing",
+    "slug": "xing",
+    "description": "Red social profesional europea con fuerte implantación en Alemania, Austria, Suiza y Europa Central.",
+    "longDescription": "Red profesional referente en los países de habla alemana (DACH) y Europa continental. Ofrece perfiles laborales de directivos, ingenieros y especialistas que a menudo mantienen perfiles más completos y actualizados aquí que en LinkedIn.",
+    "url": "https://www.xing.com/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "jobs-careers",
+      "people-professional"
+    ],
+    "subcategories": [
+      "red-profesional",
+      "europa",
+      "dach",
+      "trayectoria"
+    ],
+    "tags": [
+      "xing",
+      "profesionales-alemania",
+      "red-laboral-europa",
+      "cargos-directivos"
+    ],
+    "synonyms": [
+      "xing red profesional",
+      "linkedin aleman"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "pricingDetails": "Consulta básica gratuita con cuenta; suscripciones Pro para búsquedas exhaustivas",
+    "access": "public",
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Predominio de perfiles en idioma alemán y del ámbito europeo central"
+    ],
+    "useCases": [
+      "Localizar directivos de filiales europeas que no tienen cuenta activa en LinkedIn",
+      "Verificar historial laboral en corporaciones europeas"
+    ],
+    "instructions": "Busca por nombre de persona o empresa en la barra superior o utiliza operadores dorking en Google.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "githubrecon",
+    "name": "GithubRecon",
+    "slug": "githubrecon",
+    "description": "Herramienta web de reconocimiento para auditar usuarios de GitHub, organizaciones y repositorios públicos.",
+    "longDescription": "Utilidad OSINT que realiza una extracción ágil de los datos públicos expuestos por un usuario en GitHub: dirección de correo público en eventos de commits, organizaciones a las que pertenece, repositorios con estrellas, forks y actividad reciente.",
+    "url": "https://kriztalz.sh/github-recon/",
+    "categories": [
+      "socmint"
+    ],
+    "investigateBy": [
+      "github-dev",
+      "username"
+    ],
+    "subcategories": [
+      "github",
+      "reconocimiento",
+      "emails-commits",
+      "desarrolladores"
+    ],
+    "tags": [
+      "githubrecon",
+      "github-osint",
+      "auditoria-github",
+      "commits",
+      "emails-github"
+    ],
+    "synonyms": [
+      "github recon",
+      "recolector github"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Herramienta web 100% gratuita",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Usar solo sobre cuentas, repos y activos propios o con autorización"
+    ],
+    "useCases": [
+      "Descubrir el correo electrónico vinculado a los commits de un usuario de GitHub",
+      "Mapear la actividad pública y organizaciones de un desarrollador"
+    ],
+    "instructions": "Escribe el nombre de usuario de GitHub para desplegar el perfil analizado con sus metadatos.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
   }
 ]

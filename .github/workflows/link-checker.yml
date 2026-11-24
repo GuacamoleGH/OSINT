@@ -23,4 +23,21 @@ jobs:
           node-version: 20
 
       - name: Verify tool catalog links
-        run: node scripts/check-links.mjs
+        id: check_links
+        run: node scripts/check-links.mjs --strict
+
+      - name: Create or update issue for broken links
+        if: failure() && steps.check_links.outcome == 'failure'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ISSUE_TITLE="⚠️ Alerta: Enlaces rotos o no accesibles detectados en el catálogo"
+          # Comprobar si ya existe un issue abierto con ese título
+          EXISTING_ISSUE=$(gh issue list --state open --search "$ISSUE_TITLE" --json number --jq '.[0].number')
+          if [ -n "$EXISTING_ISSUE" ]; then
+            echo "Actualizando issue abierto #$EXISTING_ISSUE..."
+            gh issue comment "$EXISTING_ISSUE" --body-file broken-links.md
+          else
+            echo "Creando nuevo issue..."
+            gh issue create --title "$ISSUE_TITLE" --body-file broken-links.md
+          fi

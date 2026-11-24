@@ -1262,8 +1262,7 @@
       "public-records"
     ],
     "investigateBy": [
-      "companies",
-      "classifieds"
+      "companies"
     ],
     "subcategories": [
       "espana",
@@ -1320,8 +1319,7 @@
       "public-records"
     ],
     "investigateBy": [
-      "companies",
-      "classifieds"
+      "companies"
     ],
     "subcategories": [
       "europa",
@@ -1437,8 +1435,7 @@
       "public-records"
     ],
     "investigateBy": [
-      "companies",
-      "github-dev"
+      "companies"
     ],
     "subcategories": [
       "europa",
@@ -1728,8 +1725,7 @@
       "public-records"
     ],
     "investigateBy": [
-      "companies",
-      "jobs-careers"
+      "companies"
     ],
     "subcategories": [
       "espana",
@@ -2425,6 +2421,298 @@
       "Debida diligencia para comprobar si una contraparte internacional o buque figura en listas negras de EE.UU."
     ],
     "instructions": "Introduce el nombre o número de identificación, ajusta el umbral de coincidencia difusa y pulsa 'Search'.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "empleate-sepe",
+    "name": "Empléate (SEPE)",
+    "slug": "empleate-sepe",
+    "description": "Portal público y oficial de empleo del Servicio Público de Empleo Estatal (SEPE) de España.",
+    "longDescription": "Portal oficial de intermediación laboral del Gobierno de España gestionado por el Ministerio de Trabajo y Economía Social y las comunidades autónomas. Integra ofertas de trabajo del sector público y privado, oposiciones de todas las administraciones y programas de formación.",
+    "url": "https://sede.sepe.gob.es/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "jobs-careers"
+    ],
+    "subcategories": [
+      "sepe",
+      "empleo-publico",
+      "espana",
+      "oposiciones",
+      "oficial"
+    ],
+    "tags": [
+      "sepe",
+      "empleate",
+      "ministerio-trabajo",
+      "empleo-publico",
+      "oposiciones-espana"
+    ],
+    "synonyms": [
+      "empleate sepe",
+      "portal empleo sepe",
+      "sede sepe empleo"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Servicio público oficial 100% gratuito",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La inscripción formal en ciertas ofertas requiere certificado digital o sistema Cl@ve"
+    ],
+    "useCases": [
+      "Consultar convocatorias oficiales de oposiciones y ofertas laborales públicas del Estado y CCAA",
+      "Verificar la legalidad de ofertas de agencias de colocación autorizadas por el SEPE"
+    ],
+    "instructions": "Accede a la sección de empleo y convocatorias para filtrar por provincia, titulación o tipo de jornada.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "ruct",
+    "name": "RUCT (Registro de Universidades, Centros y Títulos)",
+    "slug": "ruct",
+    "description": "Registro oficial del Ministerio de Universidades de España con todos los títulos y centros acreditados.",
+    "longDescription": "Registro público oficial de carácter administrativo del Ministerio de Ciencia, Innovación y Universidades de España. Permite comprobar si una universidad, facultad, grado, máster o doctorado está oficialmente homologado y acreditado por la ANECA y el Consejo de Universidades.",
+    "url": "https://www.educacion.gob.es/ruct/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "jobs-careers",
+      "people-professional"
+    ],
+    "subcategories": [
+      "universidades",
+      "titulos-oficiales",
+      "educacion",
+      "espana",
+      "aneca"
+    ],
+    "tags": [
+      "ruct",
+      "titulos-universitarios",
+      "universidades-espana",
+      "grados-oficiales",
+      "master-homologado"
+    ],
+    "synonyms": [
+      "registro de universidades centros y titulos",
+      "ruct ministerio",
+      "comprobar titulo oficial r傷ct"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública oficial 100% gratuita",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Contiene exclusivamente títulos oficiales universitarios regulados por el Estado (no incluye títulos propios o diplomas no homologados)"
+    ],
+    "useCases": [
+      "Verificar si el título universitario o máster alegado en un currículum tiene validez oficial legal en España",
+      "Comprobar si una institución académica privada tiene acreditación oficial de universidad"
+    ],
+    "instructions": "Accede a \"Consultar títulos\" o \"Consultar centros\", introduce el nombre del título o universidad y revisa su ficha oficial.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "orcid",
+    "name": "ORCID",
+    "slug": "orcid",
+    "description": "Registro global de identificadores digitales persistentes para investigadores y académicos.",
+    "longDescription": "Estándar internacional que asigna un código identificador único y persistente (Open Researcher and Contributor ID) a investigadores científicos. Permite desambiguar autores con nombres similares, consultar su lista de publicaciones revisadas por pares, instituciones de afiliación, subvenciones públicas y proyectos científicos concedidos.",
+    "url": "https://orcid.org/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "people-professional",
+      "jobs-careers"
+    ],
+    "subcategories": [
+      "investigadores",
+      "ciencia",
+      "publicaciones",
+      "academico"
+    ],
+    "tags": [
+      "orcid",
+      "investigadores",
+      "autores-cientificos",
+      "papers",
+      "afiliacion-academica"
+    ],
+    "synonyms": [
+      "orcid id",
+      "identificador orcid",
+      "perfil orcid"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Registro abierto y consulta pública gratuita",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los perfiles son gestionados por los propios investigadores, aunque la mayoría enlazan datos validados por editoriales e instituciones"
+    ],
+    "useCases": [
+      "Identificar la trayectoria completa y filiación institucional de un perito o académico",
+      "Diferenciar entre investigadores homónimos con idénticos apellidos"
+    ],
+    "instructions": "Escribe el nombre del autor o su identificador de 16 dígitos (XXXX-XXXX-XXXX-XXXX) en el buscador superior.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "lista-robinson",
+    "name": "Lista Robinson",
+    "slug": "lista-robinson",
+    "description": "Servicio oficial de exclusión publicitaria en España para evitar llamadas, correos y publicidad no deseada.",
+    "longDescription": "Servicio gestionado por la Asociación Española de la Economía Digital (Adigital) y reconocido por la Agencia Española de Protección de Datos (AEPD). En el marco de la investigación, es la referencia obligatoria que toda empresa debe consultar antes de realizar prospección comercial en España.",
+    "url": "https://www.listarobinson.es/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "phone",
+      "email",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "privacidad",
+      "exclusion-publicitaria",
+      "aepd",
+      "espana"
+    ],
+    "tags": [
+      "lista-robinson",
+      "aepd",
+      "spam-comercial",
+      "privacidad-espana",
+      "exclusion-llamadas"
+    ],
+    "synonyms": [
+      "lista robinson espana",
+      "apuntarse lista robinson",
+      "evitar llamadas comerciales"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Servicio gratuito para ciudadanos conforme a la LOPDGDD",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": true,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La inscripción ciudadana requiere DNI y verificación personal"
+    ],
+    "useCases": [
+      "Fundamentar denuncias ante la AEPD si una entidad realiza llamadas comerciales a personas dadas de alta en el fichero",
+      "Auditar el cumplimiento normativo en campañas comerciales"
+    ],
+    "instructions": "Accede al portal oficial para consultar los derechos y normativas de exclusión de contactos publicitarios.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "cnmc-numeracion",
+    "name": "CNMC — Plan Nacional de Numeración y Operadores",
+    "slug": "cnmc-numeracion",
+    "description": "Registro oficial de la Comisión Nacional de los Mercados y la Competencia de asignación de rangos de numeración.",
+    "longDescription": "Base de datos pública y oficial de la CNMC que regula la asignación de bloques y rangos telefónicos en España: códigos provinciales geográficos (91, 93, etc.), numeración móvil (6, 7), servicios de tarificación adicional (800, 900, 803, 806), SMS premium y el operador titular de la asignación del rango.",
+    "url": "https://numeracionyoperadores.cnmc.es/",
+    "categories": [
+      "public-records"
+    ],
+    "investigateBy": [
+      "phone"
+    ],
+    "subcategories": [
+      "cnmc",
+      "telecomunicaciones",
+      "espana",
+      "prefijos-oficiales"
+    ],
+    "tags": [
+      "cnmc",
+      "numeracion-espana",
+      "prefijos-telefonicos",
+      "operadores-telecom",
+      "tarifas-especiales"
+    ],
+    "synonyms": [
+      "cnmc numeracion",
+      "registro operadores cnmc",
+      "plan nacional numeracion"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública oficial 100% gratuita",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Indica el operador asignatario del bloque original; no refleja portabilidades individuales entre compañías"
+    ],
+    "useCases": [
+      "Conocer a qué operador de telecomunicaciones se le asignó originalmente un rango o número especial (902, 807, etc.)",
+      "Determinar el ámbito provincial oficial de cualquier prefijo"
+    ],
+    "instructions": "Introduce el número o prefijo en la consulta de numeración para desplegar el informe de asignación oficial.",
     "lastReviewed": "2026-11-24",
     "status": "active"
   }

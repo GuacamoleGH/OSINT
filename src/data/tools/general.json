@@ -12,7 +12,6 @@
     "investigateBy": [
       "username",
       "email",
-      "phone",
       "domain-ip",
       "people-professional"
     ],
@@ -124,7 +123,9 @@
       "general"
     ],
     "investigateBy": [
-      "github-dev"
+      "domain-ip",
+      "username",
+      "email"
     ],
     "subcategories": [
       "repositorios",
@@ -282,8 +283,7 @@
     ],
     "investigateBy": [
       "domain-ip",
-      "email",
-      "phone"
+      "email"
     ],
     "subcategories": [
       "decodificacion",
@@ -340,7 +340,9 @@
     "categories": [
       "general"
     ],
-    "investigateBy": [],
+    "investigateBy": [
+      "fraud-scams"
+    ],
     "subcategories": [
       "criptografia",
       "ciphers",
@@ -801,8 +803,7 @@
     ],
     "investigateBy": [
       "domain-ip",
-      "companies",
-      "classifieds"
+      "companies"
     ],
     "subcategories": [
       "monitorizacion",
@@ -1737,9 +1738,7 @@
     ],
     "investigateBy": [
       "classifieds",
-      "phone",
-      "vehicle",
-      "jobs-careers"
+      "vehicle"
     ],
     "subcategories": [
       "clasificados",
@@ -1847,6 +1846,1112 @@
       "Investigar la cartera de inmuebles gestionada por una sociedad patrimonial"
     ],
     "instructions": "Filtra por municipio o barrio, activa la opción 'Dibujar zona en el mapa' para delimitar el área y analiza las fotos de fachadas y planos adjuntos.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "steamdb",
+    "name": "SteamDB",
+    "slug": "steamdb",
+    "description": "Base de datos analítica e independiente de la plataforma Steam con historiales de precios, jugadores y actualizaciones.",
+    "longDescription": "Herramienta de referencia para auditar la plataforma de videojuegos Steam. Permite monitorizar estadísticas en tiempo real, historiales de precios, registros de cambios en paquetes de aplicaciones (AppIDs), depósitos de contenido y listas de jugadores concurrentes.",
+    "url": "https://steamdb.info/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "gaming"
+    ],
+    "subcategories": [
+      "videojuegos",
+      "steam",
+      "analitica",
+      "precios"
+    ],
+    "tags": [
+      "steam",
+      "steamdb",
+      "videojuegos",
+      "gaming",
+      "metricas",
+      "appid"
+    ],
+    "synonyms": [
+      "steam database",
+      "base de datos steam",
+      "estadisticas steam"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Acceso web gratuito sin registro",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "browser-extension"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Datos limitados al catálogo público y registros de la plataforma Steam"
+    ],
+    "useCases": [
+      "Correlacionar lanzamientos y picos de actividad de títulos en Steam",
+      "Auditar cambios históricos en aplicaciones y configuraciones de juegos"
+    ],
+    "instructions": "Busca por nombre del juego o AppID en el buscador superior para ver el historial y análisis del título.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "indeed-es",
+    "name": "Indeed España",
+    "slug": "indeed-es",
+    "description": "Metabuscador líder de ofertas de empleo y vacantes laborales en España y ámbito internacional.",
+    "longDescription": "Plataforma agregadora de empleo que indexa miles de ofertas de trabajo procedentes de páginas web corporativas, bolsas de trabajo y agencias de selección. En OSINT, permite perfilar las tecnologías utilizadas por una empresa y rastrear la rotación de plantilla.",
+    "url": "https://es.indeed.com/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "jobs-careers"
+    ],
+    "subcategories": [
+      "empleo",
+      "espana",
+      "ofertas-laborales",
+      "empresas"
+    ],
+    "tags": [
+      "indeed",
+      "empleo",
+      "trabajo",
+      "vacantes",
+      "espana",
+      "perfil-empresarial"
+    ],
+    "synonyms": [
+      "indeed espana",
+      "buscador empleo indeed"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Búsqueda pública gratuita de ofertas de empleo",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Muchas ofertas redireccionan a las webs corporativas de las empresas contratantes"
+    ],
+    "useCases": [
+      "Descubrir qué software o infraestructura técnica utiliza una compañía analizando los requisitos de sus vacantes",
+      "Identificar aperturas de nuevas sedes o planes de expansión"
+    ],
+    "instructions": "Escribe el nombre de la empresa investigada en el campo \"Qué\" para ver todas sus posiciones abiertas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "tecnoempleo",
+    "name": "Tecnoempleo",
+    "slug": "tecnoempleo",
+    "description": "Portal de empleo especializado en el sector tecnológico, desarrollo de software y telecomunicaciones en España.",
+    "longDescription": "Bolsa de trabajo referente en el sector IT español. Permite auditar salarios medios por tecnologías, stack técnico demandado por consultoras y empresas tecnológicas, y perfiles de competencias requeridas en España.",
+    "url": "https://www.tecnoempleo.com/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "jobs-careers"
+    ],
+    "subcategories": [
+      "empleo-it",
+      "tecnologia",
+      "espana",
+      "desarrollo"
+    ],
+    "tags": [
+      "tecnoempleo",
+      "empleo-tech",
+      "it-espana",
+      "desarrolladores",
+      "salarios-it"
+    ],
+    "synonyms": [
+      "tecno empleo",
+      "ofertas it tecnoempleo"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública gratuita de ofertas de empleo tecnológico",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado exclusivamente en el mercado laboral tecnológico de España"
+    ],
+    "useCases": [
+      "Analizar qué lenguajes de programación o entornos cloud busca contratar una organización",
+      "Monitorizar proyectos tecnológicos en licitación a través de las ofertas"
+    ],
+    "instructions": "Introduce la empresa o tecnología en el buscador para filtrar ofertas activas en distintas provincias.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "infoempleo",
+    "name": "Infoempleo",
+    "slug": "infoempleo",
+    "description": "Portal generalista de empleo en España con ofertas de trabajo, formación y análisis del mercado laboral.",
+    "longDescription": "Uno de los portales de selección y empleo más veteranos de España, perteneciente a Educaedu. Publica ofertas de trabajo en diversos sectores productivos y publica informes periódicos sobre salarios y tendencias de contratación.",
+    "url": "https://www.infoempleo.com/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "jobs-careers"
+    ],
+    "subcategories": [
+      "empleo",
+      "espana",
+      "mercado-laboral",
+      "empresas"
+    ],
+    "tags": [
+      "infoempleo",
+      "trabajo-espana",
+      "ofertas-laborales",
+      "seleccion-personal"
+    ],
+    "synonyms": [
+      "info empleo",
+      "portal infoempleo"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Acceso y búsqueda gratuita de ofertas laborales",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Mayor volumen de ofertas en grandes áreas urbanas"
+    ],
+    "useCases": [
+      "Rastrear ofertas activas de una corporación en diferentes ciudades españolas",
+      "Conocer la estructura de departamentos de una empresa"
+    ],
+    "instructions": "Utiliza el cuadro de búsqueda por empresa o palabra clave para listar vacantes publicadas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "glassdoor",
+    "name": "Glassdoor",
+    "slug": "glassdoor",
+    "description": "Comunidad global sobre empresas con valoraciones de empleados, salarios, entrevistas y cultura interna.",
+    "longDescription": "Base de datos internacional donde empleados actuales y antiguos valoran anónimamente a sus empresas, reportan rangos salariales reales, procesos de entrevistas técnicas y opiniones sobre la directiva, permitiendo una radiografía profunda de la cultura y estructura corporativa.",
+    "url": "https://www.glassdoor.es/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "jobs-careers",
+      "companies"
+    ],
+    "subcategories": [
+      "empresas",
+      "salarios",
+      "opiniones",
+      "entrevistas"
+    ],
+    "tags": [
+      "glassdoor",
+      "empresas",
+      "opiniones-empleados",
+      "salarios",
+      "cultura-corporativa"
+    ],
+    "synonyms": [
+      "glass door",
+      "opiniones empresas glassdoor"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "pricingDetails": "Consulta limitada gratuita; acceso completo mediante registro o aportando una reseña anónima",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere iniciar sesión o publicar una reseña para acceder a todos los salarios y comentarios"
+    ],
+    "useCases": [
+      "Investigar quejas internas sobre seguridad, gestión o clima laboral en una entidad investigada",
+      "Obtener rangos salariales reales declarados por empleados"
+    ],
+    "instructions": "Escribe el nombre de la empresa y consulta las pestañas \"Evaluaciones\", \"Sueldos\" y \"Entrevistas\".",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "kununu",
+    "name": "Kununu",
+    "slug": "kununu",
+    "description": "Plataforma europea de evaluación de empresas y transparencia salarial por empleados.",
+    "longDescription": "Portal líder en Europa (especialmente en el ámbito germánico y europeo occidental) para reseñas de lugares de trabajo, sueldos y opiniones sobre dirección y condiciones laborales.",
+    "url": "https://www.kununu.com/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "jobs-careers",
+      "companies"
+    ],
+    "subcategories": [
+      "empresas",
+      "europa",
+      "opiniones-empleados",
+      "salarios"
+    ],
+    "tags": [
+      "kununu",
+      "evaluacion-empresas",
+      "europa",
+      "salarios",
+      "clima-laboral"
+    ],
+    "synonyms": [
+      "kununu empresas",
+      "resenas laborales kununu"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta gratuita de evaluaciones de empresas",
+    "access": "public",
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Mayor cobertura en países de Europa Central (Alemania, Austria, Suiza)"
+    ],
+    "useCases": [
+      "Comprobar la reputación laboral de filiales europeas de multinacionales",
+      "Contrastar la percepción de los empleados sobre la dirección"
+    ],
+    "instructions": "Introduce el nombre de la corporación para consultar su puntuación general y opiniones desglosadas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "eurojobs",
+    "name": "Eurojobs",
+    "slug": "eurojobs",
+    "description": "Portal paneuropeo de empleo y ofertas de trabajo para profesionales en toda la Unión Europea.",
+    "longDescription": "Plataforma multilingüe que centraliza ofertas de empleo en todos los países de la Unión Europea y el Espacio Económico Europeo, facilitando la investigación de vacantes transfronterizas y perfiles requeridos.",
+    "url": "https://www.eurojobs.com/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "jobs-careers"
+    ],
+    "subcategories": [
+      "empleo-europa",
+      "ue",
+      "vacantes-internacionales"
+    ],
+    "tags": [
+      "eurojobs",
+      "empleo-ue",
+      "trabajo-europa",
+      "movilidad-laboral"
+    ],
+    "synonyms": [
+      "euro jobs",
+      "trabajar en europa"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta gratuita de ofertas laborales europeas",
+    "access": "public",
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La mayoría de las descripciones están redactadas en inglés"
+    ],
+    "useCases": [
+      "Localizar ofertas de trabajo de filiales europeas fuera de España",
+      "Rastrear puestos técnicos en instituciones y organismos internacionales"
+    ],
+    "instructions": "Filtra por país europeo y sector profesional para listar las vacantes activas.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "ossinsight",
+    "name": "OSSInsight",
+    "slug": "ossinsight",
+    "description": "Análisis masivo de datos de código abierto y GitHub con métricas en tiempo real e inteligencia sobre repositorios.",
+    "longDescription": "Herramienta de análisis basada en TiDB que procesa miles de millones de eventos públicos de GitHub. Ofrece comparativas de popularidad de proyectos de código abierto, flujos de colaboradores, velocidad de desarrollo y adopción técnica.",
+    "url": "https://ossinsight.io/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "github-dev"
+    ],
+    "subcategories": [
+      "github",
+      "open-source",
+      "analitica",
+      "metricas"
+    ],
+    "tags": [
+      "ossinsight",
+      "github-analytics",
+      "open-source",
+      "tidb",
+      "desarrolladores"
+    ],
+    "synonyms": [
+      "oss insight",
+      "analisis github ossinsight"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "100% gratuito sin registro",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Enfocado en repositorios y proyectos con actividad pública en GitHub"
+    ],
+    "useCases": [
+      "Comparar la velocidad de desarrollo y colaboradores entre dos proyectos de software",
+      "Identificar los mayores contribuyentes a una tecnología"
+    ],
+    "instructions": "Introduce el nombre de un repositorio (ej. \"facebook/react\") o compara dos proyectos simultáneamente.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "libphonenumber-demo",
+    "name": "libphonenumber Demo",
+    "slug": "libphonenumber-demo",
+    "description": "Demostrador web oficial de la biblioteca de Google para análisis, validación y formateo de números telefónicos.",
+    "longDescription": "Utilidad basada en la biblioteca estándar de Google (libphonenumber) utilizada por Android y sistemas de telecomunicaciones. Desglosa cualquier número en código de país, región geográfica, operador probable (carrier) y validez formal según los planes de numeración internacionales (E.164).",
+    "url": "https://libphonenumber.appspot.com/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "phone"
+    ],
+    "subcategories": [
+      "telefonia",
+      "google",
+      "validacion-telefonos",
+      "e164"
+    ],
+    "tags": [
+      "libphonenumber",
+      "google",
+      "telefonos",
+      "e164",
+      "prefijos",
+      "formato-telefono"
+    ],
+    "synonyms": [
+      "google libphonenumber",
+      "validador telefonos google"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Demostrador público 100% gratuito",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Es una herramienta de análisis sintáctico y de prefijos; no identifica al titular personal del número"
+    ],
+    "useCases": [
+      "Determinar el país y provincia exacto de un número de teléfono desconocido",
+      "Convertir números a formato internacional normalizado"
+    ],
+    "instructions": "Pega el número en el campo \"Phone Number\", selecciona el código de país por defecto y pulsa \"Submit\".",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "apple-check-coverage",
+    "name": "Apple Check Coverage",
+    "slug": "apple-check-coverage",
+    "description": "Verificador oficial de número de serie y garantía de dispositivos Apple (iPhone, Mac, iPad).",
+    "longDescription": "Herramienta oficial de Apple para verificar el estado de cobertura de servicio y garantía a partir del número de serie o IMEI del dispositivo. Permite confirmar el modelo exacto, año de fabricación y si el dispositivo es genuino en operaciones de compraventa de segunda mano.",
+    "url": "https://checkcoverage.apple.com/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "phone",
+      "fraud-scams",
+      "classifieds"
+    ],
+    "subcategories": [
+      "apple",
+      "imei",
+      "numero-serie",
+      "antifraude"
+    ],
+    "tags": [
+      "apple",
+      "check-coverage",
+      "iphone",
+      "numero-serie",
+      "imei",
+      "garantia-apple"
+    ],
+    "synonyms": [
+      "apple garantia serial",
+      "verificar iphone numero serie"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública oficial gratuita",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Requiere conocer el número de serie o IMEI del dispositivo Apple"
+    ],
+    "useCases": [
+      "Verificar si un iPhone anunciado en Wallapop o Milanuncios tiene el modelo y especificaciones que afirma el vendedor",
+      "Comprobar si el número de serie es válido"
+    ],
+    "instructions": "Introduce el número de serie del dispositivo y el código captcha para desplegar los datos oficiales de Apple.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "imei-info",
+    "name": "imei.info",
+    "slug": "imei-info",
+    "description": "Base de datos de especificaciones técnicas y comprobación de bloqueo/lista negra por número IMEI.",
+    "longDescription": "Servicio global para comprobar números IMEI de teléfonos móviles. Ofrece información sobre marca, modelo, especificaciones de hardware, estado de la garantía, red de origen y comprobación de si el terminal está reportado en listas negras de robo o pérdida (blacklist).",
+    "url": "https://www.imei.info/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "phone",
+      "classifieds"
+    ],
+    "subcategories": [
+      "imei",
+      "telefonia-movil",
+      "blacklist",
+      "antifraude"
+    ],
+    "tags": [
+      "imei",
+      "imei-info",
+      "telefonos-robados",
+      "lista-negra-movil",
+      "smartphones"
+    ],
+    "synonyms": [
+      "imei info",
+      "comprobar imei online",
+      "saber modelo por imei"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "pricingDetails": "Datos básicos de hardware gratuitos; comprobaciones de lista negra de operadores de pago",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "api"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Los informes avanzados de bloqueo por operadores requieren créditos"
+    ],
+    "useCases": [
+      "Verificar si un smartphone de segunda mano es original y no está reportado por robo",
+      "Conocer las especificaciones de hardware de un terminal"
+    ],
+    "instructions": "Introduce los 15 dígitos del IMEI (obtenidos marcando *#06# en el teclado de llamada) y pulsa \"Check\".",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "fotocasa",
+    "name": "Fotocasa",
+    "slug": "fotocasa",
+    "description": "Uno de los mayores portales inmobiliarios de España para búsqueda de viviendas en venta y alquiler.",
+    "longDescription": "Plataforma inmobiliaria líder en España perteneciente al grupo Adevinta. Dispone de fotografías de alta resolución de inmuebles, planos, recorridos virtuales 3D y precios históricos del metro cuadrado, siendo una fuente clave para geolocalización de interiores y vistas exteriores.",
+    "url": "https://www.fotocasa.es/",
+    "categories": [
+      "general",
+      "geoint"
+    ],
+    "investigateBy": [
+      "classifieds",
+      "location"
+    ],
+    "subcategories": [
+      "inmobiliaria",
+      "espana",
+      "viviendas",
+      "geolocalizacion"
+    ],
+    "tags": [
+      "fotocasa",
+      "inmuebles",
+      "pisos",
+      "alquiler",
+      "espana",
+      "geolocalizacion-inmuebles"
+    ],
+    "synonyms": [
+      "foto casa",
+      "buscar piso fotocasa"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Búsqueda pública gratuita de inmuebles",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "La dirección exacta suele mostrarse en un radio aproximado por privacidad"
+    ],
+    "useCases": [
+      "Geolocalizar un piso a partir de fotografías de vistas o fachadas",
+      "Auditar inmuebles anunciados por una sociedad patrimonial"
+    ],
+    "instructions": "Filtra por municipio o barrio y revisa la galería fotográfica y datos del anunciante.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "habitaclia",
+    "name": "Habitaclia",
+    "slug": "habitaclia",
+    "description": "Portal inmobiliario con amplia cobertura en Cataluña, Comunidad Valenciana, Baleares y toda España.",
+    "longDescription": "Portal inmobiliario especializado en la zona del arco mediterráneo y extendido a nivel nacional. Permite consultar ofertas de particulares y agencias con galerías de fotos detalladas, precios históricos y datos de contacto de inmobiliarias.",
+    "url": "https://www.habitaclia.com/",
+    "categories": [
+      "general",
+      "geoint"
+    ],
+    "investigateBy": [
+      "classifieds",
+      "location"
+    ],
+    "subcategories": [
+      "inmobiliaria",
+      "espana",
+      "mediterraneo",
+      "pisos"
+    ],
+    "tags": [
+      "habitaclia",
+      "inmuebles",
+      "pisos-cataluna",
+      "vivienda",
+      "espana"
+    ],
+    "synonyms": [
+      "habitaclia pisos",
+      "portal habitaclia"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta pública gratuita de ofertas inmobiliarias",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Mayor densidad de anuncios en Cataluña, Baleares y Comunidad Valenciana"
+    ],
+    "useCases": [
+      "Localizar inmuebles anunciados en zonas costeras",
+      "Cotejar fotos de terrazas o balcones para cronogeolocalización"
+    ],
+    "instructions": "Busca por localidad y aplica filtros de tipología de vivienda o rango de precio.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "pisos-com",
+    "name": "Pisos.com",
+    "slug": "pisos-com",
+    "description": "Portal inmobiliario en España con ofertas de compra, alquiler y estadísticas de precios de vivienda.",
+    "longDescription": "Plataforma inmobiliaria del grupo Vocento que indexa miles de viviendas, locales y fincas rústicas en todas las provincias de España, ofreciendo fotografías, datos de contacto de agencias y particulares, y valoraciones de mercado.",
+    "url": "https://www.pisos.com/",
+    "categories": [
+      "general",
+      "geoint"
+    ],
+    "investigateBy": [
+      "classifieds",
+      "location"
+    ],
+    "subcategories": [
+      "inmobiliaria",
+      "espana",
+      "viviendas",
+      "alquiler"
+    ],
+    "tags": [
+      "pisos-com",
+      "inmuebles",
+      "vivienda-espana",
+      "fincas",
+      "compraventa"
+    ],
+    "synonyms": [
+      "pisos com espana",
+      "buscar vivienda pisos com"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta gratuita de anuncios inmobiliarios",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Las direcciones exactas pueden no estar publicadas abiertamente"
+    ],
+    "useCases": [
+      "Buscar fincas rústicas o chalets aislados para identificar titulares o ubicaciones catastrales",
+      "Comparar vistas exteriores"
+    ],
+    "instructions": "Introduce la provincia o municipio deseado para explorar los inmuebles listados.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "coches-net",
+    "name": "coches.net",
+    "slug": "coches-net",
+    "description": "El mayor portal de compraventa de coches nuevos, de ocasión y segunda mano en España.",
+    "longDescription": "Plataforma líder del motor en España perteneciente a Adevinta. Alberga cientos de miles de anuncios de concesionarios y particulares con fotografías de alta resolución donde a menudo son visibles matrículas, distintivos ambientales de la DGT, números de bastidor (VIN) o fondos reconocibles.",
+    "url": "https://www.coches.net/",
+    "categories": [
+      "general",
+      "socmint"
+    ],
+    "investigateBy": [
+      "classifieds",
+      "vehicle"
+    ],
+    "subcategories": [
+      "motor",
+      "vehiculos",
+      "segunda-mano",
+      "espana"
+    ],
+    "tags": [
+      "coches-net",
+      "coches",
+      "vehiculos",
+      "matriculas",
+      "segunda-mano-motor",
+      "espana"
+    ],
+    "synonyms": [
+      "coches net",
+      "comprar coche de segunda mano",
+      "coches usados espana"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta gratuita de anuncios de vehículos",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Algunos vendedores profesionales tapan digitalmente la matrícula"
+    ],
+    "useCases": [
+      "Rastrear vehículos puestos a la venta por un investigado",
+      "Identificar la matrícula o número de bastidor en las fotos del anuncio"
+    ],
+    "instructions": "Busca por marca, modelo, provincia o rango de años para localizar el vehículo de interés.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "vinted-es",
+    "name": "Vinted",
+    "slug": "vinted-es",
+    "description": "Plataforma comunitaria de compraventa de moda y artículos de segunda mano entre particulares en Europa.",
+    "longDescription": "Mercado online europeo de segunda mano. En investigaciones abiertas, permite analizar perfiles de vendedores, su catálogo histórico de ventas, valoraciones recibidas, alias empleados y fotografías originales donde pueden apreciarse metadatos contextuales o fondos de interiores.",
+    "url": "https://www.vinted.es/",
+    "categories": [
+      "general",
+      "socmint"
+    ],
+    "investigateBy": [
+      "classifieds",
+      "fraud-scams"
+    ],
+    "subcategories": [
+      "segunda-mano",
+      "moda",
+      "clasificados",
+      "europa"
+    ],
+    "tags": [
+      "vinted",
+      "segunda-mano",
+      "ropa-usada",
+      "perfil-vendedor",
+      "clasificados-europa"
+    ],
+    "synonyms": [
+      "vinted espana",
+      "buscar en vinted",
+      "perfil vinted"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Búsqueda y consulta pública de catálogos gratuita",
+    "access": "public",
+    "geographicScope": [
+      "europe"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Comprar o contactar con vendedores requiere registro"
+    ],
+    "useCases": [
+      "Investigar si un individuo investigado comercializa artículos sustraídos o falsificados",
+      "Analizar el perfil y valoraciones de un usuario en varios países europeos"
+    ],
+    "instructions": "Escribe el nombre del artículo o el nombre de usuario en el buscador para ver su escaparate público.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "todocoleccion",
+    "name": "Todocolección",
+    "slug": "todocoleccion",
+    "description": "Comunidad online líder en España para subastas y compraventa de antigüedades, libros, arte y coleccionismo.",
+    "longDescription": "Plataforma española referente en el ámbito de las antigüedades, documentos históricos, numismática, militaria y coleccionismo. Permite rastrear la procedencia de objetos históricos, libros raros y analizar perfiles de anticuarios y coleccionistas.",
+    "url": "https://www.todocoleccion.net/",
+    "categories": [
+      "general",
+      "socmint"
+    ],
+    "investigateBy": [
+      "classifieds"
+    ],
+    "subcategories": [
+      "antiguedades",
+      "coleccionismo",
+      "subastas",
+      "espana"
+    ],
+    "tags": [
+      "todocoleccion",
+      "antiguedades",
+      "coleccionismo",
+      "subastas",
+      "libros-antiguos",
+      "arte"
+    ],
+    "synonyms": [
+      "todo coleccion",
+      "todocoleccion subastas"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Consulta gratuita de catálogos y lotes en subasta",
+    "access": "public",
+    "geographicScope": [
+      "spain"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Comprar o pujar requiere cuenta registrada"
+    ],
+    "useCases": [
+      "Rastrear la venta de patrimonio histórico, documentos antiguos o medallas",
+      "Investigar perfiles de comerciantes de arte y antigüedades"
+    ],
+    "instructions": "Utiliza el buscador por palabra clave o explora las secciones temáticas de lotes activos.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "ebay-es",
+    "name": "eBay España",
+    "slug": "ebay-es",
+    "description": "Plataforma global de subastas y comercio electrónico de artículos nuevos y de segunda mano.",
+    "longDescription": "Uno de los mercados de comercio electrónico más antiguos del mundo. Fundamental en investigaciones para localizar piezas de coleccionismo, componentes descatalogados, números de serie en fotografías de productos y rastrear historiales de vendedores.",
+    "url": "https://www.ebay.es/",
+    "categories": [
+      "general",
+      "socmint"
+    ],
+    "investigateBy": [
+      "classifieds"
+    ],
+    "subcategories": [
+      "comercio-electronico",
+      "subastas",
+      "clasificados",
+      "global"
+    ],
+    "tags": [
+      "ebay",
+      "subastas",
+      "segunda-mano",
+      "tiendas-ebay",
+      "comercio-online"
+    ],
+    "synonyms": [
+      "ebay espana",
+      "subastas ebay"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Búsqueda pública gratuita de artículos y vendedores",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web",
+      "mobile"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Algunos vendedores ocultan números de serie en las descripciones públicas"
+    ],
+    "useCases": [
+      "Buscar si un objeto robado o filtrado se ha puesto a la venta en subasta internacional",
+      "Revisar el historial de opiniones y artículos vendidos por un perfil"
+    ],
+    "instructions": "Usa la búsqueda avanzada de eBay para filtrar por vendedor exacto o artículos ya finalizados.",
+    "lastReviewed": "2026-11-24",
+    "status": "active"
+  },
+  {
+    "id": "trustpilot",
+    "name": "Trustpilot",
+    "slug": "trustpilot",
+    "description": "Plataforma comunitaria de opiniones y reseñas verificadas sobre empresas, comercios online y servicios.",
+    "longDescription": "Uno de los mayores portales de reputación corporativa del mundo. Los usuarios publican reseñas sobre sus experiencias de compra, soporte o reclamaciones con empresas, lo que permite detectar rápidamente patrones de estafas, tiendas fraudulentas o problemas de solvencia.",
+    "url": "https://www.trustpilot.com/",
+    "categories": [
+      "general"
+    ],
+    "investigateBy": [
+      "fraud-scams",
+      "companies",
+      "classifieds"
+    ],
+    "subcategories": [
+      "reputacion",
+      "opiniones",
+      "empresas",
+      "antifraude"
+    ],
+    "tags": [
+      "trustpilot",
+      "opiniones-empresas",
+      "estafas-online",
+      "reputacion-web",
+      "resenas"
+    ],
+    "synonyms": [
+      "trust pilot",
+      "opiniones trustpilot",
+      "valorar empresa"
+    ],
+    "type": "web",
+    "pricing": "freemium",
+    "pricingDetails": "Consulta pública gratuita de perfiles y opiniones de empresas",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": true,
+    "verified": true,
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Algunas empresas pueden generar reseñas artificiales que el algoritmo de Trustpilot intenta filtrar"
+    ],
+    "useCases": [
+      "Comprobar si una tienda online sospechosa acumula cientos de quejas por no enviar pedidos o estafas con tarjetas",
+      "Revisar respuestas oficiales de la empresa a clientes insatisfechos"
+    ],
+    "instructions": "Introduce el dominio o nombre de la empresa para ver su calificación (TrustScore) y el desglose de opiniones.",
     "lastReviewed": "2026-11-24",
     "status": "active"
   }

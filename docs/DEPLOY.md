@@ -48,6 +48,8 @@ services:
     tmpfs:
       - /tmp:size=64M,mode=1777
       - /app/.next/cache:size=128M,uid=1001,gid=1001
+    cap_drop:
+      - ALL
 ```
 
 ### 4. Construir y levantar
