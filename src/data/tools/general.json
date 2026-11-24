@@ -32,6 +32,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -42,6 +43,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado árbol interactivo, enlace oficial y acceso libre sin registro.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -52,7 +60,7 @@
       "Identificar qué fuentes existen para un tipo de dato específico"
     ],
     "instructions": "Navega por las ramas jerárquicas seleccionando el tipo de indicador que posees (ej. Username > Search Engines).",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -88,6 +96,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -99,6 +108,13 @@
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado enlace oficial GitBook, taxonomía técnica y acceso público libre.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -109,7 +125,7 @@
       "Metodologías de geolocalización de vídeo"
     ],
     "instructions": "Consulta las secciones temáticas de satélite, mapas y redes sociales para encontrar flujos de trabajo validados.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -143,6 +159,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -153,6 +170,13 @@
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado repositorio oficial en GitHub, licencias y enlaces activos.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -162,7 +186,7 @@
       "Descubrir utilidades de línea de comandos y librerías Python para analistas"
     ],
     "instructions": "Usa la búsqueda dentro de la página (Ctrl+F) para filtrar por tecnologías o temas específicos.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -196,6 +220,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -206,6 +231,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado portal de herramientas y metodologías de Michael Bazzell.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -215,7 +247,7 @@
       "Generar consultas combinadas para motores de búsqueda y redes sociales"
     ],
     "instructions": "Introduce el término o usuario en el formulario correspondiente para ejecutar queries preformateadas.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -247,6 +279,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain",
@@ -257,7 +290,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -267,7 +307,7 @@
       "Localizar fuentes y enlaces orientados al marco legal y administrativo en español"
     ],
     "instructions": "Accede a las pestañas laterales para filtrar por tipo de recurso.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -307,6 +347,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -317,6 +358,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificada navaja suiza de análisis criptográfico y forense del GCHQ.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -363,6 +411,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -372,7 +421,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -383,7 +439,7 @@
       "Identificar automáticamente qué tipo de cifrado ha sido utilizado sobre un texto"
     ],
     "instructions": "Utiliza la herramienta 'Cipher Identifier' si desconoces el algoritmo o busca directamente el método específico en el menú lateral.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -420,6 +476,7 @@
     ],
     "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -430,7 +487,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -441,7 +505,7 @@
       "Descubrir fugas de credenciales y registros DNS asociados"
     ],
     "instructions": "Inicia la interfaz web local con 'python ./sf.py -l 127.0.0.1:5001' y lanza un nuevo escaneo seleccionando los módulos deseados.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -480,6 +544,7 @@
     ],
     "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -489,7 +554,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -500,7 +572,7 @@
       "Descubrir subdominios expuestos"
     ],
     "instructions": "Ejecuta 'theHarvester -d dominio.com -b all' en la terminal para consultar todas las fuentes soportadas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -537,6 +609,7 @@
     ],
     "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -546,7 +619,14 @@
     ],
     "difficulty": "advanced",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -557,7 +637,7 @@
       "Generar informes técnicos consolidados"
     ],
     "instructions": "Inicia la consola interactiva con './recon-ng', crea un workspace y usa 'marketplace install' para cargar módulos de interés.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -595,6 +675,7 @@
     ],
     "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -604,7 +685,14 @@
     ],
     "difficulty": "advanced",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -615,7 +703,7 @@
       "Identificar subdominios olvidados o mal configurados"
     ],
     "instructions": "Ejecuta 'amass enum -passive -d dominio.com' para un descubrimiento pasivo sigiloso sin enviar tráfico al objetivo.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -651,6 +739,7 @@
     ],
     "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -660,7 +749,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -671,7 +767,7 @@
       "Reconocimiento rápido en programas de bug bounty"
     ],
     "instructions": "Ejecuta 'subfinder -d dominio.com -o subdominios.txt' para guardar la lista de subdominios encontrados.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -710,6 +806,7 @@
     ],
     "type": "desktop",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -719,7 +816,14 @@
     ],
     "difficulty": "advanced",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -730,7 +834,7 @@
       "Mapear la relación entre un ciberdelincuente, sus alias y su infraestructura de servidores"
     ],
     "instructions": "Descarga e instala el cliente de escritorio, inicia sesión con tu cuenta gratuita de Maltego CE y arrastra una entidad al lienzo para ejecutar transformadas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -767,6 +871,7 @@
     ],
     "type": "desktop",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -776,7 +881,14 @@
     ],
     "difficulty": "advanced",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -787,7 +899,7 @@
       "Visualizar la estructura nuclear y nodos puente de una red de delincuencia"
     ],
     "instructions": "Importa un archivo CSV de nodos y aristas (edges), aplica un algoritmo de disposición en 'Layout' (como ForceAtlas2) y colorea por 'Modularity Class'.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -823,6 +935,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -833,7 +946,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -844,7 +964,7 @@
       "Monitorizar ofertas de segunda mano o cambios de precio en clasificados"
     ],
     "instructions": "Añade la URL que deseas vigilar, define la frecuencia de revisión y configura el selector CSS para vigilar solo un bloque específico.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -880,6 +1000,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -890,7 +1011,14 @@
     ],
     "difficulty": "advanced",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -901,7 +1029,7 @@
       "Automatizar resúmenes de inteligencia"
     ],
     "instructions": "Explora la documentación del proyecto o accede a la demo para configurar canales de monitorización por palabras clave.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -938,6 +1066,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -950,7 +1079,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -961,7 +1097,7 @@
       "Analizar textos en ucraniano, ruso, árabe o chino"
     ],
     "instructions": "Pega el texto en la caja izquierda o sube un documento PDF para obtener la traducción en tiempo real con sugerencias de sinónimos.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -996,6 +1132,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1006,7 +1143,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1017,7 +1161,7 @@
       "Verificar acepciones técnicas de un cargo societario"
     ],
     "instructions": "Escribe el término o expresión técnica en la casilla de búsqueda para examinar ejemplos reales de traducción lado a lado.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1055,6 +1199,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1065,7 +1210,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1076,7 +1228,7 @@
       "Descubrir vínculos entre científicos y laboratorios farmacéuticos"
     ],
     "instructions": "Busca por nombre de autor, tema o institución en la barra central para explorar las relaciones interactivas y descargar datos vía API.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1111,6 +1263,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1121,7 +1274,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1132,7 +1292,7 @@
       "Identificar los artículos de investigación más influyentes de un científico"
     ],
     "instructions": "Introduce el tema, título del paper o autor en la barra de búsqueda y consulta los resúmenes automáticos 'TLDR'.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1167,6 +1327,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1177,7 +1338,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1188,7 +1356,7 @@
       "Localizar papers científicos sin muros de pago"
     ],
     "instructions": "Escribe las palabras clave o el nombre del investigador para filtrar por documentos disponibles con PDF descargable.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1224,6 +1392,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain",
@@ -1234,7 +1403,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1245,7 +1421,7 @@
       "Localizar la tesis doctoral defendida por un sujeto investigado"
     ],
     "instructions": "Usa la pestaña 'Buscar documentos' o 'Buscar autores' para acceder a las fichas biográficas y obras catalogadas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1283,6 +1459,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1293,7 +1470,14 @@
     ],
     "difficulty": "advanced",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1304,7 +1488,7 @@
       "Analizar tendencias de inestabilidad sociopolítica"
     ],
     "instructions": "Utiliza el visualizador 'GDELT Event Database' o accede a los datasets públicos en Google BigQuery para ejecutar consultas SQL.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1341,6 +1525,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1351,7 +1536,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -1362,7 +1554,7 @@
       "Analizar patrones espaciales de protestas civiles"
     ],
     "instructions": "Accede al 'Dashboard' interactivo para filtrar por país, tipo de evento o actor armado, y consultar las bajas reportadas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1402,6 +1594,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -1412,7 +1605,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1423,7 +1623,7 @@
       "Verificar la existencia legal de un núcleo de población aislado en el Nomenclátor"
     ],
     "instructions": "Consulta el 'Atlas de Distribución de Renta' en el menú de mapas interactivos o utiliza INEbase para consultar tablas de población.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1461,6 +1661,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "europe"
@@ -1471,7 +1672,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1482,7 +1690,7 @@
       "Obtener clasificaciones geográficas estandarizadas NUTS"
     ],
     "instructions": "Accede a la sección 'Data Navigation Tree' o usa el buscador para visualizar gráficos interactivos y descargar microdatos.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1522,6 +1730,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1532,7 +1741,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1543,7 +1759,7 @@
       "Comprobar si una wallet tiene etiquetas públicas de phishing o estafa (Fake_Phishing)"
     ],
     "instructions": "Pega la dirección de la billetera (0x...), el hash de transacción o el contrato en el buscador superior para examinar el historial cronológico.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1581,6 +1797,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1591,7 +1808,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1602,7 +1826,7 @@
       "Buscar mensajes de texto ocultos en la cadena de bloques"
     ],
     "instructions": "Escribe una dirección pública, identificador de transacción (txid) o hash de bloque en la barra de búsqueda universal.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1640,6 +1864,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1649,7 +1874,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1660,7 +1892,7 @@
       "Aportar reportes con pruebas documentales sobre fraudes"
     ],
     "instructions": "Introduce la dirección cripto sospechosa en el buscador principal para revisar el número de denuncias recibidas y las descripciones del fraude.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1701,6 +1933,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -1711,7 +1944,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1722,7 +1962,7 @@
       "Correlacionar vehículos en venta con matrículas visibles o fondos reconocibles"
     ],
     "instructions": "Utiliza los filtros de ubicación (distancia en km respecto a un código postal), ordenación y categoría, o examina el perfil público del vendedor para ver sus artículos vendidos y reseñas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1762,6 +2002,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -1772,7 +2013,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1783,7 +2031,7 @@
       "Investigar ofertas de empleo sospechosas o falsas agencias de colocación"
     ],
     "instructions": "Introduce el número de teléfono o los términos clave en el buscador general o utiliza dorks en Google ('site:milanuncios.com \"6XXXXXXXX\"') para recuperar anuncios indexados.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1824,6 +2072,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain",
@@ -1835,7 +2084,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1846,7 +2102,7 @@
       "Investigar la cartera de inmuebles gestionada por una sociedad patrimonial"
     ],
     "instructions": "Filtra por municipio o barrio, activa la opción 'Dibujar zona en el mapa' para delimitar el área y analiza las fotos de fachadas y planos adjuntos.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1894,7 +2150,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1905,7 +2168,7 @@
       "Auditar cambios históricos en aplicaciones y configuraciones de juegos"
     ],
     "instructions": "Busca por nombre del juego o AppID en el buscador superior para ver el historial y análisis del título.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1952,7 +2215,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1963,7 +2233,7 @@
       "Identificar aperturas de nuevas sedes o planes de expansión"
     ],
     "instructions": "Escribe el nombre de la empresa investigada en el campo \"Qué\" para ver todas sus posiciones abiertas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2008,7 +2278,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2019,7 +2296,7 @@
       "Monitorizar proyectos tecnológicos en licitación a través de las ofertas"
     ],
     "instructions": "Introduce la empresa o tecnología en el buscador para filtrar ofertas activas en distintas provincias.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2064,7 +2341,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2075,7 +2359,7 @@
       "Conocer la estructura de departamentos de una empresa"
     ],
     "instructions": "Utiliza el cuadro de búsqueda por empresa o palabra clave para listar vacantes publicadas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2122,7 +2406,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2133,7 +2424,7 @@
       "Obtener rangos salariales reales declarados por empleados"
     ],
     "instructions": "Escribe el nombre de la empresa y consulta las pestañas \"Evaluaciones\", \"Sueldos\" y \"Entrevistas\".",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2179,7 +2470,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2190,7 +2488,7 @@
       "Contrastar la percepción de los empleados sobre la dirección"
     ],
     "instructions": "Introduce el nombre de la corporación para consultar su puntuación general y opiniones desglosadas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2233,7 +2531,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2244,7 +2549,7 @@
       "Rastrear puestos técnicos en instituciones y organismos internacionales"
     ],
     "instructions": "Filtra por país europeo y sector profesional para listar las vacantes activas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2290,7 +2595,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2301,7 +2613,7 @@
       "Identificar los mayores contribuyentes a una tecnología"
     ],
     "instructions": "Introduce el nombre de un repositorio (ej. \"facebook/react\") o compara dos proyectos simultáneamente.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2348,7 +2660,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2359,7 +2678,7 @@
       "Convertir números a formato internacional normalizado"
     ],
     "instructions": "Pega el número en el campo \"Phone Number\", selecciona el código de país por defecto y pulsa \"Submit\".",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2407,7 +2726,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2418,7 +2744,7 @@
       "Comprobar si el número de serie es válido"
     ],
     "instructions": "Introduce el número de serie del dispositivo y el código captcha para desplegar los datos oficiales de Apple.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2466,7 +2792,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2477,7 +2810,7 @@
       "Conocer las especificaciones de hardware de un terminal"
     ],
     "instructions": "Introduce los 15 dígitos del IMEI (obtenidos marcando *#06# en el teclado de llamada) y pulsa \"Check\".",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2526,7 +2859,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2537,7 +2877,7 @@
       "Auditar inmuebles anunciados por una sociedad patrimonial"
     ],
     "instructions": "Filtra por municipio o barrio y revisa la galería fotográfica y datos del anunciante.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2585,7 +2925,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2596,7 +2943,7 @@
       "Cotejar fotos de terrazas o balcones para cronogeolocalización"
     ],
     "instructions": "Busca por localidad y aplica filtros de tipología de vivienda o rango de precio.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2644,7 +2991,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2655,7 +3009,7 @@
       "Comparar vistas exteriores"
     ],
     "instructions": "Introduce la provincia o municipio deseado para explorar los inmuebles listados.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2705,7 +3059,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2716,7 +3077,7 @@
       "Identificar la matrícula o número de bastidor en las fotos del anuncio"
     ],
     "instructions": "Busca por marca, modelo, provincia o rango de años para localizar el vehículo de interés.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2765,7 +3126,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2776,7 +3144,7 @@
       "Analizar el perfil y valoraciones de un usuario en varios países europeos"
     ],
     "instructions": "Escribe el nombre del artículo o el nombre de usuario en el buscador para ver su escaparate público.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2824,7 +3192,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2835,7 +3210,7 @@
       "Investigar perfiles de comerciantes de arte y antigüedades"
     ],
     "instructions": "Utiliza el buscador por palabra clave o explora las secciones temáticas de lotes activos.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2882,7 +3257,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2893,7 +3275,7 @@
       "Revisar el historial de opiniones y artículos vendidos por un perfil"
     ],
     "instructions": "Usa la búsqueda avanzada de eBay para filtrar por vendedor exacto o artículos ya finalizados.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2941,7 +3323,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2952,7 +3341,7 @@
       "Revisar respuestas oficiales de la empresa a clientes insatisfechos"
     ],
     "instructions": "Introduce el dominio o nombre de la empresa para ver su calificación (TrustScore) y el desglose de opiniones.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   }
 ]

@@ -30,6 +30,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -40,6 +41,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado formulario oficial de búsqueda avanzada y parámetros de Google.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -49,7 +57,7 @@
       "Localizar documentos PDF o Excel filtrando por 'filetype:pdf site:gob.es'"
     ],
     "instructions": "Rellena los campos de palabras exactas, sitios o extensiones de archivo deseados.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -83,6 +91,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -92,7 +101,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -102,7 +118,7 @@
       "Comprobar si una organización ha expuesto archivos de configuración .env o respaldos .sql"
     ],
     "instructions": "Filtra por categoría (ej. Advisories and Vulnerabilities, Files Containing Passwords) y copia el dork deseado.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -136,6 +152,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -145,7 +162,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -155,7 +179,7 @@
       "Consultas neutrales sin que los resultados dependan del historial o geolocalización previa"
     ],
     "instructions": "Utiliza una instancia pública oficial o despliega tu propia instancia en contenedor Docker.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -188,6 +212,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -197,7 +222,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -207,7 +239,7 @@
       "Mapear el ecosistema de noticias y entidades asociadas a una empresa o suceso"
     ],
     "instructions": "Escribe un término amplio (ej. 'Navantia') y cambia a la vista 'Treemap' o 'Pie chart'.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -239,6 +271,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -248,7 +281,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -258,7 +298,7 @@
       "Contrasta resultados cuando Google o Bing omiten páginas o aplican deslistados"
     ],
     "instructions": "Realiza búsquedas regulares y activa la pestaña de 'Discussions' para foros comunitarios.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -291,6 +331,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "europe",
@@ -301,7 +342,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -311,7 +359,7 @@
       "Búsqueda de alias en foros internacionales y redes transfronterizas"
     ],
     "instructions": "Introduce el término entrecomillado para búsquedas literales estrictas.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -360,6 +408,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado generador de Google Dorks, funcionalidad y plan de acceso libre.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -416,7 +471,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": false,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -427,7 +489,7 @@
       "Filtrar por múltiples extensiones de archivo y rangos de fecha de manera gráfica"
     ],
     "instructions": "Añade bloques de términos, selecciona los operadores deseados (sitio, tipo de archivo, título) y pulsa en el botón de Google o Bing para ejecutar la consulta.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -473,7 +535,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -484,7 +553,7 @@
       "Buscar implementaciones de funciones o librerías específicas"
     ],
     "instructions": "Utiliza calificadores como \"org:nombre repo:nombre path:.env\" o expresiones regulares en la barra de búsqueda de GitHub.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -529,7 +598,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -540,7 +616,7 @@
       "Identificar librerías que implementan un algoritmo concreto"
     ],
     "instructions": "Escribe la función, nombre de variable o texto entre comillas en el cuadro de búsqueda.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -584,7 +660,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -595,7 +678,7 @@
       "Inspeccionar paquetes públicos"
     ],
     "instructions": "Introduce la cadena o identificador que deseas buscar en las bases de código disponibles.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   }
 ]

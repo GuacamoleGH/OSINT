@@ -32,6 +32,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Rastreo en vivo básico gratis; planes Silver desde ~1,49€/mes o ~9,99€/año y Gold por ~3,99€/mes)",
     "access": "public",
     "geographicScope": [
       "global"
@@ -43,6 +44,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado rastreador de telemetría ADS-B en vivo y niveles de suscripción.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -52,9 +60,8 @@
       "Seguir un vuelo comercial y comprobar si ha sufrido desvíos o patrones de espera (holdings)"
     ],
     "instructions": "Haz clic en cualquier avión en el mapa o busca por número de vuelo (ej. IB3166) o matrícula para ver la ficha.",
-    "lastReviewed": "2026-11-23",
-    "status": "active",
-    "pricingDetails": "Freemium (Rastreo en vivo básico gratis; planes Silver desde ~1,49€/mes o ~9,99€/año y Gold por ~3,99€/mes)"
+    "lastReviewed": "2026-11-24",
+    "status": "active"
   },
   {
     "id": "adsb-exchange",
@@ -88,6 +95,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -97,7 +105,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -107,7 +122,7 @@
       "Seguir aviones militares, vuelos de transporte gubernamental o misiones de reabastecimiento en el espacio aéreo europeo"
     ],
     "instructions": "Abre el visor de mapa (Globe) y pulsa el botón 'U' (Military) en la barra superior derecha para aislar exclusivamente tráfico militar.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -142,6 +157,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -153,7 +169,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -163,7 +186,7 @@
       "Descargar trazas históricas de posiciones de aeronaves para reconstruir una trayectoria de vuelo"
     ],
     "instructions": "Accede a la herramienta 'Explorer' para ver el tráfico en vivo o consulta su documentación de API REST.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -199,6 +222,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Seguimiento AIS costero en tiempo real gratis; planes con datos satelitales e historial desde ~14€/mes)",
     "access": "public",
     "geographicScope": [
       "global"
@@ -210,6 +234,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado mapa de tráfico marítimo AIS y condiciones de servicio freemium.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -219,9 +250,8 @@
       "Localizar la entrada o salida de buques petroleros, cargueros o ferris en puertos españoles (Algeciras, Valencia, Barcelona)"
     ],
     "instructions": "Busca por nombre de embarcación, número IMO (International Maritime Organization) o MMSI para abrir la ficha.",
-    "lastReviewed": "2026-11-23",
-    "status": "active",
-    "pricingDetails": "Freemium (Seguimiento AIS costero en tiempo real gratis; planes con datos satelitales e historial desde ~14€/mes)"
+    "lastReviewed": "2026-11-24",
+    "status": "active"
   },
   {
     "id": "vesselfinder",
@@ -254,6 +284,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Mapa AIS en vivo gratis; suscripción satelital Pro desde ~9,90€/mes)",
     "access": "public",
     "geographicScope": [
       "global",
@@ -265,7 +296,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -275,9 +313,8 @@
       "Verificar el historial reciente de escalas en puertos de un carguero"
     ],
     "instructions": "Usa el buscador por nombre de barco o navega por los puertos en el mapa interactivo.",
-    "lastReviewed": "2026-11-23",
-    "status": "active",
-    "pricingDetails": "Freemium (Mapa AIS en vivo gratis; suscripción satelital Pro desde ~9,90€/mes)"
+    "lastReviewed": null,
+    "status": "active"
   },
   {
     "id": "global-fishing-watch",
@@ -311,6 +348,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -321,8 +359,15 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
-    "registrationRequired": false,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
+    "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
       "Requiere registro gratuito para guardar áreas de interés o descargar capas vectoriales"
@@ -331,7 +376,7 @@
       "Investigar presuntas incursiones de flotas pesqueras en reservas marinas o apagar intencionado de transpondedores AIS"
     ],
     "instructions": "Abre el 'Map' interactivo y activa las capas de 'Fishing effort' por pabellón o tipo de arte de pesca.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -369,6 +414,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -379,7 +425,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -389,7 +442,7 @@
       "Descubrir quién es el armador o sociedad gestora real de un buque y si tiene deficiencias de seguridad graves registradas"
     ],
     "instructions": "Inicia sesión con tu cuenta gratuita y busca por número IMO (ej. 9241061) o nombre del buque.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -434,6 +487,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -443,7 +497,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -453,7 +514,7 @@
       "Analizar billetes y pases de embarque compartidos en fotografías de redes sociales (Instagram, X) para obtener origen, escala, destino y localizador de vuelo PNR"
     ],
     "instructions": "Pega la cadena de texto cruda del código de barras o sube la imagen del billete para desglosar de inmediato todos los campos del estándar IATA.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -510,7 +571,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -521,7 +589,7 @@
       "Comprobar la orientación de las pistas en uso según la dirección del viento reportada"
     ],
     "instructions": "Introduce el código ICAO o IATA del aeropuerto (ej. LEMD para Madrid-Barajas o LEBL para Barcelona-El Prat) o busca por nombre de ciudad en el mapa para ver el informe meteorológico decodificado.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -557,6 +625,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -566,7 +635,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -577,7 +653,7 @@
       "Rastrear la cadena de custodia de una aeronave que cambió de matrícula"
     ],
     "instructions": "Escribe la matrícula (ej. EC-XXX, NXXXX) o número de serie en el buscador superior para desplegar la genealogía completa del aparato.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -612,6 +688,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -621,7 +698,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -632,7 +716,7 @@
       "Verificar si un avión llevaba instalados sensores o modificaciones físicas especiales"
     ],
     "instructions": "Introduce la matrícula del avión en la caja de búsqueda para examinar todas las fotografías históricas ordenadas cronológicamente.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -669,6 +753,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -680,7 +765,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -691,7 +783,7 @@
       "Investigar la actividad de jets privados no ocultados"
     ],
     "instructions": "Escribe el número de vuelo, matrícula o código ICAO del aeropuerto en el buscador principal.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -728,6 +820,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -738,7 +831,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -749,7 +849,7 @@
       "Identificar los barcos amarrados en una dársena portuaria específica"
     ],
     "instructions": "Haz zoom en cualquier costa del mapa o busca por el nombre del buque o número MMSI/IMO en el buscador.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -786,6 +886,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -796,7 +897,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -807,7 +915,7 @@
       "Comprobar qué terminal y puerta de embarque se asignó a una salida"
     ],
     "instructions": "Selecciona el aeropuerto de la red de Aena, elige entre Salidas o Llegadas e introduce el número de vuelo o ciudad.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -846,6 +954,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -855,7 +964,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -866,7 +982,7 @@
       "Consultar NOTAMs temporales que restrinjan el espacio aéreo en una zona de rescate"
     ],
     "instructions": "Navega por el mapa de España o introduce unas coordenadas para ver las capas de restricción y los condicionantes aeronáuticos de la zona.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -905,6 +1021,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -914,7 +1031,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -925,7 +1049,7 @@
       "Consultar la actividad de mercancías y escalas en puertos estatales"
     ],
     "instructions": "Accede a la sección de 'Medio Físico y Clima Marítimo' para interactuar con el mapa de boyas y estaciones mareográficas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -965,6 +1089,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -974,7 +1099,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -985,7 +1117,7 @@
       "Verificar si un corte de carretera o accidente está ocurriendo en este momento"
     ],
     "instructions": "En el mapa interactivo de infocar.dgt.es, activa la capa 'Cámaras' y pulsa sobre el icono de cualquier cámara de carretera para visualizar la última captura disponible.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   }
 ]

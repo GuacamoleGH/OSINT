@@ -33,6 +33,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -43,6 +44,13 @@
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado algoritmo solar, mapa interactivo, cálculo de sombras y acceso gratuito.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -53,7 +61,7 @@
       "Comprobar si una foto pudo haber sido tomada a la hora afirmada por un testigo"
     ],
     "instructions": "Introduce las coordenadas o arrastra el pin al lugar del incidente. Ajusta la fecha y desplaza la barra horaria hasta que el rayo naranja coincida con el ángulo de la sombra en la fotografía.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -97,6 +105,13 @@
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado simulador de sombras 3D, modelo freemium contrastado y funcionamiento.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -106,16 +121,16 @@
       "Verificar si un patio interior o ventana recibe luz solar directa a una hora determinada del día"
     ],
     "instructions": "Busca la ciudad deseada y usa la barra deslizadora inferior para comprobar cómo cambian las sombras en los edificios 3D.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
     "id": "shadowfinder-web",
-    "name": "ShadowFinder Web",
+    "name": "ShadowFinder (Bellingcat)",
     "slug": "shadowfinder-web",
     "description": "Calculadora inversa para determinar la fecha y hora de una foto a partir de la longitud y orientación de su sombra.",
     "longDescription": "Aplicación web desarrollada con algoritmos astronómicos que permite introducir la altura estimada de un objeto, la longitud medida de su sombra y su orientación en grados para calcular automáticamente las posibles fechas y horas compatibles.",
-    "url": "https://kluter.github.io/shadowfinder-web/",
+    "url": "https://github.com/bellingcat/ShadowFinder",
     "categories": [
       "chronolocation"
     ],
@@ -136,18 +151,27 @@
       "shadow finder",
       "calcular fecha por sombra"
     ],
-    "type": "web",
+    "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
     ],
     "platforms": [
+      "cli",
       "web"
     ],
     "difficulty": "advanced",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": false,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -156,8 +180,8 @@
     "useCases": [
       "Deducir el rango horario posible cuando se desconoce por completo la hora de captura"
     ],
-    "instructions": "Introduce las coordenadas de la foto, la altura del objeto (ej. 1.80m) y la longitud de su sombra proyectada en el suelo.",
-    "lastReviewed": "2026-11-23",
+    "instructions": "Disponible como repositorio oficial y paquete de Python (\"pip install shadowfinder\"), ejecutable también en Google Colab para análisis interactivo de sombras.",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -194,6 +218,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -204,7 +229,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -214,7 +246,7 @@
       "Comprobar si el día en que presuntamente se grabó un vídeo llovió realmente en esa provincia española"
     ],
     "instructions": "Accede a 'Valores climatológicos normales' o 'Resúmenes climatológicos' seleccionando provincia y estación.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -249,7 +281,8 @@
       "radar nubosidad"
     ],
     "type": "web",
-    "pricing": "free",
+    "pricing": "freemium",
+    "pricingDetails": "Freemium (Visualizador meteorológico web en vivo gratuito; predicciones extendidas y app móvil de pago)",
     "access": "public",
     "geographicScope": [
       "global",
@@ -261,7 +294,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -271,7 +311,7 @@
       "Corroborar la dirección del humo o de una bandera en un vídeo con la dirección del viento registrada ese día"
     ],
     "instructions": "Cambia de capa entre 'Wind gusts', 'Clouds' y 'Precipitation' usando la barra lateral izquierda.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -306,6 +346,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -315,7 +356,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -325,7 +373,7 @@
       "Determinar a qué minuto exacto anocheció en una ciudad en una fecha concreta de hace 5 años"
     ],
     "instructions": "Accede a Sun & Moon > Sun Calculator e introduce la localidad deseada.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -361,6 +409,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -370,7 +419,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -381,7 +437,7 @@
       "Contrastar la temperatura y velocidad del viento declarada con los registros de la estación más cercana"
     ],
     "instructions": "Accede a la sección 'Daily SYNOP summary' o 'METAR', introduce el indicativo OMM de la estación más cercana o el país, y selecciona el rango de fechas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -417,6 +473,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -427,7 +484,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -438,7 +502,7 @@
       "Corroborar la presencia de nevadas o temporales"
     ],
     "instructions": "Busca la ciudad o estación en la barra de búsqueda superior y consulta la pestaña de datos históricos u horarios para el periodo deseado.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -475,6 +539,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -485,7 +550,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -496,7 +568,7 @@
       "Confirmar si una imagen nocturna fue manipulada o montada digitalmente"
     ],
     "instructions": "Fija las coordenadas del lugar en la esquina inferior izquierda, ajusta la fecha y hora en el reloj inferior derecho y gira el firmamento hacia la orientación deseada.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -533,6 +605,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -543,7 +616,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -554,7 +634,7 @@
       "Validar relatos de avistamientos anómalos"
     ],
     "instructions": "Configura la ubicación del observador arriba a la derecha y selecciona el satélite o 'Pases de satélites brillantes' para consultar las efemérides.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -590,6 +670,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -599,7 +680,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -610,7 +698,7 @@
       "Calcular la huella de cobertura terrestre de un satélite"
     ],
     "instructions": "Escribe el nombre o catálogo NORAD del satélite en el buscador y activa la vista 2D/3D de su órbita actual y huella sobre la Tierra.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   }
 ]

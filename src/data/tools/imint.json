@@ -32,6 +32,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -42,7 +43,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -53,7 +61,7 @@
       "Buscar la procedencia de una foto de perfil"
     ],
     "instructions": "Arrastra la imagen o pega una URL; ajusta el marco de recorte para enfocar un elemento clave.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -87,6 +95,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -97,7 +106,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -108,7 +124,7 @@
       "Geolocalizar una colina o edificio singular"
     ],
     "instructions": "Haz clic en el icono de cámara en la barra de búsqueda y sube la imagen recortando las partes superfluas.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -152,7 +168,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -162,7 +185,7 @@
       "Determinar si una fotografía compartida en un suceso reciente ya circulaba en internet años antes"
     ],
     "instructions": "Sube el archivo y cambia el desplegable de ordenación a 'Oldest' para identificar la fuente original.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -198,6 +221,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -207,7 +231,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -217,7 +248,7 @@
       "Comprobar si un cartel o rostro ha sido insertado digitalmente mediante edición gráfica"
     ],
     "instructions": "Abre la imagen localmente y activa la herramienta 'Clone Detection' o 'Error Level Analysis'.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -252,6 +283,7 @@
     ],
     "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -262,7 +294,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -272,7 +311,7 @@
       "Extraer coordenadas GPS y número de serie del sensor en archivos originales no comprimidos"
     ],
     "instructions": "Ejecuta 'exiftool imagen.jpg' en tu terminal o 'exiftool -gps* imagen.jpg' para ver información de geoposición.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -303,6 +342,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -313,6 +353,13 @@
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado servicio de análisis forense digital de imágenes (ELA) y visor EXIF.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -322,7 +369,7 @@
       "Validar firmas y sellos en documentos escaneados sospechosos de haber sido editados"
     ],
     "instructions": "Pega la URL pública o sube el archivo y examina las diferencias de brillo en la vista ELA.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -358,6 +405,7 @@
     ],
     "type": "browser-extension",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "europe",
@@ -370,6 +418,13 @@
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificada suite de verificación de vídeos y desinformación de InVID/WeVerify.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -379,7 +434,7 @@
       "Descomponer un vídeo viral en fotogramas clave y buscar si el suceso original ocurrió en otro país o año"
     ],
     "instructions": "Instala la extensión en tu navegador, pega el enlace del vídeo y abre la pestaña 'Keyframes'.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -413,6 +468,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -422,7 +478,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -432,7 +495,7 @@
       "Determinar la hora precisa en que se hizo público un comunicado o vídeo de un incidente"
     ],
     "instructions": "Pega la URL o el ID del vídeo de YouTube y pulsa Submit.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -470,6 +533,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -479,7 +543,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -490,7 +561,7 @@
       "Leer códigos de barras de billetes, envíos o equipajes publicados en redes sociales"
     ],
     "instructions": "Sube el archivo de imagen o introduce la URL directa de la foto y pulsa 'Submit' para ver el contenido decodificado, tipo de codificación y raw bytes.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -527,6 +598,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -536,7 +608,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -547,7 +626,7 @@
       "Comprobar si una imagen fue creada o retocada con herramientas como Photoshop Firefly o DALL-E"
     ],
     "instructions": "Arrastra la imagen directamente sobre la ventana de verificación para examinar los datos de procedencia y cadena de custodia del archivo.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -583,6 +662,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -593,7 +673,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -604,7 +691,7 @@
       "Detectar avatares generados por StyleGAN en redes sociales"
     ],
     "instructions": "Sube el archivo en la demo interactiva para obtener el porcentaje de probabilidad de generación por IA desglosado por modelo.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -637,6 +724,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -647,7 +735,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -658,7 +753,7 @@
       "Localizar réplicas de una fotografía en medios digitales"
     ],
     "instructions": "Pulsa el icono de la cámara en el cajón de búsqueda de Bing, sube la imagen o pega una URL y ajusta el cuadro selector sobre la zona a buscar.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -694,6 +789,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -703,19 +799,26 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": false,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "Herramienta descatalogada o fuera de servicio.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
-      "Utiliza conexión HTTP estándar; incluye captcha para evitar abusos automatizados",
-      "Solo HTTP"
+      "Servicio web histórico dado de baja definitivamente por su desarrollador (Jeffrey Friedl).",
+      "Se recomienda utilizar ExifTool en local o visores forenses alternativos."
     ],
     "useCases": [
       "Extraer coordenadas GPS exactas ocultas en un archivo JPEG compartido directamente por mensajería o correo",
       "Identificar el modelo y número de serie de la cámara fotográfica"
     ],
     "instructions": "Sube el archivo de imagen o introduce una URL pública directa a la foto y haz clic en 'View Image at URL' o 'View Image from File'.",
-    "lastReviewed": "2026-11-24",
-    "status": "active"
+    "lastReviewed": null,
+    "status": "deprecated"
   }
 ]

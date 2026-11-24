@@ -34,6 +34,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "europe",
@@ -45,7 +46,14 @@
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
-    "registrationRequired": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado catálogo satelital Sentinel/Landsat de la Agencia Espacial Europea.",
+    "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
       "Visualización abierta gratuita; la descarga masiva de productos procesados en bruto requiere registro gratuito"
@@ -55,7 +63,7 @@
       "Detectar barcos mediante radar SAR atravesando nubes"
     ],
     "instructions": "Busca la región, selecciona la fecha deseada en el calendario y activa la capa 'True Color' o 'False Color (urban)'.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -88,6 +96,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -99,6 +108,13 @@
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado visor satelital multiespectral y condiciones de uso.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -109,7 +125,7 @@
       "Visualizar penachos de humo y vertidos"
     ],
     "instructions": "Selecciona 'Compare' en el menú lateral para fijar dos fechas y arrastra el divisor interactivo.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -144,6 +160,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -153,7 +170,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -163,7 +187,7 @@
       "Verificar si en un día concreto de los últimos 20 años el cielo estaba despejado o cubierto de nubes sobre una localidad"
     ],
     "instructions": "Usa el deslizador temporal inferior para retroceder días, meses o años y visualizar la captura de satélite de ese día.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -198,6 +222,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -208,7 +233,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -219,7 +251,7 @@
       "Identificar detonaciones o fuegos industriales"
     ],
     "instructions": "Abre el visor interactivo de mapa, ajusta la ventana temporal a las últimas 24 o 48 horas y revisa los puntos de calor del sensor VIIRS.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -254,6 +286,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -263,7 +296,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -273,7 +313,7 @@
       "Examinar el impacto de una riada o daño estructural con un nivel de detalle inalcanzable por satélites civiles"
     ],
     "instructions": "Explora el mapa mundial y haz clic en los polígonos coloreados para inspeccionar el ortomosaico de vuelo.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -310,6 +350,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -320,7 +361,14 @@
     ],
     "difficulty": "advanced",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -331,7 +379,7 @@
       "Obtener datos multiespectrales calibrados de Landsat"
     ],
     "instructions": "Define el área en 'Search Criteria', selecciona los datasets en la pestaña 'Data Sets' (ej. Landsat, Declassified Data) y consulta los resultados.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -367,6 +415,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -376,7 +425,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -387,7 +443,7 @@
       "Comparar imágenes antes y después de una catástrofe"
     ],
     "instructions": "Selecciona el evento en la lista de eventos activos y descarga las teselas GeoTIFF o consúltalas en los visores asociados.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   }
 ]

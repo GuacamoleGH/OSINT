@@ -8,15 +8,19 @@ import {
   getCategoryById,
   getInvestigateById,
 } from "@/lib/data";
+import { PRICING_LABELS } from "@/types/osint";
 import { ToolDetailActions } from "@/components/tools/ToolDetailActions";
 import { ToolCard } from "@/components/tools/ToolCard";
 import {
   ArrowLeft,
   ExternalLink,
   ShieldCheck,
+  ShieldAlert,
   AlertTriangle,
   Info,
   CheckCircle2,
+  XCircle,
+  Clock,
   Calendar,
   Layers,
   Compass,
@@ -94,10 +98,15 @@ export default function ToolDetailPage({ params }: ToolDetailPageProps) {
           </div>
 
           <div className="shrink-0 flex items-center gap-1.5 self-start">
-            {tool.verified && (
+            {tool.verified ? (
               <span className="inline-flex items-center gap-1 text-xs text-guacamole-green font-medium px-2.5 py-1 rounded-full bg-guacamole-input border border-guacamole-border">
                 <CheckCircle2 className="w-3.5 h-3.5" />
                 <span>Verificada</span>
+              </span>
+            ) : (
+              <span className="inline-flex items-center gap-1 text-xs text-amber-400 font-medium px-2.5 py-1 rounded-full bg-amber-950/40 border border-amber-800/50">
+                <Clock className="w-3.5 h-3.5" />
+                <span>Pendiente de verificación</span>
               </span>
             )}
           </div>
@@ -111,7 +120,7 @@ export default function ToolDetailPage({ params }: ToolDetailPageProps) {
           <div className="p-3 rounded-lg bg-guacamole-input/80 border border-guacamole-border">
             <span className="text-gray-400 block mb-1">Precio</span>
             <span className="font-semibold text-gray-100 uppercase font-mono">
-              {tool.pricing === "free" ? "Gratuito (100% Free)" : tool.pricing === "freemium" ? "Freemium" : tool.pricing}
+              {PRICING_LABELS[tool.pricing] || "Desconocido"}
             </span>
             {tool.pricingDetails && (
               <span className="block text-[11px] text-amber-300 font-sans font-medium mt-1">
@@ -157,6 +166,69 @@ export default function ToolDetailPage({ params }: ToolDetailPageProps) {
               <Calendar className="w-4 h-4 text-gray-400" />
               <span>Revisada: <span className="font-mono text-gray-300">{tool.lastReviewed}</span></span>
             </div>
+          )}
+        </div>
+
+        {/* Verification criteria checklist */}
+        <div className="p-3.5 rounded-lg bg-guacamole-input/50 border border-guacamole-border/60 space-y-2">
+          <div className="flex items-center justify-between">
+            <span className="text-[11px] font-semibold text-gray-400 uppercase tracking-wider">
+              Criterios de Verificación
+            </span>
+            <span className="text-[11px] font-mono text-gray-400">
+              {tool.verified ? (
+                <span className="text-guacamole-green font-semibold">Auditada y Verificada</span>
+              ) : (
+                <span className="text-amber-400">Pendiente de comprobación exhaustiva</span>
+              )}
+            </span>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
+            <div className="flex items-center gap-1.5">
+              {tool.verification?.linkChecked ? (
+                <CheckCircle2 className="w-3.5 h-3.5 text-guacamole-green shrink-0" />
+              ) : (
+                <XCircle className="w-3.5 h-3.5 text-gray-500 shrink-0" />
+              )}
+              <span className={tool.verification?.linkChecked ? "text-gray-200 font-medium" : "text-gray-400"}>
+                Enlace comprobado
+              </span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              {tool.verification?.infoChecked ? (
+                <CheckCircle2 className="w-3.5 h-3.5 text-guacamole-green shrink-0" />
+              ) : (
+                <XCircle className="w-3.5 h-3.5 text-gray-500 shrink-0" />
+              )}
+              <span className={tool.verification?.infoChecked ? "text-gray-200 font-medium" : "text-gray-400"}>
+                Info contrastada
+              </span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              {tool.verification?.functionalityChecked ? (
+                <CheckCircle2 className="w-3.5 h-3.5 text-guacamole-green shrink-0" />
+              ) : (
+                <XCircle className="w-3.5 h-3.5 text-gray-500 shrink-0" />
+              )}
+              <span className={tool.verification?.functionalityChecked ? "text-gray-200 font-medium" : "text-gray-400"}>
+                Funcionamiento
+              </span>
+            </div>
+            <div className="flex items-center gap-1.5">
+              {tool.verification?.pricingChecked ? (
+                <CheckCircle2 className="w-3.5 h-3.5 text-guacamole-green shrink-0" />
+              ) : (
+                <XCircle className="w-3.5 h-3.5 text-gray-500 shrink-0" />
+              )}
+              <span className={tool.verification?.pricingChecked ? "text-gray-200 font-medium" : "text-gray-400"}>
+                Precio contrastado
+              </span>
+            </div>
+          </div>
+          {tool.verificationNotes && (
+            <p className="text-[11px] text-gray-400 italic pt-1 border-t border-guacamole-border/40">
+              Nota de auditoría: {tool.verificationNotes}
+            </p>
           )}
         </div>
       </div>

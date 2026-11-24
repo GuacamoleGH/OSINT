@@ -32,6 +32,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -43,7 +44,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -54,7 +62,7 @@
       "Medir distancias y elevaciones"
     ],
     "instructions": "Usa la herramienta de medición y la vista de perspectiva en 3D manteniendo pulsada la tecla Shift o con el botón central del ratón.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -92,6 +100,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -102,6 +111,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado visor cartográfico del Instituto Geográfico Nacional de España (IGN).",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -112,7 +128,7 @@
       "Identificar topónimos y límites de parcelas"
     ],
     "instructions": "Abre el selector de capas superior derecho para alternar entre 'PNOA Máxima Actualidad', 'Mapa Topográfico' y 'Fototeca Histórica'.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -150,6 +166,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -160,6 +177,13 @@
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificada Sede Electrónica del Catastro de España, visor cartográfico oficial.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -170,7 +194,7 @@
       "Verificar coordenadas exactas de linderos"
     ],
     "instructions": "Accede al 'Buscador de Inmuebles y Visor Cartográfico'. Puedes buscar por referencia, calle, polígono/parcela o haciendo clic directo en el mapa.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -203,6 +227,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -212,7 +237,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -222,7 +254,7 @@
       "Verificar el nombre de una callejuela menor o senda forestal no registrada en Google Maps"
     ],
     "instructions": "Usa el icono de capas a la derecha para ver capas especializadas como Cicloturismo o Transporte público.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -256,6 +288,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -267,6 +300,13 @@
     "difficulty": "advanced",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado constructor y visor de consultas Overpass QL sobre OpenStreetMap.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -276,7 +316,7 @@
       "Localizar intersecciones de elementos urbanos que coincidan con pistas visuales de una fotografía"
     ],
     "instructions": "Utiliza el asistente 'Wizard' para construir consultas sencillas (ej. 'amenity=fuel in Barcelona') y pulsa Ejecutar.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -309,6 +349,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -319,7 +360,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -329,7 +377,7 @@
       "Comprobar cómo se veía un lugar en fechas donde Google Street View no tiene cobertura"
     ],
     "instructions": "Explora el visor interactivo y filtra por rango de fechas de captura en el panel lateral.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -358,6 +406,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -367,7 +416,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -377,7 +433,7 @@
       "Localizar carteles viales y morfología de calzadas en carreteras interurbanas"
     ],
     "instructions": "Haz zoom sobre las trazas verdes y moradas para cargar la secuencia fotográfica de los tramos.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -411,6 +467,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -421,7 +478,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -431,7 +495,7 @@
       "Identificar el continente o país de procedencia de una fotografía sin metadatos EXIF"
     ],
     "instructions": "Navega por las categorías visuales de 'Bollards', 'Poles', 'Road Lines' o 'License Plates' para contrastar con tu imagen.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -465,6 +529,7 @@
     ],
     "type": "desktop",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -474,7 +539,14 @@
     ],
     "difficulty": "advanced",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -484,7 +556,7 @@
       "Cargar servicios WMS del Catastro y del IGN simultáneamente con registros de antenas o incidentes"
     ],
     "instructions": "Descarga la versión LTR e instala capas WMS/WMTS añadiendo la URL de servicios del IGN de España.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -520,6 +592,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "europe"
@@ -529,7 +602,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -539,7 +619,7 @@
       "Localizar fuentes cartográficas oficiales de cualquier país miembro de la Unión Europea"
     ],
     "instructions": "Utiliza el buscador por país y tema cartográfico (Theme) para acceder a los visores de cada estado.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -575,6 +655,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -586,7 +667,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -596,7 +684,7 @@
       "Encontrar rápidamente las fuentes públicas del país exacto en el que transcurre el caso"
     ],
     "instructions": "Haz clic en el país en el mapa interactivo para desplegar el listado de recursos clasificados.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -634,6 +722,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -644,7 +733,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -654,7 +750,7 @@
       "Encontrar el lugar exacto de una foto donde se aprecian simultáneamente una escuela, una vía de tren y una gasolinera"
     ],
     "instructions": "Añade cada elemento con su etiqueta OSM (ej. amenity=school) y la distancia máxima de separación en metros, selecciona el país o dibuja el área de búsqueda y pulsa 'Search'.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -693,6 +789,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -702,7 +799,14 @@
     ],
     "difficulty": "advanced",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -712,7 +816,7 @@
       "Trazar el cono visual desde una colina o ventana para identificar el punto preciso donde se encontraba el autor del disparo o grabación"
     ],
     "instructions": "Alinea los puntos de referencia conocidos del terreno con las líneas del cono de visión en la interfaz del mapa.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -751,6 +855,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -761,7 +866,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -771,7 +883,7 @@
       "Cotejar la silueta de los tejados y chimeneas de un barrio con la perspectiva de una foto tomada desde una azotea o dron"
     ],
     "instructions": "Navega con el ratón girando la perspectiva con el botón derecho; ajusta la barra temporal para ver la proyección de sombras en tiempo real.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -821,7 +933,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -831,7 +950,7 @@
       "Identificar qué picos montañosos aparecen al fondo de una foto de un conflicto o suceso rural para fijar las coordenadas exactas"
     ],
     "instructions": "Abre el mapa 3D en el navegador, busca la zona montañosa estimada y haz coincidir la silueta de los picos con el fondo de la imagen.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -869,6 +988,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -878,7 +998,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -888,7 +1015,7 @@
       "Encontrar imágenes de alta resolución en zonas donde Google Maps tiene baja calidad o nubes cambiando a Apple o Bing Maps"
     ],
     "instructions": "Usa el menú desplegable en la esquina superior para cambiar de capa entre Google, Apple, Bing y Yandex manteniendo el zoom y la posición.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -928,6 +1055,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -938,7 +1066,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -948,7 +1083,7 @@
       "Determinar el país exacto de una carretera aislada analizando el color del poste reflectante o las líneas laterales de la calzada"
     ],
     "instructions": "Selecciona el continente y país para revisar el desglose fotográfico de bolardos, postes de luz, señalización y marcas viales distintivas.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -985,6 +1120,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -994,7 +1130,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1004,7 +1147,7 @@
       "Validar si las montañas que se recortan en el horizonte de un vídeo coinciden exactamente con la silueta calculada para esa coordenada"
     ],
     "instructions": "Introduce las coordenadas geográficas o haz clic en el mapa y selecciona 'Generate panorama' para obtener la silueta visual etiquetada con cada cima.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1038,6 +1181,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1047,7 +1191,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1057,7 +1208,7 @@
       "Inspeccionar el entorno urbano a pie de calle mientras se observa simultáneamente la vista cenital de tejados"
     ],
     "instructions": "Arrastra el muñeco de Street View para mover la vista panorámica mientras el mapa satelital sigue la orientación automáticamente.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1113,7 +1264,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1124,7 +1282,7 @@
       "Aprender metodologías paso a paso de verificación y triangulación visual de escenas"
     ],
     "instructions": "Accede a la sección 'OSINT Exercises' para resolver los retos prácticos de geolocalización o revisa los artículos y soluciones para estudiar las técnicas de investigación aplicadas.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1161,6 +1319,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -1170,7 +1329,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1181,7 +1347,7 @@
       "Investigar la evolución orográfica o lindes de fincas"
     ],
     "instructions": "Navega al mapa, localiza la zona con el buscador de municipios o coordenadas y pulsa en 'Consultar vuelos' para seleccionar el año de interés.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1216,6 +1382,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -1226,7 +1393,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1237,7 +1411,7 @@
       "Identificar secciones censales y límites administrativos municipales"
     ],
     "instructions": "Escribe la dirección o coordenadas en el cuadro de búsqueda superior para situar el punto geográfico sobre la cartografía oficial.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1274,6 +1448,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -1283,7 +1458,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1294,7 +1476,7 @@
       "Localizar recintos agrícolas a partir de su referencia de provincia, municipio, polígono y parcela"
     ],
     "instructions": "Introduce provincia, municipio, polígono y parcela o pulsa en cualquier punto del mapa para desplegar la ficha descriptiva de la parcela agraria.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1330,6 +1512,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -1340,7 +1523,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1351,7 +1541,7 @@
       "Consultar el catálogo nacional de metadatos geográficos"
     ],
     "instructions": "Accede al 'Visualizador' o a 'Servicios Web' para obtener los endpoints WMS/WMTS de las distintas administraciones públicas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1388,6 +1578,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1397,7 +1588,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1408,7 +1606,7 @@
       "Detectar cambios en masas forestales y costas"
     ],
     "instructions": "Desplázate a la ubicación y selecciona las fechas en la lista lateral izquierda para ver las ortofotos del momento o activar la animación timelapse.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1443,6 +1641,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1452,7 +1651,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1463,7 +1669,7 @@
       "Localizar canalizaciones energéticas y data centers"
     ],
     "instructions": "Usa las capas situadas a la derecha para alternar entre Power (energía), Telecoms (telecomunicaciones) y Petroleum (gas y petróleo).",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1498,6 +1704,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -1509,7 +1716,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1520,7 +1734,7 @@
       "Descargar imágenes bajo licencias abiertas"
     ],
     "instructions": "Haz zoom sobre el mapa en las líneas de color azul y haz clic en cualquier punto para abrir la vista panorámica a nivel de suelo.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1557,6 +1771,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1566,7 +1781,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1577,7 +1799,7 @@
       "Conocer el gálibo o tipo de vía de un trazado"
     ],
     "instructions": "Selecciona el estilo de mapa en el desplegable superior (Infraestructura, Velocidades máximas o Señalización).",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1611,6 +1833,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1620,7 +1843,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1631,7 +1861,7 @@
       "Rastrear la actividad de un usuario o editor sospechoso"
     ],
     "instructions": "Aplica filtros por área geográfica (BBOX), nombre de usuario o fecha de edición para inspeccionar el diff de las modificaciones.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1666,6 +1896,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1675,7 +1906,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1686,7 +1924,7 @@
       "Encontrar nombres informales o históricos de parajes"
     ],
     "instructions": "Navega con el mapa satelital y haz clic en los rectángulos o polígonos dibujados para leer la descripción comunitaria del lugar.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1719,6 +1957,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1728,7 +1967,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1739,7 +1985,7 @@
       "Identificar cimas y rutas de senderismo"
     ],
     "instructions": "Busca cualquier topónimo en el buscador superior o explora el mapa interactivo haciendo clic en las fichas emergentes.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1776,6 +2022,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1786,7 +2033,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1797,7 +2051,7 @@
       "Rastrear columnas de humo e incendios forestales"
     ],
     "instructions": "Utiliza la barra de tiempo inferior para retroceder o avanzar en los mapas meteorológicos y activa capas de radar o calor en el menú lateral.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1836,6 +2090,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1846,7 +2101,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1857,7 +2119,7 @@
       "Verificar qué antenas de telefonía dan cobertura a una escena"
     ],
     "instructions": "Elige tu país y operador en el selector izquierdo para que aparezcan sobre el mapa las torres con sus sectores coloreados.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1897,6 +2159,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -1906,7 +2169,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": false,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1917,7 +2187,7 @@
       "Consultar el operador titular de cada mástil"
     ],
     "instructions": "Introduce municipio o calle en el buscador o navega por el mapa hasta ver los puntos de las estaciones radioeléctricas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   }
 ]

@@ -35,6 +35,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -45,7 +46,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -55,7 +63,7 @@
       "Localizar acuerdos societarios en el BORME (Boletín Oficial del Registro Mercantil) o nombramientos de administradores en empresas españolas"
     ],
     "instructions": "Accede a 'Buscar en el BOE', introduce el nombre o denominación social entre comillas dobles y selecciona la sección deseada.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -92,6 +100,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -102,6 +111,13 @@
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificada Plataforma de Contratación del Sector Público de España.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -111,7 +127,7 @@
       "Comprobar qué empresas privadas ganaron contratos de software, seguridad o infraestructuras convocados por organismos públicos en España"
     ],
     "instructions": "En la pestaña 'Licitaciones', utiliza la 'Búsqueda de licitaciones y contratos' rellenando el CIF o nombre de la empresa adjudicataria.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -146,6 +162,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -156,7 +173,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -166,7 +190,7 @@
       "Descargar censos oficiales de flotas, instalaciones autorizadas o subvenciones públicas"
     ],
     "instructions": "Utiliza los filtros de sector (Hacienda, Transporte, Medio Ambiente) para localizar el conjunto de datos de interés.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -203,6 +227,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain",
@@ -213,7 +238,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -223,7 +255,7 @@
       "Verificar si una plataforma de inversión está autorizada legalmente en España o cuenta con advertencia de fraude"
     ],
     "instructions": "Consulta el apartado 'Consultas a los Registros Oficiales' o 'Advertencias al público'.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -272,7 +304,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -282,7 +321,7 @@
       "Descubrir filiales en el extranjero o empresas compartidas por un mismo administrador societario"
     ],
     "instructions": "Elige si deseas buscar por 'Companies' o por 'Officers' (nombres de administradores) e introduce el término.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -318,6 +357,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -329,7 +369,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -339,7 +386,7 @@
       "Verificar la estructura de propiedad jerárquica de una multinacional o banco"
     ],
     "instructions": "Usa la barra de búsqueda LEI Search para escribir el nombre de la empresa y ver su ficha oficial.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -377,6 +424,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -388,7 +436,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -398,7 +453,7 @@
       "Comprobar si una persona física o empresa figura en la lista de sanciones de la Unión Europea"
     ],
     "instructions": "Escribe el nombre completo o de la sociedad mercantil en el campo de búsqueda central.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -434,6 +489,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -445,7 +501,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -455,7 +518,7 @@
       "Investigar vínculos de personalidades públicas o empresas con entidades domiciliadas en jurisdicciones offshore"
     ],
     "instructions": "Filtra por país (ej. 'Spain') o introduce el nombre de la persona para visualizar el grafo de conexiones.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -490,6 +553,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -500,7 +564,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -510,7 +581,7 @@
       "Buscar menciones de una compañía en filtraciones judiciales y gacetas mercantiles internacionales"
     ],
     "instructions": "Usa la búsqueda avanzada con operadores booleanos (AND, OR, NOT) sobre las colecciones públicas abiertas.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -545,6 +616,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "europe"
@@ -555,7 +627,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -565,7 +644,7 @@
       "Localizar estudios comparativos y censos oficiales armonizados a nivel de la Unión Europea"
     ],
     "instructions": "Filtra por formato de archivo (CSV, RDF, JSON) o por temática europea en el panel lateral.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -601,6 +680,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "europe"
@@ -610,7 +690,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -620,7 +707,7 @@
       "Confirmar si una sociedad constituida en Alemania, Francia, Italia o Países Bajos está legalmente activa"
     ],
     "instructions": "Accede a la sección 'Buscar una empresa en los registros mercantiles de los Estados miembros (BRIS)'.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -657,6 +744,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -666,7 +754,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -676,7 +771,7 @@
       "Verificar si una matrícula española existe oficialmente en el registro de la DGT"
     ],
     "instructions": "Introduce la matrícula española sin espacios ni guiones (ej. 1234BBB) y pulsa Consultar.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -712,6 +807,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -721,7 +817,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -731,7 +834,7 @@
       "Averiguar el año exacto de matriculación de un vehículo a partir de su matrícula y comprobar si tiene avisos de seguridad pendientes"
     ],
     "instructions": "Selecciona la opción 'Informe reducido' e introduce la matrícula para descargar el resumen oficial.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -767,6 +870,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "europe"
@@ -776,7 +880,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -786,7 +897,7 @@
       "Analizar contrataciones transfronterizas de empresas europeas y requisitos técnicos solicitados"
     ],
     "instructions": "Navega por la sección 'Buscar empleo' filtrando por país (ej. España, Alemania, Francia) y sector profesional.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -822,6 +933,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -831,7 +943,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -841,7 +960,7 @@
       "Identificar qué tecnologías o software específico está incorporando una compañía española en sus sedes"
     ],
     "instructions": "Usa la búsqueda por nombre de empresa para desplegar todas las ofertas publicadas en España.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -876,6 +995,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -887,7 +1007,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -897,7 +1024,7 @@
       "Investigación biográfica e histórica de linajes familiares y figuras públicas del pasado"
     ],
     "instructions": "Inicia sesión con tu cuenta gratuita y busca en la sección 'Search > Records' por apellidos y provincia española.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -948,6 +1075,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado Boletín Oficial del Registro Mercantil de España en la sede del BOE.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1007,7 +1141,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1017,7 +1158,7 @@
       "Verificar la solvencia y situación legal de una empresa proveedora o deudora en España"
     ],
     "instructions": "Accede a la sección de consulta pública e introduce el CIF de la empresa o NIF del deudor.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1026,7 +1167,7 @@
     "slug": "teju",
     "description": "Plataforma oficial del BOE para la publicación y notificación de resoluciones y citaciones judiciales en España.",
     "longDescription": "El TEJU centraliza los edictos y llamamientos de todos los juzgados y tribunales de España cuando no ha sido posible notificar personalmente al interesado. Esencial para localizar embargos, citaciones penales o pleitos civiles sobre particulares o mercantiles.",
-    "url": "https://www.boe.es/notificaciones/teju/",
+    "url": "https://www.boe.es/edictos_judiciales/",
     "categories": [
       "public-records"
     ],
@@ -1066,6 +1207,13 @@
     "difficulty": "beginner",
     "featured": false,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado Tablón Edictal Judicial Único en la sede electrónica oficial del BOE.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1123,7 +1271,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1133,7 +1288,7 @@
       "Investigar litigios corporativos, sanciones administrativas confirmadas y jurisprudencia penal o mercantil"
     ],
     "instructions": "Utiliza el buscador libre con comillas dobles para buscar empresas, términos técnicos o referencias de litigios.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1181,7 +1336,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1191,7 +1353,7 @@
       "Auditar el volumen de ayudas públicas y fondos recibidos por una entidad mercantil o asociación"
     ],
     "instructions": "Accede a 'Concesiones', escribe el CIF o razón social de la empresa y pulsa en consultar.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1238,7 +1400,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1248,7 +1417,7 @@
       "Consultar convenios suscritos por ministerios con empresas privadas o remuneraciones oficiales"
     ],
     "instructions": "Navega por las categorías institucionales o introduce términos clave en el buscador general.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1295,7 +1464,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1305,7 +1481,7 @@
       "Identificar la empresa o persona titular de una marca comercial o producto en venta"
     ],
     "instructions": "Accede al localizador de marcas (CEO), introduce la denominación o el nombre del titular y revisa el expediente.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1353,7 +1529,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1363,7 +1546,7 @@
       "Localizar activos intangibles y marcas pertenecientes a holdings o multinacionales en Europa"
     ],
     "instructions": "Escribe el nombre de la marca o titular en la barra superior de eSearch Plus.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1411,7 +1594,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1421,7 +1611,7 @@
       "Rastrear patentes tecnológicas y registros de propiedad industrial de compañías multinacionales"
     ],
     "instructions": "Selecciona 'Global Brand Database' para marcas o 'PATENTSCOPE' para tecnología y patentes.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1469,7 +1659,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1479,7 +1676,7 @@
       "Investigar qué tecnologías patentan empresas de defensa, telecomunicaciones o automoción"
     ],
     "instructions": "Introduce el nombre de la compañía o inventor en el campo 'Applicant / Inventor'.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1529,7 +1726,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1539,7 +1743,7 @@
       "Verificar si una empresa extranjera o nacional que emite facturas está legalmente registrada para IVA intracomunitario"
     ],
     "instructions": "Selecciona el país miembro (ej. ES para España), introduce el número fiscal y pulsa 'Verificar'.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1586,7 +1790,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1596,7 +1807,7 @@
       "Investigar qué empresas se adjudican los grandes contratos de obra civil o defensa en Europa"
     ],
     "instructions": "Utiliza la búsqueda avanzada por código CPV, país o denominación de la empresa adjudicataria.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1643,7 +1854,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1653,7 +1871,7 @@
       "Comprobar cuánto dinero declara una tecnológica o energética en actividades de lobby ante la UE"
     ],
     "instructions": "Introduce el nombre de la empresa, asociación o cliente en el buscador de entidades registradas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1701,7 +1919,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1711,7 +1936,7 @@
       "Localizar rápidamente el CIF, objeto social y vinculaciones societarias de directivos en España"
     ],
     "instructions": "Escribe la razón social o CIF en el buscador superior para acceder a la ficha corporativa.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1758,7 +1983,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1768,7 +2000,7 @@
       "Analizar el volumen de ventas, número de trabajadores y posición sectorial de una empresa en España"
     ],
     "instructions": "Busca por razón social o navega por provincias y sectores para ver rankings de empresas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1817,7 +2049,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1827,7 +2066,7 @@
       "Verificar si una mercantil española sigue en activo o presenta incidencias de pago"
     ],
     "instructions": "Introduce la empresa o CIF para visualizar su ficha mercantil con estado de actividad y órganos de gobierno.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1876,7 +2115,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -1886,7 +2132,7 @@
       "Obtener la titularidad jurídica y cargas (hipotecas, embargos) de un inmueble o finca rústica en España"
     ],
     "instructions": "Accede a 'Sede Electrónica', selecciona Registro de la Propiedad o Mercantil y formaliza la solicitud.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1934,7 +2180,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1944,7 +2197,7 @@
       "Comprobar si una fintech o pasarela de pagos está debidamente autorizada para captar depósitos en España"
     ],
     "instructions": "Selecciona el registro específico (ej. entidades de crédito o pago) y busca por nombre o código de registro.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1992,7 +2245,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2002,7 +2262,7 @@
       "Rastrear subvenciones autonómicas o contrataciones públicas del gobierno andaluz"
     ],
     "instructions": "Utiliza el buscador avanzado del BOJA filtrando por texto libre entre comillas o por consejería.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2051,7 +2311,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2061,7 +2328,7 @@
       "Investigar acuerdos urbanísticos, licencias o anuncios municipales en la Costa del Sol y provincia de Málaga"
     ],
     "instructions": "Accede a la pestaña 'Búsqueda', introduce palabras clave o el municipio objetivo y selecciona el rango temporal.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2114,7 +2381,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2124,7 +2398,7 @@
       "Comprobar si una plataforma de trading online o intermediario ha sido alertado como chiringuito financiero o clon ilegal"
     ],
     "instructions": "Escribe la denominación comercial o dominio web en el campo 'Denominación / Entidad' para comprobar alertas vigentes.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2174,7 +2448,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2184,7 +2465,7 @@
       "Descubrir sociedades pantalla o directores británicos vinculados a estructuras internacionales"
     ],
     "instructions": "Introduce la denominación social o nombre del directivo en el buscador para ver el historial societario completo.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2233,7 +2514,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2243,7 +2531,7 @@
       "Analizar la estructura de propiedad y retribuciones de multinacionales estadounidenses"
     ],
     "instructions": "Introduce el ticker de la compañía o su nombre en el buscador de la SEC para consultar los archivos '10-K' o '8-K'.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2290,7 +2578,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2300,7 +2595,7 @@
       "Rastrear a los verdaderos beneficiarios económicos detrás de complejas tramas empresariales transfronterizas"
     ],
     "instructions": "Consulta las herramientas y repositorios del portal para mapear relaciones de propiedad corporativa.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2350,7 +2645,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2360,7 +2662,7 @@
       "Comprobar si una persona, banco o naviera está sujeta a sanciones comerciales o congelación de activos por la UE"
     ],
     "instructions": "Haz clic en un país o utiliza la pestaña 'Regímenes' o 'Lista' para buscar personas o entidades sancionadas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2411,7 +2713,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2421,7 +2730,7 @@
       "Debida diligencia para comprobar si una contraparte internacional o buque figura en listas negras de EE.UU."
     ],
     "instructions": "Introduce el nombre o número de identificación, ajusta el umbral de coincidencia difusa y pulsa 'Search'.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2468,7 +2777,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2479,7 +2795,7 @@
       "Verificar la legalidad de ofertas de agencias de colocación autorizadas por el SEPE"
     ],
     "instructions": "Accede a la sección de empleo y convocatorias para filtrar por provincia, titulación o tipo de jornada.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2527,7 +2843,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2538,7 +2861,7 @@
       "Comprobar si una institución académica privada tiene acreditación oficial de universidad"
     ],
     "instructions": "Accede a \"Consultar títulos\" o \"Consultar centros\", introduce el nombre del título o universidad y revisa su ficha oficial.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2586,7 +2909,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2597,7 +2927,7 @@
       "Diferenciar entre investigadores homónimos con idénticos apellidos"
     ],
     "instructions": "Escribe el nombre del autor o su identificador de 16 dígitos (XXXX-XXXX-XXXX-XXXX) en el buscador superior.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2645,7 +2975,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -2656,7 +2993,7 @@
       "Auditar el cumplimiento normativo en campañas comerciales"
     ],
     "instructions": "Accede al portal oficial para consultar los derechos y normativas de exclusión de contactos publicitarios.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2702,7 +3039,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2713,7 +3057,7 @@
       "Determinar el ámbito provincial oficial de cualquier prefijo"
     ],
     "instructions": "Introduce el número o prefijo en la consulta de numeración para desplegar el informe de asignación oficial.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   }
 ]

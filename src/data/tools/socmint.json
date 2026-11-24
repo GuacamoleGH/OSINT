@@ -33,6 +33,7 @@
     ],
     "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -43,6 +44,13 @@
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificada herramienta CLI de rastreo de alias en más de 400 plataformas sociales.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -52,7 +60,7 @@
       "Comprobar rápidamente en qué redes sociales existe una cuenta con un alias determinado"
     ],
     "instructions": "Ejecuta 'sherlock <nombre_usuario>' en la terminal para obtener un listado de URLs activas.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -87,6 +95,7 @@
     ],
     "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -97,6 +106,13 @@
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificada herramienta CLI de investigación de identidades digitales y exportación HTML.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -106,7 +122,7 @@
       "Construir un mapa de correlación entre perfiles que comparten el mismo alias y foto de perfil"
     ],
     "instructions": "Ejecuta 'maigret <usuario> --html --pdf' para compilar el informe visual.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -140,6 +156,7 @@
     ],
     "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -151,6 +168,13 @@
     "difficulty": "intermediate",
     "featured": false,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado motor OSINT rápido en Python para búsqueda de nombres de usuario.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -160,7 +184,7 @@
       "Auditoría rápida de disponibilidad de alias en menos de 10 segundos"
     ],
     "instructions": "Ejecuta 'python blackbird.py -u <username>' o 'python blackbird.py --web' para abrir la interfaz en localhost.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -194,6 +218,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Estadísticas y canales básicos gratis; planes de analítica y monitorización avanzada desde ~15€/mes a ~70€/mes)",
     "access": "public",
     "geographicScope": [
       "global",
@@ -205,7 +230,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -215,9 +247,8 @@
       "Rastrear el origen de un mensaje viral en Telegram y qué canales lo compartieron primero en España"
     ],
     "instructions": "Introduce el nombre del canal o palabras clave entrecomilladas en el buscador global y selecciona el filtro de idioma español.",
-    "lastReviewed": "2026-11-23",
-    "status": "active",
-    "pricingDetails": "Freemium (Estadísticas y canales básicos gratis; planes de analítica y monitorización avanzada desde ~15€/mes a ~70€/mes)"
+    "lastReviewed": null,
+    "status": "active"
   },
   {
     "id": "telemetr",
@@ -248,6 +279,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Búsqueda y métricas diarias limitadas gratis; suscripción analítica completa desde ~20$/mes)",
     "access": "public",
     "geographicScope": [
       "global",
@@ -258,7 +290,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -268,9 +307,8 @@
       "Descubrir si un canal de Telegram cambió de temática o de nombre tras una compraventa"
     ],
     "instructions": "Pega el enlace @canal para revisar sus gráficos de suscriptores e historial de modificaciones.",
-    "lastReviewed": "2026-11-23",
-    "status": "active",
-    "pricingDetails": "Freemium (Búsqueda y métricas diarias limitadas gratis; suscripción analítica completa desde ~20$/mes)"
+    "lastReviewed": null,
+    "status": "active"
   },
   {
     "id": "social-blade",
@@ -304,6 +342,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Estadísticas públicas básicas gratis; membresías Bronze/Silver desde ~3,99$/mes para historial extendido)",
     "access": "public",
     "geographicScope": [
       "global"
@@ -313,7 +352,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -323,9 +369,8 @@
       "Detectar compras repentinas de seguidores falsos (saltos bruscos en las gráficas de crecimiento)"
     ],
     "instructions": "Elige la plataforma en el menú superior e introduce el nombre de usuario exacto.",
-    "lastReviewed": "2026-11-23",
-    "status": "active",
-    "pricingDetails": "Freemium (Estadísticas públicas básicas gratis; membresías Bronze/Silver desde ~3,99$/mes para historial extendido)"
+    "lastReviewed": null,
+    "status": "active"
   },
   {
     "id": "social-searcher",
@@ -356,6 +401,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Hasta 100 búsquedas en tiempo real/día gratis; planes Basic/Standard desde ~3,49€/mes)",
     "access": "public",
     "geographicScope": [
       "global"
@@ -365,7 +411,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -375,9 +428,8 @@
       "Identificar reacciones públicas inmediatas tras un comunicado o incidente"
     ],
     "instructions": "Escribe el hashtag o término y pulsa buscar para ver publicaciones recientes organizadas por red social.",
-    "lastReviewed": "2026-11-23",
-    "status": "active",
-    "pricingDetails": "Freemium (Hasta 100 búsquedas en tiempo real/día gratis; planes Basic/Standard desde ~3,49€/mes)"
+    "lastReviewed": null,
+    "status": "active"
   },
   {
     "id": "trends24",
@@ -411,6 +463,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain",
@@ -421,7 +474,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -431,7 +491,7 @@
       "Verificar en qué hora exacta empezó a ser tendencia un acontecimiento en España"
     ],
     "instructions": "Selecciona 'Spain' o una ciudad española concreta en el desplegable de ubicaciones para ver la cronología.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -467,6 +527,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -476,7 +537,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -486,7 +554,7 @@
       "Obtener el identificador permanente SteamID64 para seguir la pista a un usuario aunque cambie de nombre público"
     ],
     "instructions": "Pega la URL del perfil de Steam o el nombre personalizado en la barra de búsqueda.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -518,6 +586,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -527,7 +596,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -537,7 +613,7 @@
       "Mapear el círculo de contactos habituales con los que juega en línea una cuenta"
     ],
     "instructions": "Introduce el SteamID64 o el enlace del perfil.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -574,6 +650,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Búsquedas inversas básicas gratis; planes Pro para consultas ilimitadas desde ~20€/mes)",
     "access": "public",
     "geographicScope": [
       "global"
@@ -584,6 +661,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado pivoteo inverso de correos electrónicos y teléfonos, plan freemium contrastado.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -593,9 +677,8 @@
       "Descubrir si un correo electrónico desconocido ha publicado reseñas públicas de locales o restaurantes en Google Maps"
     ],
     "instructions": "Escribe la dirección de correo electrónico completa y pulsa el botón de búsqueda para ver las coincidencias en servicios de Google.",
-    "lastReviewed": "2026-11-23",
-    "status": "active",
-    "pricingDetails": "Freemium (Búsquedas inversas básicas gratis; planes Pro para consultas ilimitadas desde ~20€/mes)"
+    "lastReviewed": "2026-11-24",
+    "status": "active"
   },
   {
     "id": "holehe",
@@ -628,6 +711,7 @@
     ],
     "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -638,6 +722,13 @@
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado comprobador CLI de registro en más de 120 sitios mediante correo.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -647,7 +738,7 @@
       "Verificar en qué servicios está registrada una cuenta propia o autorizada en una auditoría"
     ],
     "instructions": "Ejecuta 'holehe cuenta@ejemplo.com' en tu terminal para obtener la lista de servicios coloreados en verde.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -682,6 +773,7 @@
     ],
     "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -692,7 +784,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -702,7 +801,7 @@
       "Detectar si un número telefónico sospechoso es una línea virtual VoIP desechable o una línea móvil"
     ],
     "instructions": "Ejecuta 'phoneinfoga scan -n +34XXXXXXXXX' para verificar el formato y operador.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -741,6 +840,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Créditos de prueba gratuitos; modelo de créditos desde ~0,20£/búsqueda o planes mensuales desde ~29£/mes)",
     "access": "public",
     "geographicScope": [
       "global"
@@ -751,7 +851,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -761,9 +868,8 @@
       "Pivotar desde un correo electrónico corporativo hacia plataformas y perfiles públicos vinculados"
     ],
     "instructions": "Crea una cuenta gratuita, introduce el selector (email o teléfono en formato internacional) y pulsa Search.",
-    "lastReviewed": "2026-11-23",
-    "status": "active",
-    "pricingDetails": "Freemium (Créditos de prueba gratuitos; modelo de créditos desde ~0,20£/búsqueda o planes mensuales desde ~29£/mes)"
+    "lastReviewed": null,
+    "status": "active"
   },
   {
     "id": "whatsmyname",
@@ -799,6 +905,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -809,6 +916,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado buscador web de identidades y lista pública de proyectos OSINT.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -857,6 +971,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -867,7 +982,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -878,7 +1000,7 @@
       "Identificar campañas recurrentes de smishing y phishing dirigidas a ciudadanos españoles"
     ],
     "instructions": "Introduce palabras clave, enlaces o números de teléfono en el buscador de la cabecera para acceder al repositorio de desmentidos.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -914,6 +1036,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain",
@@ -924,7 +1047,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -935,7 +1065,7 @@
       "Contrastar datos estadísticos citados en debates"
     ],
     "instructions": "Utiliza el buscador en la sección 'Fact-Check' para revisar la calificación y el desglose metodológico de la afirmación analizada.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -970,6 +1100,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain",
@@ -980,7 +1111,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -991,7 +1129,7 @@
       "Rastrear el origen de bulos transnacionales"
     ],
     "instructions": "Escribe los términos clave del rumor o titular en el buscador superior para revisar la investigación periodística.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1027,6 +1165,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1036,7 +1175,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1047,7 +1193,7 @@
       "Examinar el historial de declaraciones verificadas de un político o líder de opinión"
     ],
     "instructions": "Escribe el nombre del político, tema o frase entre comillas en el cuadro de búsqueda para ver las fichas con su dictamen oficial.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1093,7 +1239,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1104,7 +1257,7 @@
       "Obtener conversiones completas de SteamID, SteamID3 y SteamID64"
     ],
     "instructions": "Pega el enlace al perfil de Steam o su SteamID en el recuadro para desplegar el historial de reputación.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1150,7 +1303,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1161,7 +1321,7 @@
       "Identificar perfiles relacionados a través de skins idénticas"
     ],
     "instructions": "Escribe el nombre de usuario actual o UUID en el buscador para ver la línea temporal de nombres y aspectos.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1208,7 +1368,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1219,7 +1386,7 @@
       "Identificar compañeros de equipo habituales para mapear su red social de contactos"
     ],
     "instructions": "Selecciona el videojuego, introduce el Riot ID o gamertag y consulta el historial de partidas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1266,7 +1433,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1277,7 +1451,7 @@
       "Correlacionar alias de PSN con otros servicios"
     ],
     "instructions": "Escribe el PSN Online ID en la casilla de búsqueda superior para desplegar la cronología de trofeos.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1323,7 +1497,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1334,7 +1515,7 @@
       "Identificar el Gamertag de un alias conocido"
     ],
     "instructions": "Introduce el Xbox Gamertag en la barra de búsqueda para ver el listado de logros ordenados por fecha.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1380,7 +1561,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1391,7 +1579,7 @@
       "Encontrar enlaces de invitación abiertos a grupos de debate"
     ],
     "instructions": "Escribe términos clave o etiquetas en el buscador para ver los servidores coincidentes y sus enlaces de invitación.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1436,7 +1624,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1447,7 +1642,7 @@
       "Conocer la fecha exacta de fundación de un servidor de Discord"
     ],
     "instructions": "Activa el modo desarrollador en Discord, copia el ID de usuario o servidor y pégalo en la casilla de consulta.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1496,7 +1691,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -1507,7 +1709,7 @@
       "Verificar la trayectoria académica y laboral de un individuo"
     ],
     "instructions": "Usa operadores de búsqueda en Google (ej. site:linkedin.com/in/ \"Nombre\") para consultar perfiles sin alertar notificaciones.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1553,7 +1755,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -1564,7 +1773,7 @@
       "Verificar historial laboral en corporaciones europeas"
     ],
     "instructions": "Busca por nombre de persona o empresa en la barra superior o utiliza operadores dorking en Google.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1610,7 +1819,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1621,7 +1837,7 @@
       "Mapear la actividad pública y organizaciones de un desarrollador"
     ],
     "instructions": "Escribe el nombre de usuario de GitHub para desplegar el perfil analizado con sus metadatos.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   }
 ]

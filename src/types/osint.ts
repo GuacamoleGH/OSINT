@@ -37,6 +37,28 @@ export type InvestigateById = z.infer<typeof InvestigateByIdSchema>;
 export const PricingTypeSchema = z.enum(["free", "freemium", "paid", "unknown"]);
 export type PricingType = z.infer<typeof PricingTypeSchema>;
 
+export const PRICING_LABELS: Record<PricingType, string> = {
+  free: "Gratis",
+  freemium: "Freemium",
+  paid: "De pago",
+  unknown: "Desconocido",
+};
+
+export const PRICING_BADGE_CLASSES: Record<PricingType, string> = {
+  free: "bg-emerald-950/60 text-emerald-400 border border-emerald-800/60",
+  freemium: "bg-amber-950/60 text-amber-400 border border-amber-800/60",
+  paid: "bg-rose-950/60 text-rose-400 border border-rose-800/60",
+  unknown: "bg-gray-800/60 text-gray-400 border border-gray-700/60",
+};
+
+export const VerificationChecklistSchema = z.object({
+  linkChecked: z.boolean().default(false),
+  infoChecked: z.boolean().default(false),
+  functionalityChecked: z.boolean().default(false),
+  pricingChecked: z.boolean().default(false),
+});
+export type VerificationChecklist = z.infer<typeof VerificationChecklistSchema>;
+
 export const GeographicScopeSchema = z.enum(["spain", "europe", "global"]);
 export type GeographicScope = z.infer<typeof GeographicScopeSchema>;
 
@@ -66,7 +88,14 @@ export const ToolItemSchema = z.object({
   platforms: z.array(PlatformTypeSchema).default(["web"]),
   difficulty: DifficultyLevelSchema.default("beginner"),
   featured: z.boolean().default(false),
-  verified: z.boolean().default(true),
+  verified: z.boolean().default(false),
+  verification: VerificationChecklistSchema.default({
+    linkChecked: false,
+    infoChecked: false,
+    functionalityChecked: false,
+    pricingChecked: false,
+  }),
+  verificationNotes: z.string().default(""),
   registrationRequired: z.boolean().default(false),
   apiKeyRequired: z.boolean().default(false),
   limitations: z.array(z.string()).default([]),
@@ -119,4 +148,5 @@ export interface ChallengeItem {
   pricing: PricingType;
   pricingDetails?: string;
   tags?: string[];
+  registrationRequired?: boolean;
 }

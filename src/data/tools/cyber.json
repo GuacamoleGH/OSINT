@@ -46,6 +46,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado analizador de muestras, URLs y dominios maliciosos, límites y API.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -55,7 +62,7 @@
       "Comprobar el historial de resoluciones IP de un dominio y si ha distribuido malware"
     ],
     "instructions": "Introduce la IP o dominio en la pestaña 'URL' o 'Search' y revisa la pestaña 'Relations' para ver el historial pasivo.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -103,6 +110,13 @@
     "difficulty": "intermediate",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificado motor de búsqueda de dispositivos conectados, planes freemium y API.",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -112,7 +126,7 @@
       "Identificar qué servicios y versiones de software tiene expuestos públicamente una dirección IP fija"
     ],
     "instructions": "Crea una cuenta gratuita e introduce la IP directamente en el buscador o usa filtros (ej. 'country:ES port:80').",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -156,7 +170,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -166,7 +187,7 @@
       "Encontrar la dirección IP real de un servidor web protegido detrás de un proxy inverso mediante la coincidencia del hash de su certificado SSL"
     ],
     "instructions": "Regístrate con tu correo y busca por IP, nombre de host o nombre de la organización del certificado.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -205,6 +226,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "europe",
@@ -216,7 +238,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -226,7 +255,7 @@
       "Verificar qué operador de telecomunicaciones o empresa española es la titular oficial de un rango IP asignado"
     ],
     "instructions": "Escribe la IP o el número de ASN (ej. AS3352 para Telefónica de España) para ver widgets de titularidad y vecinos BGP.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -261,6 +290,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -271,7 +301,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -281,7 +318,7 @@
       "Conocer la infraestructura troncal de telecomunicaciones de una gran corporación o proveedor de hosting"
     ],
     "instructions": "Introduce el ASN (ej. AS5001) o la dirección IP para explorar sus gráficos de interconexión.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -327,8 +364,15 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
-    "registrationRequired": false,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
+    "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
       "Consultas web gratuitas sin registro; la API de comprobación rápida requiere cuenta con límite diario"
@@ -337,7 +381,7 @@
       "Verificar si una dirección IP sospechosa que interactuó con un servidor cuenta con historial previo de abusos"
     ],
     "instructions": "Introduce la IP en la barra superior para ver el 'Abuse Confidence Score' y los comentarios de incidentes reportados.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -371,6 +415,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -382,7 +427,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -392,7 +444,7 @@
       "Confirmar si una interrupción de un servicio web se debe a una caída masiva de conectividad en una región o país"
     ],
     "instructions": "Accede a la pestaña 'Outages' para ver cortes de red recientes o filtra por España en el selector geográfico.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -427,6 +479,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -436,7 +489,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -446,7 +506,7 @@
       "Verificar si un servidor de correo saliente está catalogado como emisor de correo basura"
     ],
     "instructions": "Introduce la IP o dominio en la casilla 'Reputation Lookup' de la página principal.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -482,6 +542,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -493,6 +554,13 @@
     "difficulty": "beginner",
     "featured": true,
     "verified": true,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": true,
+      "functionalityChecked": true,
+      "pricingChecked": true
+    },
+    "verificationNotes": "Verificada base de datos de filtraciones de Troy Hunt, modelo API y condiciones.",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -502,7 +570,7 @@
       "Auditar la exposición histórica de direcciones de correo corporativas"
     ],
     "instructions": "Escribe la dirección de correo y revisa el listado de brechas históricas en las que figura.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": "2026-11-24",
     "status": "active"
   },
   {
@@ -537,6 +605,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -547,7 +616,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -557,7 +633,7 @@
       "Verificar si una cuenta de correo es de reciente creación para actividades sospechosas"
     ],
     "instructions": "Introduce la dirección en el buscador para ver el badge de reputación y las banderas (flags) detectadas.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -595,6 +671,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -605,7 +682,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -616,7 +700,7 @@
       "Descargar hashes y muestras de troyanos bancarios"
     ],
     "instructions": "Navega a ThreatFox o URLhaus e introduce la IP, hash o dominio en el buscador de IoCs.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -651,6 +735,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -661,8 +746,15 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
-    "registrationRequired": false,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
+    "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
       "La consulta web es pública; suscribirse a pulsos automáticos o descargar feeds requiere cuenta gratuita"
@@ -672,7 +764,7 @@
       "Extraer reglas YARA y listas de IoCs asociadas a un exploit"
     ],
     "instructions": "Escribe una IP, dominio o hash en el buscador superior para ver en qué pulsos de investigación aparece citado.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -706,6 +798,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -717,7 +810,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -728,7 +828,7 @@
       "Filtrar falsas alarmas provocadas por rastreadores conocidos"
     ],
     "instructions": "Introduce la IP en el buscador de GreyNoise para consultar su clasificación, etiquetas de comportamiento y puertos objetivo.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -765,6 +865,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -775,7 +876,14 @@
     ],
     "difficulty": "advanced",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -786,7 +894,7 @@
       "Auditar la exposición de dispositivos industriales o cámaras"
     ],
     "instructions": "Utiliza operadores como 'app:nginx', 'port:22', 'country:ES' en la barra de búsqueda para filtrar la infraestructura.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -823,6 +931,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -833,7 +942,14 @@
     ],
     "difficulty": "advanced",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -844,7 +960,7 @@
       "Localizar repositorios .git expuestos en servidores de producción"
     ],
     "instructions": "Busca por dominio, nombre de organización o tipo de software ('service:mongodb') para ver si existen incidencias registradas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -880,6 +996,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -890,7 +1007,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -901,7 +1025,7 @@
       "Mapear subdominios y tecnologías"
     ],
     "instructions": "Escribe una consulta en el cuadro de búsqueda (ej. 'certificate.subject.organization:\"Nombre Empresa\"') para listar servidores asociados.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -938,6 +1062,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -948,7 +1073,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -959,7 +1091,7 @@
       "Comprobar qué versiones de un software son vulnerables"
     ],
     "instructions": "Introduce el identificador CVE o el nombre del software en la casilla de búsqueda de vulnerabilidades.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -993,6 +1125,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1003,7 +1136,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1014,7 +1154,7 @@
       "Descargar la lista en JSON/CSV para cruzar con inventarios de activos"
     ],
     "instructions": "Filtra la tabla en vivo por proveedor (vendor), producto o fecha de adición al catálogo.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1050,6 +1190,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1059,7 +1200,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1070,7 +1218,7 @@
       "Observar el comportamiento en vivo de un troyano"
     ],
     "instructions": "Sube el archivo o escribe la URL en 'New Task', elige la versión de Windows y pulsa 'Run' para interactuar directamente con la máquina.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1106,6 +1254,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1116,7 +1265,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1127,7 +1283,7 @@
       "Buscar análisis previos de un hash SHA256"
     ],
     "instructions": "Arrastra el archivo o pega la URL en la caja central, acepta los términos y espera a que el informe forense finalice.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1163,6 +1319,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1173,7 +1330,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1184,7 +1348,7 @@
       "Analizar APKs de Android sospechosas"
     ],
     "instructions": "Carga la muestra o URL sospechosa para iniciar el análisis automático y descargar las capturas y tráfico PCAP.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1223,6 +1387,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1233,7 +1398,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1244,7 +1416,7 @@
       "Conocer qué grupo criminal reivindica un incidente cibernético"
     ],
     "instructions": "Consulta el feed cronológico 'Recent Victims' o utiliza el buscador para comprobar si una empresa aparece en la base de datos.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1282,6 +1454,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1291,7 +1464,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1302,7 +1482,7 @@
       "Investigar secuestros de rutas BGP (BGP hijacking) o cambios sospechosos de ASN"
     ],
     "instructions": "Escribe un número de ASN (ej. AS3352), nombre de empresa o dirección IP para inspeccionar su conectividad global.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1340,6 +1520,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1350,7 +1531,14 @@
     ],
     "difficulty": "advanced",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1361,7 +1549,7 @@
       "Descubrir si dos proveedores de servicios intercambian tráfico de forma directa"
     ],
     "instructions": "Introduce el nombre del operador o punto neutro en la casilla de búsqueda para desplegar su ficha de presencia física e interfaces.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1399,6 +1587,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1409,7 +1598,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1420,7 +1616,7 @@
       "Analizar el impacto geográfico de una avería de cable submarino"
     ],
     "instructions": "Selecciona el país o región en el mapa para ver las gráficas de telemetría BGP y sondeo de las últimas 24 horas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1457,6 +1653,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1466,7 +1663,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1477,7 +1681,7 @@
       "Obtener gráficas contrastadas para investigaciones periodísticas"
     ],
     "instructions": "Accede a la sección 'Reports' o consulta las alertas en tiempo real publicadas en el sitio web oficial.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1514,6 +1718,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1526,7 +1731,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1537,7 +1749,7 @@
       "Auditar la censura de medios informativos en cualquier país"
     ],
     "instructions": "Abre OONI Explorer (explorer.ooni.org) e introduce el dominio o selecciona un país para ver las mediciones históricas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1575,6 +1787,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -1585,7 +1798,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1596,7 +1816,7 @@
       "Reportar fraudes cibernéticos o brechas de seguridad"
     ],
     "instructions": "Revisa los avisos de seguridad en la sección de ciberseguridad o contacta a través de la Línea de Ayuda 017.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1633,6 +1853,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -1642,7 +1863,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1653,7 +1881,7 @@
       "Revisar avisos de vulnerabilidades críticas y ciberataques contra la administración pública española"
     ],
     "instructions": "Accede a la pestaña 'Avisos' o 'Documentación' para consultar guías metodológicas e informes de amenazas públicas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1688,6 +1916,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1698,7 +1927,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1709,7 +1945,7 @@
       "Descargar feeds de URLs maliciosas activas"
     ],
     "instructions": "Escribe la URL sospechosa en la casilla 'Is it a phish?' para ver su estado y la captura forense del sitio.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1744,6 +1980,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1754,7 +1991,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1765,7 +2009,7 @@
       "Integrar IoCs de phishing en cortafuegos o proxies"
     ],
     "instructions": "Descarga el feed de texto plano gratuito en la sección 'Community Feed' o revisa las estadísticas de marcas atacadas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1804,6 +2048,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "europe"
@@ -1813,7 +2058,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1824,7 +2076,7 @@
       "Identificar importadores y fabricantes sancionados"
     ],
     "instructions": "Utiliza los filtros por país notificador, categoría de producto o riesgo para consultar los informes semanales de alertas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1871,7 +2123,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1882,7 +2141,7 @@
       "Comprobar el commit exacto donde se introdujo o solucionó una vulnerabilidad"
     ],
     "instructions": "Busca por nombre de paquete (ej. \"lodash\") o identificador GHSA/CVE para ver el desglose técnico.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1928,7 +2187,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1939,7 +2205,7 @@
       "Identificar dependencias transitivas vulnerables"
     ],
     "instructions": "Introduce el nombre del paquete para desplegar su grafo de dependencias y puntuación OpenSSF.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1984,7 +2250,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1995,7 +2268,7 @@
       "Detectar tokens expuestos en historiales de commits pasados"
     ],
     "instructions": "Ejecuta \"trufflehog git https://github.com/organizacion/repositorio\" en tu terminal para iniciar el escaneo.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2040,7 +2313,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2051,7 +2331,7 @@
       "Prevenir subidas accidentales de credenciales en repositorios corporativos"
     ],
     "instructions": "Ejecuta \"gitleaks detect --source .\" en la raíz de tu proyecto para auditar el código.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2095,7 +2375,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2106,7 +2393,7 @@
       "Auditar exposición corporativa"
     ],
     "instructions": "Introduce el dominio o nombre de organización para comprobar si existen credenciales indexadas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2152,7 +2439,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2163,7 +2457,7 @@
       "Comprobar el operador original de una línea"
     ],
     "instructions": "Escribe el número con su prefijo internacional y resuelve el captcha para ver los datos del operador.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2208,7 +2502,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": true,
     "limitations": [
@@ -2219,7 +2520,7 @@
       "Detectar si se ha producido un cambio reciente de tarjeta SIM (SIM-swap)"
     ],
     "instructions": "Envía peticiones GET autenticadas al endpoint v2 de Lookup pasando el número telefónico.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2266,7 +2567,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2277,7 +2585,7 @@
       "Identificar la empresa de telemarketing tras una línea"
     ],
     "instructions": "Introduce el número en el buscador superior para leer las opiniones y denuncias reportadas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2325,7 +2633,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2336,7 +2651,7 @@
       "Conocer la ubicación geográfica estimada de la centralita"
     ],
     "instructions": "Escribe el número en el cajón de búsqueda para comprobar su Tellows Score y mapa de calor de búsquedas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2384,7 +2699,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2395,7 +2717,7 @@
       "Obtener la puntuación de confianza (Trustscore) de una pasarela de comercio"
     ],
     "instructions": "Pega la URL o dominio en el buscador para ver el informe de riesgo y análisis técnico.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2441,7 +2763,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2452,7 +2781,7 @@
       "Evaluar la fiabilidad de una página de clasificados o compraventa"
     ],
     "instructions": "Escribe el dominio o correo electrónico en la casilla de comprobación para obtener el porcentaje de fiabilidad.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -2499,7 +2828,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -2510,7 +2846,7 @@
       "Verificar si un sitio hackeado ha sido limpiado"
     ],
     "instructions": "Pega la URL completa en el cuadro de búsqueda para ver el dictamen oficial de seguridad de Google.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   }
 ]

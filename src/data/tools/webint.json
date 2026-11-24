@@ -33,6 +33,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -44,7 +45,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -55,7 +63,7 @@
       "Verificar contratos públicos antiguos"
     ],
     "instructions": "Pega la URL del sitio, selecciona el año en el calendario y haz clic en los círculos de colores de cada día para ver las capturas.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -90,6 +98,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -99,7 +108,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -109,7 +125,7 @@
       "Preservar un tuit, artículo de prensa o comunicado público antes de que sea eliminado o editado"
     ],
     "instructions": "Pega la URL a guardar en el recuadro superior o introduce una URL para buscar instantáneas existentes en el recuadro inferior.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -145,6 +161,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -154,7 +171,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -164,7 +188,7 @@
       "Encontrar subdominios internos (ej. staging.empresa.es, vpn.empresa.es, dev.empresa.es)"
     ],
     "instructions": "Escribe '%.dominio.com' en el campo de búsqueda para listar todos los certificados emitidos a subdominios comodín.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -202,6 +226,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -211,7 +236,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -221,7 +253,7 @@
       "Identificar qué proveedor de correo aloja el dominio y qué IPs públicas utiliza"
     ],
     "instructions": "Introduce el nombre del dominio sin 'http://' (ej. target.com) y pulsa Search para desplegar la tabla y el mapa XLS/gráfico.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -256,6 +288,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "Freemium (Escaneos públicos e historial 100% gratis; planes para escaneos privados y monitorización API desde ~300$/mes)",
     "access": "public",
     "geographicScope": [
       "global"
@@ -266,7 +299,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -276,9 +316,8 @@
       "Inspeccionar con seguridad una página sospechosa sin abrirla en tu propio navegador personal"
     ],
     "instructions": "Pega la URL en el formulario principal y elige 'Public scan' (o busca scans previos introduciendo el dominio).",
-    "lastReviewed": "2026-11-23",
-    "status": "active",
-    "pricingDetails": "Freemium (Escaneos públicos e historial 100% gratis; planes para escaneos privados y monitorización API desde ~300$/mes)"
+    "lastReviewed": null,
+    "status": "active"
   },
   {
     "id": "grep-app",
@@ -314,6 +353,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -323,7 +363,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -333,7 +380,7 @@
       "Buscar si un identificador de analítica (ej. UA-XXXXX o G-XXXXX) o un dominio aparece en proyectos de otros desarrolladores"
     ],
     "instructions": "Escribe la cadena de texto y activa la casilla 'Use regex' si necesitas patrones avanzados.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -368,6 +415,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -377,7 +425,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -387,7 +442,7 @@
       "Obtener un panorama exhaustivo de un sitio web con un solo clic"
     ],
     "instructions": "Escribe el dominio (ej. ejemplo.es) y pulsa Analyze para desplegar todas las tarjetas de información.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -422,6 +477,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -431,7 +487,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -441,7 +504,7 @@
       "Verificar la fecha exacta de creación y vencimiento de un dominio y su registrador acreditado"
     ],
     "instructions": "Escribe el dominio completo y consulta el reporte estructurado en formato RDAP.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -478,7 +541,8 @@
       "spf check"
     ],
     "type": "web",
-    "pricing": "free",
+    "pricing": "freemium",
+    "pricingDetails": "Freemium (Consultas individuales gratuitas de DNS, MX y listas negras; monitorización continua 24/7 de pago)",
     "access": "public",
     "geographicScope": [
       "global"
@@ -488,7 +552,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -498,7 +569,7 @@
       "Verificar si un dominio dispone de registros SPF/DMARC o si su servidor de correo está en listas negras"
     ],
     "instructions": "Introduce el dominio (ej. ejemplo.es) para ver sus registros MX o elige 'Blacklists' para verificar la IP del servidor.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -531,6 +602,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -540,7 +612,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -550,7 +629,7 @@
       "Rastrear si una cuenta de GitHub operó previamente con otro alias conocido"
     ],
     "instructions": "Escribe el nombre de usuario actual de GitHub para consultar los alias pasados.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -582,6 +661,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -591,7 +671,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -601,7 +688,7 @@
       "Encontrar proyectos alternativos o herramientas complementarias a una librería de código abierto"
     ],
     "instructions": "Escribe 'usuario/repositorio' para ver la constelación de proyectos afines.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -637,6 +724,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -646,7 +734,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -657,7 +752,7 @@
       "Consultar instantáneas archivadas de publicaciones borradas"
     ],
     "instructions": "Pega la URL a guardar en el recuadro superior o introduce una URL para comprobar si ya existen capturas archivadas.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -692,6 +787,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -702,7 +798,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -713,7 +816,7 @@
       "Reconstruir la línea temporal de un sitio web"
     ],
     "instructions": "Introduce la URL y la fecha exacta que deseas consultar para que el sistema redirija a la mejor instantánea disponible.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -748,6 +851,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -758,7 +862,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -769,7 +880,7 @@
       "Evitar la pérdida de fuentes citadas en investigaciones"
     ],
     "instructions": "Inicia sesión con tu cuenta, pega la URL de la evidencia y pulsa 'Create Perma Link' para obtener el enlace permanente y su archivo WARC.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -805,6 +916,7 @@
     ],
     "type": "cli",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -814,7 +926,14 @@
     ],
     "difficulty": "advanced",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -825,7 +944,7 @@
       "Mantener una copia forense local con cálculo de hash SHA-256 de todas las pruebas"
     ],
     "instructions": "Ejecuta con 'python -m auto_archiver --url <URL>' o conéctalo a una hoja de cálculo para procesamiento por lotes continuo.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -863,6 +982,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -873,7 +993,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -884,7 +1011,7 @@
       "Descubrir si dos sitios web distintos comparten el mismo código de seguimiento de Google Analytics o Facebook Pixel"
     ],
     "instructions": "Introduce el dominio en la barra de búsqueda para ver el desglose por categorías (Hosting, Frameworks, Analytics, Email, etc.).",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -919,6 +1046,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -930,7 +1058,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -941,7 +1076,7 @@
       "Descubrir vectores de vulnerabilidad potencial por software desactualizado"
     ],
     "instructions": "Instala la extensión en Chrome/Firefox y haz clic en su icono al visitar cualquier página para ver el listado de componentes.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -978,7 +1113,8 @@
       "analisis hosting netcraft"
     ],
     "type": "web",
-    "pricing": "free",
+    "pricing": "freemium",
+    "pricingDetails": "Freemium (Reportes técnicos de servidor y tecnologías web gratuitos; feeds de ciberinteligencia para empresas)",
     "access": "public",
     "geographicScope": [
       "global"
@@ -988,7 +1124,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -999,7 +1142,7 @@
       "Analizar si un sitio tiene calificaciones de riesgo de phishing"
     ],
     "instructions": "Introduce el dominio en la barra de búsqueda de sitereport.netcraft.com para desplegar el informe exhaustivo.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1038,6 +1181,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1048,7 +1192,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1059,7 +1210,7 @@
       "Identificar otros dominios registrados con el mismo correo electrónico en registros históricos de WHOIS"
     ],
     "instructions": "Haz clic en la utilidad deseada (ej. 'Reverse IP Lookup' o 'Reverse Whois Lookup') e introduce el valor a inspeccionar.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1096,6 +1247,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1106,7 +1258,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -1117,7 +1276,7 @@
       "Descubrir entornos de desarrollo o portales internos (staging, dev, admin) a través de subdominios históricos"
     ],
     "instructions": "Introduce el dominio y accede a las pestañas 'Subdomains' y 'Historical Data' (DNS History / WHOIS History).",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1154,6 +1313,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1163,7 +1323,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1174,7 +1341,7 @@
       "Detectar si varias webs aparentemente desconectadas comparten el mismo bloque de red"
     ],
     "instructions": "Introduce un dominio o IP en la casilla central para generar el árbol de dependencias DNS y relaciones de red.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1213,6 +1380,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -1223,7 +1391,14 @@
     ],
     "difficulty": "advanced",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1234,7 +1409,7 @@
       "Mapear genealogías y vinculaciones entre miembros de familias reales o élites empresariales"
     ],
     "instructions": "Escribe tu consulta SPARQL o carga uno de los cientos de ejemplos predefinidos en el botón 'Examples' para visualizar resultados en tabla, mapa o línea temporal.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1273,6 +1448,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -1282,7 +1458,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1293,7 +1476,7 @@
       "Buscar noticias sobre juicios o sucesos de la época"
     ],
     "instructions": "Escribe el nombre o término entre comillas en el buscador general y utiliza los filtros por fecha o lugar de publicación para refinar los resultados.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1332,6 +1515,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "spain"
@@ -1341,7 +1525,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1352,7 +1543,7 @@
       "Acceder a las campañas electorales y discursos políticos archivados desde 2014"
     ],
     "instructions": "Visita el portal oficial para explorar las colecciones temáticas abiertas o solicitar acceso a las terminales de consulta patrimonial.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1398,7 +1589,14 @@
     ],
     "difficulty": "advanced",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1409,7 +1607,7 @@
       "Analizar la evolución de la actividad de un usuario a lo largo de los años"
     ],
     "instructions": "Consulta la tabla pública \"githubarchive.day\" en la consola de Google BigQuery ejecutando consultas SQL.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1455,7 +1653,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1466,7 +1671,7 @@
       "Verificar la autoría y fecha exacta de un commit histórico mediante su hash criptográfico"
     ],
     "instructions": "Escribe la URL del repositorio en el buscador o solicita el archivado inmediato de un proyecto.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1513,7 +1718,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1524,7 +1736,7 @@
       "Localizar páginas web que ejecutan un script o librería concreta"
     ],
     "instructions": "Escribe el snippet de código, etiqueta HTML o identificador entre comillas en la barra de búsqueda.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1569,7 +1781,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1580,7 +1799,7 @@
       "Analizar la adopción de una biblioteca"
     ],
     "instructions": "Introduce el fragmento de código, nombre de variable o script para ver la lista de sitios web coincidentes.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -1626,7 +1845,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -1637,7 +1863,7 @@
       "Mapear el ecosistema digital de un individuo"
     ],
     "instructions": "Introduce el dominio para extraer sus IDs y ver la lista de otros dominios que comparten el mismo identificador.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   }
 ]

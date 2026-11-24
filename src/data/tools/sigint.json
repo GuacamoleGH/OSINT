@@ -47,7 +47,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": false,
     "limitations": [
@@ -57,7 +64,7 @@
       "Geolocalizar las coordenadas exactas de una vivienda si se conoce el BSSID (dirección MAC) del router Wi-Fi capturado"
     ],
     "instructions": "Inicia sesión con tu cuenta gratuita, abre 'View > Basic Search' e introduce el BSSID en formato XX:XX:XX:XX:XX:XX.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -92,6 +99,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -101,7 +109,14 @@
     ],
     "difficulty": "advanced",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -111,7 +126,7 @@
       "Aprender a decodificar señales de radio locales sin depender de proveedores de datos comerciales"
     ],
     "instructions": "Consulta la sección 'Quickstart Guide' para instalar controladores Zadig y software como SDR# o GQRX.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -145,6 +160,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global",
@@ -155,7 +171,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -165,7 +188,7 @@
       "Comprobar transmisiones de radio de emergencia o emisiones de onda corta desde cualquier parte del mundo"
     ],
     "instructions": "Elige un servidor de la lista (por ejemplo, el de la Universidad de Twente en Europa) y sintoniza la frecuencia deseada con el ratón.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -207,7 +230,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -217,7 +247,7 @@
       "Identificar a qué tipo de servicio o entidad corresponde una frecuencia de radio captada"
     ],
     "instructions": "Navega por las categorías geográficas en la pestaña 'Databases'.",
-    "lastReviewed": "2026-11-23",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -269,7 +299,14 @@
     ],
     "difficulty": "advanced",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -279,7 +316,7 @@
       "Detección de puntos de acceso no autorizados (rogue AP) y monitorización de señales inalámbricas"
     ],
     "instructions": "Ejecuta 'kismet' en la terminal o accede a la interfaz web local en http://localhost:2501 para visualizar el espectro detectado.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -333,7 +370,14 @@
     ],
     "difficulty": "beginner",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -343,7 +387,7 @@
       "Conocer el fabricante de un router Wi-Fi a partir del BSSID capturado en un informe o fotografía"
     ],
     "instructions": "Introduce los primeros 6 caracteres hexadecimales del BSSID (o la MAC completa) para ver la empresa fabricante registrada en el IEEE.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -392,7 +436,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -402,7 +453,7 @@
       "Obtener latitud y longitud aproximadas de una red Wi-Fi conocida mediante llamada API o consulta"
     ],
     "instructions": "Consulta el endpoint público de la API pasando la dirección BSSID deseada para recibir el JSON con latitud y longitud.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -460,7 +511,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -470,7 +528,7 @@
       "Localizar geográficamente un punto de acceso Wi-Fi a partir de su identificador BSSID o ESSID"
     ],
     "instructions": "Accede a la pestaña 'Search' o 'Map', introduce la dirección MAC/BSSID en formato XX:XX:XX:XX:XX:XX o el nombre de red ESSID y pulsa buscar.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -506,6 +564,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -515,7 +574,14 @@
     ],
     "difficulty": "advanced",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -527,7 +593,7 @@
       "Analizar la propagación de señales electromagnéticas"
     ],
     "instructions": "Accede al mapa de receptores activos (rx.kiwisdr.com), selecciona una estación en la región geográfica deseada y sintoniza la frecuencia y modo (AM, LSB, USB, CW).",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -563,6 +629,7 @@
     ],
     "type": "web",
     "pricing": "freemium",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -574,7 +641,14 @@
     ],
     "difficulty": "beginner",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -585,7 +659,7 @@
       "Analizar grabaciones de audio de incidentes pasados"
     ],
     "instructions": "Busca por estado, provincia o tipo de servicio en el menú 'Listen' para reproducir el streaming de audio en vivo.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -620,6 +694,7 @@
     ],
     "type": "web",
     "pricing": "free",
+    "pricingDetails": "",
     "access": "public",
     "geographicScope": [
       "global"
@@ -629,7 +704,14 @@
     ],
     "difficulty": "intermediate",
     "featured": false,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": false,
     "apiKeyRequired": false,
     "limitations": [
@@ -640,7 +722,7 @@
       "Descargar los audios exactos de una intervención policial"
     ],
     "instructions": "Elige un sistema en el listado de ciudades, filtra por los talkgroups de interés y reproduce las piezas de audio en la línea de tiempo.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   },
   {
@@ -689,7 +771,14 @@
     ],
     "difficulty": "intermediate",
     "featured": true,
-    "verified": true,
+    "verified": false,
+    "verification": {
+      "linkChecked": true,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
     "registrationRequired": true,
     "apiKeyRequired": true,
     "limitations": [
@@ -700,7 +789,7 @@
       "Descargar la base de datos de antenas de un país para análisis local en QGIS"
     ],
     "instructions": "Regístrate para obtener una API key gratuita e introduce el MCC, MNC, LAC y CellID en el visor para localizar la antena.",
-    "lastReviewed": "2026-11-24",
+    "lastReviewed": null,
     "status": "active"
   }
 ]
