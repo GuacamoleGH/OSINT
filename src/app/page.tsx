@@ -122,7 +122,9 @@ export default function HomePage() {
                 <p className="text-[10px] text-gray-400">Herramientas</p>
               </div>
               <div>
-                <span className="text-lg sm:text-xl font-bold text-guacamole-turquoise font-mono">100%</span>
+                <span className="text-lg sm:text-xl font-bold text-guacamole-turquoise font-mono">
+                  {stats.verifiedPercentage}%
+                </span>
                 <p className="text-[10px] text-gray-400">Verificadas</p>
               </div>
               <div>

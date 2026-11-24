@@ -124,15 +124,24 @@ export function getGlobalStats() {
   const globalCount = allToolsList.filter((t) => t.geographicScope.includes("global")).length;
   const freeCount = allToolsList.filter((t) => t.pricing === "free").length;
   const freemiumCount = allToolsList.filter((t) => t.pricing === "freemium").length;
+  const paidCount = allToolsList.filter((t) => t.pricing === "paid").length;
+  const unknownPricingCount = allToolsList.filter((t) => t.pricing === "unknown").length;
+  const verifiedCount = allToolsList.filter((t) => t.verified).length;
+  const verifiedPercentage =
+    allToolsList.length > 0 ? Math.round((verifiedCount / allToolsList.length) * 100) : 0;
 
   return {
     totalTools: allToolsList.length,
     totalCategories: categoriesData.length,
     totalInvestigateBy: investigateByData.length,
+    verifiedCount,
+    verifiedPercentage,
     spainCount,
     europeCount,
     globalCount,
     freeCount,
     freemiumCount,
+    paidCount,
+    unknownPricingCount,
   };
 }

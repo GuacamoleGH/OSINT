@@ -140,7 +140,9 @@ export function Sidebar({ isOpen, onClose, investigateCounts = {}, totalTools = 
             <div className="flex items-center justify-between px-2 mb-1.5">
               <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-guacamole-turquoise">
                 <span>Por Objetivo</span>
-                <span className="text-[10px] px-1.5 py-0.2 rounded bg-guacamole-input text-guacamole-turquoise font-mono">12</span>
+                <span className="text-[10px] px-1.5 py-0.2 rounded bg-guacamole-input text-guacamole-turquoise font-mono">
+                  {investigateLinks.length}
+                </span>
               </div>
               <Link
                 href="/investigate-by"
