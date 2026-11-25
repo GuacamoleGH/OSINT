@@ -2189,5 +2189,136 @@
     "instructions": "Introduce municipio o calle en el buscador o navega por el mapa hasta ver los puntos de las estaciones radioeléctricas.",
     "lastReviewed": null,
     "status": "active"
+  },
+  {
+    "id": "geojson-io",
+    "name": "geojson.io",
+    "slug": "geojson-io",
+    "description": "Editor y visor web interactivo para crear, inspeccionar, editar y convertir datos geoespaciales en formato GeoJSON.",
+    "longDescription": "Herramienta web gratuita y de código abierto (mantenida por Mapbox) para dibujar geometrías sobre mapas (puntos, líneas, polígonos), importar o exportar archivos GeoJSON, KML, GPX, Shapefile o CSV, y visualizar al instante coordenadas y propiedades geoespaciales en investigaciones GEOINT.",
+    "url": "https://geojson.io/",
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "mapas",
+      "gis",
+      "geojson"
+    ],
+    "tags": [
+      "geojson",
+      "gis",
+      "mapas",
+      "geoint",
+      "poligonos",
+      "coordenadas",
+      "kml",
+      "gpx"
+    ],
+    "synonyms": [
+      "geojson io",
+      "visor geojson",
+      "editor geojson online"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": false,
+    "verification": {
+      "linkChecked": false,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Archivos GeoJSON muy pesados (decenas de megabytes) pueden ralentizar el renderizado en el navegador."
+    ],
+    "useCases": [
+      "Visualizar rápidamente coordenadas, rutas o polígonos extraídos de investigaciones GEOINT o archivos KML/GPX",
+      "Dibujar áreas de interés y exportarlas en GeoJSON para usarlas en Overpass, QGIS u otras herramientas"
+    ],
+    "instructions": "Abre geojson.io, pega el código GeoJSON en el panel derecho, arrastra un archivo (GeoJSON, KML, GPX, CSV) o utiliza las herramientas de dibujo del mapa.",
+    "lastReviewed": null,
+    "status": "active"
+  },
+  {
+    "id": "map-making-app",
+    "name": "Map-Making.app",
+    "slug": "map-making-app",
+    "description": "Editor web avanzado de mapas de coordenadas y Street View muy utilizado en geolocalización, geoguessing y GEOINT.",
+    "longDescription": "Plataforma web gratuita orientada a crear, gestionar, etiquetar y depurar mapas personalizados de ubicaciones sobre Google Maps y Street View. Permite importar/exportar listas de coordenadas en JSON/CSV, verificar cobertura de Street View, seleccionar ubicaciones por polígonos o regiones y organizar puntos de interés geográficos.",
+    "url": "https://map-making.app/",
+    "categories": [
+      "geoint"
+    ],
+    "investigateBy": [
+      "location"
+    ],
+    "subcategories": [
+      "mapas",
+      "street-view",
+      "geoguessing"
+    ],
+    "tags": [
+      "map-making",
+      "street view",
+      "geoguessing",
+      "geolocalizacion",
+      "coordenadas",
+      "mapas",
+      "geoint"
+    ],
+    "synonyms": [
+      "map making app",
+      "mapmaking app",
+      "editor street view"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "intermediate",
+    "featured": false,
+    "verified": false,
+    "verification": {
+      "linkChecked": false,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Algunas funciones de guardado en la nube o sincronización requieren iniciar sesión."
+    ],
+    "useCases": [
+      "Revisar, filtrar y etiquetar grandes conjuntos de coordenadas con vista previa directa de Street View",
+      "Preparar y validar colecciones de ubicaciones geográficas para entrenamiento o análisis GEOINT"
+    ],
+    "instructions": "Accede a map-making.app, crea un mapa nuevo o importa un archivo JSON/CSV con coordenadas y explora o edita los puntos directamente sobre el mapa y Street View.",
+    "lastReviewed": null,
+    "status": "active"
   }
 ]
