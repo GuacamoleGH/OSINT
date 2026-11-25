@@ -820,5 +820,74 @@
     "instructions": "Sube el archivo de imagen o introduce una URL pública directa a la foto y haz clic en 'View Image at URL' o 'View Image from File'.",
     "lastReviewed": null,
     "status": "deprecated"
+  },
+  {
+    "id": "metadata2go",
+    "name": "Metadata2Go",
+    "slug": "metadata2go",
+    "description": "Extractor y visor web gratuito de metadatos ocultos (EXIF, IPTC, XMP, PDF, documentos y multimedia) directamente desde el navegador.",
+    "longDescription": "Servicio online gratuito que permite inspeccionar, analizar y extraer metadatos incrustados en una gran variedad de archivos (imágenes, documentos PDF/Office, audio y vídeo) sin necesidad de instalar software local. Muestra información técnica como modelo de cámara, software de edición, fechas de creación, autoría y coordenadas GPS si están presentes.",
+    "url": "https://www.metadata2go.com/",
+    "categories": [
+      "imint"
+    ],
+    "investigateBy": [
+      "image",
+      "location"
+    ],
+    "subcategories": [
+      "exif",
+      "metadatos",
+      "forense"
+    ],
+    "tags": [
+      "metadata2go",
+      "metadatos",
+      "exif",
+      "xmp",
+      "iptc",
+      "forense",
+      "documentos",
+      "gps"
+    ],
+    "synonyms": [
+      "metadata 2 go",
+      "visor metadatos online",
+      "extraer exif online",
+      "analizador de metadatos"
+    ],
+    "type": "web",
+    "pricing": "free",
+    "pricingDetails": "Gratuito con límite de tamaño de archivo por subida; ofrece planes de pago para archivos grandes o uso intensivo.",
+    "access": "public",
+    "geographicScope": [
+      "global"
+    ],
+    "platforms": [
+      "web"
+    ],
+    "difficulty": "beginner",
+    "featured": false,
+    "verified": false,
+    "verification": {
+      "linkChecked": false,
+      "infoChecked": false,
+      "functionalityChecked": false,
+      "pricingChecked": false
+    },
+    "verificationNotes": "",
+    "registrationRequired": false,
+    "apiKeyRequired": false,
+    "limitations": [
+      "Al ser un servicio web externo, no debe utilizarse con archivos sensibles o confidenciales.",
+      "Las redes sociales suelen eliminar los metadatos EXIF de las imágenes antes de publicarlas."
+    ],
+    "useCases": [
+      "Inspeccionar metadatos EXIF y GPS de fotografías originales sin instalar ExifTool",
+      "Revisar autoría, fechas y software generador en documentos PDF u Office"
+    ],
+    "instructions": "Accede a metadata2go.com, arrastra o sube el archivo (imagen, PDF, documento o vídeo) o pega su URL y consulta el desglose completo de etiquetas de metadatos.",
+    "lastReviewed": null,
+    "status": "active"
   }
 ]

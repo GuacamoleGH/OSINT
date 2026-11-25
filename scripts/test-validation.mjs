@@ -67,7 +67,7 @@ test('3. Verification defaults and checklist schema', () => {
     }
   }
 
-  assert.equal(total, 305, 'Expected 305 tools in catalog');
+  assert.equal(total, 306, 'Expected 306 tools in catalog');
   assert.ok(verified > 0, 'There should be audited and verified tools');
   assert.ok(pending > 0, 'There should be pending tools; catalog must not claim 100% verified');
   assert.ok(verified < total, 'Verification must not be unrealistically 100%');

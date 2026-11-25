@@ -39,6 +39,8 @@ const SYNONYMS_MAP: Record<string, string[]> = {
   sombras: ["shadows", "suncalc", "hora"],
   foto: ["imint", "imagen", "forense", "exif"],
   imagen: ["foto", "imint", "forense"],
+  metadatos: ["exif", "metadata2go", "exiftool", "forense"],
+  exif: ["metadatos", "metadata2go", "exiftool", "forense"],
   ip: ["cyber", "red", "dns", "asn", "whois"],
   dominio: ["domain", "dns", "whois", "subdominio"],
   qr: ["zxing", "barcode", "codigo de barras", "decoder"],
