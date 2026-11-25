@@ -8,7 +8,7 @@ import {
   getCategoryById,
   getInvestigateById,
 } from "@/lib/data";
-import { PRICING_LABELS } from "@/types/osint";
+import { PRICING_LABELS, requiresToolAccount } from "@/types/osint";
 import { ToolDetailActions } from "@/components/tools/ToolDetailActions";
 import { ToolCard } from "@/components/tools/ToolCard";
 import { PlatformBadges } from "@/components/tools/PlatformBadges";
@@ -156,7 +156,12 @@ export default function ToolDetailPage({ params }: ToolDetailPageProps) {
         <div className="flex flex-wrap items-center gap-4 text-xs text-gray-400 pt-2">
           <div className="flex items-center gap-1.5">
             <UserCheck className="w-4 h-4 text-gray-400" />
-            <span>Registro: <strong className="text-gray-200">{tool.registrationRequired ? "Requerido" : "No necesario"}</strong></span>
+            <span>
+              Acceso:{" "}
+              <strong className={requiresToolAccount(tool) ? "text-orange-300" : "text-guacamole-green"}>
+                {requiresToolAccount(tool) ? "Requiere cuenta / inicio de sesión" : "Acceso libre (sin registro)"}
+              </strong>
+            </span>
           </div>
           <div className="flex items-center gap-1.5">
             <Key className="w-4 h-4 text-gray-400" />

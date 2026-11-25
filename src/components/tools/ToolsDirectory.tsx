@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useMemo } from "react";
-import { ToolItem, CategoryMeta, InvestigateByMeta } from "@/types/osint";
+import { ToolItem, CategoryMeta, InvestigateByMeta, requiresToolAccount } from "@/types/osint";
 import { ToolCard } from "@/components/tools/ToolCard";
 import {
   Search,
@@ -40,6 +40,7 @@ export function ToolsDirectory({
   const [selectedPricing, setSelectedPricing] = useState("all");
   const [selectedDifficulty, setSelectedDifficulty] = useState("all");
   const [selectedType, setSelectedType] = useState("all");
+  const [selectedAccess, setSelectedAccess] = useState("all");
   const [sortBy, setSortBy] = useState<"name" | "featured">("featured");
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
   const [showFilters, setShowFilters] = useState(initialCategory !== "all" || initialInvestigateBy !== "all");
@@ -104,6 +105,14 @@ export function ToolsDirectory({
           return false;
         }
 
+        // Access / Registration filter
+        if (selectedAccess === "public" && requiresToolAccount(tool)) {
+          return false;
+        }
+        if (selectedAccess === "registration" && !requiresToolAccount(tool)) {
+          return false;
+        }
+
         return true;
       })
       .sort((a, b) => {
@@ -122,6 +131,7 @@ export function ToolsDirectory({
     selectedPricing,
     selectedDifficulty,
     selectedType,
+    selectedAccess,
     sortBy,
   ]);
 
@@ -132,6 +142,7 @@ export function ToolsDirectory({
     selectedPricing !== "all",
     selectedDifficulty !== "all",
     selectedType !== "all",
+    selectedAccess !== "all",
     Boolean(search.trim()),
   ].filter(Boolean).length;
 
@@ -143,6 +154,7 @@ export function ToolsDirectory({
     setSelectedPricing("all");
     setSelectedDifficulty("all");
     setSelectedType("all");
+    setSelectedAccess("all");
   };
 
   return (
@@ -235,7 +247,7 @@ export function ToolsDirectory({
       {/* Filters Bar (Collapsible) */}
       {showFilters && (
         <div className="bg-guacamole-card/60 border border-guacamole-border rounded-xl p-4 transition-all">
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-3">
           {/* Categoría */}
           <div>
             <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
@@ -359,6 +371,25 @@ export function ToolsDirectory({
                 <option value="cli">Línea de comandos (CLI)</option>
                 <option value="browser-extension">Extensión de navegador</option>
                 <option value="api">API</option>
+              </select>
+              <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
+            </div>
+          </div>
+
+          {/* Acceso / Registro */}
+          <div>
+            <label className="block text-[11px] font-semibold text-gray-400 uppercase tracking-wider mb-1">
+              Acceso
+            </label>
+            <div className="relative">
+              <select
+                value={selectedAccess}
+                onChange={(e) => setSelectedAccess(e.target.value)}
+                className="w-full appearance-none text-xs bg-guacamole-input border border-guacamole-border rounded-md pl-2.5 pr-7 py-1.5 text-gray-200 outline-none focus:border-guacamole-green cursor-pointer"
+              >
+                <option value="all">Cualquier acceso</option>
+                <option value="public">Acceso libre (sin registro)</option>
+                <option value="registration">Requiere cuenta</option>
               </select>
               <ChevronDown className="w-3 h-3 text-gray-400 absolute right-2 top-1/2 -translate-y-1/2 pointer-events-none" />
             </div>

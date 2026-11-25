@@ -91,6 +91,12 @@ export function getToolPlatforms(type: PlatformType, platforms?: PlatformType[])
   return Array.from(new Set([type, ...list]));
 }
 
+export function requiresToolAccount(
+  tool: { registrationRequired?: boolean; access?: string }
+): boolean {
+  return Boolean(tool.registrationRequired) || tool.access === "registration";
+}
+
 export const ToolItemSchema = z.object({
   id: z.string().min(1),
   name: z.string().min(1),

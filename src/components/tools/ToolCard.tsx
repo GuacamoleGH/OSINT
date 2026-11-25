@@ -3,8 +3,8 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ToolItem, PRICING_LABELS, PRICING_BADGE_CLASSES } from "@/types/osint";
-import { Heart, ExternalLink } from "lucide-react";
+import { ToolItem, PRICING_LABELS, PRICING_BADGE_CLASSES, requiresToolAccount } from "@/types/osint";
+import { Heart, ExternalLink, Lock, Unlock } from "lucide-react";
 import { useFavorites } from "@/hooks/useFavorites";
 import { PlatformBadges } from "@/components/tools/PlatformBadges";
 
@@ -20,6 +20,7 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
 
   const isSpain = tool.geographicScope.includes("spain");
   const isEurope = tool.geographicScope.includes("europe") && !isSpain;
+  const needsAccount = requiresToolAccount(tool);
 
   const handleCardClick = () => {
     router.push(`/tools/${tool.slug}`);
@@ -58,6 +59,17 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
             )}
 
             <PlatformBadges type={tool.type} platforms={tool.platforms} includeApi={false} />
+
+            <span
+              className={`inline-flex items-center gap-1 text-[10px] font-medium px-2 py-0.5 rounded border ${
+                needsAccount
+                  ? "bg-orange-950/60 text-orange-300 border-orange-800/60"
+                  : "bg-guacamole-input text-gray-300 border-guacamole-border"
+              }`}
+            >
+              {needsAccount ? <Lock className="w-3 h-3" /> : <Unlock className="w-3 h-3" />}
+              <span>{needsAccount ? "Requiere cuenta" : "Acceso libre"}</span>
+            </span>
 
             {tool.verified ? (
               <span className="text-[10px] text-guacamole-green font-mono hidden md:inline ml-auto">
@@ -156,6 +168,17 @@ export function ToolCard({ tool, viewMode = "grid" }: ToolCardProps) {
           )}
 
           <PlatformBadges type={tool.type} platforms={tool.platforms} includeApi={false} />
+
+          <span
+            className={`inline-flex items-center gap-1 text-[10px] font-medium px-1.5 py-0.5 rounded border ${
+              needsAccount
+                ? "bg-orange-950/60 text-orange-300 border-orange-800/60"
+                : "bg-guacamole-input text-gray-300 border-guacamole-border"
+            }`}
+          >
+            {needsAccount ? <Lock className="w-3 h-3" /> : <Unlock className="w-3 h-3" />}
+            <span>{needsAccount ? "Requiere cuenta" : "Acceso libre"}</span>
+          </span>
         </div>
 
         {/* Description: 2 lines max, airy and readable */}
